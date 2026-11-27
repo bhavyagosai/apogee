@@ -1,0 +1,1319 @@
+{
+ "duration_api_ms": 39321,
+ "stop_reason": "tool_use",
+ "session_id": "7a09fa2b-e4a6-4297-a02a-dc0d432b7e9d",
+ "total_cost_usd": 0.086104,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6409,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 6034,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6409,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 6034,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 6409,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6409
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 6034,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 6409,
+   "webSearchRequests": 0,
+   "costUSD": 0.086104,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Firefly\",\"aliases\":[\"Fireflies\",\"Lightning bug\",\"Lightning bugs\",\"Firefly beetle\"]},{\"answer\":\"Glow-worm\",\"aliases\":[\"Glowworm\",\"Glow worm\",\"Glow-worms\",\"Glowworms\"]},{\"answer\":\"Jellyfish\",\"aliases\":[\"Jelly fish\",\"Jellies\",\"Sea jelly\"]},{\"answer\":\"Crystal jelly\",\"aliases\":[\"Aequorea victoria\",\"Crystal jellyfish\"]},{\"answer\":\"Anglerfish\",\"aliases\":[\"Angler fish\",\"Angler\",\"Deep-sea anglerfish\"]},{\"answer\":\"Lanternfish\",\"aliases\":[\"Lantern fish\",\"Myctophid\"]},{\"answer\":\"Dragonfish\",\"aliases\":[\"Dragon fish\",\"Black dragonfish\"]},{\"answer\":\"Viperfish\",\"aliases\":[\"Viper fish\"]},{\"answer\":\"Hatchetfish\",\"aliases\":[\"Hatchet fish\"]},{\"answer\":\"Gulper eel\",\"aliases\":[\"Pelican eel\",\"Umbrella mouth gulper\"]},{\"answer\":\"Cookiecutter shark\",\"aliases\":[\"Cookie cutter shark\",\"Cookie-cutter shark\"]},{\"answer\":\"Lantern shark\",\"aliases\":[\"Lanternshark\",\"Lantern sharks\"]},{\"answer\":\"Kitefin shark\",\"aliases\":[\"Kitefin\"]},{\"answer\":\"Velvet belly lanternshark\",\"aliases\":[\"Velvet belly shark\",\"Etmopterus spinax\"]},{\"answer\":\"Blackbelly dogfish\",\"aliases\":[]},{\"answer\":\"Bioluminescent plankton\",\"aliases\":[\"Plankton\"]},{\"answer\":\"Dinoflagellate\",\"aliases\":[\"Dinoflagellates\",\"Noctiluca\",\"Sea sparkle\"]},{\"answer\":\"Ostracod\",\"aliases\":[\"Sea firefly\",\"Seed shrimp\",\"Sea fireflies\",\"Vargula hilgendorfii\"]},{\"answer\":\"Krill\",\"aliases\":[\"Euphausiid\"]},{\"answer\":\"Firefly squid\",\"aliases\":[\"Sparkling enope squid\",\"Hotaru ika\"]},{\"answer\":\"Hawaiian bobtail squid\",\"aliases\":[\"Bobtail squid\",\"Bobtail squids\"]},{\"answer\":\"Vampire squid\",\"aliases\":[\"Vampire squid from hell\"]},{\"answer\":\"Humboldt squid\",\"aliases\":[\"Jumbo squid\",\"Diablo rojo\"]},{\"answer\":\"Cockatoo squid\",\"aliases\":[]},{\"answer\":\"Glass squid\",\"aliases\":[\"Cranchiid\"]},{\"answer\":\"Bigfin squid\",\"aliases\":[\"Magnapinna\"]},{\"answer\":\"Squid\",\"aliases\":[\"Deep-sea squid\"]},{\"answer\":\"Octopus\",\"aliases\":[\"Glowing octopus\"]},{\"answer\":\"Dumbo octopus\",\"aliases\":[\"Grimpoteuthis\"]},{\"answer\":\"Pelagic octopus\",\"aliases\":[\"Japetella\"]},{\"answer\":\"Cuttlefish\",\"aliases\":[\"Cuttle fish\",\"Sepiolid\"]},{\"answer\":\"Brittle star\",\"aliases\":[\"Brittlestar\",\"Brittle stars\"]},{\"answer\":\"Sea pen\",\"aliases\":[\"Sea pens\"]},{\"answer\":\"Sea pansy\",\"aliases\":[\"Renilla\"]},{\"answer\":\"Comb jelly\",\"aliases\":[\"Ctenophore\",\"Sea gooseberry\",\"Comb jellies\",\"Ctenophores\"]},{\"answer\":\"Siphonophore\",\"aliases\":[\"Siphonophores\",\"Man o' war siphonophore\"]},{\"answer\":\"Sea cucumber\",\"aliases\":[\"Sea cucumbers\"]},{\"answer\":\"Sea star\",\"aliases\":[\"Starfish\",\"Star fish\"]},{\"answer\":\"Sea urchin\",\"aliases\":[\"Urchin\"]},{\"answer\":\"Feather star\",\"aliases\":[\"Crinoid\",\"Sea lily\"]},{\"answer\":\"Coral\",\"aliases\":[\"Corals\",\"Fluorescent coral\"]},{\"answer\":\"Sea anemone\",\"aliases\":[\"Anemone\"]},{\"answer\":\"Hydroid\",\"aliases\":[\"Hydroids\"]},{\"answer\":\"Bobbit worm\",\"aliases\":[]},{\"answer\":\"Bristle worm\",\"aliases\":[\"Polychaete\",\"Bristleworm\"]},{\"answer\":\"Christmas tree worm\",\"aliases\":[]},{\"answer\":\"Bomb worm\",\"aliases\":[\"Swima bombiviridis\",\"Green bomber worm\"]},{\"answer\":\"Fireworm\",\"aliases\":[\"Fire worm\"]},{\"answer\":\"Tubeworm\",\"aliases\":[\"Tube worm\"]},{\"answer\":\"Scale worm\",\"aliases\":[\"Scaleworm\"]},{\"answer\":\"Syllid worm\",\"aliases\":[\"Odontosyllis\",\"Bermuda fireworm\"]},{\"answer\":\"Earthworm\",\"aliases\":[\"Earth worm\",\"Luminous earthworm\"]},{\"answer\":\"Railroad worm\",\"aliases\":[\"Railway worm\",\"Phrixothrix\"]},{\"answer\":\"Click beetle\",\"aliases\":[\"Fire beetle\",\"Cucujo\",\"Pyrophorus\"]},{\"answer\":\"Glowworm beetle\",\"aliases\":[\"Larviform beetle\"]},{\"answer\":\"Fungus gnat\",\"aliases\":[\"Arachnocampa\",\"New Zealand glowworm\",\"Australian glowworm\"]},{\"answer\":\"Springtail\",\"aliases\":[\"Collembola\"]},{\"answer\":\"Millipede\",\"aliases\":[\"Motyxia\",\"Luminous millipede\"]},{\"answer\":\"Centipede\",\"aliases\":[\"Geophilomorph\",\"Luminous centipede\"]},{\"answer\":\"Scorpion\",\"aliases\":[\"Scorpions\",\"Glowing scorpion\"]},{\"answer\":\"Tarantula\",\"aliases\":[\"Fluorescent tarantula\"]},{\"answer\":\"Spider\",\"aliases\":[\"Fluorescent spider\",\"Jumping spider\"]},{\"answer\":\"Cockroach\",\"aliases\":[\"Roach\"]},{\"answer\":\"Ant\",\"aliases\":[\"Fluorescent ant\"]},{\"answer\":\"Cicada\",\"aliases\":[\"Lanternfly\",\"Lantern fly\"]},{\"answer\":\"Planthopper\",\"aliases\":[\"Lantern bug\"]},{\"answer\":\"Mushroom-eating beetle\",\"aliases\":[]},{\"answer\":\"Weevil\",\"aliases\":[]},{\"answer\":\"Snail\",\"aliases\":[\"Latia\",\"Glowing snail\",\"Freshwater limpet\"]},{\"answer\":\"Sea slug\",\"aliases\":[\"Nudibranch\",\"Sea slugs\",\"Nudibranchs\"]},{\"answer\":\"Clam\",\"aliases\":[\"Piddock\",\"Pholas\",\"Pholas dactylus\"]},{\"answer\":\"Limpet\",\"aliases\":[\"Glowing limpet\"]},{\"answer\":\"Pyrosome\",\"aliases\":[\"Pyrosomes\",\"Sea pickle\",\"Fire body\"]},{\"answer\":\"Salp\",\"aliases\":[\"Salps\"]},{\"answer\":\"Tunicate\",\"aliases\":[\"Sea squirt\",\"Sea squirts\"]},{\"answer\":\"Copepod\",\"aliases\":[\"Copepods\"]},{\"answer\":\"Shrimp\",\"aliases\":[\"Deep-sea shrimp\",\"Luminous shrimp\"]},{\"answer\":\"Sergestid shrimp\",\"aliases\":[\"Sergestid\"]},{\"answer\":\"Mysid\",\"aliases\":[\"Opossum shrimp\"]},{\"answer\":\"Amphipod\",\"aliases\":[\"Amphipods\"]},{\"answer\":\"Deep-sea prawn\",\"aliases\":[\"Oplophorus\",\"Prawn\"]},{\"answer\":\"Crab\",\"aliases\":[\"Glowing crab\"]},{\"answer\":\"Lobster\",\"aliases\":[\"Luminous lobster\"]},{\"answer\":\"Platypus\",\"aliases\":[\"Duck-billed platypus\"]},{\"answer\":\"Flying squirrel\",\"aliases\":[\"Northern flying squirrel\",\"Southern flying squirrel\",\"Flying squirrels\"]},{\"answer\":\"Opossum\",\"aliases\":[\"Possum\",\"Virginia opossum\"]},{\"answer\":\"Tasmanian devil\",\"aliases\":[]},{\"answer\":\"Wombat\",\"aliases\":[\"Fluorescent wombat\"]},{\"answer\":\"Springhare\",\"aliases\":[\"Spring hare\"]},{\"answer\":\"Rabbit\",\"aliases\":[\"Glowing rabbit\"]},{\"answer\":\"Bat\",\"aliases\":[\"Fluorescent bat\"]},{\"answer\":\"Echidna\",\"aliases\":[\"Spiny anteater\"]},{\"answer\":\"Kiwi\",\"aliases\":[\"Kiwi bird\"]},{\"answer\":\"Parrot\",\"aliases\":[\"Budgerigar\",\"Budgie\",\"Fluorescent parrot\"]},{\"answer\":\"Owl\",\"aliases\":[\"Barn owl\"]},{\"answer\":\"Nightjar\",\"aliases\":[\"Owlet-nightjar\",\"Poorwill\"]},{\"answer\":\"Puffin\",\"aliases\":[\"Atlantic puffin\"]},{\"answer\":\"Pigeon\",\"aliases\":[\"Dove\"]},{\"answer\":\"Frog\",\"aliases\":[\"Polka dot tree frog\",\"Fluorescent frog\",\"Tree frog\"]},{\"answer\":\"Polka-dot tree frog\",\"aliases\":[\"Hypsiboas punctatus\",\"Polka dot treefrog\"]},{\"answer\":\"Salamander\",\"aliases\":[\"Spotted salamander\",\"Fluorescent salamander\"]},{\"answer\":\"Tiger salamander\",\"aliases\":[]},{\"answer\":\"Sea turtle\",\"aliases\":[\"Hawksbill turtle\",\"Hawksbill sea turtle\",\"Hawksbill\"]},{\"answer\":\"Chameleon\",\"aliases\":[\"Fluorescent chameleon\"]},{\"answer\":\"Gecko\",\"aliases\":[\"Fluorescent gecko\"]},{\"answer\":\"Eel\",\"aliases\":[\"Moray eel\",\"Fluorescent eel\"]},{\"answer\":\"Catshark\",\"aliases\":[\"Cat shark\",\"Swell shark\",\"Chain catshark\"]},{\"answer\":\"Swell shark\",\"aliases\":[]},{\"answer\":\"Chain catshark\",\"aliases\":[]},{\"answer\":\"Shark\",\"aliases\":[\"Glowing shark\"]},{\"answer\":\"Skate\",\"aliases\":[\"Fluorescent skate\"]},{\"answer\":\"Ray\",\"aliases\":[\"Stingray\"]},{\"answer\":\"Pineconefish\",\"aliases\":[\"Pinecone fish\",\"Japanese pineapplefish\",\"Pineapplefish\",\"Pineapple fish\"]},{\"answer\":\"Flashlight fish\",\"aliases\":[\"Flashlightfish\",\"Anomalops katoptron\"]},{\"answer\":\"Midshipman fish\",\"aliases\":[\"Midshipman\",\"Plainfin midshipman\",\"Porichthys\"]},{\"answer\":\"Cardinalfish\",\"aliases\":[\"Cardinal fish\"]},{\"answer\":\"Ponyfish\",\"aliases\":[\"Pony fish\",\"Slipmouth\",\"Leiognathidae\"]},{\"answer\":\"Bristlemouth\",\"aliases\":[\"Bristlemouths\",\"Cyclothone\"]},{\"answer\":\"Stoplight loosejaw\",\"aliases\":[\"Loosejaw\",\"Malacosteus niger\"]},{\"answer\":\"Barreleye\",\"aliases\":[\"Barrel eye\",\"Spook fish\"]},{\"answer\":\"Black swallower\",\"aliases\":[]},{\"answer\":\"Fangtooth\",\"aliases\":[\"Fang tooth\"]},{\"answer\":\"Sloane's viperfish\",\"aliases\":[]},{\"answer\":\"Tubeshoulder\",\"aliases\":[\"Tube-shoulder\"]},{\"answer\":\"Slickhead\",\"aliases\":[]},{\"answer\":\"Cusk eel\",\"aliases\":[]},{\"answer\":\"Blackdevil\",\"aliases\":[\"Black devil\",\"Black seadevil\",\"Melanocetus johnsonii\"]},{\"answer\":\"Humpback anglerfish\",\"aliases\":[\"Humpback angler\"]},{\"answer\":\"Football fish\",\"aliases\":[\"Footballfish\"]},{\"answer\":\"Atlantic football fish\",\"aliases\":[]},{\"answer\":\"Seadevil\",\"aliases\":[\"Sea devil\"]},{\"answer\":\"Ribbon eel\",\"aliases\":[]},{\"answer\":\"Scorpionfish\",\"aliases\":[\"Scorpion fish\"]},{\"answer\":\"Flounder\",\"aliases\":[\"Fluorescent flounder\"]},{\"answer\":\"Goby\",\"aliases\":[\"Gobies\"]},{\"answer\":\"Blenny\",\"aliases\":[\"Blennies\"]},{\"answer\":\"Wrasse\",\"aliases\":[]},{\"answer\":\"Seahorse\",\"aliases\":[\"Sea horse\",\"Pygmy seahorse\"]},{\"answer\":\"Pipefish\",\"aliases\":[\"Pipe fish\"]},{\"answer\":\"Clownfish\",\"aliases\":[\"Clown fish\",\"Anemonefish\"]},{\"answer\":\"Lionfish\",\"aliases\":[\"Lion fish\"]},{\"answer\":\"Zebrafish\",\"aliases\":[\"Zebra fish\",\"Glofish\",\"GloFish\"]},{\"answer\":\"GloFish\",\"aliases\":[\"Glo fish\",\"Glofish\",\"Glo-fish\"]},{\"answer\":\"Medaka\",\"aliases\":[\"Japanese rice fish\"]},{\"answer\":\"Mouse\",\"aliases\":[\"Glowing mouse\",\"Glow mouse\"]},{\"answer\":\"Pig\",\"aliases\":[\"Glowing pig\",\"Fluorescent pig\"]},{\"answer\":\"Cat\",\"aliases\":[\"Glowing cat\",\"Fluorescent cat\"]},{\"answer\":\"Dog\",\"aliases\":[\"Glowing dog\"]},{\"answer\":\"Monkey\",\"aliases\":[\"Glowing monkey\"]},{\"answer\":\"Sheep\",\"aliases\":[\"Glowing sheep\"]},{\"answer\":\"Silkworm\",\"aliases\":[\"Silk worm\",\"Glowing silkworm\"]},{\"answer\":\"Mealworm\",\"aliases\":[]},{\"answer\":\"Sea sparkle\",\"aliases\":[\"Noctiluca scintillans\"]},{\"answer\":\"Mushroom beetle\",\"aliases\":[]},{\"answer\":\"Fire-fly\",\"aliases\":[\"Fire fly\"]},{\"answer\":\"Photuris firefly\",\"aliases\":[\"Femme fatale firefly\",\"Photuris\"]},{\"answer\":\"Blue ghost firefly\",\"aliases\":[\"Blue ghost\",\"Phausis reticulata\"]},{\"answer\":\"Synchronous firefly\",\"aliases\":[\"Photinus carolinus\"]},{\"answer\":\"Bamboo coral\",\"aliases\":[]},{\"answer\":\"Sea fan\",\"aliases\":[\"Gorgonian\"]},{\"answer\":\"Deep-sea jellyfish\",\"aliases\":[\"Atolla\",\"Atolla jellyfish\",\"Atolla wyvillei\"]},{\"answer\":\"Atolla jelly\",\"aliases\":[]},{\"answer\":\"Helmet jellyfish\",\"aliases\":[\"Periphylla periphylla\"]},{\"answer\":\"Moon jellyfish\",\"aliases\":[\"Moon jelly\"]},{\"answer\":\"Sea nettle\",\"aliases\":[]},{\"answer\":\"Portuguese man o' war\",\"aliases\":[\"Man o' war\",\"Man of war\",\"Portuguese man of war\"]},{\"answer\":\"By-the-wind sailor\",\"aliases\":[\"Velella\",\"Sea raft\"]},{\"answer\":\"Mauve stinger\",\"aliases\":[\"Pelagia noctiluca\",\"Purple jellyfish\",\"Night-light jellyfish\"]},{\"answer\":\"Venus girdle\",\"aliases\":[\"Cestum veneris\"]},{\"answer\":\"Sea butterfly\",\"aliases\":[\"Pteropod\",\"Sea angel\"]},{\"answer\":\"Lobate ctenophore\",\"aliases\":[\"Bolinopsis\"]},{\"answer\":\"Beroe\",\"aliases\":[\"Beroe ovata\"]},{\"answer\":\"Tomopteris\",\"aliases\":[\"Tomopterid\",\"Swimming polychaete\"]},{\"answer\":\"Chaetopterus\",\"aliases\":[\"Parchment worm\",\"Parchment tube worm\"]},{\"answer\":\"Sea mouse\",\"aliases\":[\"Aphrodita\"]},{\"answer\":\"Elephant seal\",\"aliases\":[]},{\"answer\":\"Pacific blackdragon\",\"aliases\":[\"Black dragonfish\",\"Idiacanthus antrostomus\"]},{\"answer\":\"Luminous hake\",\"aliases\":[]},{\"answer\":\"Pearlsides\",\"aliases\":[\"Pearlside\",\"Maurolicus\"]},{\"answer\":\"Spiny lobster\",\"aliases\":[]},{\"answer\":\"Glowing sucker octopus\",\"aliases\":[\"Stauroteuthis syrtensis\",\"Bioluminescent octopus\"]},{\"answer\":\"Cirrate octopus\",\"aliases\":[]},{\"answer\":\"Firefly beetle\",\"aliases\":[]},{\"answer\":\"Pelagic tunicate\",\"aliases\":[]},{\"answer\":\"Luminous sea star\",\"aliases\":[]},{\"answer\":\"Sea cucumber Enypniastes\",\"aliases\":[\"Headless chicken monster\",\"Swimming sea cucumber\"]},{\"answer\":\"Deep-sea octopus\",\"aliases\":[]},{\"answer\":\"Mushroom coral\",\"aliases\":[]},{\"answer\":\"Leopard shark\",\"aliases\":[]},{\"answer\":\"Whale shark\",\"aliases\":[]},{\"answer\":\"Eelpout\",\"aliases\":[]},{\"answer\":\"Sea robin\",\"aliases\":[]},{\"answer\":\"Snailfish\",\"aliases\":[\"Snail fish\"]},{\"answer\":\"Cod\",\"aliases\":[\"Glowing cod\"]},{\"answer\":\"Bobtail squid\",\"aliases\":[\"Euprymna scolopes\"]},{\"answer\":\"Vibrio fischeri host squid\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Firefly",
+    "aliases": [
+     "Fireflies",
+     "Lightning bug",
+     "Lightning bugs",
+     "Firefly beetle"
+    ]
+   },
+   {
+    "answer": "Glow-worm",
+    "aliases": [
+     "Glowworm",
+     "Glow worm",
+     "Glow-worms",
+     "Glowworms"
+    ]
+   },
+   {
+    "answer": "Jellyfish",
+    "aliases": [
+     "Jelly fish",
+     "Jellies",
+     "Sea jelly"
+    ]
+   },
+   {
+    "answer": "Crystal jelly",
+    "aliases": [
+     "Aequorea victoria",
+     "Crystal jellyfish"
+    ]
+   },
+   {
+    "answer": "Anglerfish",
+    "aliases": [
+     "Angler fish",
+     "Angler",
+     "Deep-sea anglerfish"
+    ]
+   },
+   {
+    "answer": "Lanternfish",
+    "aliases": [
+     "Lantern fish",
+     "Myctophid"
+    ]
+   },
+   {
+    "answer": "Dragonfish",
+    "aliases": [
+     "Dragon fish",
+     "Black dragonfish"
+    ]
+   },
+   {
+    "answer": "Viperfish",
+    "aliases": [
+     "Viper fish"
+    ]
+   },
+   {
+    "answer": "Hatchetfish",
+    "aliases": [
+     "Hatchet fish"
+    ]
+   },
+   {
+    "answer": "Gulper eel",
+    "aliases": [
+     "Pelican eel",
+     "Umbrella mouth gulper"
+    ]
+   },
+   {
+    "answer": "Cookiecutter shark",
+    "aliases": [
+     "Cookie cutter shark",
+     "Cookie-cutter shark"
+    ]
+   },
+   {
+    "answer": "Lantern shark",
+    "aliases": [
+     "Lanternshark",
+     "Lantern sharks"
+    ]
+   },
+   {
+    "answer": "Kitefin shark",
+    "aliases": [
+     "Kitefin"
+    ]
+   },
+   {
+    "answer": "Velvet belly lanternshark",
+    "aliases": [
+     "Velvet belly shark",
+     "Etmopterus spinax"
+    ]
+   },
+   {
+    "answer": "Blackbelly dogfish",
+    "aliases": []
+   },
+   {
+    "answer": "Bioluminescent plankton",
+    "aliases": [
+     "Plankton"
+    ]
+   },
+   {
+    "answer": "Dinoflagellate",
+    "aliases": [
+     "Dinoflagellates",
+     "Noctiluca",
+     "Sea sparkle"
+    ]
+   },
+   {
+    "answer": "Ostracod",
+    "aliases": [
+     "Sea firefly",
+     "Seed shrimp",
+     "Sea fireflies",
+     "Vargula hilgendorfii"
+    ]
+   },
+   {
+    "answer": "Krill",
+    "aliases": [
+     "Euphausiid"
+    ]
+   },
+   {
+    "answer": "Firefly squid",
+    "aliases": [
+     "Sparkling enope squid",
+     "Hotaru ika"
+    ]
+   },
+   {
+    "answer": "Hawaiian bobtail squid",
+    "aliases": [
+     "Bobtail squid",
+     "Bobtail squids"
+    ]
+   },
+   {
+    "answer": "Vampire squid",
+    "aliases": [
+     "Vampire squid from hell"
+    ]
+   },
+   {
+    "answer": "Humboldt squid",
+    "aliases": [
+     "Jumbo squid",
+     "Diablo rojo"
+    ]
+   },
+   {
+    "answer": "Cockatoo squid",
+    "aliases": []
+   },
+   {
+    "answer": "Glass squid",
+    "aliases": [
+     "Cranchiid"
+    ]
+   },
+   {
+    "answer": "Bigfin squid",
+    "aliases": [
+     "Magnapinna"
+    ]
+   },
+   {
+    "answer": "Squid",
+    "aliases": [
+     "Deep-sea squid"
+    ]
+   },
+   {
+    "answer": "Octopus",
+    "aliases": [
+     "Glowing octopus"
+    ]
+   },
+   {
+    "answer": "Dumbo octopus",
+    "aliases": [
+     "Grimpoteuthis"
+    ]
+   },
+   {
+    "answer": "Pelagic octopus",
+    "aliases": [
+     "Japetella"
+    ]
+   },
+   {
+    "answer": "Cuttlefish",
+    "aliases": [
+     "Cuttle fish",
+     "Sepiolid"
+    ]
+   },
+   {
+    "answer": "Brittle star",
+    "aliases": [
+     "Brittlestar",
+     "Brittle stars"
+    ]
+   },
+   {
+    "answer": "Sea pen",
+    "aliases": [
+     "Sea pens"
+    ]
+   },
+   {
+    "answer": "Sea pansy",
+    "aliases": [
+     "Renilla"
+    ]
+   },
+   {
+    "answer": "Comb jelly",
+    "aliases": [
+     "Ctenophore",
+     "Sea gooseberry",
+     "Comb jellies",
+     "Ctenophores"
+    ]
+   },
+   {
+    "answer": "Siphonophore",
+    "aliases": [
+     "Siphonophores",
+     "Man o' war siphonophore"
+    ]
+   },
+   {
+    "answer": "Sea cucumber",
+    "aliases": [
+     "Sea cucumbers"
+    ]
+   },
+   {
+    "answer": "Sea star",
+    "aliases": [
+     "Starfish",
+     "Star fish"
+    ]
+   },
+   {
+    "answer": "Sea urchin",
+    "aliases": [
+     "Urchin"
+    ]
+   },
+   {
+    "answer": "Feather star",
+    "aliases": [
+     "Crinoid",
+     "Sea lily"
+    ]
+   },
+   {
+    "answer": "Coral",
+    "aliases": [
+     "Corals",
+     "Fluorescent coral"
+    ]
+   },
+   {
+    "answer": "Sea anemone",
+    "aliases": [
+     "Anemone"
+    ]
+   },
+   {
+    "answer": "Hydroid",
+    "aliases": [
+     "Hydroids"
+    ]
+   },
+   {
+    "answer": "Bobbit worm",
+    "aliases": []
+   },
+   {
+    "answer": "Bristle worm",
+    "aliases": [
+     "Polychaete",
+     "Bristleworm"
+    ]
+   },
+   {
+    "answer": "Christmas tree worm",
+    "aliases": []
+   },
+   {
+    "answer": "Bomb worm",
+    "aliases": [
+     "Swima bombiviridis",
+     "Green bomber worm"
+    ]
+   },
+   {
+    "answer": "Fireworm",
+    "aliases": [
+     "Fire worm"
+    ]
+   },
+   {
+    "answer": "Tubeworm",
+    "aliases": [
+     "Tube worm"
+    ]
+   },
+   {
+    "answer": "Scale worm",
+    "aliases": [
+     "Scaleworm"
+    ]
+   },
+   {
+    "answer": "Syllid worm",
+    "aliases": [
+     "Odontosyllis",
+     "Bermuda fireworm"
+    ]
+   },
+   {
+    "answer": "Earthworm",
+    "aliases": [
+     "Earth worm",
+     "Luminous earthworm"
+    ]
+   },
+   {
+    "answer": "Railroad worm",
+    "aliases": [
+     "Railway worm",
+     "Phrixothrix"
+    ]
+   },
+   {
+    "answer": "Click beetle",
+    "aliases": [
+     "Fire beetle",
+     "Cucujo",
+     "Pyrophorus"
+    ]
+   },
+   {
+    "answer": "Glowworm beetle",
+    "aliases": [
+     "Larviform beetle"
+    ]
+   },
+   {
+    "answer": "Fungus gnat",
+    "aliases": [
+     "Arachnocampa",
+     "New Zealand glowworm",
+     "Australian glowworm"
+    ]
+   },
+   {
+    "answer": "Springtail",
+    "aliases": [
+     "Collembola"
+    ]
+   },
+   {
+    "answer": "Millipede",
+    "aliases": [
+     "Motyxia",
+     "Luminous millipede"
+    ]
+   },
+   {
+    "answer": "Centipede",
+    "aliases": [
+     "Geophilomorph",
+     "Luminous centipede"
+    ]
+   },
+   {
+    "answer": "Scorpion",
+    "aliases": [
+     "Scorpions",
+     "Glowing scorpion"
+    ]
+   },
+   {
+    "answer": "Tarantula",
+    "aliases": [
+     "Fluorescent tarantula"
+    ]
+   },
+   {
+    "answer": "Spider",
+    "aliases": [
+     "Fluorescent spider",
+     "Jumping spider"
+    ]
+   },
+   {
+    "answer": "Cockroach",
+    "aliases": [
+     "Roach"
+    ]
+   },
+   {
+    "answer": "Ant",
+    "aliases": [
+     "Fluorescent ant"
+    ]
+   },
+   {
+    "answer": "Cicada",
+    "aliases": [
+     "Lanternfly",
+     "Lantern fly"
+    ]
+   },
+   {
+    "answer": "Planthopper",
+    "aliases": [
+     "Lantern bug"
+    ]
+   },
+   {
+    "answer": "Mushroom-eating beetle",
+    "aliases": []
+   },
+   {
+    "answer": "Weevil",
+    "aliases": []
+   },
+   {
+    "answer": "Snail",
+    "aliases": [
+     "Latia",
+     "Glowing snail",
+     "Freshwater limpet"
+    ]
+   },
+   {
+    "answer": "Sea slug",
+    "aliases": [
+     "Nudibranch",
+     "Sea slugs",
+     "Nudibranchs"
+    ]
+   },
+   {
+    "answer": "Clam",
+    "aliases": [
+     "Piddock",
+     "Pholas",
+     "Pholas dactylus"
+    ]
+   },
+   {
+    "answer": "Limpet",
+    "aliases": [
+     "Glowing limpet"
+    ]
+   },
+   {
+    "answer": "Pyrosome",
+    "aliases": [
+     "Pyrosomes",
+     "Sea pickle",
+     "Fire body"
+    ]
+   },
+   {
+    "answer": "Salp",
+    "aliases": [
+     "Salps"
+    ]
+   },
+   {
+    "answer": "Tunicate",
+    "aliases": [
+     "Sea squirt",
+     "Sea squirts"
+    ]
+   },
+   {
+    "answer": "Copepod",
+    "aliases": [
+     "Copepods"
+    ]
+   },
+   {
+    "answer": "Shrimp",
+    "aliases": [
+     "Deep-sea shrimp",
+     "Luminous shrimp"
+    ]
+   },
+   {
+    "answer": "Sergestid shrimp",
+    "aliases": [
+     "Sergestid"
+    ]
+   },
+   {
+    "answer": "Mysid",
+    "aliases": [
+     "Opossum shrimp"
+    ]
+   },
+   {
+    "answer": "Amphipod",
+    "aliases": [
+     "Amphipods"
+    ]
+   },
+   {
+    "answer": "Deep-sea prawn",
+    "aliases": [
+     "Oplophorus",
+     "Prawn"
+    ]
+   },
+   {
+    "answer": "Crab",
+    "aliases": [
+     "Glowing crab"
+    ]
+   },
+   {
+    "answer": "Lobster",
+    "aliases": [
+     "Luminous lobster"
+    ]
+   },
+   {
+    "answer": "Platypus",
+    "aliases": [
+     "Duck-billed platypus"
+    ]
+   },
+   {
+    "answer": "Flying squirrel",
+    "aliases": [
+     "Northern flying squirrel",
+     "Southern flying squirrel",
+     "Flying squirrels"
+    ]
+   },
+   {
+    "answer": "Opossum",
+    "aliases": [
+     "Possum",
+     "Virginia opossum"
+    ]
+   },
+   {
+    "answer": "Tasmanian devil",
+    "aliases": []
+   },
+   {
+    "answer": "Wombat",
+    "aliases": [
+     "Fluorescent wombat"
+    ]
+   },
+   {
+    "answer": "Springhare",
+    "aliases": [
+     "Spring hare"
+    ]
+   },
+   {
+    "answer": "Rabbit",
+    "aliases": [
+     "Glowing rabbit"
+    ]
+   },
+   {
+    "answer": "Bat",
+    "aliases": [
+     "Fluorescent bat"
+    ]
+   },
+   {
+    "answer": "Echidna",
+    "aliases": [
+     "Spiny anteater"
+    ]
+   },
+   {
+    "answer": "Kiwi",
+    "aliases": [
+     "Kiwi bird"
+    ]
+   },
+   {
+    "answer": "Parrot",
+    "aliases": [
+     "Budgerigar",
+     "Budgie",
+     "Fluorescent parrot"
+    ]
+   },
+   {
+    "answer": "Owl",
+    "aliases": [
+     "Barn owl"
+    ]
+   },
+   {
+    "answer": "Nightjar",
+    "aliases": [
+     "Owlet-nightjar",
+     "Poorwill"
+    ]
+   },
+   {
+    "answer": "Puffin",
+    "aliases": [
+     "Atlantic puffin"
+    ]
+   },
+   {
+    "answer": "Pigeon",
+    "aliases": [
+     "Dove"
+    ]
+   },
+   {
+    "answer": "Frog",
+    "aliases": [
+     "Polka dot tree frog",
+     "Fluorescent frog",
+     "Tree frog"
+    ]
+   },
+   {
+    "answer": "Polka-dot tree frog",
+    "aliases": [
+     "Hypsiboas punctatus",
+     "Polka dot treefrog"
+    ]
+   },
+   {
+    "answer": "Salamander",
+    "aliases": [
+     "Spotted salamander",
+     "Fluorescent salamander"
+    ]
+   },
+   {
+    "answer": "Tiger salamander",
+    "aliases": []
+   },
+   {
+    "answer": "Sea turtle",
+    "aliases": [
+     "Hawksbill turtle",
+     "Hawksbill sea turtle",
+     "Hawksbill"
+    ]
+   },
+   {
+    "answer": "Chameleon",
+    "aliases": [
+     "Fluorescent chameleon"
+    ]
+   },
+   {
+    "answer": "Gecko",
+    "aliases": [
+     "Fluorescent gecko"
+    ]
+   },
+   {
+    "answer": "Eel",
+    "aliases": [
+     "Moray eel",
+     "Fluorescent eel"
+    ]
+   },
+   {
+    "answer": "Catshark",
+    "aliases": [
+     "Cat shark",
+     "Swell shark",
+     "Chain catshark"
+    ]
+   },
+   {
+    "answer": "Swell shark",
+    "aliases": []
+   },
+   {
+    "answer": "Chain catshark",
+    "aliases": []
+   },
+   {
+    "answer": "Shark",
+    "aliases": [
+     "Glowing shark"
+    ]
+   },
+   {
+    "answer": "Skate",
+    "aliases": [
+     "Fluorescent skate"
+    ]
+   },
+   {
+    "answer": "Ray",
+    "aliases": [
+     "Stingray"
+    ]
+   },
+   {
+    "answer": "Pineconefish",
+    "aliases": [
+     "Pinecone fish",
+     "Japanese pineapplefish",
+     "Pineapplefish",
+     "Pineapple fish"
+    ]
+   },
+   {
+    "answer": "Flashlight fish",
+    "aliases": [
+     "Flashlightfish",
+     "Anomalops katoptron"
+    ]
+   },
+   {
+    "answer": "Midshipman fish",
+    "aliases": [
+     "Midshipman",
+     "Plainfin midshipman",
+     "Porichthys"
+    ]
+   },
+   {
+    "answer": "Cardinalfish",
+    "aliases": [
+     "Cardinal fish"
+    ]
+   },
+   {
+    "answer": "Ponyfish",
+    "aliases": [
+     "Pony fish",
+     "Slipmouth",
+     "Leiognathidae"
+    ]
+   },
+   {
+    "answer": "Bristlemouth",
+    "aliases": [
+     "Bristlemouths",
+     "Cyclothone"
+    ]
+   },
+   {
+    "answer": "Stoplight loosejaw",
+    "aliases": [
+     "Loosejaw",
+     "Malacosteus niger"
+    ]
+   },
+   {
+    "answer": "Barreleye",
+    "aliases": [
+     "Barrel eye",
+     "Spook fish"
+    ]
+   },
+   {
+    "answer": "Black swallower",
+    "aliases": []
+   },
+   {
+    "answer": "Fangtooth",
+    "aliases": [
+     "Fang tooth"
+    ]
+   },
+   {
+    "answer": "Sloane's viperfish",
+    "aliases": []
+   },
+   {
+    "answer": "Tubeshoulder",
+    "aliases": [
+     "Tube-shoulder"
+    ]
+   },
+   {
+    "answer": "Slickhead",
+    "aliases": []
+   },
+   {
+    "answer": "Cusk eel",
+    "aliases": []
+   },
+   {
+    "answer": "Blackdevil",
+    "aliases": [
+     "Black devil",
+     "Black seadevil",
+     "Melanocetus johnsonii"
+    ]
+   },
+   {
+    "answer": "Humpback anglerfish",
+    "aliases": [
+     "Humpback angler"
+    ]
+   },
+   {
+    "answer": "Football fish",
+    "aliases": [
+     "Footballfish"
+    ]
+   },
+   {
+    "answer": "Atlantic football fish",
+    "aliases": []
+   },
+   {
+    "answer": "Seadevil",
+    "aliases": [
+     "Sea devil"
+    ]
+   },
+   {
+    "answer": "Ribbon eel",
+    "aliases": []
+   },
+   {
+    "answer": "Scorpionfish",
+    "aliases": [
+     "Scorpion fish"
+    ]
+   },
+   {
+    "answer": "Flounder",
+    "aliases": [
+     "Fluorescent flounder"
+    ]
+   },
+   {
+    "answer": "Goby",
+    "aliases": [
+     "Gobies"
+    ]
+   },
+   {
+    "answer": "Blenny",
+    "aliases": [
+     "Blennies"
+    ]
+   },
+   {
+    "answer": "Wrasse",
+    "aliases": []
+   },
+   {
+    "answer": "Seahorse",
+    "aliases": [
+     "Sea horse",
+     "Pygmy seahorse"
+    ]
+   },
+   {
+    "answer": "Pipefish",
+    "aliases": [
+     "Pipe fish"
+    ]
+   },
+   {
+    "answer": "Clownfish",
+    "aliases": [
+     "Clown fish",
+     "Anemonefish"
+    ]
+   },
+   {
+    "answer": "Lionfish",
+    "aliases": [
+     "Lion fish"
+    ]
+   },
+   {
+    "answer": "Zebrafish",
+    "aliases": [
+     "Zebra fish",
+     "Glofish",
+     "GloFish"
+    ]
+   },
+   {
+    "answer": "GloFish",
+    "aliases": [
+     "Glo fish",
+     "Glofish",
+     "Glo-fish"
+    ]
+   },
+   {
+    "answer": "Medaka",
+    "aliases": [
+     "Japanese rice fish"
+    ]
+   },
+   {
+    "answer": "Mouse",
+    "aliases": [
+     "Glowing mouse",
+     "Glow mouse"
+    ]
+   },
+   {
+    "answer": "Pig",
+    "aliases": [
+     "Glowing pig",
+     "Fluorescent pig"
+    ]
+   },
+   {
+    "answer": "Cat",
+    "aliases": [
+     "Glowing cat",
+     "Fluorescent cat"
+    ]
+   },
+   {
+    "answer": "Dog",
+    "aliases": [
+     "Glowing dog"
+    ]
+   },
+   {
+    "answer": "Monkey",
+    "aliases": [
+     "Glowing monkey"
+    ]
+   },
+   {
+    "answer": "Sheep",
+    "aliases": [
+     "Glowing sheep"
+    ]
+   },
+   {
+    "answer": "Silkworm",
+    "aliases": [
+     "Silk worm",
+     "Glowing silkworm"
+    ]
+   },
+   {
+    "answer": "Mealworm",
+    "aliases": []
+   },
+   {
+    "answer": "Sea sparkle",
+    "aliases": [
+     "Noctiluca scintillans"
+    ]
+   },
+   {
+    "answer": "Mushroom beetle",
+    "aliases": []
+   },
+   {
+    "answer": "Fire-fly",
+    "aliases": [
+     "Fire fly"
+    ]
+   },
+   {
+    "answer": "Photuris firefly",
+    "aliases": [
+     "Femme fatale firefly",
+     "Photuris"
+    ]
+   },
+   {
+    "answer": "Blue ghost firefly",
+    "aliases": [
+     "Blue ghost",
+     "Phausis reticulata"
+    ]
+   },
+   {
+    "answer": "Synchronous firefly",
+    "aliases": [
+     "Photinus carolinus"
+    ]
+   },
+   {
+    "answer": "Bamboo coral",
+    "aliases": []
+   },
+   {
+    "answer": "Sea fan",
+    "aliases": [
+     "Gorgonian"
+    ]
+   },
+   {
+    "answer": "Deep-sea jellyfish",
+    "aliases": [
+     "Atolla",
+     "Atolla jellyfish",
+     "Atolla wyvillei"
+    ]
+   },
+   {
+    "answer": "Atolla jelly",
+    "aliases": []
+   },
+   {
+    "answer": "Helmet jellyfish",
+    "aliases": [
+     "Periphylla periphylla"
+    ]
+   },
+   {
+    "answer": "Moon jellyfish",
+    "aliases": [
+     "Moon jelly"
+    ]
+   },
+   {
+    "answer": "Sea nettle",
+    "aliases": []
+   },
+   {
+    "answer": "Portuguese man o' war",
+    "aliases": [
+     "Man o' war",
+     "Man of war",
+     "Portuguese man of war"
+    ]
+   },
+   {
+    "answer": "By-the-wind sailor",
+    "aliases": [
+     "Velella",
+     "Sea raft"
+    ]
+   },
+   {
+    "answer": "Mauve stinger",
+    "aliases": [
+     "Pelagia noctiluca",
+     "Purple jellyfish",
+     "Night-light jellyfish"
+    ]
+   },
+   {
+    "answer": "Venus girdle",
+    "aliases": [
+     "Cestum veneris"
+    ]
+   },
+   {
+    "answer": "Sea butterfly",
+    "aliases": [
+     "Pteropod",
+     "Sea angel"
+    ]
+   },
+   {
+    "answer": "Lobate ctenophore",
+    "aliases": [
+     "Bolinopsis"
+    ]
+   },
+   {
+    "answer": "Beroe",
+    "aliases": [
+     "Beroe ovata"
+    ]
+   },
+   {
+    "answer": "Tomopteris",
+    "aliases": [
+     "Tomopterid",
+     "Swimming polychaete"
+    ]
+   },
+   {
+    "answer": "Chaetopterus",
+    "aliases": [
+     "Parchment worm",
+     "Parchment tube worm"
+    ]
+   },
+   {
+    "answer": "Sea mouse",
+    "aliases": [
+     "Aphrodita"
+    ]
+   },
+   {
+    "answer": "Elephant seal",
+    "aliases": []
+   },
+   {
+    "answer": "Pacific blackdragon",
+    "aliases": [
+     "Black dragonfish",
+     "Idiacanthus antrostomus"
+    ]
+   },
+   {
+    "answer": "Luminous hake",
+    "aliases": []
+   },
+   {
+    "answer": "Pearlsides",
+    "aliases": [
+     "Pearlside",
+     "Maurolicus"
+    ]
+   },
+   {
+    "answer": "Spiny lobster",
+    "aliases": []
+   },
+   {
+    "answer": "Glowing sucker octopus",
+    "aliases": [
+     "Stauroteuthis syrtensis",
+     "Bioluminescent octopus"
+    ]
+   },
+   {
+    "answer": "Cirrate octopus",
+    "aliases": []
+   },
+   {
+    "answer": "Firefly beetle",
+    "aliases": []
+   },
+   {
+    "answer": "Pelagic tunicate",
+    "aliases": []
+   },
+   {
+    "answer": "Luminous sea star",
+    "aliases": []
+   },
+   {
+    "answer": "Sea cucumber Enypniastes",
+    "aliases": [
+     "Headless chicken monster",
+     "Swimming sea cucumber"
+    ]
+   },
+   {
+    "answer": "Deep-sea octopus",
+    "aliases": []
+   },
+   {
+    "answer": "Mushroom coral",
+    "aliases": []
+   },
+   {
+    "answer": "Leopard shark",
+    "aliases": []
+   },
+   {
+    "answer": "Whale shark",
+    "aliases": []
+   },
+   {
+    "answer": "Eelpout",
+    "aliases": []
+   },
+   {
+    "answer": "Sea robin",
+    "aliases": []
+   },
+   {
+    "answer": "Snailfish",
+    "aliases": [
+     "Snail fish"
+    ]
+   },
+   {
+    "answer": "Cod",
+    "aliases": [
+     "Glowing cod"
+    ]
+   },
+   {
+    "answer": "Bobtail squid",
+    "aliases": [
+     "Euprymna scolopes"
+    ]
+   },
+   {
+    "answer": "Vibrio fischeri host squid",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 39335,
+ "type": "result",
+ "duration_ms": 39400,
+ "uuid": "83a23f58-690c-4bb1-a3fb-574f72bb942f",
+ "ttft_stream_ms": 768,
+ "time_to_request_ms": 35,
+ "first_content_frame_ms": 768,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

@@ -1,0 +1,263 @@
+{
+ "duration_api_ms": 9054,
+ "stop_reason": "tool_use",
+ "session_id": "08800589-96e4-43c8-a6a6-ffb10d7dd751",
+ "total_cost_usd": 0.037742,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6411,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 1197,
+  "output_tokens_details": {
+   "thinking_tokens": 423
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6411,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1197,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 6411,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6411
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1197,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 6411,
+   "webSearchRequests": 0,
+   "costUSD": 0.037742,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 423,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Basketball\",\"aliases\":[\"basket ball\",\"hoops\"]},{\"answer\":\"3x3 Basketball\",\"aliases\":[\"3x3\",\"three on three basketball\",\"3 on 3 basketball\"]},{\"answer\":\"Football\",\"aliases\":[\"soccer\",\"association football\"]},{\"answer\":\"Volleyball\",\"aliases\":[\"volley ball\",\"indoor volleyball\"]},{\"answer\":\"Beach Volleyball\",\"aliases\":[\"beach volley ball\",\"beach volley\"]},{\"answer\":\"Handball\",\"aliases\":[\"team handball\",\"hand ball\"]},{\"answer\":\"Water Polo\",\"aliases\":[\"waterpolo\"]},{\"answer\":\"Field Hockey\",\"aliases\":[\"hockey\",\"grass hockey\"]},{\"answer\":\"Tennis\",\"aliases\":[\"lawn tennis\"]},{\"answer\":\"Table Tennis\",\"aliases\":[\"ping pong\",\"pingpong\"]},{\"answer\":\"Golf\",\"aliases\":[]},{\"answer\":\"Rugby Sevens\",\"aliases\":[\"rugby 7s\",\"rugby sevens\",\"rugby\",\"sevens\",\"rugby 7's\"]},{\"answer\":\"Baseball\",\"aliases\":[\"base ball\"]},{\"answer\":\"Softball\",\"aliases\":[\"soft ball\"]},{\"answer\":\"Cricket\",\"aliases\":[\"T20 cricket\",\"twenty20\"]},{\"answer\":\"Lacrosse\",\"aliases\":[\"lax\",\"sixes lacrosse\"]},{\"answer\":\"Squash\",\"aliases\":[]},{\"answer\":\"Flag Football\",\"aliases\":[\"flag american football\",\"american football\"]},{\"answer\":\"Rhythmic Gymnastics\",\"aliases\":[\"rhythmic gym\"]},{\"answer\":\"Polo\",\"aliases\":[\"horse polo\"]},{\"answer\":\"Croquet\",\"aliases\":[]},{\"answer\":\"Basque Pelota\",\"aliases\":[\"pelota\",\"pelota vasca\",\"jai alai\"]},{\"answer\":\"Jeu de Paume\",\"aliases\":[\"real tennis\",\"court tennis\"]},{\"answer\":\"Rackets\",\"aliases\":[\"racquets\"]},{\"answer\":\"Roque\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Basketball",
+    "aliases": [
+     "basket ball",
+     "hoops"
+    ]
+   },
+   {
+    "answer": "3x3 Basketball",
+    "aliases": [
+     "3x3",
+     "three on three basketball",
+     "3 on 3 basketball"
+    ]
+   },
+   {
+    "answer": "Football",
+    "aliases": [
+     "soccer",
+     "association football"
+    ]
+   },
+   {
+    "answer": "Volleyball",
+    "aliases": [
+     "volley ball",
+     "indoor volleyball"
+    ]
+   },
+   {
+    "answer": "Beach Volleyball",
+    "aliases": [
+     "beach volley ball",
+     "beach volley"
+    ]
+   },
+   {
+    "answer": "Handball",
+    "aliases": [
+     "team handball",
+     "hand ball"
+    ]
+   },
+   {
+    "answer": "Water Polo",
+    "aliases": [
+     "waterpolo"
+    ]
+   },
+   {
+    "answer": "Field Hockey",
+    "aliases": [
+     "hockey",
+     "grass hockey"
+    ]
+   },
+   {
+    "answer": "Tennis",
+    "aliases": [
+     "lawn tennis"
+    ]
+   },
+   {
+    "answer": "Table Tennis",
+    "aliases": [
+     "ping pong",
+     "pingpong"
+    ]
+   },
+   {
+    "answer": "Golf",
+    "aliases": []
+   },
+   {
+    "answer": "Rugby Sevens",
+    "aliases": [
+     "rugby 7s",
+     "rugby sevens",
+     "rugby",
+     "sevens",
+     "rugby 7's"
+    ]
+   },
+   {
+    "answer": "Baseball",
+    "aliases": [
+     "base ball"
+    ]
+   },
+   {
+    "answer": "Softball",
+    "aliases": [
+     "soft ball"
+    ]
+   },
+   {
+    "answer": "Cricket",
+    "aliases": [
+     "T20 cricket",
+     "twenty20"
+    ]
+   },
+   {
+    "answer": "Lacrosse",
+    "aliases": [
+     "lax",
+     "sixes lacrosse"
+    ]
+   },
+   {
+    "answer": "Squash",
+    "aliases": []
+   },
+   {
+    "answer": "Flag Football",
+    "aliases": [
+     "flag american football",
+     "american football"
+    ]
+   },
+   {
+    "answer": "Rhythmic Gymnastics",
+    "aliases": [
+     "rhythmic gym"
+    ]
+   },
+   {
+    "answer": "Polo",
+    "aliases": [
+     "horse polo"
+    ]
+   },
+   {
+    "answer": "Croquet",
+    "aliases": []
+   },
+   {
+    "answer": "Basque Pelota",
+    "aliases": [
+     "pelota",
+     "pelota vasca",
+     "jai alai"
+    ]
+   },
+   {
+    "answer": "Jeu de Paume",
+    "aliases": [
+     "real tennis",
+     "court tennis"
+    ]
+   },
+   {
+    "answer": "Rackets",
+    "aliases": [
+     "racquets"
+    ]
+   },
+   {
+    "answer": "Roque",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 5449,
+ "type": "result",
+ "duration_ms": 9099,
+ "uuid": "9992cdb3-1f6d-45b9-9a35-684ac1d92219",
+ "ttft_stream_ms": 1881,
+ "time_to_request_ms": 33,
+ "first_content_frame_ms": 1881,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

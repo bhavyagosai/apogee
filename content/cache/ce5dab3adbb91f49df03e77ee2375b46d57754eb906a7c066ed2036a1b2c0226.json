@@ -1,0 +1,150 @@
+{
+ "duration_api_ms": 13347,
+ "stop_reason": "tool_use",
+ "session_id": "0d0d48aa-bf22-418f-a724-c0ba8dbad9cf",
+ "total_cost_usd": 0.054442000000000004,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9127,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1793,
+  "output_tokens_details": {
+   "thinking_tokens": 1260
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9127,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1793,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 9127,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9127
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1793,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 9127,
+   "webSearchRequests": 0,
+   "costUSD": 0.054442000000000004,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 1260,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Cờ vây\",\"reason\":\"This is Go. It is played with stones and has no dice.\"},{\"answer\":\"Achi\",\"reason\":\"This is an abstract three-in-a-row game with no dice.\"},{\"answer\":\"Continuo\",\"reason\":\"This is a tile-laying card game with no dice.\"},{\"answer\":\"Colorforms\",\"reason\":\"This is a stick-on toy, not a dice board game.\"},{\"answer\":\"Electric football\",\"reason\":\"This is a vibrating-field tabletop toy. It isn't a dice board game.\"},{\"answer\":\"Elefun\",\"reason\":\"This is a toy game where players catch butterflies from an air-blown elephant. It uses no dice.\"},{\"answer\":\"Battling Tops\",\"reason\":\"This is a spinning-top action game with no dice.\"},{\"answer\":\"Spielesammlung\",\"reason\":\"This means 'game collection' in German. It is a generic category, not a specific game.\"},{\"answer\":\"City of Heroes Collectible Card Game\",\"reason\":\"This is a collectible card game, not a board game that uses dice.\"},{\"answer\":\"Codename: Kids Next Door Trading Card Game\",\"reason\":\"This is a trading card game, not a board game that uses dice.\"},{\"answer\":\"Conan Collectible Card Game\",\"reason\":\"This is a collectible card game, not a board game that uses dice.\"},{\"answer\":\"Dragon Booster Trading Card Game\",\"reason\":\"This is a trading card game, not a board game that uses dice.\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Cờ vây",
+    "reason": "This is Go. It is played with stones and has no dice."
+   },
+   {
+    "answer": "Achi",
+    "reason": "This is an abstract three-in-a-row game with no dice."
+   },
+   {
+    "answer": "Continuo",
+    "reason": "This is a tile-laying card game with no dice."
+   },
+   {
+    "answer": "Colorforms",
+    "reason": "This is a stick-on toy, not a dice board game."
+   },
+   {
+    "answer": "Electric football",
+    "reason": "This is a vibrating-field tabletop toy. It isn't a dice board game."
+   },
+   {
+    "answer": "Elefun",
+    "reason": "This is a toy game where players catch butterflies from an air-blown elephant. It uses no dice."
+   },
+   {
+    "answer": "Battling Tops",
+    "reason": "This is a spinning-top action game with no dice."
+   },
+   {
+    "answer": "Spielesammlung",
+    "reason": "This means 'game collection' in German. It is a generic category, not a specific game."
+   },
+   {
+    "answer": "City of Heroes Collectible Card Game",
+    "reason": "This is a collectible card game, not a board game that uses dice."
+   },
+   {
+    "answer": "Codename: Kids Next Door Trading Card Game",
+    "reason": "This is a trading card game, not a board game that uses dice."
+   },
+   {
+    "answer": "Conan Collectible Card Game",
+    "reason": "This is a collectible card game, not a board game that uses dice."
+   },
+   {
+    "answer": "Dragon Booster Trading Card Game",
+    "reason": "This is a trading card game, not a board game that uses dice."
+   }
+  ]
+ },
+ "ttft_ms": 10748,
+ "type": "result",
+ "duration_ms": 13462,
+ "uuid": "d63adfc4-18e0-4681-9999-63b29a2f2145",
+ "ttft_stream_ms": 860,
+ "time_to_request_ms": 84,
+ "first_content_frame_ms": 860,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

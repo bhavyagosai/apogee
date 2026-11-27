@@ -1,0 +1,106 @@
+{
+ "duration_api_ms": 8751,
+ "stop_reason": "tool_use",
+ "session_id": "89e7cef5-f468-4235-a5c7-318aa15a14a3",
+ "total_cost_usd": 0.0397612,
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 7435,
+  "cache_read_input_tokens": 8296,
+  "output_tokens": 835,
+  "output_tokens_details": {
+   "thinking_tokens": 216
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7435,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 320,
+    "cache_read_input_tokens": 7588,
+    "cache_creation_input_tokens": 555,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 555
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 6,
+   "outputTokens": 835,
+   "cacheReadInputTokens": 8296,
+   "cacheCreationInputTokens": 7435,
+   "webSearchRequests": 0,
+   "costUSD": 0.0397612,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 216,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 3,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"source\":\"wikidata\",\"reason\":\"Island nations are countries, which Wikidata models with the class 'island nation' (Q112099). The query returns instances of that class and drops defunct states that have an end date.\",\"wikidata\":{\"where\":\"?item wdt:P31/wdt:P279* wd:Q112099 . FILTER(?item != wd:Q112099) FILTER NOT EXISTS { ?item wdt:P576 [] }\",\"notes\":\"Q112099 is 'island nation'. The P576 (dissolved) filter is a cheap non-recursive check that removes historical states. Some island countries (e.g. UK, Ireland, Indonesia) may only be tagged 'sovereign state', so recall may be incomplete.\"}}",
+ "structured_output": {
+  "source": "wikidata",
+  "reason": "Island nations are countries, which Wikidata models with the class 'island nation' (Q112099). The query returns instances of that class and drops defunct states that have an end date.",
+  "wikidata": {
+   "where": "?item wdt:P31/wdt:P279* wd:Q112099 . FILTER(?item != wd:Q112099) FILTER NOT EXISTS { ?item wdt:P576 [] }",
+   "notes": "Q112099 is 'island nation'. The P576 (dissolved) filter is a cheap non-recursive check that removes historical states. Some island countries (e.g. UK, Ireland, Indonesia) may only be tagged 'sovereign state', so recall may be incomplete."
+  }
+ },
+ "ttft_ms": 3753,
+ "type": "result",
+ "duration_ms": 8893,
+ "uuid": "c2240d2b-bc8a-499a-a55f-2992d120e690",
+ "ttft_stream_ms": 2017,
+ "time_to_request_ms": 58,
+ "first_content_frame_ms": 2018,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

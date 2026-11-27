@@ -1,0 +1,1413 @@
+{
+ "duration_api_ms": 47337,
+ "stop_reason": "tool_use",
+ "session_id": "f2652043-73a1-46f2-8c04-b949f8efcdb5",
+ "total_cost_usd": 0.10126,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7428,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 7142,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7428,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 7142,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 7428,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7428
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 7142,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 7428,
+   "webSearchRequests": 0,
+   "costUSD": 0.10126,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Clue\",\"aliases\":[\"Clue Classic\"]},{\"answer\":\"Parcheesi\",\"aliases\":[\"Parchesi\",\"Parchisi\"]},{\"answer\":\"Pachisi\",\"aliases\":[\"Pachesi\"]},{\"answer\":\"Parchís\",\"aliases\":[\"Parchis\"]},{\"answer\":\"Chutes and Ladders\",\"aliases\":[\"Chutes & Ladders\"]},{\"answer\":\"Yahtzee Free for All\",\"aliases\":[]},{\"answer\":\"Crokinole\",\"aliases\":[]},{\"answer\":\"Pay Day\",\"aliases\":[]},{\"answer\":\"Game of Life\",\"aliases\":[]},{\"answer\":\"Fortune and Glory\",\"aliases\":[]},{\"answer\":\"Sorry! Sliders\",\"aliases\":[]},{\"answer\":\"Pop-O-Matic Trouble\",\"aliases\":[\"Pop-o-matic\"]},{\"answer\":\"Dice Masters\",\"aliases\":[\"DC Dice Masters\",\"Dice Masters\"]},{\"answer\":\"Dragon Dice\",\"aliases\":[]},{\"answer\":\"Monopoly Deal Dice\",\"aliases\":[]},{\"answer\":\"Monopoly Junior\",\"aliases\":[\"Monopoly Jr\"]},{\"answer\":\"Cashflow 101\",\"aliases\":[\"Cashflow\"]},{\"answer\":\"Acquire\",\"aliases\":[]},{\"answer\":\"Axis & Allies 1942\",\"aliases\":[\"Axis and Allies 1942\"]},{\"answer\":\"Axis & Allies & Zombies\",\"aliases\":[]},{\"answer\":\"Risk 2210 A.D.\",\"aliases\":[\"Risk 2210\"]},{\"answer\":\"Risk Legacy\",\"aliases\":[]},{\"answer\":\"Risk: Godstorm\",\"aliases\":[\"Godstorm\"]},{\"answer\":\"Risk: Star Wars Edition\",\"aliases\":[\"Star Wars Risk\"]},{\"answer\":\"Lord of the Rings Risk\",\"aliases\":[\"Risk: Lord of the Rings\"]},{\"answer\":\"Game of Thrones Risk\",\"aliases\":[]},{\"answer\":\"Diplomacy\",\"aliases\":[]},{\"answer\":\"Fury of Dracula\",\"aliases\":[]},{\"answer\":\"Wiz-War\",\"aliases\":[\"Wiz War\"]},{\"answer\":\"Sorcerer's Cave\",\"aliases\":[]},{\"answer\":\"Dark Tower\",\"aliases\":[]},{\"answer\":\"Advanced Heroquest\",\"aliases\":[]},{\"answer\":\"Warhammer Fantasy Battle\",\"aliases\":[]},{\"answer\":\"Chess Dice\",\"aliases\":[]},{\"answer\":\"Kingmaker\",\"aliases\":[]},{\"answer\":\"Sid Meier's Civilization: The Board Game\",\"aliases\":[\"Civilization\"]},{\"answer\":\"Advanced Civilization\",\"aliases\":[]},{\"answer\":\"Cyclades Monuments\",\"aliases\":[]},{\"answer\":\"Small World\",\"aliases\":[]},{\"answer\":\"Smallworld Underground\",\"aliases\":[]},{\"answer\":\"Runebound\",\"aliases\":[]},{\"answer\":\"Doom: The Board Game\",\"aliases\":[\"Doom\"]},{\"answer\":\"Last Night on Earth\",\"aliases\":[]},{\"answer\":\"Zombies!!!\",\"aliases\":[\"Zombies\"]},{\"answer\":\"Dark Souls: The Board Game\",\"aliases\":[\"Dark Souls\"]},{\"answer\":\"Star Wars: Imperial Assault\",\"aliases\":[\"Imperial Assault\"]},{\"answer\":\"Star Wars: X-Wing\",\"aliases\":[\"X-Wing Miniatures Game\",\"X-Wing\"]},{\"answer\":\"Star Wars: Armada\",\"aliases\":[\"Armada\"]},{\"answer\":\"Star Wars: Legion\",\"aliases\":[\"Legion\"]},{\"answer\":\"Star Wars: Rebellion\",\"aliases\":[\"Rebellion\"]},{\"answer\":\"Star Wars: Epic Duels\",\"aliases\":[]},{\"answer\":\"Star Wars: The Queen's Gambit\",\"aliases\":[]},{\"answer\":\"Star Wars Trilogy Risk\",\"aliases\":[]},{\"answer\":\"Wings of War\",\"aliases\":[]},{\"answer\":\"Memoir '44\",\"aliases\":[\"Memoir 44\"]},{\"answer\":\"Battle Cry\",\"aliases\":[]},{\"answer\":\"Command and Colors: Ancients\",\"aliases\":[\"Commands & Colors Ancients\"]},{\"answer\":\"Conquest of the Empire\",\"aliases\":[]},{\"answer\":\"Shogun\",\"aliases\":[]},{\"answer\":\"Samurai Sword\",\"aliases\":[]},{\"answer\":\"Eclipse\",\"aliases\":[]},{\"answer\":\"Twilight Imperium\",\"aliases\":[]},{\"answer\":\"Twilight Struggle\",\"aliases\":[]},{\"answer\":\"Cosmic Run\",\"aliases\":[]},{\"answer\":\"Space Alert\",\"aliases\":[]},{\"answer\":\"Galaxy Trucker\",\"aliases\":[]},{\"answer\":\"Pandemic Legacy\",\"aliases\":[]},{\"answer\":\"Pandemic: Iberia\",\"aliases\":[]},{\"answer\":\"Scotland Yard\",\"aliases\":[]},{\"answer\":\"Sherlock Holmes Consulting Detective\",\"aliases\":[]},{\"answer\":\"Mastermind\",\"aliases\":[]},{\"answer\":\"Boggle Junior\",\"aliases\":[]},{\"answer\":\"Perudo\",\"aliases\":[]},{\"answer\":\"Dudo\",\"aliases\":[]},{\"answer\":\"Mia\",\"aliases\":[\"Meyer\"]},{\"answer\":\"Skull\",\"aliases\":[]},{\"answer\":\"Kismet\",\"aliases\":[]},{\"answer\":\"Generala\",\"aliases\":[]},{\"answer\":\"Yacht\",\"aliases\":[]},{\"answer\":\"Chicago\",\"aliases\":[]},{\"answer\":\"Ten Thousand\",\"aliases\":[\"10000\"]},{\"answer\":\"Greed\",\"aliases\":[]},{\"answer\":\"Dice 10000\",\"aliases\":[]},{\"answer\":\"Cubirds\",\"aliases\":[]},{\"answer\":\"Roll Through the Ages\",\"aliases\":[\"Roll Through the Ages: The Bronze Age\"]},{\"answer\":\"Roll Through the Ages: The Iron Age\",\"aliases\":[\"Iron Age\"]},{\"answer\":\"Roll for It!\",\"aliases\":[\"Roll for It\"]},{\"answer\":\"Roll Camera!\",\"aliases\":[]},{\"answer\":\"Roll Player Adventures\",\"aliases\":[]},{\"answer\":\"Rolling Realms\",\"aliases\":[]},{\"answer\":\"Rolling Heights\",\"aliases\":[]},{\"answer\":\"Rolling Japan\",\"aliases\":[]},{\"answer\":\"Rolling America\",\"aliases\":[]},{\"answer\":\"Rolling Ranch\",\"aliases\":[]},{\"answer\":\"Rolling Village\",\"aliases\":[]},{\"answer\":\"Rolling Wild\",\"aliases\":[]},{\"answer\":\"Dice Settlers\",\"aliases\":[]},{\"answer\":\"Dice Kingdoms of Valeria\",\"aliases\":[\"Valeria Card Kingdoms\"]},{\"answer\":\"Valeria: Card Kingdoms\",\"aliases\":[\"Valeria Card Kingdoms\"]},{\"answer\":\"Kingdom Builder\",\"aliases\":[]},{\"answer\":\"Ganz schön clever\",\"aliases\":[\"That's Pretty Clever\",\"Clever\",\"That's Pretty Clever!\"]},{\"answer\":\"Twice as Clever\",\"aliases\":[\"Doppelt so clever\"]},{\"answer\":\"Clever Cubed\",\"aliases\":[\"Clever hoch drei\",\"Clever 3\"]},{\"answer\":\"Encore!\",\"aliases\":[\"Encore\"]},{\"answer\":\"Welcome To...\",\"aliases\":[\"Welcome To\"]},{\"answer\":\"Qwinto\",\"aliases\":[]},{\"answer\":\"Qwixx On Board\",\"aliases\":[]},{\"answer\":\"Noch mal!\",\"aliases\":[\"Noch mal\"]},{\"answer\":\"Yatzy\",\"aliases\":[]},{\"answer\":\"Yahtzee Jr.\",\"aliases\":[]},{\"answer\":\"Scoundrels of Skullport\",\"aliases\":[]},{\"answer\":\"Castle Panic\",\"aliases\":[]},{\"answer\":\"Dungeon Lords\",\"aliases\":[]},{\"answer\":\"Dungeon Petz\",\"aliases\":[]},{\"answer\":\"Dungeon Twister\",\"aliases\":[]},{\"answer\":\"Dungeon Crawler\",\"aliases\":[]},{\"answer\":\"Dungeon Fighter\",\"aliases\":[]},{\"answer\":\"Dungeon Mayhem\",\"aliases\":[]},{\"answer\":\"Dungeons & Dragons: Castle Ravenloft\",\"aliases\":[\"Castle Ravenloft\"]},{\"answer\":\"Wrath of Ashardalon\",\"aliases\":[]},{\"answer\":\"Legend of Drizzt\",\"aliases\":[\"The Legend of Drizzt\"]},{\"answer\":\"Temple of Elemental Evil\",\"aliases\":[]},{\"answer\":\"Conquest of Nerath\",\"aliases\":[]},{\"answer\":\"Dungeon Command\",\"aliases\":[]},{\"answer\":\"Lords of Vegas\",\"aliases\":[]},{\"answer\":\"Pirate Dice\",\"aliases\":[]},{\"answer\":\"Pirate's Dice\",\"aliases\":[]},{\"answer\":\"Port Royal Dice\",\"aliases\":[]},{\"answer\":\"Ticket to Ride Dice\",\"aliases\":[]},{\"answer\":\"Carcassonne Dice\",\"aliases\":[]},{\"answer\":\"Settlers of Catan\",\"aliases\":[\"The Settlers of Catan\"]},{\"answer\":\"Catan Dice Game\",\"aliases\":[\"Catan: Dice Game\"]},{\"answer\":\"Catan: Cities & Knights\",\"aliases\":[\"Cities and Knights\"]},{\"answer\":\"Catan: Seafarers\",\"aliases\":[\"Seafarers of Catan\"]},{\"answer\":\"Starfarers of Catan\",\"aliases\":[]},{\"answer\":\"Catan: Explorers & Pirates\",\"aliases\":[]},{\"answer\":\"Catan Junior\",\"aliases\":[\"Catan Jr\"]},{\"answer\":\"Struggle for Catan\",\"aliases\":[]},{\"answer\":\"Elfenland\",\"aliases\":[]},{\"answer\":\"Machi Koro 2\",\"aliases\":[]},{\"answer\":\"Harbour\",\"aliases\":[]},{\"answer\":\"Roll Through the Ages Dice\",\"aliases\":[]},{\"answer\":\"Bohnanza Dice\",\"aliases\":[]},{\"answer\":\"Wits & Wagers\",\"aliases\":[\"Wits and Wagers\"]},{\"answer\":\"Yspahan\",\"aliases\":[]},{\"answer\":\"Pickomino\",\"aliases\":[\"Regenwormen\"]},{\"answer\":\"Zooloretto Dice\",\"aliases\":[]},{\"answer\":\"Troyes Dice\",\"aliases\":[]},{\"answer\":\"Wyatt Earp\",\"aliases\":[]},{\"answer\":\"Dice Hospital: ER\",\"aliases\":[]},{\"answer\":\"Space Base\",\"aliases\":[]},{\"answer\":\"Sagrada Passion\",\"aliases\":[]},{\"answer\":\"Blueprints\",\"aliases\":[]},{\"answer\":\"Eminent Domain: Microcosm\",\"aliases\":[]},{\"answer\":\"Star Realms Dice\",\"aliases\":[]},{\"answer\":\"Tiny Epic Zombies\",\"aliases\":[]},{\"answer\":\"Tiny Epic Quest\",\"aliases\":[]},{\"answer\":\"Tiny Epic Pirates\",\"aliases\":[]},{\"answer\":\"Tiny Epic Dungeons\",\"aliases\":[]},{\"answer\":\"Tiny Epic Tactics\",\"aliases\":[]},{\"answer\":\"Tiny Epic Kingdoms\",\"aliases\":[]},{\"answer\":\"Tiny Epic Western\",\"aliases\":[]},{\"answer\":\"Tiny Epic Mechs\",\"aliases\":[]},{\"answer\":\"Tiny Epic Vikings\",\"aliases\":[]},{\"answer\":\"Black Orchestra\",\"aliases\":[]},{\"answer\":\"Mice and Mystics\",\"aliases\":[]},{\"answer\":\"Super Dungeon Explore\",\"aliases\":[]},{\"answer\":\"Massive Darkness\",\"aliases\":[]},{\"answer\":\"Rising Sun\",\"aliases\":[]},{\"answer\":\"Blood Rage\",\"aliases\":[]},{\"answer\":\"Cthulhu: Death May Die\",\"aliases\":[\"Cthulhu Death May Die\"]},{\"answer\":\"Zombicide: Black Plague\",\"aliases\":[\"Black Plague\"]},{\"answer\":\"Zombicide: Green Horde\",\"aliases\":[\"Green Horde\"]},{\"answer\":\"Zombicide: Invader\",\"aliases\":[\"Invader\"]},{\"answer\":\"Marvel Zombies\",\"aliases\":[]},{\"answer\":\"Marvel United\",\"aliases\":[]},{\"answer\":\"Marvel Champions\",\"aliases\":[]},{\"answer\":\"Legendary Encounters\",\"aliases\":[]},{\"answer\":\"Spartacus\",\"aliases\":[]},{\"answer\":\"Cyclades Hades\",\"aliases\":[]},{\"answer\":\"Kemet\",\"aliases\":[]},{\"answer\":\"Inis\",\"aliases\":[]},{\"answer\":\"Scythe\",\"aliases\":[]},{\"answer\":\"Brass\",\"aliases\":[]},{\"answer\":\"Axis & Allies Anniversary Edition\",\"aliases\":[\"Axis and Allies Anniversary\"]},{\"answer\":\"Axis & Allies: Guadalcanal\",\"aliases\":[\"Guadalcanal\"]},{\"answer\":\"Axis & Allies: D-Day\",\"aliases\":[\"D-Day\"]},{\"answer\":\"Axis & Allies: Battle of the Bulge\",\"aliases\":[\"Battle of the Bulge\"]},{\"answer\":\"Axis & Allies: Spring 1942\",\"aliases\":[\"Spring 1942\"]},{\"answer\":\"Axis & Allies: Global 1940\",\"aliases\":[\"Global 1940\"]},{\"answer\":\"Axis & Allies: Miniatures\",\"aliases\":[]},{\"answer\":\"Fireball Island: The Curse of Vul-Kar\",\"aliases\":[\"Curse of Vul-Kar\"]},{\"answer\":\"Hotel\",\"aliases\":[]},{\"answer\":\"Big Boggle\",\"aliases\":[]},{\"answer\":\"Taboo\",\"aliases\":[]},{\"answer\":\"Uno Dice\",\"aliases\":[]},{\"answer\":\"Scattergories\",\"aliases\":[]},{\"answer\":\"Balderdash\",\"aliases\":[]},{\"answer\":\"Bingo\",\"aliases\":[]},{\"answer\":\"Tripoley\",\"aliases\":[]},{\"answer\":\"Pig Mania\",\"aliases\":[]},{\"answer\":\"Skunk\",\"aliases\":[]},{\"answer\":\"Beetle\",\"aliases\":[\"Cootie\"]},{\"answer\":\"Cootie\",\"aliases\":[\"Cooties\"]},{\"answer\":\"Candy Land Dice\",\"aliases\":[]},{\"answer\":\"Hi Ho! Cherry-O\",\"aliases\":[\"Hi Ho Cherry-O\",\"Cherry-O\"]},{\"answer\":\"Don't Break the Ice\",\"aliases\":[]},{\"answer\":\"Hungry Hungry Hippos\",\"aliases\":[]},{\"answer\":\"Operation\",\"aliases\":[]},{\"answer\":\"Boom Boom Balloon\",\"aliases\":[]},{\"answer\":\"Pop the Pig\",\"aliases\":[]},{\"answer\":\"Fireball\",\"aliases\":[]},{\"answer\":\"Game of the Generals\",\"aliases\":[]},{\"answer\":\"Ur\",\"aliases\":[\"Royal Game of Ur\"]},{\"answer\":\"Senet\",\"aliases\":[]},{\"answer\":\"Tabula\",\"aliases\":[]},{\"answer\":\"Tavla\",\"aliases\":[]},{\"answer\":\"Tric-Trac\",\"aliases\":[\"Trictrac\"]},{\"answer\":\"Acey-Deucey\",\"aliases\":[\"Acey Deucey\"]},{\"answer\":\"Tables\",\"aliases\":[]},{\"answer\":\"Nard\",\"aliases\":[\"Nardy\",\"Long Nardy\"]},{\"answer\":\"Shesh Besh\",\"aliases\":[\"Shesh Besh\",\"Shesh Besh\"]},{\"answer\":\"Moneymaker\",\"aliases\":[]},{\"answer\":\"Pachisi Dice\",\"aliases\":[]},{\"answer\":\"Game of Goose\",\"aliases\":[\"Goose\",\"Royal Game of the Goose\",\"Game of the Goose\"]},{\"answer\":\"Fox and Geese\",\"aliases\":[]},{\"answer\":\"Mensch ärgere Dich nicht\",\"aliases\":[\"Mensch aergere dich nicht\",\"Man Don't Get Annoyed\"]},{\"answer\":\"Fia\",\"aliases\":[\"Fia with Back-Spin\",\"Fia-spel\"]},{\"answer\":\"Eile mit Weile\",\"aliases\":[]},{\"answer\":\"Uckers\",\"aliases\":[]},{\"answer\":\"Petits Chevaux\",\"aliases\":[\"Les Petits Chevaux\"]},{\"answer\":\"Halma Dice\",\"aliases\":[]},{\"answer\":\"Pachisi Royal\",\"aliases\":[]},{\"answer\":\"Dominion Dice\",\"aliases\":[]},{\"answer\":\"Cthulhu Dice\",\"aliases\":[]},{\"answer\":\"Munchkin Dice\",\"aliases\":[]},{\"answer\":\"Munchkin Quest\",\"aliases\":[]},{\"answer\":\"Fluxx Dice\",\"aliases\":[]},{\"answer\":\"Zombie Dice 2: Double Feature\",\"aliases\":[]},{\"answer\":\"Martian Dice\",\"aliases\":[]},{\"answer\":\"Love Letter Dice\",\"aliases\":[]},{\"answer\":\"Sushi Dice\",\"aliases\":[]},{\"answer\":\"Cuboid\",\"aliases\":[]},{\"answer\":\"Ghost Blitz\",\"aliases\":[]},{\"answer\":\"Lords of Waterdeep: Scoundrels\",\"aliases\":[]},{\"answer\":\"Kingsburg Dice\",\"aliases\":[]},{\"answer\":\"Age of Steam\",\"aliases\":[]},{\"answer\":\"Aeon's End\",\"aliases\":[]},{\"answer\":\"Tales of the Arabian Nights Dice\",\"aliases\":[]},{\"answer\":\"Imperial Settlers\",\"aliases\":[]},{\"answer\":\"Paperback\",\"aliases\":[]},{\"answer\":\"Yahtzee Bowling\",\"aliases\":[]},{\"answer\":\"Skip-Bo Dice\",\"aliases\":[]},{\"answer\":\"Spy Alley\",\"aliases\":[]},{\"answer\":\"Cranium Hullabaloo\",\"aliases\":[]},{\"answer\":\"Game of Thrones: The Board Game\",\"aliases\":[\"A Game of Thrones Board Game\"]},{\"answer\":\"Warhammer 40,000: Conquest\",\"aliases\":[]},{\"answer\":\"Warhammer Quest: Adventure Card Game\",\"aliases\":[]},{\"answer\":\"Necromunda\",\"aliases\":[]},{\"answer\":\"Gloomhaven\",\"aliases\":[]},{\"answer\":\"Frosthaven\",\"aliases\":[]},{\"answer\":\"Sword & Sorcery\",\"aliases\":[\"Sword and Sorcery\"]},{\"answer\":\"Fortune and Glory: The Cliffhanger Game\",\"aliases\":[]},{\"answer\":\"Arkham Horror: The Card Game\",\"aliases\":[]},{\"answer\":\"Eldritch Horror: Forsaken Lore\",\"aliases\":[]},{\"answer\":\"Chaos in the Old World\",\"aliases\":[]},{\"answer\":\"Ankh-Morpork\",\"aliases\":[\"Discworld: Ankh-Morpork\"]},{\"answer\":\"Chronicle\",\"aliases\":[]},{\"answer\":\"Axis & Allies Revised\",\"aliases\":[\"Axis and Allies Revised\"]},{\"answer\":\"Napoleon's Triumph\",\"aliases\":[]},{\"answer\":\"Betrayal Legacy\",\"aliases\":[]},{\"answer\":\"Betrayal at Baldur's Gate\",\"aliases\":[]},{\"answer\":\"Legacy of Dragonholt\",\"aliases\":[]},{\"answer\":\"Dice Throne: Season Two\",\"aliases\":[]},{\"answer\":\"Dice Throne Adventures\",\"aliases\":[]},{\"answer\":\"Dice Realms\",\"aliases\":[]},{\"answer\":\"Dice Conquest\",\"aliases\":[]},{\"answer\":\"Dice Forge: Rebellion\",\"aliases\":[]},{\"answer\":\"Draftosaurus\",\"aliases\":[]},{\"answer\":\"Cubeo\",\"aliases\":[]},{\"answer\":\"Bang!\",\"aliases\":[]},{\"answer\":\"Roll Through the Ages Mini\",\"aliases\":[]},{\"answer\":\"Imperial Assault: Legends\",\"aliases\":[]},{\"answer\":\"Santiago de Cuba\",\"aliases\":[]},{\"answer\":\"Dice Academy\",\"aliases\":[]},{\"answer\":\"Seasons\",\"aliases\":[]},{\"answer\":\"Ultimate Werewolf\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Clue",
+    "aliases": [
+     "Clue Classic"
+    ]
+   },
+   {
+    "answer": "Parcheesi",
+    "aliases": [
+     "Parchesi",
+     "Parchisi"
+    ]
+   },
+   {
+    "answer": "Pachisi",
+    "aliases": [
+     "Pachesi"
+    ]
+   },
+   {
+    "answer": "Parchís",
+    "aliases": [
+     "Parchis"
+    ]
+   },
+   {
+    "answer": "Chutes and Ladders",
+    "aliases": [
+     "Chutes & Ladders"
+    ]
+   },
+   {
+    "answer": "Yahtzee Free for All",
+    "aliases": []
+   },
+   {
+    "answer": "Crokinole",
+    "aliases": []
+   },
+   {
+    "answer": "Pay Day",
+    "aliases": []
+   },
+   {
+    "answer": "Game of Life",
+    "aliases": []
+   },
+   {
+    "answer": "Fortune and Glory",
+    "aliases": []
+   },
+   {
+    "answer": "Sorry! Sliders",
+    "aliases": []
+   },
+   {
+    "answer": "Pop-O-Matic Trouble",
+    "aliases": [
+     "Pop-o-matic"
+    ]
+   },
+   {
+    "answer": "Dice Masters",
+    "aliases": [
+     "DC Dice Masters",
+     "Dice Masters"
+    ]
+   },
+   {
+    "answer": "Dragon Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Monopoly Deal Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Monopoly Junior",
+    "aliases": [
+     "Monopoly Jr"
+    ]
+   },
+   {
+    "answer": "Cashflow 101",
+    "aliases": [
+     "Cashflow"
+    ]
+   },
+   {
+    "answer": "Acquire",
+    "aliases": []
+   },
+   {
+    "answer": "Axis & Allies 1942",
+    "aliases": [
+     "Axis and Allies 1942"
+    ]
+   },
+   {
+    "answer": "Axis & Allies & Zombies",
+    "aliases": []
+   },
+   {
+    "answer": "Risk 2210 A.D.",
+    "aliases": [
+     "Risk 2210"
+    ]
+   },
+   {
+    "answer": "Risk Legacy",
+    "aliases": []
+   },
+   {
+    "answer": "Risk: Godstorm",
+    "aliases": [
+     "Godstorm"
+    ]
+   },
+   {
+    "answer": "Risk: Star Wars Edition",
+    "aliases": [
+     "Star Wars Risk"
+    ]
+   },
+   {
+    "answer": "Lord of the Rings Risk",
+    "aliases": [
+     "Risk: Lord of the Rings"
+    ]
+   },
+   {
+    "answer": "Game of Thrones Risk",
+    "aliases": []
+   },
+   {
+    "answer": "Diplomacy",
+    "aliases": []
+   },
+   {
+    "answer": "Fury of Dracula",
+    "aliases": []
+   },
+   {
+    "answer": "Wiz-War",
+    "aliases": [
+     "Wiz War"
+    ]
+   },
+   {
+    "answer": "Sorcerer's Cave",
+    "aliases": []
+   },
+   {
+    "answer": "Dark Tower",
+    "aliases": []
+   },
+   {
+    "answer": "Advanced Heroquest",
+    "aliases": []
+   },
+   {
+    "answer": "Warhammer Fantasy Battle",
+    "aliases": []
+   },
+   {
+    "answer": "Chess Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Kingmaker",
+    "aliases": []
+   },
+   {
+    "answer": "Sid Meier's Civilization: The Board Game",
+    "aliases": [
+     "Civilization"
+    ]
+   },
+   {
+    "answer": "Advanced Civilization",
+    "aliases": []
+   },
+   {
+    "answer": "Cyclades Monuments",
+    "aliases": []
+   },
+   {
+    "answer": "Small World",
+    "aliases": []
+   },
+   {
+    "answer": "Smallworld Underground",
+    "aliases": []
+   },
+   {
+    "answer": "Runebound",
+    "aliases": []
+   },
+   {
+    "answer": "Doom: The Board Game",
+    "aliases": [
+     "Doom"
+    ]
+   },
+   {
+    "answer": "Last Night on Earth",
+    "aliases": []
+   },
+   {
+    "answer": "Zombies!!!",
+    "aliases": [
+     "Zombies"
+    ]
+   },
+   {
+    "answer": "Dark Souls: The Board Game",
+    "aliases": [
+     "Dark Souls"
+    ]
+   },
+   {
+    "answer": "Star Wars: Imperial Assault",
+    "aliases": [
+     "Imperial Assault"
+    ]
+   },
+   {
+    "answer": "Star Wars: X-Wing",
+    "aliases": [
+     "X-Wing Miniatures Game",
+     "X-Wing"
+    ]
+   },
+   {
+    "answer": "Star Wars: Armada",
+    "aliases": [
+     "Armada"
+    ]
+   },
+   {
+    "answer": "Star Wars: Legion",
+    "aliases": [
+     "Legion"
+    ]
+   },
+   {
+    "answer": "Star Wars: Rebellion",
+    "aliases": [
+     "Rebellion"
+    ]
+   },
+   {
+    "answer": "Star Wars: Epic Duels",
+    "aliases": []
+   },
+   {
+    "answer": "Star Wars: The Queen's Gambit",
+    "aliases": []
+   },
+   {
+    "answer": "Star Wars Trilogy Risk",
+    "aliases": []
+   },
+   {
+    "answer": "Wings of War",
+    "aliases": []
+   },
+   {
+    "answer": "Memoir '44",
+    "aliases": [
+     "Memoir 44"
+    ]
+   },
+   {
+    "answer": "Battle Cry",
+    "aliases": []
+   },
+   {
+    "answer": "Command and Colors: Ancients",
+    "aliases": [
+     "Commands & Colors Ancients"
+    ]
+   },
+   {
+    "answer": "Conquest of the Empire",
+    "aliases": []
+   },
+   {
+    "answer": "Shogun",
+    "aliases": []
+   },
+   {
+    "answer": "Samurai Sword",
+    "aliases": []
+   },
+   {
+    "answer": "Eclipse",
+    "aliases": []
+   },
+   {
+    "answer": "Twilight Imperium",
+    "aliases": []
+   },
+   {
+    "answer": "Twilight Struggle",
+    "aliases": []
+   },
+   {
+    "answer": "Cosmic Run",
+    "aliases": []
+   },
+   {
+    "answer": "Space Alert",
+    "aliases": []
+   },
+   {
+    "answer": "Galaxy Trucker",
+    "aliases": []
+   },
+   {
+    "answer": "Pandemic Legacy",
+    "aliases": []
+   },
+   {
+    "answer": "Pandemic: Iberia",
+    "aliases": []
+   },
+   {
+    "answer": "Scotland Yard",
+    "aliases": []
+   },
+   {
+    "answer": "Sherlock Holmes Consulting Detective",
+    "aliases": []
+   },
+   {
+    "answer": "Mastermind",
+    "aliases": []
+   },
+   {
+    "answer": "Boggle Junior",
+    "aliases": []
+   },
+   {
+    "answer": "Perudo",
+    "aliases": []
+   },
+   {
+    "answer": "Dudo",
+    "aliases": []
+   },
+   {
+    "answer": "Mia",
+    "aliases": [
+     "Meyer"
+    ]
+   },
+   {
+    "answer": "Skull",
+    "aliases": []
+   },
+   {
+    "answer": "Kismet",
+    "aliases": []
+   },
+   {
+    "answer": "Generala",
+    "aliases": []
+   },
+   {
+    "answer": "Yacht",
+    "aliases": []
+   },
+   {
+    "answer": "Chicago",
+    "aliases": []
+   },
+   {
+    "answer": "Ten Thousand",
+    "aliases": [
+     "10000"
+    ]
+   },
+   {
+    "answer": "Greed",
+    "aliases": []
+   },
+   {
+    "answer": "Dice 10000",
+    "aliases": []
+   },
+   {
+    "answer": "Cubirds",
+    "aliases": []
+   },
+   {
+    "answer": "Roll Through the Ages",
+    "aliases": [
+     "Roll Through the Ages: The Bronze Age"
+    ]
+   },
+   {
+    "answer": "Roll Through the Ages: The Iron Age",
+    "aliases": [
+     "Iron Age"
+    ]
+   },
+   {
+    "answer": "Roll for It!",
+    "aliases": [
+     "Roll for It"
+    ]
+   },
+   {
+    "answer": "Roll Camera!",
+    "aliases": []
+   },
+   {
+    "answer": "Roll Player Adventures",
+    "aliases": []
+   },
+   {
+    "answer": "Rolling Realms",
+    "aliases": []
+   },
+   {
+    "answer": "Rolling Heights",
+    "aliases": []
+   },
+   {
+    "answer": "Rolling Japan",
+    "aliases": []
+   },
+   {
+    "answer": "Rolling America",
+    "aliases": []
+   },
+   {
+    "answer": "Rolling Ranch",
+    "aliases": []
+   },
+   {
+    "answer": "Rolling Village",
+    "aliases": []
+   },
+   {
+    "answer": "Rolling Wild",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Settlers",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Kingdoms of Valeria",
+    "aliases": [
+     "Valeria Card Kingdoms"
+    ]
+   },
+   {
+    "answer": "Valeria: Card Kingdoms",
+    "aliases": [
+     "Valeria Card Kingdoms"
+    ]
+   },
+   {
+    "answer": "Kingdom Builder",
+    "aliases": []
+   },
+   {
+    "answer": "Ganz schön clever",
+    "aliases": [
+     "That's Pretty Clever",
+     "Clever",
+     "That's Pretty Clever!"
+    ]
+   },
+   {
+    "answer": "Twice as Clever",
+    "aliases": [
+     "Doppelt so clever"
+    ]
+   },
+   {
+    "answer": "Clever Cubed",
+    "aliases": [
+     "Clever hoch drei",
+     "Clever 3"
+    ]
+   },
+   {
+    "answer": "Encore!",
+    "aliases": [
+     "Encore"
+    ]
+   },
+   {
+    "answer": "Welcome To...",
+    "aliases": [
+     "Welcome To"
+    ]
+   },
+   {
+    "answer": "Qwinto",
+    "aliases": []
+   },
+   {
+    "answer": "Qwixx On Board",
+    "aliases": []
+   },
+   {
+    "answer": "Noch mal!",
+    "aliases": [
+     "Noch mal"
+    ]
+   },
+   {
+    "answer": "Yatzy",
+    "aliases": []
+   },
+   {
+    "answer": "Yahtzee Jr.",
+    "aliases": []
+   },
+   {
+    "answer": "Scoundrels of Skullport",
+    "aliases": []
+   },
+   {
+    "answer": "Castle Panic",
+    "aliases": []
+   },
+   {
+    "answer": "Dungeon Lords",
+    "aliases": []
+   },
+   {
+    "answer": "Dungeon Petz",
+    "aliases": []
+   },
+   {
+    "answer": "Dungeon Twister",
+    "aliases": []
+   },
+   {
+    "answer": "Dungeon Crawler",
+    "aliases": []
+   },
+   {
+    "answer": "Dungeon Fighter",
+    "aliases": []
+   },
+   {
+    "answer": "Dungeon Mayhem",
+    "aliases": []
+   },
+   {
+    "answer": "Dungeons & Dragons: Castle Ravenloft",
+    "aliases": [
+     "Castle Ravenloft"
+    ]
+   },
+   {
+    "answer": "Wrath of Ashardalon",
+    "aliases": []
+   },
+   {
+    "answer": "Legend of Drizzt",
+    "aliases": [
+     "The Legend of Drizzt"
+    ]
+   },
+   {
+    "answer": "Temple of Elemental Evil",
+    "aliases": []
+   },
+   {
+    "answer": "Conquest of Nerath",
+    "aliases": []
+   },
+   {
+    "answer": "Dungeon Command",
+    "aliases": []
+   },
+   {
+    "answer": "Lords of Vegas",
+    "aliases": []
+   },
+   {
+    "answer": "Pirate Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Pirate's Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Port Royal Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Ticket to Ride Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Carcassonne Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Settlers of Catan",
+    "aliases": [
+     "The Settlers of Catan"
+    ]
+   },
+   {
+    "answer": "Catan Dice Game",
+    "aliases": [
+     "Catan: Dice Game"
+    ]
+   },
+   {
+    "answer": "Catan: Cities & Knights",
+    "aliases": [
+     "Cities and Knights"
+    ]
+   },
+   {
+    "answer": "Catan: Seafarers",
+    "aliases": [
+     "Seafarers of Catan"
+    ]
+   },
+   {
+    "answer": "Starfarers of Catan",
+    "aliases": []
+   },
+   {
+    "answer": "Catan: Explorers & Pirates",
+    "aliases": []
+   },
+   {
+    "answer": "Catan Junior",
+    "aliases": [
+     "Catan Jr"
+    ]
+   },
+   {
+    "answer": "Struggle for Catan",
+    "aliases": []
+   },
+   {
+    "answer": "Elfenland",
+    "aliases": []
+   },
+   {
+    "answer": "Machi Koro 2",
+    "aliases": []
+   },
+   {
+    "answer": "Harbour",
+    "aliases": []
+   },
+   {
+    "answer": "Roll Through the Ages Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Bohnanza Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Wits & Wagers",
+    "aliases": [
+     "Wits and Wagers"
+    ]
+   },
+   {
+    "answer": "Yspahan",
+    "aliases": []
+   },
+   {
+    "answer": "Pickomino",
+    "aliases": [
+     "Regenwormen"
+    ]
+   },
+   {
+    "answer": "Zooloretto Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Troyes Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Wyatt Earp",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Hospital: ER",
+    "aliases": []
+   },
+   {
+    "answer": "Space Base",
+    "aliases": []
+   },
+   {
+    "answer": "Sagrada Passion",
+    "aliases": []
+   },
+   {
+    "answer": "Blueprints",
+    "aliases": []
+   },
+   {
+    "answer": "Eminent Domain: Microcosm",
+    "aliases": []
+   },
+   {
+    "answer": "Star Realms Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Tiny Epic Zombies",
+    "aliases": []
+   },
+   {
+    "answer": "Tiny Epic Quest",
+    "aliases": []
+   },
+   {
+    "answer": "Tiny Epic Pirates",
+    "aliases": []
+   },
+   {
+    "answer": "Tiny Epic Dungeons",
+    "aliases": []
+   },
+   {
+    "answer": "Tiny Epic Tactics",
+    "aliases": []
+   },
+   {
+    "answer": "Tiny Epic Kingdoms",
+    "aliases": []
+   },
+   {
+    "answer": "Tiny Epic Western",
+    "aliases": []
+   },
+   {
+    "answer": "Tiny Epic Mechs",
+    "aliases": []
+   },
+   {
+    "answer": "Tiny Epic Vikings",
+    "aliases": []
+   },
+   {
+    "answer": "Black Orchestra",
+    "aliases": []
+   },
+   {
+    "answer": "Mice and Mystics",
+    "aliases": []
+   },
+   {
+    "answer": "Super Dungeon Explore",
+    "aliases": []
+   },
+   {
+    "answer": "Massive Darkness",
+    "aliases": []
+   },
+   {
+    "answer": "Rising Sun",
+    "aliases": []
+   },
+   {
+    "answer": "Blood Rage",
+    "aliases": []
+   },
+   {
+    "answer": "Cthulhu: Death May Die",
+    "aliases": [
+     "Cthulhu Death May Die"
+    ]
+   },
+   {
+    "answer": "Zombicide: Black Plague",
+    "aliases": [
+     "Black Plague"
+    ]
+   },
+   {
+    "answer": "Zombicide: Green Horde",
+    "aliases": [
+     "Green Horde"
+    ]
+   },
+   {
+    "answer": "Zombicide: Invader",
+    "aliases": [
+     "Invader"
+    ]
+   },
+   {
+    "answer": "Marvel Zombies",
+    "aliases": []
+   },
+   {
+    "answer": "Marvel United",
+    "aliases": []
+   },
+   {
+    "answer": "Marvel Champions",
+    "aliases": []
+   },
+   {
+    "answer": "Legendary Encounters",
+    "aliases": []
+   },
+   {
+    "answer": "Spartacus",
+    "aliases": []
+   },
+   {
+    "answer": "Cyclades Hades",
+    "aliases": []
+   },
+   {
+    "answer": "Kemet",
+    "aliases": []
+   },
+   {
+    "answer": "Inis",
+    "aliases": []
+   },
+   {
+    "answer": "Scythe",
+    "aliases": []
+   },
+   {
+    "answer": "Brass",
+    "aliases": []
+   },
+   {
+    "answer": "Axis & Allies Anniversary Edition",
+    "aliases": [
+     "Axis and Allies Anniversary"
+    ]
+   },
+   {
+    "answer": "Axis & Allies: Guadalcanal",
+    "aliases": [
+     "Guadalcanal"
+    ]
+   },
+   {
+    "answer": "Axis & Allies: D-Day",
+    "aliases": [
+     "D-Day"
+    ]
+   },
+   {
+    "answer": "Axis & Allies: Battle of the Bulge",
+    "aliases": [
+     "Battle of the Bulge"
+    ]
+   },
+   {
+    "answer": "Axis & Allies: Spring 1942",
+    "aliases": [
+     "Spring 1942"
+    ]
+   },
+   {
+    "answer": "Axis & Allies: Global 1940",
+    "aliases": [
+     "Global 1940"
+    ]
+   },
+   {
+    "answer": "Axis & Allies: Miniatures",
+    "aliases": []
+   },
+   {
+    "answer": "Fireball Island: The Curse of Vul-Kar",
+    "aliases": [
+     "Curse of Vul-Kar"
+    ]
+   },
+   {
+    "answer": "Hotel",
+    "aliases": []
+   },
+   {
+    "answer": "Big Boggle",
+    "aliases": []
+   },
+   {
+    "answer": "Taboo",
+    "aliases": []
+   },
+   {
+    "answer": "Uno Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Scattergories",
+    "aliases": []
+   },
+   {
+    "answer": "Balderdash",
+    "aliases": []
+   },
+   {
+    "answer": "Bingo",
+    "aliases": []
+   },
+   {
+    "answer": "Tripoley",
+    "aliases": []
+   },
+   {
+    "answer": "Pig Mania",
+    "aliases": []
+   },
+   {
+    "answer": "Skunk",
+    "aliases": []
+   },
+   {
+    "answer": "Beetle",
+    "aliases": [
+     "Cootie"
+    ]
+   },
+   {
+    "answer": "Cootie",
+    "aliases": [
+     "Cooties"
+    ]
+   },
+   {
+    "answer": "Candy Land Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Hi Ho! Cherry-O",
+    "aliases": [
+     "Hi Ho Cherry-O",
+     "Cherry-O"
+    ]
+   },
+   {
+    "answer": "Don't Break the Ice",
+    "aliases": []
+   },
+   {
+    "answer": "Hungry Hungry Hippos",
+    "aliases": []
+   },
+   {
+    "answer": "Operation",
+    "aliases": []
+   },
+   {
+    "answer": "Boom Boom Balloon",
+    "aliases": []
+   },
+   {
+    "answer": "Pop the Pig",
+    "aliases": []
+   },
+   {
+    "answer": "Fireball",
+    "aliases": []
+   },
+   {
+    "answer": "Game of the Generals",
+    "aliases": []
+   },
+   {
+    "answer": "Ur",
+    "aliases": [
+     "Royal Game of Ur"
+    ]
+   },
+   {
+    "answer": "Senet",
+    "aliases": []
+   },
+   {
+    "answer": "Tabula",
+    "aliases": []
+   },
+   {
+    "answer": "Tavla",
+    "aliases": []
+   },
+   {
+    "answer": "Tric-Trac",
+    "aliases": [
+     "Trictrac"
+    ]
+   },
+   {
+    "answer": "Acey-Deucey",
+    "aliases": [
+     "Acey Deucey"
+    ]
+   },
+   {
+    "answer": "Tables",
+    "aliases": []
+   },
+   {
+    "answer": "Nard",
+    "aliases": [
+     "Nardy",
+     "Long Nardy"
+    ]
+   },
+   {
+    "answer": "Shesh Besh",
+    "aliases": [
+     "Shesh Besh",
+     "Shesh Besh"
+    ]
+   },
+   {
+    "answer": "Moneymaker",
+    "aliases": []
+   },
+   {
+    "answer": "Pachisi Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Game of Goose",
+    "aliases": [
+     "Goose",
+     "Royal Game of the Goose",
+     "Game of the Goose"
+    ]
+   },
+   {
+    "answer": "Fox and Geese",
+    "aliases": []
+   },
+   {
+    "answer": "Mensch ärgere Dich nicht",
+    "aliases": [
+     "Mensch aergere dich nicht",
+     "Man Don't Get Annoyed"
+    ]
+   },
+   {
+    "answer": "Fia",
+    "aliases": [
+     "Fia with Back-Spin",
+     "Fia-spel"
+    ]
+   },
+   {
+    "answer": "Eile mit Weile",
+    "aliases": []
+   },
+   {
+    "answer": "Uckers",
+    "aliases": []
+   },
+   {
+    "answer": "Petits Chevaux",
+    "aliases": [
+     "Les Petits Chevaux"
+    ]
+   },
+   {
+    "answer": "Halma Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Pachisi Royal",
+    "aliases": []
+   },
+   {
+    "answer": "Dominion Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Cthulhu Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Munchkin Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Munchkin Quest",
+    "aliases": []
+   },
+   {
+    "answer": "Fluxx Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Zombie Dice 2: Double Feature",
+    "aliases": []
+   },
+   {
+    "answer": "Martian Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Love Letter Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Sushi Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Cuboid",
+    "aliases": []
+   },
+   {
+    "answer": "Ghost Blitz",
+    "aliases": []
+   },
+   {
+    "answer": "Lords of Waterdeep: Scoundrels",
+    "aliases": []
+   },
+   {
+    "answer": "Kingsburg Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Age of Steam",
+    "aliases": []
+   },
+   {
+    "answer": "Aeon's End",
+    "aliases": []
+   },
+   {
+    "answer": "Tales of the Arabian Nights Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Imperial Settlers",
+    "aliases": []
+   },
+   {
+    "answer": "Paperback",
+    "aliases": []
+   },
+   {
+    "answer": "Yahtzee Bowling",
+    "aliases": []
+   },
+   {
+    "answer": "Skip-Bo Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Spy Alley",
+    "aliases": []
+   },
+   {
+    "answer": "Cranium Hullabaloo",
+    "aliases": []
+   },
+   {
+    "answer": "Game of Thrones: The Board Game",
+    "aliases": [
+     "A Game of Thrones Board Game"
+    ]
+   },
+   {
+    "answer": "Warhammer 40,000: Conquest",
+    "aliases": []
+   },
+   {
+    "answer": "Warhammer Quest: Adventure Card Game",
+    "aliases": []
+   },
+   {
+    "answer": "Necromunda",
+    "aliases": []
+   },
+   {
+    "answer": "Gloomhaven",
+    "aliases": []
+   },
+   {
+    "answer": "Frosthaven",
+    "aliases": []
+   },
+   {
+    "answer": "Sword & Sorcery",
+    "aliases": [
+     "Sword and Sorcery"
+    ]
+   },
+   {
+    "answer": "Fortune and Glory: The Cliffhanger Game",
+    "aliases": []
+   },
+   {
+    "answer": "Arkham Horror: The Card Game",
+    "aliases": []
+   },
+   {
+    "answer": "Eldritch Horror: Forsaken Lore",
+    "aliases": []
+   },
+   {
+    "answer": "Chaos in the Old World",
+    "aliases": []
+   },
+   {
+    "answer": "Ankh-Morpork",
+    "aliases": [
+     "Discworld: Ankh-Morpork"
+    ]
+   },
+   {
+    "answer": "Chronicle",
+    "aliases": []
+   },
+   {
+    "answer": "Axis & Allies Revised",
+    "aliases": [
+     "Axis and Allies Revised"
+    ]
+   },
+   {
+    "answer": "Napoleon's Triumph",
+    "aliases": []
+   },
+   {
+    "answer": "Betrayal Legacy",
+    "aliases": []
+   },
+   {
+    "answer": "Betrayal at Baldur's Gate",
+    "aliases": []
+   },
+   {
+    "answer": "Legacy of Dragonholt",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Throne: Season Two",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Throne Adventures",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Realms",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Conquest",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Forge: Rebellion",
+    "aliases": []
+   },
+   {
+    "answer": "Draftosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Cubeo",
+    "aliases": []
+   },
+   {
+    "answer": "Bang!",
+    "aliases": []
+   },
+   {
+    "answer": "Roll Through the Ages Mini",
+    "aliases": []
+   },
+   {
+    "answer": "Imperial Assault: Legends",
+    "aliases": []
+   },
+   {
+    "answer": "Santiago de Cuba",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Academy",
+    "aliases": []
+   },
+   {
+    "answer": "Seasons",
+    "aliases": []
+   },
+   {
+    "answer": "Ultimate Werewolf",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 47345,
+ "type": "result",
+ "duration_ms": 47391,
+ "uuid": "113ca2ec-ddeb-4908-8446-3ed0133c05d0",
+ "ttft_stream_ms": 1018,
+ "time_to_request_ms": 30,
+ "first_content_frame_ms": 1018,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

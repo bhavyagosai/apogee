@@ -1,0 +1,106 @@
+{
+ "duration_api_ms": 2481,
+ "stop_reason": "tool_use",
+ "session_id": "6041f3cd-f2f8-4a11-93cc-02ecd1015186",
+ "total_cost_usd": 0.0305036,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6882,
+  "cache_read_input_tokens": 708,
+  "output_tokens": 283,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6882,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 283,
+    "cache_read_input_tokens": 708,
+    "cache_creation_input_tokens": 6882,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6882
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 283,
+   "cacheReadInputTokens": 708,
+   "cacheCreationInputTokens": 6882,
+   "webSearchRequests": 0,
+   "costUSD": 0.0305036,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"source\":\"wikidata\",\"reason\":\"Dinosaur genera are taxa in Wikidata. Restricting to fossil taxa at genus rank under Dinosauria excludes living birds.\",\"wikidata\":{\"where\":\"?item wdt:P105 wd:Q34740 ; wdt:P171* wd:Q430 ; wdt:P31 wd:Q23038290 .\",\"notes\":\"Q34740 = genus rank, Q430 = Dinosauria, Q23038290 = fossil taxon. The fossil-taxon constraint excludes living bird genera. Cheap positive filter, no MINUS.\"}}",
+ "structured_output": {
+  "source": "wikidata",
+  "reason": "Dinosaur genera are taxa in Wikidata. Restricting to fossil taxa at genus rank under Dinosauria excludes living birds.",
+  "wikidata": {
+   "where": "?item wdt:P105 wd:Q34740 ; wdt:P171* wd:Q430 ; wdt:P31 wd:Q23038290 .",
+   "notes": "Q34740 = genus rank, Q430 = Dinosauria, Q23038290 = fossil taxon. The fossil-taxon constraint excludes living bird genera. Cheap positive filter, no MINUS."
+  }
+ },
+ "ttft_ms": 2527,
+ "type": "result",
+ "duration_ms": 2585,
+ "uuid": "c8fdeafc-9ad0-4595-a976-c41951e826c7",
+ "ttft_stream_ms": 934,
+ "time_to_request_ms": 67,
+ "first_content_frame_ms": 934,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

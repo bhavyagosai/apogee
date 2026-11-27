@@ -1,0 +1,794 @@
+{
+ "duration_api_ms": 52356,
+ "stop_reason": "tool_use",
+ "session_id": "79b656f9-f249-4066-b92f-5be6133aae47",
+ "total_cost_usd": 0.13227,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8989,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 9631,
+  "output_tokens_details": {
+   "thinking_tokens": 4935
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8989,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 9631,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 8989,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8989
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 9631,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 8989,
+   "webSearchRequests": 0,
+   "costUSD": 0.13227,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 4935,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"TransAmerica\",\"reason\":\"No dice\"},{\"answer\":\"Imperial\",\"reason\":\"No dice\"},{\"answer\":\"Java\",\"reason\":\"No dice\"},{\"answer\":\"Domineering\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Yonin shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Taikyoku shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Tak\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"The Mind\",\"reason\":\"Card game\"},{\"answer\":\"Just One\",\"reason\":\"Word party game, no dice\"},{\"answer\":\"Take It Easy\",\"reason\":\"Tile game, no dice\"},{\"answer\":\"Qubic\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Café International\",\"reason\":\"Card game\"},{\"answer\":\"Hare games\",\"reason\":\"Generic category of games, not a specific dice game\"},{\"answer\":\"Layli Goobalay\",\"reason\":\"Mancala-type game, no dice\"},{\"answer\":\"Capture go\",\"reason\":\"Go variant, no dice\"},{\"answer\":\"Brazilian draughts\",\"reason\":\"Draughts, no dice\"},{\"answer\":\"Canadian Checkers\",\"reason\":\"Draughts, no dice\"},{\"answer\":\"Crocodile Dentist\",\"reason\":\"Dexterity game, no dice\"},{\"answer\":\"Banqi\",\"reason\":\"Xiangqi variant, no dice\"},{\"answer\":\"Dai shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Cartagena\",\"reason\":\"Card-driven, no dice\"},{\"answer\":\"Adji-boto\",\"reason\":\"Mancala game, no dice\"},{\"answer\":\"Ingenious\",\"reason\":\"Tile game, no dice\"},{\"answer\":\"Shove ha'penny\",\"reason\":\"Pub dexterity game, no dice\"},{\"answer\":\"Salta\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Torres\",\"reason\":\"No dice\"},{\"answer\":\"1830: The Game of Railroads and Robber Barons\",\"reason\":\"No dice\"},{\"answer\":\"Ba-awa\",\"reason\":\"Mancala game, no dice\"},{\"answer\":\"Kamisado\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Pong Hau K'i\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Shadows Over Camelot\",\"reason\":\"Card-based cooperative game, no dice\"},{\"answer\":\"Dune\",\"reason\":\"Uses dials and cards, not dice\"},{\"answer\":\"Tock\",\"reason\":\"Card-based\"},{\"answer\":\"Djambi\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Teeko\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Business chess\",\"reason\":\"Chess variant, no dice\"},{\"answer\":\"Terrace\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Goita\",\"reason\":\"Tile game, no dice\"},{\"answer\":\"Mexica\",\"reason\":\"No dice\"},{\"answer\":\"Metro\",\"reason\":\"Tile game, no dice\"},{\"answer\":\"Egg dance\",\"reason\":\"Not a dice board game\"},{\"answer\":\"Micro shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Italian draughts\",\"reason\":\"Draughts, no dice\"},{\"answer\":\"Kyoto shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Tenjiku shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Great Western Trail\",\"reason\":\"No dice\"},{\"answer\":\"Dream11\",\"reason\":\"Fantasy sports app, not a board game\"},{\"answer\":\"Lost Ruins of Arnak\",\"reason\":\"No dice\"},{\"answer\":\"Cascadia\",\"reason\":\"No dice\"},{\"answer\":\"Bomb Busters\",\"reason\":\"Card/tile game, no dice\"},{\"answer\":\"Tables game\",\"reason\":\"Generic category of games\"},{\"answer\":\"Chapayev\",\"reason\":\"Flicking game, no dice\"},{\"answer\":\"Ouk chatrang\",\"reason\":\"Chess variant, no dice\"},{\"answer\":\"GNOME Chess\",\"reason\":\"Chess software, not a dice game\"},{\"answer\":\"Fantasy football\",\"reason\":\"Not a board game\"},{\"answer\":\"18XX\",\"reason\":\"Generic family of games with no dice\"},{\"answer\":\"Dorfromantik: The Board Game\",\"reason\":\"No dice\"},{\"answer\":\"Concept\",\"reason\":\"No dice\"},{\"answer\":\"Commander Chess\",\"reason\":\"Chess variant, no dice\"},{\"answer\":\"Frisian-rules draughts\",\"reason\":\"Draughts, no dice\"},{\"answer\":\"Five Tribes: The Djinns of Naqala\",\"reason\":\"No dice\"},{\"answer\":\"Khanhoo\",\"reason\":\"Card game\"},{\"answer\":\"Thai checkers\",\"reason\":\"Draughts, no dice\"},{\"answer\":\"The Crew: The Quest for Planet Nine\",\"reason\":\"Card game\"},{\"answer\":\"Tai shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Sho shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Minishōgi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Hawalis\",\"reason\":\"Mancala game, no dice\"},{\"answer\":\"Hasami shogi\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Lord of the Rings\",\"reason\":\"Knizia's cooperative game uses tiles and cards, not dice\"},{\"answer\":\"Shax\",\"reason\":\"Morris game, no dice\"},{\"answer\":\"Clans\",\"reason\":\"No dice\"},{\"answer\":\"Das Bohnenspiel\",\"reason\":\"Mancala game, no dice\"},{\"answer\":\"Fresco\",\"reason\":\"No dice\"},{\"answer\":\"Sunjang baduk\",\"reason\":\"Go variant, no dice\"},{\"answer\":\"Kensington\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"San Marco\",\"reason\":\"No dice\"},{\"answer\":\"Patrol chess\",\"reason\":\"Chess variant, no dice\"},{\"answer\":\"Ali Guli Mane\",\"reason\":\"Mancala game, no dice\"},{\"answer\":\"Adugo\",\"reason\":\"Abstract hunt game, no dice\"},{\"answer\":\"Fearsome Floors\",\"reason\":\"No dice\"},{\"answer\":\"Key Largo\",\"reason\":\"No dice\"},{\"answer\":\"Thud\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Czech draughts\",\"reason\":\"Draughts, no dice\"},{\"answer\":\"Heian shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Tori shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Tsuro\",\"reason\":\"Tile game, no dice\"},{\"answer\":\"Whale shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Civilization: The Boardgame\",\"reason\":\"No dice\"},{\"answer\":\"Mysterium\",\"reason\":\"Card-based, no dice\"},{\"answer\":\"LYNGK\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"The Quacks of Quedlinburg\",\"reason\":\"Bag-building game, no dice\"},{\"answer\":\"The game of fortress and siege\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Sushi Go!\",\"reason\":\"Card game\"},{\"answer\":\"Pictures\",\"reason\":\"Card game\"},{\"answer\":\"MicroMacro: Crime City\",\"reason\":\"Observation game, no dice\"},{\"answer\":\"13 Dead End Drive\",\"reason\":\"Uses cards, no dice\"},{\"answer\":\"Push Puppet\",\"reason\":\"Not a dice board game\"},{\"answer\":\"Mr. Jack\",\"reason\":\"No dice\"},{\"answer\":\"Railways of the World\",\"reason\":\"No dice\"},{\"answer\":\"Diamant\",\"reason\":\"Card game\"},{\"answer\":\"Isolation\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"En Gehé\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Caverna: The Cave Farmers\",\"reason\":\"No dice\"},{\"answer\":\"Imhotep: Builder of Egypt\",\"reason\":\"No dice\"},{\"answer\":\"Owela\",\"reason\":\"Mancala game, no dice\"},{\"answer\":\"Alkkagi\",\"reason\":\"Flicking game, no dice\"},{\"answer\":\"Pool checkers\",\"reason\":\"Draughts, no dice\"},{\"answer\":\"The Resistance\",\"reason\":\"Card game\"},{\"answer\":\"Gunjin Shōgi\",\"reason\":\"Umpire game, no dice\"},{\"answer\":\"Wolf and Sheep\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"K2\",\"reason\":\"Card-driven, no dice\"},{\"answer\":\"Daybreak\",\"reason\":\"No dice\"},{\"answer\":\"Dai dai shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Black Box\",\"reason\":\"Abstract deduction game, no dice\"},{\"answer\":\"Blue Moon City\",\"reason\":\"Card-driven, no dice\"},{\"answer\":\"Entdecker\",\"reason\":\"No dice\"},{\"answer\":\"Through the Desert\",\"reason\":\"No dice\"},{\"answer\":\"Medina\",\"reason\":\"No dice\"},{\"answer\":\"Polarity\",\"reason\":\"Magnet game, no dice\"},{\"answer\":\"Sungka\",\"reason\":\"Mancala game, no dice\"},{\"answer\":\"Thunderstone\",\"reason\":\"Deck-building card game\"},{\"answer\":\"Primordial Soup\",\"reason\":\"No dice\"},{\"answer\":\"Pylos\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"No Thanks!\",\"reason\":\"Card game\"},{\"answer\":\"Vai Lung Thlan\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Middle-earth Collectible Card Game\",\"reason\":\"Card game\"},{\"answer\":\"Pixel\",\"reason\":\"Not a dice board game\"},{\"answer\":\"Castle\",\"reason\":\"Generic or abstract, no dice\"},{\"answer\":\"Chromino\",\"reason\":\"Tile game, no dice\"},{\"answer\":\"Tiger game\",\"reason\":\"Abstract hunt game, no dice\"},{\"answer\":\"Avatar: The Last Airbender Trading Card Game\",\"reason\":\"Card game\"},{\"answer\":\"Unlur\",\"reason\":\"Mancala game, no dice\"},{\"answer\":\"Omweso\",\"reason\":\"Mancala game, no dice\"},{\"answer\":\"Die Macher\",\"reason\":\"No dice\"},{\"answer\":\"Katro\",\"reason\":\"Mancala game, no dice\"},{\"answer\":\"Bashni\",\"reason\":\"Draughts variant, no dice\"},{\"answer\":\"Tibetan go\",\"reason\":\"Go variant, no dice\"},{\"answer\":\"Ugolki\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Annan shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Aquarius\",\"reason\":\"Card game\"},{\"answer\":\"Avalon Hill's Advanced Civilization\",\"reason\":\"No dice\"},{\"answer\":\"Bagh bandi\",\"reason\":\"Abstract hunt game, no dice\"},{\"answer\":\"Samurai\",\"reason\":\"No dice\"},{\"answer\":\"You're Bluffing\",\"reason\":\"Card game\"},{\"answer\":\"Kremlin\",\"reason\":\"No dice\"},{\"answer\":\"Hey, That's My Fish!\",\"reason\":\"Tile game, no dice\"},{\"answer\":\"Löwenherz\",\"reason\":\"No dice\"},{\"answer\":\"Civilization: The Card Game\",\"reason\":\"Card game\"},{\"answer\":\"Crossings\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Dablot Prejjesne\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Dara\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Eson xorgol\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Heian dai shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Philosophy shogi checkers\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Ko shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Liberian Queah\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Maka dai dai shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Space shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"The Mansion of Happiness\",\"reason\":\"Uses a teetotum/spinner, not dice\"},{\"answer\":\"Wa shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Yari shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Battle Sheep\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Chupu\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Mole in the Hole\",\"reason\":\"Not a dice board game\"},{\"answer\":\"Concordia\",\"reason\":\"No dice\"},{\"answer\":\"Patchwork\",\"reason\":\"No dice\"},{\"answer\":\"Magic Maze\",\"reason\":\"Real-time cooperative tile game, no dice\"},{\"answer\":\"Mombasa\",\"reason\":\"No dice\"},{\"answer\":\"Medici\",\"reason\":\"Card auction game\"},{\"answer\":\"Werewords\",\"reason\":\"Word party game, no dice\"},{\"answer\":\"La-Trel\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Ark Nova\",\"reason\":\"No dice\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "TransAmerica",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Imperial",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Java",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Domineering",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Yonin shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Taikyoku shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Tak",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "The Mind",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Just One",
+    "reason": "Word party game, no dice"
+   },
+   {
+    "answer": "Take It Easy",
+    "reason": "Tile game, no dice"
+   },
+   {
+    "answer": "Qubic",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Café International",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Hare games",
+    "reason": "Generic category of games, not a specific dice game"
+   },
+   {
+    "answer": "Layli Goobalay",
+    "reason": "Mancala-type game, no dice"
+   },
+   {
+    "answer": "Capture go",
+    "reason": "Go variant, no dice"
+   },
+   {
+    "answer": "Brazilian draughts",
+    "reason": "Draughts, no dice"
+   },
+   {
+    "answer": "Canadian Checkers",
+    "reason": "Draughts, no dice"
+   },
+   {
+    "answer": "Crocodile Dentist",
+    "reason": "Dexterity game, no dice"
+   },
+   {
+    "answer": "Banqi",
+    "reason": "Xiangqi variant, no dice"
+   },
+   {
+    "answer": "Dai shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Cartagena",
+    "reason": "Card-driven, no dice"
+   },
+   {
+    "answer": "Adji-boto",
+    "reason": "Mancala game, no dice"
+   },
+   {
+    "answer": "Ingenious",
+    "reason": "Tile game, no dice"
+   },
+   {
+    "answer": "Shove ha'penny",
+    "reason": "Pub dexterity game, no dice"
+   },
+   {
+    "answer": "Salta",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Torres",
+    "reason": "No dice"
+   },
+   {
+    "answer": "1830: The Game of Railroads and Robber Barons",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Ba-awa",
+    "reason": "Mancala game, no dice"
+   },
+   {
+    "answer": "Kamisado",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Pong Hau K'i",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Shadows Over Camelot",
+    "reason": "Card-based cooperative game, no dice"
+   },
+   {
+    "answer": "Dune",
+    "reason": "Uses dials and cards, not dice"
+   },
+   {
+    "answer": "Tock",
+    "reason": "Card-based"
+   },
+   {
+    "answer": "Djambi",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Teeko",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Business chess",
+    "reason": "Chess variant, no dice"
+   },
+   {
+    "answer": "Terrace",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Goita",
+    "reason": "Tile game, no dice"
+   },
+   {
+    "answer": "Mexica",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Metro",
+    "reason": "Tile game, no dice"
+   },
+   {
+    "answer": "Egg dance",
+    "reason": "Not a dice board game"
+   },
+   {
+    "answer": "Micro shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Italian draughts",
+    "reason": "Draughts, no dice"
+   },
+   {
+    "answer": "Kyoto shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Tenjiku shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Great Western Trail",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Dream11",
+    "reason": "Fantasy sports app, not a board game"
+   },
+   {
+    "answer": "Lost Ruins of Arnak",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Cascadia",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Bomb Busters",
+    "reason": "Card/tile game, no dice"
+   },
+   {
+    "answer": "Tables game",
+    "reason": "Generic category of games"
+   },
+   {
+    "answer": "Chapayev",
+    "reason": "Flicking game, no dice"
+   },
+   {
+    "answer": "Ouk chatrang",
+    "reason": "Chess variant, no dice"
+   },
+   {
+    "answer": "GNOME Chess",
+    "reason": "Chess software, not a dice game"
+   },
+   {
+    "answer": "Fantasy football",
+    "reason": "Not a board game"
+   },
+   {
+    "answer": "18XX",
+    "reason": "Generic family of games with no dice"
+   },
+   {
+    "answer": "Dorfromantik: The Board Game",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Concept",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Commander Chess",
+    "reason": "Chess variant, no dice"
+   },
+   {
+    "answer": "Frisian-rules draughts",
+    "reason": "Draughts, no dice"
+   },
+   {
+    "answer": "Five Tribes: The Djinns of Naqala",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Khanhoo",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Thai checkers",
+    "reason": "Draughts, no dice"
+   },
+   {
+    "answer": "The Crew: The Quest for Planet Nine",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Tai shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Sho shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Minishōgi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Hawalis",
+    "reason": "Mancala game, no dice"
+   },
+   {
+    "answer": "Hasami shogi",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Lord of the Rings",
+    "reason": "Knizia's cooperative game uses tiles and cards, not dice"
+   },
+   {
+    "answer": "Shax",
+    "reason": "Morris game, no dice"
+   },
+   {
+    "answer": "Clans",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Das Bohnenspiel",
+    "reason": "Mancala game, no dice"
+   },
+   {
+    "answer": "Fresco",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Sunjang baduk",
+    "reason": "Go variant, no dice"
+   },
+   {
+    "answer": "Kensington",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "San Marco",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Patrol chess",
+    "reason": "Chess variant, no dice"
+   },
+   {
+    "answer": "Ali Guli Mane",
+    "reason": "Mancala game, no dice"
+   },
+   {
+    "answer": "Adugo",
+    "reason": "Abstract hunt game, no dice"
+   },
+   {
+    "answer": "Fearsome Floors",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Key Largo",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Thud",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Czech draughts",
+    "reason": "Draughts, no dice"
+   },
+   {
+    "answer": "Heian shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Tori shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Tsuro",
+    "reason": "Tile game, no dice"
+   },
+   {
+    "answer": "Whale shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Civilization: The Boardgame",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Mysterium",
+    "reason": "Card-based, no dice"
+   },
+   {
+    "answer": "LYNGK",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "The Quacks of Quedlinburg",
+    "reason": "Bag-building game, no dice"
+   },
+   {
+    "answer": "The game of fortress and siege",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Sushi Go!",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Pictures",
+    "reason": "Card game"
+   },
+   {
+    "answer": "MicroMacro: Crime City",
+    "reason": "Observation game, no dice"
+   },
+   {
+    "answer": "13 Dead End Drive",
+    "reason": "Uses cards, no dice"
+   },
+   {
+    "answer": "Push Puppet",
+    "reason": "Not a dice board game"
+   },
+   {
+    "answer": "Mr. Jack",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Railways of the World",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Diamant",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Isolation",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "En Gehé",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Caverna: The Cave Farmers",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Imhotep: Builder of Egypt",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Owela",
+    "reason": "Mancala game, no dice"
+   },
+   {
+    "answer": "Alkkagi",
+    "reason": "Flicking game, no dice"
+   },
+   {
+    "answer": "Pool checkers",
+    "reason": "Draughts, no dice"
+   },
+   {
+    "answer": "The Resistance",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Gunjin Shōgi",
+    "reason": "Umpire game, no dice"
+   },
+   {
+    "answer": "Wolf and Sheep",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "K2",
+    "reason": "Card-driven, no dice"
+   },
+   {
+    "answer": "Daybreak",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Dai dai shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Black Box",
+    "reason": "Abstract deduction game, no dice"
+   },
+   {
+    "answer": "Blue Moon City",
+    "reason": "Card-driven, no dice"
+   },
+   {
+    "answer": "Entdecker",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Through the Desert",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Medina",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Polarity",
+    "reason": "Magnet game, no dice"
+   },
+   {
+    "answer": "Sungka",
+    "reason": "Mancala game, no dice"
+   },
+   {
+    "answer": "Thunderstone",
+    "reason": "Deck-building card game"
+   },
+   {
+    "answer": "Primordial Soup",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Pylos",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "No Thanks!",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Vai Lung Thlan",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Middle-earth Collectible Card Game",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Pixel",
+    "reason": "Not a dice board game"
+   },
+   {
+    "answer": "Castle",
+    "reason": "Generic or abstract, no dice"
+   },
+   {
+    "answer": "Chromino",
+    "reason": "Tile game, no dice"
+   },
+   {
+    "answer": "Tiger game",
+    "reason": "Abstract hunt game, no dice"
+   },
+   {
+    "answer": "Avatar: The Last Airbender Trading Card Game",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Unlur",
+    "reason": "Mancala game, no dice"
+   },
+   {
+    "answer": "Omweso",
+    "reason": "Mancala game, no dice"
+   },
+   {
+    "answer": "Die Macher",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Katro",
+    "reason": "Mancala game, no dice"
+   },
+   {
+    "answer": "Bashni",
+    "reason": "Draughts variant, no dice"
+   },
+   {
+    "answer": "Tibetan go",
+    "reason": "Go variant, no dice"
+   },
+   {
+    "answer": "Ugolki",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Annan shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Aquarius",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Avalon Hill's Advanced Civilization",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Bagh bandi",
+    "reason": "Abstract hunt game, no dice"
+   },
+   {
+    "answer": "Samurai",
+    "reason": "No dice"
+   },
+   {
+    "answer": "You're Bluffing",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Kremlin",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Hey, That's My Fish!",
+    "reason": "Tile game, no dice"
+   },
+   {
+    "answer": "Löwenherz",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Civilization: The Card Game",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Crossings",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Dablot Prejjesne",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Dara",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Eson xorgol",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Heian dai shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Philosophy shogi checkers",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Ko shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Liberian Queah",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Maka dai dai shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Space shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "The Mansion of Happiness",
+    "reason": "Uses a teetotum/spinner, not dice"
+   },
+   {
+    "answer": "Wa shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Yari shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Battle Sheep",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Chupu",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Mole in the Hole",
+    "reason": "Not a dice board game"
+   },
+   {
+    "answer": "Concordia",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Patchwork",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Magic Maze",
+    "reason": "Real-time cooperative tile game, no dice"
+   },
+   {
+    "answer": "Mombasa",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Medici",
+    "reason": "Card auction game"
+   },
+   {
+    "answer": "Werewords",
+    "reason": "Word party game, no dice"
+   },
+   {
+    "answer": "La-Trel",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Ark Nova",
+    "reason": "No dice"
+   }
+  ]
+ },
+ "ttft_ms": 31807,
+ "type": "result",
+ "duration_ms": 52487,
+ "uuid": "70760a9a-b2b0-4dcb-a08b-beab1767c8a7",
+ "ttft_stream_ms": 893,
+ "time_to_request_ms": 104,
+ "first_content_frame_ms": 893,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

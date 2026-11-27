@@ -1,0 +1,146 @@
+{
+ "duration_api_ms": 11410,
+ "stop_reason": "tool_use",
+ "session_id": "2c359233-aa99-4690-8fd8-8e165ebc9e49",
+ "total_cost_usd": 0.042603600000000005,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6597,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 1609,
+  "output_tokens_details": {
+   "thinking_tokens": 1124
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6597,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1609,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 6597,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6597
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1609,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 6597,
+   "webSearchRequests": 0,
+   "costUSD": 0.042603600000000005,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 1124,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Rhythmic Gymnastics\",\"reason\":\"Not a ball sport. The ball is just one of several hand apparatuses.\"},{\"answer\":\"Korfball\",\"reason\":\"Only a demonstration sport (1920, 1928), never an official Olympic sport.\"},{\"answer\":\"Gaelic Football\",\"reason\":\"Only demonstrated (1904, 1924). Never an official Olympic sport.\"},{\"answer\":\"Hurling\",\"reason\":\"Only demonstrated (1904, 1924). Never an official Olympic sport.\"},{\"answer\":\"American Football\",\"reason\":\"Only a demonstration sport (1932).\"},{\"answer\":\"Pesäpallo\",\"reason\":\"Only a demonstration sport (1952).\"},{\"answer\":\"Ten-pin Bowling\",\"reason\":\"Only a demonstration sport (1988).\"},{\"answer\":\"Roller Hockey\",\"reason\":\"Only a demonstration sport (1992).\"},{\"answer\":\"Cesta Punta\",\"reason\":\"Only a demonstration event (1968, 1992). Not an official medal sport.\"},{\"answer\":\"Longue Paume\",\"reason\":\"Only a demonstration sport (1900).\"},{\"answer\":\"Baseball5\",\"reason\":\"Not in the Olympic Games. It has only appeared at the Youth Olympic Games.\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Rhythmic Gymnastics",
+    "reason": "Not a ball sport. The ball is just one of several hand apparatuses."
+   },
+   {
+    "answer": "Korfball",
+    "reason": "Only a demonstration sport (1920, 1928), never an official Olympic sport."
+   },
+   {
+    "answer": "Gaelic Football",
+    "reason": "Only demonstrated (1904, 1924). Never an official Olympic sport."
+   },
+   {
+    "answer": "Hurling",
+    "reason": "Only demonstrated (1904, 1924). Never an official Olympic sport."
+   },
+   {
+    "answer": "American Football",
+    "reason": "Only a demonstration sport (1932)."
+   },
+   {
+    "answer": "Pesäpallo",
+    "reason": "Only a demonstration sport (1952)."
+   },
+   {
+    "answer": "Ten-pin Bowling",
+    "reason": "Only a demonstration sport (1988)."
+   },
+   {
+    "answer": "Roller Hockey",
+    "reason": "Only a demonstration sport (1992)."
+   },
+   {
+    "answer": "Cesta Punta",
+    "reason": "Only a demonstration event (1968, 1992). Not an official medal sport."
+   },
+   {
+    "answer": "Longue Paume",
+    "reason": "Only a demonstration sport (1900)."
+   },
+   {
+    "answer": "Baseball5",
+    "reason": "Not in the Olympic Games. It has only appeared at the Youth Olympic Games."
+   }
+  ]
+ },
+ "ttft_ms": 9038,
+ "type": "result",
+ "duration_ms": 11468,
+ "uuid": "328aa416-9cd6-4819-9707-affb75fa837a",
+ "ttft_stream_ms": 789,
+ "time_to_request_ms": 38,
+ "first_content_frame_ms": 789,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

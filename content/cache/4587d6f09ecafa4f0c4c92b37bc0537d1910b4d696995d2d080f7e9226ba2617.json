@@ -1,0 +1,886 @@
+{
+ "duration_api_ms": 102539,
+ "stop_reason": "tool_use",
+ "session_id": "f7c6f320-2ac5-4b69-ba47-b061312767bd",
+ "total_cost_usd": 0.2240722,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 18097,
+  "cache_read_input_tokens": 7981,
+  "output_tokens": 15008,
+  "output_tokens_details": {
+   "thinking_tokens": 7616
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 18097,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 3683,
+    "cache_read_input_tokens": 7361,
+    "cache_creation_input_tokens": 11356,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 11356
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 15008,
+   "cacheReadInputTokens": 7981,
+   "cacheCreationInputTokens": 18097,
+   "webSearchRequests": 0,
+   "costUSD": 0.2240722,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 7616,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 3,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Cinq\",\"aliases\":[]},{\"answer\":\"Coq\",\"aliases\":[\"Coq au vin\"]},{\"answer\":\"Talaq\",\"aliases\":[\"Talaqs\"]},{\"answer\":\"Waqf\",\"aliases\":[\"Waqfs\"]},{\"answer\":\"Fiqh\",\"aliases\":[]},{\"answer\":\"Maqam\",\"aliases\":[\"Maqamat\"]},{\"answer\":\"Mbaqanga\",\"aliases\":[]},{\"answer\":\"Nastaliq\",\"aliases\":[\"Nastaaliq\"]},{\"answer\":\"Inqilab\",\"aliases\":[]},{\"answer\":\"Qapik\",\"aliases\":[\"Qepik\",\"Gapik\"]},{\"answer\":\"Qaimaqam\",\"aliases\":[\"Kaimakam\"]},{\"answer\":\"Qabalism\",\"aliases\":[]},{\"answer\":\"Qabalist\",\"aliases\":[]},{\"answer\":\"Qaf\",\"aliases\":[\"Qaaf\"]},{\"answer\":\"Qaph\",\"aliases\":[]},{\"answer\":\"Qof\",\"aliases\":[]},{\"answer\":\"Qoppa\",\"aliases\":[]},{\"answer\":\"Qamets\",\"aliases\":[\"Qamats\"]},{\"answer\":\"Qere\",\"aliases\":[\"Qeri\"]},{\"answer\":\"Qipao\",\"aliases\":[\"Qipaos\"]},{\"answer\":\"Qilin\",\"aliases\":[]},{\"answer\":\"Qiang\",\"aliases\":[]},{\"answer\":\"Qingming\",\"aliases\":[\"Qingming Festival\"]},{\"answer\":\"Qianlong\",\"aliases\":[]},{\"answer\":\"Qazi\",\"aliases\":[\"Qazis\"]},{\"answer\":\"Qamis\",\"aliases\":[]},{\"answer\":\"Qalamkari\",\"aliases\":[]},{\"answer\":\"Qissa\",\"aliases\":[]},{\"answer\":\"Qila\",\"aliases\":[]},{\"answer\":\"Qizilbash\",\"aliases\":[\"Kizilbash\"]},{\"answer\":\"Qashqai\",\"aliases\":[]},{\"answer\":\"Qinghaosu\",\"aliases\":[]},{\"answer\":\"Qindarka\",\"aliases\":[]},{\"answer\":\"Qajaq\",\"aliases\":[]},{\"answer\":\"Qimmiq\",\"aliases\":[]},{\"answer\":\"Qallunaat\",\"aliases\":[]},{\"answer\":\"Qilalugaq\",\"aliases\":[]},{\"answer\":\"Aqpik\",\"aliases\":[]},{\"answer\":\"Nunatsiaq\",\"aliases\":[\"Nunatsiaq News\"]},{\"answer\":\"Qaqortoq\",\"aliases\":[]},{\"answer\":\"Qeqertarsuaq\",\"aliases\":[]},{\"answer\":\"Qasigiannguit\",\"aliases\":[]},{\"answer\":\"Qeshm\",\"aliases\":[]},{\"answer\":\"Qazvin\",\"aliases\":[]},{\"answer\":\"Qena\",\"aliases\":[]},{\"answer\":\"Qamishli\",\"aliases\":[]},{\"answer\":\"Qandahar\",\"aliases\":[]},{\"answer\":\"Qiqihar\",\"aliases\":[]},{\"answer\":\"Qinhuangdao\",\"aliases\":[]},{\"answer\":\"Qinling\",\"aliases\":[]},{\"answer\":\"Qufu\",\"aliases\":[]},{\"answer\":\"Qostanay\",\"aliases\":[]},{\"answer\":\"Qyzylorda\",\"aliases\":[]},{\"answer\":\"Qaraghandy\",\"aliases\":[]},{\"answer\":\"Qalqilya\",\"aliases\":[]},{\"answer\":\"Qattara Depression\",\"aliases\":[\"Qattara\"]},{\"answer\":\"Raqqa\",\"aliases\":[\"Ar-Raqqah\"]},{\"answer\":\"Zarqa\",\"aliases\":[]},{\"answer\":\"Aqaba\",\"aliases\":[]},{\"answer\":\"Aqsa\",\"aliases\":[\"Al-Aqsa\"]},{\"answer\":\"Saqqara\",\"aliases\":[\"Sakkara\"]},{\"answer\":\"Haqqani\",\"aliases\":[]},{\"answer\":\"Naqshbandi\",\"aliases\":[]},{\"answer\":\"Taqiyya\",\"aliases\":[\"Taqiya\"]},{\"answer\":\"Taqlid\",\"aliases\":[]},{\"answer\":\"Tariqa\",\"aliases\":[\"Tariqah\"]},{\"answer\":\"Taqwa\",\"aliases\":[]},{\"answer\":\"Iqamah\",\"aliases\":[\"Iqama\"]},{\"answer\":\"Iqbal\",\"aliases\":[]},{\"answer\":\"Luqman\",\"aliases\":[]},{\"answer\":\"Yaqub\",\"aliases\":[\"Yaqoub\"]},{\"answer\":\"Ishaq\",\"aliases\":[]},{\"answer\":\"Shaq\",\"aliases\":[]},{\"answer\":\"Aqeel\",\"aliases\":[]},{\"answer\":\"Baqarah\",\"aliases\":[\"Al-Baqarah\"]},{\"answer\":\"Al-Qaeda\",\"aliases\":[\"Qaeda\",\"Al Qaeda\",\"Al-Qaida\"]},{\"answer\":\"Qassam\",\"aliases\":[\"Al-Qassam\"]},{\"answer\":\"Qaboos\",\"aliases\":[]},{\"answer\":\"Qaddafi\",\"aliases\":[\"Qadhafi\"]},{\"answer\":\"Qaitbay\",\"aliases\":[]},{\"answer\":\"Qalawun\",\"aliases\":[]},{\"answer\":\"Qebehsenuef\",\"aliases\":[]},{\"answer\":\"Qetesh\",\"aliases\":[]},{\"answer\":\"Q-Tip\",\"aliases\":[\"Q-tips\",\"Qtip\",\"Qtips\"]},{\"answer\":\"QAnon\",\"aliases\":[\"Q-Anon\"]},{\"answer\":\"Qwertz\",\"aliases\":[]},{\"answer\":\"Qix\",\"aliases\":[]},{\"answer\":\"Qdoba\",\"aliases\":[]},{\"answer\":\"Qwest\",\"aliases\":[]},{\"answer\":\"Qiagen\",\"aliases\":[]},{\"answer\":\"Qwant\",\"aliases\":[]},{\"answer\":\"Q-ship\",\"aliases\":[\"Q ship\",\"Q-boat\"]},{\"answer\":\"Q-factor\",\"aliases\":[\"Q factor\"]},{\"answer\":\"QR code\",\"aliases\":[\"QR\"]},{\"answer\":\"Qapla'\",\"aliases\":[\"Qapla\"]},{\"answer\":\"Qiyas\",\"aliases\":[]},{\"answer\":\"Qanun\",\"aliases\":[\"Kanun\"]},{\"answer\":\"Qadiriyya\",\"aliases\":[\"Qadiri\"]},{\"answer\":\"Qalandar\",\"aliases\":[\"Qalandars\"]},{\"answer\":\"Qawwal\",\"aliases\":[\"Qawwals\"]},{\"answer\":\"Qasidah\",\"aliases\":[]},{\"answer\":\"Qiblah\",\"aliases\":[]},{\"answer\":\"Qabbalah\",\"aliases\":[]},{\"answer\":\"Qabala\",\"aliases\":[]},{\"answer\":\"Qaballah\",\"aliases\":[]},{\"answer\":\"Qoran\",\"aliases\":[]},{\"answer\":\"Qatif\",\"aliases\":[]},{\"answer\":\"Qaisar\",\"aliases\":[]},{\"answer\":\"Qasim\",\"aliases\":[\"Qassim\"]},{\"answer\":\"Qasab\",\"aliases\":[]},{\"answer\":\"Qaum\",\"aliases\":[]},{\"answer\":\"Qoliqoli\",\"aliases\":[]},{\"answer\":\"Yaqona\",\"aliases\":[]},{\"answer\":\"Burqini\",\"aliases\":[]},{\"answer\":\"Niqabi\",\"aliases\":[]},{\"answer\":\"Sharqi\",\"aliases\":[\"Raqs sharqi\"]},{\"answer\":\"Raqs\",\"aliases\":[]},{\"answer\":\"Buraq\",\"aliases\":[\"Al-Buraq\"]},{\"answer\":\"Zarqawi\",\"aliases\":[]},{\"answer\":\"Marqab\",\"aliases\":[]},{\"answer\":\"Qalyub\",\"aliases\":[\"Qalyubia\"]},{\"answer\":\"Qadisiyyah\",\"aliases\":[\"Al-Qadisiyyah\"]},{\"answer\":\"Dhi Qar\",\"aliases\":[\"Dhi Qar Governorate\"]},{\"answer\":\"Qikiqtarjuaq\",\"aliases\":[]},{\"answer\":\"Qikiqtaaluk\",\"aliases\":[]},{\"answer\":\"Iqaluktuuttiaq\",\"aliases\":[]},{\"answer\":\"Qaggiq\",\"aliases\":[]},{\"answer\":\"Qivittoq\",\"aliases\":[]},{\"answer\":\"Qarmaq\",\"aliases\":[]},{\"answer\":\"Haqq\",\"aliases\":[]},{\"answer\":\"Qiraat\",\"aliases\":[]},{\"answer\":\"Qalat\",\"aliases\":[\"Kalat\"]},{\"answer\":\"Tabaqat\",\"aliases\":[]},{\"answer\":\"Fuqaha\",\"aliases\":[]},{\"answer\":\"Faqih\",\"aliases\":[]},{\"answer\":\"Qaraite\",\"aliases\":[]},{\"answer\":\"Qadarite\",\"aliases\":[]},{\"answer\":\"Qaddish\",\"aliases\":[]},{\"answer\":\"Qiddush\",\"aliases\":[]},{\"answer\":\"Qazaq\",\"aliases\":[]},{\"answer\":\"Qazaqstan\",\"aliases\":[]},{\"answer\":\"Qirsh\",\"aliases\":[\"Qirshes\"]},{\"answer\":\"Qamar\",\"aliases\":[]},{\"answer\":\"Qwaqwa\",\"aliases\":[\"QwaQwa\"]},{\"answer\":\"Qonce\",\"aliases\":[]},{\"answer\":\"Qacha's Nek\",\"aliases\":[\"Qachas Nek\"]},{\"answer\":\"Nqamakwe\",\"aliases\":[]},{\"answer\":\"Ngqeleni\",\"aliases\":[]},{\"answer\":\"Ngqura\",\"aliases\":[]},{\"answer\":\"Qindars\",\"aliases\":[]},{\"answer\":\"Qats\",\"aliases\":[]},{\"answer\":\"Qis\",\"aliases\":[]},{\"answer\":\"Qadis\",\"aliases\":[]},{\"answer\":\"Qaids\",\"aliases\":[]},{\"answer\":\"Qanats\",\"aliases\":[]},{\"answer\":\"Qibla\",\"aliases\":[]},{\"answer\":\"Qophs\",\"aliases\":[]},{\"answer\":\"Qintars\",\"aliases\":[]},{\"answer\":\"Qajars\",\"aliases\":[]},{\"answer\":\"Qwertys\",\"aliases\":[]},{\"answer\":\"Niqabs\",\"aliases\":[]},{\"answer\":\"Burqas\",\"aliases\":[]},{\"answer\":\"Faqirs\",\"aliases\":[]},{\"answer\":\"Tranqs\",\"aliases\":[]},{\"answer\":\"Qigongs\",\"aliases\":[]},{\"answer\":\"Qasidas\",\"aliases\":[]},{\"answer\":\"Iraqis\",\"aliases\":[]},{\"answer\":\"Qataris\",\"aliases\":[]},{\"answer\":\"Sheqalim\",\"aliases\":[]},{\"answer\":\"Umiaqs\",\"aliases\":[]},{\"answer\":\"Qabalistic\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Cinq",
+    "aliases": []
+   },
+   {
+    "answer": "Coq",
+    "aliases": [
+     "Coq au vin"
+    ]
+   },
+   {
+    "answer": "Talaq",
+    "aliases": [
+     "Talaqs"
+    ]
+   },
+   {
+    "answer": "Waqf",
+    "aliases": [
+     "Waqfs"
+    ]
+   },
+   {
+    "answer": "Fiqh",
+    "aliases": []
+   },
+   {
+    "answer": "Maqam",
+    "aliases": [
+     "Maqamat"
+    ]
+   },
+   {
+    "answer": "Mbaqanga",
+    "aliases": []
+   },
+   {
+    "answer": "Nastaliq",
+    "aliases": [
+     "Nastaaliq"
+    ]
+   },
+   {
+    "answer": "Inqilab",
+    "aliases": []
+   },
+   {
+    "answer": "Qapik",
+    "aliases": [
+     "Qepik",
+     "Gapik"
+    ]
+   },
+   {
+    "answer": "Qaimaqam",
+    "aliases": [
+     "Kaimakam"
+    ]
+   },
+   {
+    "answer": "Qabalism",
+    "aliases": []
+   },
+   {
+    "answer": "Qabalist",
+    "aliases": []
+   },
+   {
+    "answer": "Qaf",
+    "aliases": [
+     "Qaaf"
+    ]
+   },
+   {
+    "answer": "Qaph",
+    "aliases": []
+   },
+   {
+    "answer": "Qof",
+    "aliases": []
+   },
+   {
+    "answer": "Qoppa",
+    "aliases": []
+   },
+   {
+    "answer": "Qamets",
+    "aliases": [
+     "Qamats"
+    ]
+   },
+   {
+    "answer": "Qere",
+    "aliases": [
+     "Qeri"
+    ]
+   },
+   {
+    "answer": "Qipao",
+    "aliases": [
+     "Qipaos"
+    ]
+   },
+   {
+    "answer": "Qilin",
+    "aliases": []
+   },
+   {
+    "answer": "Qiang",
+    "aliases": []
+   },
+   {
+    "answer": "Qingming",
+    "aliases": [
+     "Qingming Festival"
+    ]
+   },
+   {
+    "answer": "Qianlong",
+    "aliases": []
+   },
+   {
+    "answer": "Qazi",
+    "aliases": [
+     "Qazis"
+    ]
+   },
+   {
+    "answer": "Qamis",
+    "aliases": []
+   },
+   {
+    "answer": "Qalamkari",
+    "aliases": []
+   },
+   {
+    "answer": "Qissa",
+    "aliases": []
+   },
+   {
+    "answer": "Qila",
+    "aliases": []
+   },
+   {
+    "answer": "Qizilbash",
+    "aliases": [
+     "Kizilbash"
+    ]
+   },
+   {
+    "answer": "Qashqai",
+    "aliases": []
+   },
+   {
+    "answer": "Qinghaosu",
+    "aliases": []
+   },
+   {
+    "answer": "Qindarka",
+    "aliases": []
+   },
+   {
+    "answer": "Qajaq",
+    "aliases": []
+   },
+   {
+    "answer": "Qimmiq",
+    "aliases": []
+   },
+   {
+    "answer": "Qallunaat",
+    "aliases": []
+   },
+   {
+    "answer": "Qilalugaq",
+    "aliases": []
+   },
+   {
+    "answer": "Aqpik",
+    "aliases": []
+   },
+   {
+    "answer": "Nunatsiaq",
+    "aliases": [
+     "Nunatsiaq News"
+    ]
+   },
+   {
+    "answer": "Qaqortoq",
+    "aliases": []
+   },
+   {
+    "answer": "Qeqertarsuaq",
+    "aliases": []
+   },
+   {
+    "answer": "Qasigiannguit",
+    "aliases": []
+   },
+   {
+    "answer": "Qeshm",
+    "aliases": []
+   },
+   {
+    "answer": "Qazvin",
+    "aliases": []
+   },
+   {
+    "answer": "Qena",
+    "aliases": []
+   },
+   {
+    "answer": "Qamishli",
+    "aliases": []
+   },
+   {
+    "answer": "Qandahar",
+    "aliases": []
+   },
+   {
+    "answer": "Qiqihar",
+    "aliases": []
+   },
+   {
+    "answer": "Qinhuangdao",
+    "aliases": []
+   },
+   {
+    "answer": "Qinling",
+    "aliases": []
+   },
+   {
+    "answer": "Qufu",
+    "aliases": []
+   },
+   {
+    "answer": "Qostanay",
+    "aliases": []
+   },
+   {
+    "answer": "Qyzylorda",
+    "aliases": []
+   },
+   {
+    "answer": "Qaraghandy",
+    "aliases": []
+   },
+   {
+    "answer": "Qalqilya",
+    "aliases": []
+   },
+   {
+    "answer": "Qattara Depression",
+    "aliases": [
+     "Qattara"
+    ]
+   },
+   {
+    "answer": "Raqqa",
+    "aliases": [
+     "Ar-Raqqah"
+    ]
+   },
+   {
+    "answer": "Zarqa",
+    "aliases": []
+   },
+   {
+    "answer": "Aqaba",
+    "aliases": []
+   },
+   {
+    "answer": "Aqsa",
+    "aliases": [
+     "Al-Aqsa"
+    ]
+   },
+   {
+    "answer": "Saqqara",
+    "aliases": [
+     "Sakkara"
+    ]
+   },
+   {
+    "answer": "Haqqani",
+    "aliases": []
+   },
+   {
+    "answer": "Naqshbandi",
+    "aliases": []
+   },
+   {
+    "answer": "Taqiyya",
+    "aliases": [
+     "Taqiya"
+    ]
+   },
+   {
+    "answer": "Taqlid",
+    "aliases": []
+   },
+   {
+    "answer": "Tariqa",
+    "aliases": [
+     "Tariqah"
+    ]
+   },
+   {
+    "answer": "Taqwa",
+    "aliases": []
+   },
+   {
+    "answer": "Iqamah",
+    "aliases": [
+     "Iqama"
+    ]
+   },
+   {
+    "answer": "Iqbal",
+    "aliases": []
+   },
+   {
+    "answer": "Luqman",
+    "aliases": []
+   },
+   {
+    "answer": "Yaqub",
+    "aliases": [
+     "Yaqoub"
+    ]
+   },
+   {
+    "answer": "Ishaq",
+    "aliases": []
+   },
+   {
+    "answer": "Shaq",
+    "aliases": []
+   },
+   {
+    "answer": "Aqeel",
+    "aliases": []
+   },
+   {
+    "answer": "Baqarah",
+    "aliases": [
+     "Al-Baqarah"
+    ]
+   },
+   {
+    "answer": "Al-Qaeda",
+    "aliases": [
+     "Qaeda",
+     "Al Qaeda",
+     "Al-Qaida"
+    ]
+   },
+   {
+    "answer": "Qassam",
+    "aliases": [
+     "Al-Qassam"
+    ]
+   },
+   {
+    "answer": "Qaboos",
+    "aliases": []
+   },
+   {
+    "answer": "Qaddafi",
+    "aliases": [
+     "Qadhafi"
+    ]
+   },
+   {
+    "answer": "Qaitbay",
+    "aliases": []
+   },
+   {
+    "answer": "Qalawun",
+    "aliases": []
+   },
+   {
+    "answer": "Qebehsenuef",
+    "aliases": []
+   },
+   {
+    "answer": "Qetesh",
+    "aliases": []
+   },
+   {
+    "answer": "Q-Tip",
+    "aliases": [
+     "Q-tips",
+     "Qtip",
+     "Qtips"
+    ]
+   },
+   {
+    "answer": "QAnon",
+    "aliases": [
+     "Q-Anon"
+    ]
+   },
+   {
+    "answer": "Qwertz",
+    "aliases": []
+   },
+   {
+    "answer": "Qix",
+    "aliases": []
+   },
+   {
+    "answer": "Qdoba",
+    "aliases": []
+   },
+   {
+    "answer": "Qwest",
+    "aliases": []
+   },
+   {
+    "answer": "Qiagen",
+    "aliases": []
+   },
+   {
+    "answer": "Qwant",
+    "aliases": []
+   },
+   {
+    "answer": "Q-ship",
+    "aliases": [
+     "Q ship",
+     "Q-boat"
+    ]
+   },
+   {
+    "answer": "Q-factor",
+    "aliases": [
+     "Q factor"
+    ]
+   },
+   {
+    "answer": "QR code",
+    "aliases": [
+     "QR"
+    ]
+   },
+   {
+    "answer": "Qapla'",
+    "aliases": [
+     "Qapla"
+    ]
+   },
+   {
+    "answer": "Qiyas",
+    "aliases": []
+   },
+   {
+    "answer": "Qanun",
+    "aliases": [
+     "Kanun"
+    ]
+   },
+   {
+    "answer": "Qadiriyya",
+    "aliases": [
+     "Qadiri"
+    ]
+   },
+   {
+    "answer": "Qalandar",
+    "aliases": [
+     "Qalandars"
+    ]
+   },
+   {
+    "answer": "Qawwal",
+    "aliases": [
+     "Qawwals"
+    ]
+   },
+   {
+    "answer": "Qasidah",
+    "aliases": []
+   },
+   {
+    "answer": "Qiblah",
+    "aliases": []
+   },
+   {
+    "answer": "Qabbalah",
+    "aliases": []
+   },
+   {
+    "answer": "Qabala",
+    "aliases": []
+   },
+   {
+    "answer": "Qaballah",
+    "aliases": []
+   },
+   {
+    "answer": "Qoran",
+    "aliases": []
+   },
+   {
+    "answer": "Qatif",
+    "aliases": []
+   },
+   {
+    "answer": "Qaisar",
+    "aliases": []
+   },
+   {
+    "answer": "Qasim",
+    "aliases": [
+     "Qassim"
+    ]
+   },
+   {
+    "answer": "Qasab",
+    "aliases": []
+   },
+   {
+    "answer": "Qaum",
+    "aliases": []
+   },
+   {
+    "answer": "Qoliqoli",
+    "aliases": []
+   },
+   {
+    "answer": "Yaqona",
+    "aliases": []
+   },
+   {
+    "answer": "Burqini",
+    "aliases": []
+   },
+   {
+    "answer": "Niqabi",
+    "aliases": []
+   },
+   {
+    "answer": "Sharqi",
+    "aliases": [
+     "Raqs sharqi"
+    ]
+   },
+   {
+    "answer": "Raqs",
+    "aliases": []
+   },
+   {
+    "answer": "Buraq",
+    "aliases": [
+     "Al-Buraq"
+    ]
+   },
+   {
+    "answer": "Zarqawi",
+    "aliases": []
+   },
+   {
+    "answer": "Marqab",
+    "aliases": []
+   },
+   {
+    "answer": "Qalyub",
+    "aliases": [
+     "Qalyubia"
+    ]
+   },
+   {
+    "answer": "Qadisiyyah",
+    "aliases": [
+     "Al-Qadisiyyah"
+    ]
+   },
+   {
+    "answer": "Dhi Qar",
+    "aliases": [
+     "Dhi Qar Governorate"
+    ]
+   },
+   {
+    "answer": "Qikiqtarjuaq",
+    "aliases": []
+   },
+   {
+    "answer": "Qikiqtaaluk",
+    "aliases": []
+   },
+   {
+    "answer": "Iqaluktuuttiaq",
+    "aliases": []
+   },
+   {
+    "answer": "Qaggiq",
+    "aliases": []
+   },
+   {
+    "answer": "Qivittoq",
+    "aliases": []
+   },
+   {
+    "answer": "Qarmaq",
+    "aliases": []
+   },
+   {
+    "answer": "Haqq",
+    "aliases": []
+   },
+   {
+    "answer": "Qiraat",
+    "aliases": []
+   },
+   {
+    "answer": "Qalat",
+    "aliases": [
+     "Kalat"
+    ]
+   },
+   {
+    "answer": "Tabaqat",
+    "aliases": []
+   },
+   {
+    "answer": "Fuqaha",
+    "aliases": []
+   },
+   {
+    "answer": "Faqih",
+    "aliases": []
+   },
+   {
+    "answer": "Qaraite",
+    "aliases": []
+   },
+   {
+    "answer": "Qadarite",
+    "aliases": []
+   },
+   {
+    "answer": "Qaddish",
+    "aliases": []
+   },
+   {
+    "answer": "Qiddush",
+    "aliases": []
+   },
+   {
+    "answer": "Qazaq",
+    "aliases": []
+   },
+   {
+    "answer": "Qazaqstan",
+    "aliases": []
+   },
+   {
+    "answer": "Qirsh",
+    "aliases": [
+     "Qirshes"
+    ]
+   },
+   {
+    "answer": "Qamar",
+    "aliases": []
+   },
+   {
+    "answer": "Qwaqwa",
+    "aliases": [
+     "QwaQwa"
+    ]
+   },
+   {
+    "answer": "Qonce",
+    "aliases": []
+   },
+   {
+    "answer": "Qacha's Nek",
+    "aliases": [
+     "Qachas Nek"
+    ]
+   },
+   {
+    "answer": "Nqamakwe",
+    "aliases": []
+   },
+   {
+    "answer": "Ngqeleni",
+    "aliases": []
+   },
+   {
+    "answer": "Ngqura",
+    "aliases": []
+   },
+   {
+    "answer": "Qindars",
+    "aliases": []
+   },
+   {
+    "answer": "Qats",
+    "aliases": []
+   },
+   {
+    "answer": "Qis",
+    "aliases": []
+   },
+   {
+    "answer": "Qadis",
+    "aliases": []
+   },
+   {
+    "answer": "Qaids",
+    "aliases": []
+   },
+   {
+    "answer": "Qanats",
+    "aliases": []
+   },
+   {
+    "answer": "Qibla",
+    "aliases": []
+   },
+   {
+    "answer": "Qophs",
+    "aliases": []
+   },
+   {
+    "answer": "Qintars",
+    "aliases": []
+   },
+   {
+    "answer": "Qajars",
+    "aliases": []
+   },
+   {
+    "answer": "Qwertys",
+    "aliases": []
+   },
+   {
+    "answer": "Niqabs",
+    "aliases": []
+   },
+   {
+    "answer": "Burqas",
+    "aliases": []
+   },
+   {
+    "answer": "Faqirs",
+    "aliases": []
+   },
+   {
+    "answer": "Tranqs",
+    "aliases": []
+   },
+   {
+    "answer": "Qigongs",
+    "aliases": []
+   },
+   {
+    "answer": "Qasidas",
+    "aliases": []
+   },
+   {
+    "answer": "Iraqis",
+    "aliases": []
+   },
+   {
+    "answer": "Qataris",
+    "aliases": []
+   },
+   {
+    "answer": "Sheqalim",
+    "aliases": []
+   },
+   {
+    "answer": "Umiaqs",
+    "aliases": []
+   },
+   {
+    "answer": "Qabalistic",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 67835,
+ "type": "result",
+ "duration_ms": 102600,
+ "uuid": "2596fd3d-7535-4a48-b6d0-f23f7bdfd03a",
+ "ttft_stream_ms": 811,
+ "time_to_request_ms": 31,
+ "first_content_frame_ms": 811,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

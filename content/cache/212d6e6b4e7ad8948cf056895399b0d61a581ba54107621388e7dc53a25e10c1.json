@@ -1,0 +1,106 @@
+{
+ "duration_api_ms": 10378,
+ "stop_reason": "tool_use",
+ "session_id": "03a8a8d7-aef5-401d-afa0-c2ed9df9bff6",
+ "total_cost_usd": 0.0395996,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7161,
+  "cache_read_input_tokens": 708,
+  "output_tokens": 1081,
+  "output_tokens_details": {
+   "thinking_tokens": 586
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7161,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1081,
+    "cache_read_input_tokens": 708,
+    "cache_creation_input_tokens": 7161,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7161
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1081,
+   "cacheReadInputTokens": 708,
+   "cacheCreationInputTokens": 7161,
+   "webSearchRequests": 0,
+   "costUSD": 0.0395996,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 586,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"source\":\"wikidata\",\"reason\":\"Bands and artists are Wikidata entities; filter to English labels containing a digit. The sitelink threshold keeps the query cheap, since the previous unfiltered regex over all items timed out.\",\"wikidata\":{\"where\":\"{ ?item wdt:P31 wd:Q215380 . ?item wikibase:sitelinks ?sl . FILTER(?sl >= 2) } UNION { VALUES ?occ { wd:Q639669 wd:Q177220 wd:Q2252262 wd:Q130857 } ?item wdt:P106 ?occ . ?item wikibase:sitelinks ?sl . FILTER(?sl >= 5) } ?item rdfs:label ?lbl . FILTER(LANG(?lbl) = \\\"en\\\") FILTER(REGEX(STR(?lbl), \\\"[0-9]\\\"))\",\"notes\":\"Musical groups (Q215380) with at least 2 sitelinks, plus singers, musicians, rappers and DJs with at least 5 sitelinks, whose English label contains a digit. Spelled-out numbers such as Maroon 5's cousins 'Three Dog Night' or 'Blink-182' are only matched if they contain digits.\"}}",
+ "structured_output": {
+  "source": "wikidata",
+  "reason": "Bands and artists are Wikidata entities; filter to English labels containing a digit. The sitelink threshold keeps the query cheap, since the previous unfiltered regex over all items timed out.",
+  "wikidata": {
+   "where": "{ ?item wdt:P31 wd:Q215380 . ?item wikibase:sitelinks ?sl . FILTER(?sl >= 2) } UNION { VALUES ?occ { wd:Q639669 wd:Q177220 wd:Q2252262 wd:Q130857 } ?item wdt:P106 ?occ . ?item wikibase:sitelinks ?sl . FILTER(?sl >= 5) } ?item rdfs:label ?lbl . FILTER(LANG(?lbl) = \"en\") FILTER(REGEX(STR(?lbl), \"[0-9]\"))",
+   "notes": "Musical groups (Q215380) with at least 2 sitelinks, plus singers, musicians, rappers and DJs with at least 5 sitelinks, whose English label contains a digit. Spelled-out numbers such as Maroon 5's cousins 'Three Dog Night' or 'Blink-182' are only matched if they contain digits."
+  }
+ },
+ "ttft_ms": 7967,
+ "type": "result",
+ "duration_ms": 10799,
+ "uuid": "ddb596d8-0c29-4e14-8abc-902deb28f724",
+ "ttft_stream_ms": 2107,
+ "time_to_request_ms": 282,
+ "first_content_frame_ms": 2108,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

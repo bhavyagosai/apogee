@@ -1,0 +1,700 @@
+{
+ "duration_api_ms": 22500,
+ "stop_reason": "tool_use",
+ "session_id": "441dd2d6-8290-4e61-ab66-877008f2fa53",
+ "total_cost_usd": 0.056542,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6406,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 3079,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6406,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 3079,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 6406,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6406
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 3079,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 6406,
+   "webSearchRequests": 0,
+   "costUSD": 0.056542,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Monopoly\",\"aliases\":[\"Monopoly game\"]},{\"answer\":\"Risk\",\"aliases\":[\"Risk: The Game of Global Domination\"]},{\"answer\":\"Backgammon\",\"aliases\":[\"Back gammon\"]},{\"answer\":\"Yahtzee\",\"aliases\":[\"Yatzy\",\"Yacht\"]},{\"answer\":\"Ludo\",\"aliases\":[\"Parcheesi\",\"Pachisi\"]},{\"answer\":\"Sorry!\",\"aliases\":[\"Sorry\"]},{\"answer\":\"Trouble\",\"aliases\":[\"Pop-O-Matic Trouble\",\"Frustration\"]},{\"answer\":\"Snakes and Ladders\",\"aliases\":[\"Chutes and Ladders\",\"Snakes & Ladders\",\"Chutes & Ladders\"]},{\"answer\":\"Catan\",\"aliases\":[\"Settlers of Catan\",\"The Settlers of Catan\",\"Catan Board Game\"]},{\"answer\":\"Cluedo\",\"aliases\":[\"Clue\"]},{\"answer\":\"Scrabble\",\"aliases\":[]},{\"answer\":\"Boggle\",\"aliases\":[]},{\"answer\":\"Farkle\",\"aliases\":[\"Farkel\"]},{\"answer\":\"Bunco\",\"aliases\":[\"Bunko\"]},{\"answer\":\"Liar's Dice\",\"aliases\":[\"Liars Dice\",\"Perudo\",\"Dudo\"]},{\"answer\":\"Dungeons & Dragons\",\"aliases\":[\"D&D\",\"Dungeons and Dragons\",\"DnD\"]},{\"answer\":\"Axis & Allies\",\"aliases\":[\"Axis and Allies\"]},{\"answer\":\"Life\",\"aliases\":[\"The Game of Life\",\"Game of Life\"]},{\"answer\":\"Battlestar Galactica\",\"aliases\":[]},{\"answer\":\"Betrayal at House on the Hill\",\"aliases\":[\"Betrayal\"]},{\"answer\":\"Talisman\",\"aliases\":[]},{\"answer\":\"Heroquest\",\"aliases\":[\"HeroQuest\",\"Hero Quest\"]},{\"answer\":\"Zombicide\",\"aliases\":[]},{\"answer\":\"Dice Forge\",\"aliases\":[]},{\"answer\":\"Roll for the Galaxy\",\"aliases\":[]},{\"answer\":\"Machi Koro\",\"aliases\":[]},{\"answer\":\"Quarriors\",\"aliases\":[]},{\"answer\":\"Pass the Pigs\",\"aliases\":[]},{\"answer\":\"Pig\",\"aliases\":[]},{\"answer\":\"King of Tokyo\",\"aliases\":[]},{\"answer\":\"King of New York\",\"aliases\":[]},{\"answer\":\"Can't Stop\",\"aliases\":[\"Cant Stop\"]},{\"answer\":\"Qwixx\",\"aliases\":[\"Qwixx Board Game\"]},{\"answer\":\"Kingdomino\",\"aliases\":[]},{\"answer\":\"Stratego\",\"aliases\":[]},{\"answer\":\"Sagrada\",\"aliases\":[]},{\"answer\":\"Cosmic Encounter\",\"aliases\":[]},{\"answer\":\"Dixit\",\"aliases\":[]},{\"answer\":\"Cranium\",\"aliases\":[]},{\"answer\":\"Trivial Pursuit\",\"aliases\":[\"Trivial Pursuit\"]},{\"answer\":\"Pictionary\",\"aliases\":[]},{\"answer\":\"Mouse Trap\",\"aliases\":[\"Mousetrap\"]},{\"answer\":\"Careers\",\"aliases\":[]},{\"answer\":\"Payday\",\"aliases\":[\"Pay Day\"]},{\"answer\":\"Dice Throne\",\"aliases\":[]},{\"answer\":\"Bang! The Dice Game\",\"aliases\":[\"Bang Dice Game\",\"Bang!\"]},{\"answer\":\"Escape: The Curse of the Temple\",\"aliases\":[\"Escape the Curse of the Temple\"]},{\"answer\":\"Elder Sign\",\"aliases\":[]},{\"answer\":\"Arkham Horror\",\"aliases\":[]},{\"answer\":\"Eldritch Horror\",\"aliases\":[]},{\"answer\":\"Warhammer Quest\",\"aliases\":[]},{\"answer\":\"Space Hulk\",\"aliases\":[]},{\"answer\":\"Blood Bowl\",\"aliases\":[]},{\"answer\":\"Battleship\",\"aliases\":[\"Battleships\"]},{\"answer\":\"Sequence\",\"aliases\":[]},{\"answer\":\"Shut the Box\",\"aliases\":[]},{\"answer\":\"Tenzi\",\"aliases\":[]},{\"answer\":\"Zombie Dice\",\"aliases\":[]},{\"answer\":\"Cathedral\",\"aliases\":[]},{\"answer\":\"Dominion\",\"aliases\":[]},{\"answer\":\"Castles of Burgundy\",\"aliases\":[\"The Castles of Burgundy\"]},{\"answer\":\"Troyes\",\"aliases\":[]},{\"answer\":\"Alea Iacta Est\",\"aliases\":[]},{\"answer\":\"Pandemic\",\"aliases\":[]},{\"answer\":\"Forbidden Island\",\"aliases\":[]},{\"answer\":\"Forbidden Desert\",\"aliases\":[]},{\"answer\":\"Cthulhu Wars\",\"aliases\":[]},{\"answer\":\"Dungeon!\",\"aliases\":[\"Dungeon\"]},{\"answer\":\"Stop Thief\",\"aliases\":[]},{\"answer\":\"Aggravation\",\"aliases\":[]},{\"answer\":\"Mexican Train\",\"aliases\":[]},{\"answer\":\"Fireball Island\",\"aliases\":[]},{\"answer\":\"Sentinels of the Multiverse\",\"aliases\":[]},{\"answer\":\"Dead of Winter\",\"aliases\":[]},{\"answer\":\"Lords of Waterdeep\",\"aliases\":[]},{\"answer\":\"Samurai Swords\",\"aliases\":[\"Shogun\"]},{\"answer\":\"Axis & Allies Europe\",\"aliases\":[]},{\"answer\":\"Kill Doctor Lucky\",\"aliases\":[]},{\"answer\":\"Camel Up\",\"aliases\":[\"Camel Cup\"]},{\"answer\":\"Las Vegas\",\"aliases\":[]},{\"answer\":\"Dice Town\",\"aliases\":[]},{\"answer\":\"Railroad Ink\",\"aliases\":[]},{\"answer\":\"Cartographers\",\"aliases\":[]},{\"answer\":\"Cubitos\",\"aliases\":[]},{\"answer\":\"Escape from the Aliens in Outer Space\",\"aliases\":[]},{\"answer\":\"Cosmic Wimpout\",\"aliases\":[]},{\"answer\":\"Mille Bornes\",\"aliases\":[]},{\"answer\":\"Gloomhaven: Jaws of the Lion\",\"aliases\":[]},{\"answer\":\"Descent: Journeys in the Dark\",\"aliases\":[\"Descent\"]},{\"answer\":\"Mansions of Madness\",\"aliases\":[]},{\"answer\":\"Marvel Dice Masters\",\"aliases\":[\"Dice Masters\"]},{\"answer\":\"Sushi Go Party\",\"aliases\":[]},{\"answer\":\"Bears vs Babies\",\"aliases\":[]},{\"answer\":\"Tigris & Euphrates\",\"aliases\":[]},{\"answer\":\"Terra Mystica\",\"aliases\":[]},{\"answer\":\"Age of Empires III\",\"aliases\":[]},{\"answer\":\"Pirate's Cove\",\"aliases\":[]},{\"answer\":\"Dice City\",\"aliases\":[]},{\"answer\":\"Tokaido\",\"aliases\":[]},{\"answer\":\"Doctor Who: Dice\",\"aliases\":[]},{\"answer\":\"Axis & Allies Pacific\",\"aliases\":[]},{\"answer\":\"Dragonwood\",\"aliases\":[]},{\"answer\":\"Dungeon Roll\",\"aliases\":[]},{\"answer\":\"Steam Park\",\"aliases\":[]},{\"answer\":\"Cyclades\",\"aliases\":[]},{\"answer\":\"Santorini\",\"aliases\":[]},{\"answer\":\"The Game of Life\",\"aliases\":[]},{\"answer\":\"Dragon Dice\",\"aliases\":[]},{\"answer\":\"Slide Quest\",\"aliases\":[]},{\"answer\":\"Frustration\",\"aliases\":[\"Trouble\"]},{\"answer\":\"Heckmeck\",\"aliases\":[\"Heckmeck am Bratwurmeck\",\"Pickomino\",\"Regenwormen\"]},{\"answer\":\"Ra\",\"aliases\":[]},{\"answer\":\"Dice Hospital\",\"aliases\":[]},{\"answer\":\"Alien Frontiers\",\"aliases\":[]},{\"answer\":\"Kingsburg\",\"aliases\":[]},{\"answer\":\"Targi\",\"aliases\":[]},{\"answer\":\"Orléans\",\"aliases\":[\"Orleans\"]},{\"answer\":\"Ghost Stories\",\"aliases\":[]},{\"answer\":\"Maharaja\",\"aliases\":[]},{\"answer\":\"Tales of the Arabian Nights\",\"aliases\":[]},{\"answer\":\"Tiny Epic Defenders\",\"aliases\":[]},{\"answer\":\"Tiny Epic Galaxies\",\"aliases\":[]},{\"answer\":\"Cat in the Box\",\"aliases\":[]},{\"answer\":\"Dice Hospital\",\"aliases\":[]},{\"answer\":\"Dune: Imperium\",\"aliases\":[]},{\"answer\":\"Splendor\",\"aliases\":[]},{\"answer\":\"Roll Player\",\"aliases\":[]},{\"answer\":\"Elder Scrolls: Betrayal\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Monopoly",
+    "aliases": [
+     "Monopoly game"
+    ]
+   },
+   {
+    "answer": "Risk",
+    "aliases": [
+     "Risk: The Game of Global Domination"
+    ]
+   },
+   {
+    "answer": "Backgammon",
+    "aliases": [
+     "Back gammon"
+    ]
+   },
+   {
+    "answer": "Yahtzee",
+    "aliases": [
+     "Yatzy",
+     "Yacht"
+    ]
+   },
+   {
+    "answer": "Ludo",
+    "aliases": [
+     "Parcheesi",
+     "Pachisi"
+    ]
+   },
+   {
+    "answer": "Sorry!",
+    "aliases": [
+     "Sorry"
+    ]
+   },
+   {
+    "answer": "Trouble",
+    "aliases": [
+     "Pop-O-Matic Trouble",
+     "Frustration"
+    ]
+   },
+   {
+    "answer": "Snakes and Ladders",
+    "aliases": [
+     "Chutes and Ladders",
+     "Snakes & Ladders",
+     "Chutes & Ladders"
+    ]
+   },
+   {
+    "answer": "Catan",
+    "aliases": [
+     "Settlers of Catan",
+     "The Settlers of Catan",
+     "Catan Board Game"
+    ]
+   },
+   {
+    "answer": "Cluedo",
+    "aliases": [
+     "Clue"
+    ]
+   },
+   {
+    "answer": "Scrabble",
+    "aliases": []
+   },
+   {
+    "answer": "Boggle",
+    "aliases": []
+   },
+   {
+    "answer": "Farkle",
+    "aliases": [
+     "Farkel"
+    ]
+   },
+   {
+    "answer": "Bunco",
+    "aliases": [
+     "Bunko"
+    ]
+   },
+   {
+    "answer": "Liar's Dice",
+    "aliases": [
+     "Liars Dice",
+     "Perudo",
+     "Dudo"
+    ]
+   },
+   {
+    "answer": "Dungeons & Dragons",
+    "aliases": [
+     "D&D",
+     "Dungeons and Dragons",
+     "DnD"
+    ]
+   },
+   {
+    "answer": "Axis & Allies",
+    "aliases": [
+     "Axis and Allies"
+    ]
+   },
+   {
+    "answer": "Life",
+    "aliases": [
+     "The Game of Life",
+     "Game of Life"
+    ]
+   },
+   {
+    "answer": "Battlestar Galactica",
+    "aliases": []
+   },
+   {
+    "answer": "Betrayal at House on the Hill",
+    "aliases": [
+     "Betrayal"
+    ]
+   },
+   {
+    "answer": "Talisman",
+    "aliases": []
+   },
+   {
+    "answer": "Heroquest",
+    "aliases": [
+     "HeroQuest",
+     "Hero Quest"
+    ]
+   },
+   {
+    "answer": "Zombicide",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Forge",
+    "aliases": []
+   },
+   {
+    "answer": "Roll for the Galaxy",
+    "aliases": []
+   },
+   {
+    "answer": "Machi Koro",
+    "aliases": []
+   },
+   {
+    "answer": "Quarriors",
+    "aliases": []
+   },
+   {
+    "answer": "Pass the Pigs",
+    "aliases": []
+   },
+   {
+    "answer": "Pig",
+    "aliases": []
+   },
+   {
+    "answer": "King of Tokyo",
+    "aliases": []
+   },
+   {
+    "answer": "King of New York",
+    "aliases": []
+   },
+   {
+    "answer": "Can't Stop",
+    "aliases": [
+     "Cant Stop"
+    ]
+   },
+   {
+    "answer": "Qwixx",
+    "aliases": [
+     "Qwixx Board Game"
+    ]
+   },
+   {
+    "answer": "Kingdomino",
+    "aliases": []
+   },
+   {
+    "answer": "Stratego",
+    "aliases": []
+   },
+   {
+    "answer": "Sagrada",
+    "aliases": []
+   },
+   {
+    "answer": "Cosmic Encounter",
+    "aliases": []
+   },
+   {
+    "answer": "Dixit",
+    "aliases": []
+   },
+   {
+    "answer": "Cranium",
+    "aliases": []
+   },
+   {
+    "answer": "Trivial Pursuit",
+    "aliases": [
+     "Trivial Pursuit"
+    ]
+   },
+   {
+    "answer": "Pictionary",
+    "aliases": []
+   },
+   {
+    "answer": "Mouse Trap",
+    "aliases": [
+     "Mousetrap"
+    ]
+   },
+   {
+    "answer": "Careers",
+    "aliases": []
+   },
+   {
+    "answer": "Payday",
+    "aliases": [
+     "Pay Day"
+    ]
+   },
+   {
+    "answer": "Dice Throne",
+    "aliases": []
+   },
+   {
+    "answer": "Bang! The Dice Game",
+    "aliases": [
+     "Bang Dice Game",
+     "Bang!"
+    ]
+   },
+   {
+    "answer": "Escape: The Curse of the Temple",
+    "aliases": [
+     "Escape the Curse of the Temple"
+    ]
+   },
+   {
+    "answer": "Elder Sign",
+    "aliases": []
+   },
+   {
+    "answer": "Arkham Horror",
+    "aliases": []
+   },
+   {
+    "answer": "Eldritch Horror",
+    "aliases": []
+   },
+   {
+    "answer": "Warhammer Quest",
+    "aliases": []
+   },
+   {
+    "answer": "Space Hulk",
+    "aliases": []
+   },
+   {
+    "answer": "Blood Bowl",
+    "aliases": []
+   },
+   {
+    "answer": "Battleship",
+    "aliases": [
+     "Battleships"
+    ]
+   },
+   {
+    "answer": "Sequence",
+    "aliases": []
+   },
+   {
+    "answer": "Shut the Box",
+    "aliases": []
+   },
+   {
+    "answer": "Tenzi",
+    "aliases": []
+   },
+   {
+    "answer": "Zombie Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Cathedral",
+    "aliases": []
+   },
+   {
+    "answer": "Dominion",
+    "aliases": []
+   },
+   {
+    "answer": "Castles of Burgundy",
+    "aliases": [
+     "The Castles of Burgundy"
+    ]
+   },
+   {
+    "answer": "Troyes",
+    "aliases": []
+   },
+   {
+    "answer": "Alea Iacta Est",
+    "aliases": []
+   },
+   {
+    "answer": "Pandemic",
+    "aliases": []
+   },
+   {
+    "answer": "Forbidden Island",
+    "aliases": []
+   },
+   {
+    "answer": "Forbidden Desert",
+    "aliases": []
+   },
+   {
+    "answer": "Cthulhu Wars",
+    "aliases": []
+   },
+   {
+    "answer": "Dungeon!",
+    "aliases": [
+     "Dungeon"
+    ]
+   },
+   {
+    "answer": "Stop Thief",
+    "aliases": []
+   },
+   {
+    "answer": "Aggravation",
+    "aliases": []
+   },
+   {
+    "answer": "Mexican Train",
+    "aliases": []
+   },
+   {
+    "answer": "Fireball Island",
+    "aliases": []
+   },
+   {
+    "answer": "Sentinels of the Multiverse",
+    "aliases": []
+   },
+   {
+    "answer": "Dead of Winter",
+    "aliases": []
+   },
+   {
+    "answer": "Lords of Waterdeep",
+    "aliases": []
+   },
+   {
+    "answer": "Samurai Swords",
+    "aliases": [
+     "Shogun"
+    ]
+   },
+   {
+    "answer": "Axis & Allies Europe",
+    "aliases": []
+   },
+   {
+    "answer": "Kill Doctor Lucky",
+    "aliases": []
+   },
+   {
+    "answer": "Camel Up",
+    "aliases": [
+     "Camel Cup"
+    ]
+   },
+   {
+    "answer": "Las Vegas",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Town",
+    "aliases": []
+   },
+   {
+    "answer": "Railroad Ink",
+    "aliases": []
+   },
+   {
+    "answer": "Cartographers",
+    "aliases": []
+   },
+   {
+    "answer": "Cubitos",
+    "aliases": []
+   },
+   {
+    "answer": "Escape from the Aliens in Outer Space",
+    "aliases": []
+   },
+   {
+    "answer": "Cosmic Wimpout",
+    "aliases": []
+   },
+   {
+    "answer": "Mille Bornes",
+    "aliases": []
+   },
+   {
+    "answer": "Gloomhaven: Jaws of the Lion",
+    "aliases": []
+   },
+   {
+    "answer": "Descent: Journeys in the Dark",
+    "aliases": [
+     "Descent"
+    ]
+   },
+   {
+    "answer": "Mansions of Madness",
+    "aliases": []
+   },
+   {
+    "answer": "Marvel Dice Masters",
+    "aliases": [
+     "Dice Masters"
+    ]
+   },
+   {
+    "answer": "Sushi Go Party",
+    "aliases": []
+   },
+   {
+    "answer": "Bears vs Babies",
+    "aliases": []
+   },
+   {
+    "answer": "Tigris & Euphrates",
+    "aliases": []
+   },
+   {
+    "answer": "Terra Mystica",
+    "aliases": []
+   },
+   {
+    "answer": "Age of Empires III",
+    "aliases": []
+   },
+   {
+    "answer": "Pirate's Cove",
+    "aliases": []
+   },
+   {
+    "answer": "Dice City",
+    "aliases": []
+   },
+   {
+    "answer": "Tokaido",
+    "aliases": []
+   },
+   {
+    "answer": "Doctor Who: Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Axis & Allies Pacific",
+    "aliases": []
+   },
+   {
+    "answer": "Dragonwood",
+    "aliases": []
+   },
+   {
+    "answer": "Dungeon Roll",
+    "aliases": []
+   },
+   {
+    "answer": "Steam Park",
+    "aliases": []
+   },
+   {
+    "answer": "Cyclades",
+    "aliases": []
+   },
+   {
+    "answer": "Santorini",
+    "aliases": []
+   },
+   {
+    "answer": "The Game of Life",
+    "aliases": []
+   },
+   {
+    "answer": "Dragon Dice",
+    "aliases": []
+   },
+   {
+    "answer": "Slide Quest",
+    "aliases": []
+   },
+   {
+    "answer": "Frustration",
+    "aliases": [
+     "Trouble"
+    ]
+   },
+   {
+    "answer": "Heckmeck",
+    "aliases": [
+     "Heckmeck am Bratwurmeck",
+     "Pickomino",
+     "Regenwormen"
+    ]
+   },
+   {
+    "answer": "Ra",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Hospital",
+    "aliases": []
+   },
+   {
+    "answer": "Alien Frontiers",
+    "aliases": []
+   },
+   {
+    "answer": "Kingsburg",
+    "aliases": []
+   },
+   {
+    "answer": "Targi",
+    "aliases": []
+   },
+   {
+    "answer": "Orléans",
+    "aliases": [
+     "Orleans"
+    ]
+   },
+   {
+    "answer": "Ghost Stories",
+    "aliases": []
+   },
+   {
+    "answer": "Maharaja",
+    "aliases": []
+   },
+   {
+    "answer": "Tales of the Arabian Nights",
+    "aliases": []
+   },
+   {
+    "answer": "Tiny Epic Defenders",
+    "aliases": []
+   },
+   {
+    "answer": "Tiny Epic Galaxies",
+    "aliases": []
+   },
+   {
+    "answer": "Cat in the Box",
+    "aliases": []
+   },
+   {
+    "answer": "Dice Hospital",
+    "aliases": []
+   },
+   {
+    "answer": "Dune: Imperium",
+    "aliases": []
+   },
+   {
+    "answer": "Splendor",
+    "aliases": []
+   },
+   {
+    "answer": "Roll Player",
+    "aliases": []
+   },
+   {
+    "answer": "Elder Scrolls: Betrayal",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 22514,
+ "type": "result",
+ "duration_ms": 22556,
+ "uuid": "5bb1500c-2315-4d7c-9714-ff950ceefc35",
+ "ttft_stream_ms": 718,
+ "time_to_request_ms": 30,
+ "first_content_frame_ms": 719,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

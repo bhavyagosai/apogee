@@ -1,0 +1,352 @@
+{
+ "duration_api_ms": 8807,
+ "stop_reason": "tool_use",
+ "session_id": "d450bbc1-b2f5-4f11-afa7-4a9087d7244f",
+ "total_cost_usd": 0.039154,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6859,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 1159,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6859,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1159,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 6859,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6859
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1159,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 6859,
+   "webSearchRequests": 0,
+   "costUSD": 0.039154,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Rotor\",\"aliases\":[]},{\"answer\":\"Tenet\",\"aliases\":[]},{\"answer\":\"Stressed desserts\",\"aliases\":[]},{\"answer\":\"Deed\",\"aliases\":[]},{\"answer\":\"Pullup\",\"aliases\":[\"Pull-up\"]},{\"answer\":\"Redder\",\"aliases\":[]},{\"answer\":\"Sharahs\",\"aliases\":[]},{\"answer\":\"Rats live on no evil star\",\"aliases\":[]},{\"answer\":\"Kinnikinnik\",\"aliases\":[]},{\"answer\":\"Nauruan\",\"aliases\":[]},{\"answer\":\"Tenet\",\"aliases\":[]},{\"answer\":\"Murdrum\",\"aliases\":[]},{\"answer\":\"Senones\",\"aliases\":[]},{\"answer\":\"Reger\",\"aliases\":[]},{\"answer\":\"Sirris\",\"aliases\":[]},{\"answer\":\"Snoops\",\"aliases\":[]},{\"answer\":\"Mesem\",\"aliases\":[]},{\"answer\":\"Dewed\",\"aliases\":[]},{\"answer\":\"Nagan\",\"aliases\":[]},{\"answer\":\"Natan\",\"aliases\":[]},{\"answer\":\"Navan\",\"aliases\":[]},{\"answer\":\"Nevven\",\"aliases\":[]},{\"answer\":\"Radar\",\"aliases\":[]},{\"answer\":\"Rotavator\",\"aliases\":[]},{\"answer\":\"Taghgat\",\"aliases\":[]},{\"answer\":\"Seres\",\"aliases\":[]},{\"answer\":\"Sememes\",\"aliases\":[]},{\"answer\":\"Tenet\",\"aliases\":[]},{\"answer\":\"Yreka bakery\",\"aliases\":[]},{\"answer\":\"Sulus\",\"aliases\":[]},{\"answer\":\"Tubut\",\"aliases\":[]},{\"answer\":\"Aviva\",\"aliases\":[]},{\"answer\":\"Hannah\",\"aliases\":[]},{\"answer\":\"Lol\",\"aliases\":[]},{\"answer\":\"Lil\",\"aliases\":[]},{\"answer\":\"Pip\",\"aliases\":[]},{\"answer\":\"Ono\",\"aliases\":[]},{\"answer\":\"Eve\",\"aliases\":[]},{\"answer\":\"Ere\",\"aliases\":[]},{\"answer\":\"Aia\",\"aliases\":[]},{\"answer\":\"Ala\",\"aliases\":[]},{\"answer\":\"Aga\",\"aliases\":[]},{\"answer\":\"Ara\",\"aliases\":[]},{\"answer\":\"Bob\",\"aliases\":[]},{\"answer\":\"Boob\",\"aliases\":[]},{\"answer\":\"Dad\",\"aliases\":[]},{\"answer\":\"Dud\",\"aliases\":[]},{\"answer\":\"Eke\",\"aliases\":[]},{\"answer\":\"Ewe\",\"aliases\":[]},{\"answer\":\"Gig\",\"aliases\":[]},{\"answer\":\"Huh\",\"aliases\":[]},{\"answer\":\"Mum\",\"aliases\":[]},{\"answer\":\"Nan\",\"aliases\":[]},{\"answer\":\"Nun\",\"aliases\":[]},{\"answer\":\"Oto\",\"aliases\":[]},{\"answer\":\"Pap\",\"aliases\":[]},{\"answer\":\"Pup\",\"aliases\":[]},{\"answer\":\"Sis\",\"aliases\":[]},{\"answer\":\"Tat\",\"aliases\":[]},{\"answer\":\"Tit\",\"aliases\":[]},{\"answer\":\"Tot\",\"aliases\":[]},{\"answer\":\"Wow\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Rotor",
+    "aliases": []
+   },
+   {
+    "answer": "Tenet",
+    "aliases": []
+   },
+   {
+    "answer": "Stressed desserts",
+    "aliases": []
+   },
+   {
+    "answer": "Deed",
+    "aliases": []
+   },
+   {
+    "answer": "Pullup",
+    "aliases": [
+     "Pull-up"
+    ]
+   },
+   {
+    "answer": "Redder",
+    "aliases": []
+   },
+   {
+    "answer": "Sharahs",
+    "aliases": []
+   },
+   {
+    "answer": "Rats live on no evil star",
+    "aliases": []
+   },
+   {
+    "answer": "Kinnikinnik",
+    "aliases": []
+   },
+   {
+    "answer": "Nauruan",
+    "aliases": []
+   },
+   {
+    "answer": "Tenet",
+    "aliases": []
+   },
+   {
+    "answer": "Murdrum",
+    "aliases": []
+   },
+   {
+    "answer": "Senones",
+    "aliases": []
+   },
+   {
+    "answer": "Reger",
+    "aliases": []
+   },
+   {
+    "answer": "Sirris",
+    "aliases": []
+   },
+   {
+    "answer": "Snoops",
+    "aliases": []
+   },
+   {
+    "answer": "Mesem",
+    "aliases": []
+   },
+   {
+    "answer": "Dewed",
+    "aliases": []
+   },
+   {
+    "answer": "Nagan",
+    "aliases": []
+   },
+   {
+    "answer": "Natan",
+    "aliases": []
+   },
+   {
+    "answer": "Navan",
+    "aliases": []
+   },
+   {
+    "answer": "Nevven",
+    "aliases": []
+   },
+   {
+    "answer": "Radar",
+    "aliases": []
+   },
+   {
+    "answer": "Rotavator",
+    "aliases": []
+   },
+   {
+    "answer": "Taghgat",
+    "aliases": []
+   },
+   {
+    "answer": "Seres",
+    "aliases": []
+   },
+   {
+    "answer": "Sememes",
+    "aliases": []
+   },
+   {
+    "answer": "Tenet",
+    "aliases": []
+   },
+   {
+    "answer": "Yreka bakery",
+    "aliases": []
+   },
+   {
+    "answer": "Sulus",
+    "aliases": []
+   },
+   {
+    "answer": "Tubut",
+    "aliases": []
+   },
+   {
+    "answer": "Aviva",
+    "aliases": []
+   },
+   {
+    "answer": "Hannah",
+    "aliases": []
+   },
+   {
+    "answer": "Lol",
+    "aliases": []
+   },
+   {
+    "answer": "Lil",
+    "aliases": []
+   },
+   {
+    "answer": "Pip",
+    "aliases": []
+   },
+   {
+    "answer": "Ono",
+    "aliases": []
+   },
+   {
+    "answer": "Eve",
+    "aliases": []
+   },
+   {
+    "answer": "Ere",
+    "aliases": []
+   },
+   {
+    "answer": "Aia",
+    "aliases": []
+   },
+   {
+    "answer": "Ala",
+    "aliases": []
+   },
+   {
+    "answer": "Aga",
+    "aliases": []
+   },
+   {
+    "answer": "Ara",
+    "aliases": []
+   },
+   {
+    "answer": "Bob",
+    "aliases": []
+   },
+   {
+    "answer": "Boob",
+    "aliases": []
+   },
+   {
+    "answer": "Dad",
+    "aliases": []
+   },
+   {
+    "answer": "Dud",
+    "aliases": []
+   },
+   {
+    "answer": "Eke",
+    "aliases": []
+   },
+   {
+    "answer": "Ewe",
+    "aliases": []
+   },
+   {
+    "answer": "Gig",
+    "aliases": []
+   },
+   {
+    "answer": "Huh",
+    "aliases": []
+   },
+   {
+    "answer": "Mum",
+    "aliases": []
+   },
+   {
+    "answer": "Nan",
+    "aliases": []
+   },
+   {
+    "answer": "Nun",
+    "aliases": []
+   },
+   {
+    "answer": "Oto",
+    "aliases": []
+   },
+   {
+    "answer": "Pap",
+    "aliases": []
+   },
+   {
+    "answer": "Pup",
+    "aliases": []
+   },
+   {
+    "answer": "Sis",
+    "aliases": []
+   },
+   {
+    "answer": "Tat",
+    "aliases": []
+   },
+   {
+    "answer": "Tit",
+    "aliases": []
+   },
+   {
+    "answer": "Tot",
+    "aliases": []
+   },
+   {
+    "answer": "Wow",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 8909,
+ "type": "result",
+ "duration_ms": 9003,
+ "uuid": "59f33683-88eb-4718-9b5b-cb504f2a2104",
+ "ttft_stream_ms": 1572,
+ "time_to_request_ms": 141,
+ "first_content_frame_ms": 1572,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

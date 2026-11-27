@@ -1,0 +1,202 @@
+{
+ "duration_api_ms": 20480,
+ "stop_reason": "tool_use",
+ "session_id": "2fb3225b-59e5-419f-9086-b2378a0b1d26",
+ "total_cost_usd": 0.066316,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9178,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2960,
+  "output_tokens_details": {
+   "thinking_tokens": 2024
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9178,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2960,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 9178,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9178
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2960,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 9178,
+   "webSearchRequests": 0,
+   "costUSD": 0.066316,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 2024,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Mesembriornis\",\"reason\":\"Extinct Cenozoic terror bird (phorusrhacid), not a dinosaur in the usual sense\"},{\"answer\":\"Procariama\",\"reason\":\"Extinct Cenozoic seriema-relative bird\"},{\"answer\":\"Juncitarsus\",\"reason\":\"Extinct Eocene flamingo-like bird\"},{\"answer\":\"Pachystruthio\",\"reason\":\"Pleistocene giant ostrich-like bird\"},{\"answer\":\"Palaeeudyptes\",\"reason\":\"Extinct giant penguin\"},{\"answer\":\"Osteodontornis\",\"reason\":\"Extinct Miocene pseudotooth bird\"},{\"answer\":\"Andrewsornis\",\"reason\":\"Extinct Cenozoic phorusrhacid bird\"},{\"answer\":\"Emuarius\",\"reason\":\"Extinct Cenozoic flightless bird (cassowary relative)\"},{\"answer\":\"Jamaican Ibis\",\"reason\":\"Recently extinct bird, not a dinosaur genus\"},{\"answer\":\"Bullockornis\",\"reason\":\"Extinct Miocene dromornithid 'demon duck' bird\"},{\"answer\":\"Archaeospheniscus\",\"reason\":\"Extinct penguin\"},{\"answer\":\"Paleopsilopterus\",\"reason\":\"Extinct Cenozoic phorusrhacid bird\"},{\"answer\":\"Apteribis\",\"reason\":\"Extinct Hawaiian flightless ibis\"},{\"answer\":\"Diogenornis\",\"reason\":\"Extinct Cenozoic phorusrhacid bird\"},{\"answer\":\"Palaelodus\",\"reason\":\"Extinct flamingo-relative bird\"},{\"answer\":\"Copepteryx\",\"reason\":\"Extinct Cenozoic seabird\"},{\"answer\":\"Eleutherornis\",\"reason\":\"Extinct Eocene bird\"},{\"answer\":\"Garganornis\",\"reason\":\"Extinct Miocene giant goose\"},{\"answer\":\"Palaeospheniscus\",\"reason\":\"Extinct penguin\"},{\"answer\":\"Lavocatavis\",\"reason\":\"Extinct Miocene bird\"},{\"answer\":\"Messelirrisor\",\"reason\":\"Extinct Eocene bird\"},{\"answer\":\"Neogyps\",\"reason\":\"Extinct Pleistocene vulture\"},{\"answer\":\"Phoeniconaias\",\"reason\":\"Flamingo genus (lesser flamingo), a living bird\"},{\"answer\":\"Australornis\",\"reason\":\"Extinct Paleocene bird\"},{\"answer\":\"Bathornis\",\"reason\":\"Extinct Cenozoic bathornithid bird\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Mesembriornis",
+    "reason": "Extinct Cenozoic terror bird (phorusrhacid), not a dinosaur in the usual sense"
+   },
+   {
+    "answer": "Procariama",
+    "reason": "Extinct Cenozoic seriema-relative bird"
+   },
+   {
+    "answer": "Juncitarsus",
+    "reason": "Extinct Eocene flamingo-like bird"
+   },
+   {
+    "answer": "Pachystruthio",
+    "reason": "Pleistocene giant ostrich-like bird"
+   },
+   {
+    "answer": "Palaeeudyptes",
+    "reason": "Extinct giant penguin"
+   },
+   {
+    "answer": "Osteodontornis",
+    "reason": "Extinct Miocene pseudotooth bird"
+   },
+   {
+    "answer": "Andrewsornis",
+    "reason": "Extinct Cenozoic phorusrhacid bird"
+   },
+   {
+    "answer": "Emuarius",
+    "reason": "Extinct Cenozoic flightless bird (cassowary relative)"
+   },
+   {
+    "answer": "Jamaican Ibis",
+    "reason": "Recently extinct bird, not a dinosaur genus"
+   },
+   {
+    "answer": "Bullockornis",
+    "reason": "Extinct Miocene dromornithid 'demon duck' bird"
+   },
+   {
+    "answer": "Archaeospheniscus",
+    "reason": "Extinct penguin"
+   },
+   {
+    "answer": "Paleopsilopterus",
+    "reason": "Extinct Cenozoic phorusrhacid bird"
+   },
+   {
+    "answer": "Apteribis",
+    "reason": "Extinct Hawaiian flightless ibis"
+   },
+   {
+    "answer": "Diogenornis",
+    "reason": "Extinct Cenozoic phorusrhacid bird"
+   },
+   {
+    "answer": "Palaelodus",
+    "reason": "Extinct flamingo-relative bird"
+   },
+   {
+    "answer": "Copepteryx",
+    "reason": "Extinct Cenozoic seabird"
+   },
+   {
+    "answer": "Eleutherornis",
+    "reason": "Extinct Eocene bird"
+   },
+   {
+    "answer": "Garganornis",
+    "reason": "Extinct Miocene giant goose"
+   },
+   {
+    "answer": "Palaeospheniscus",
+    "reason": "Extinct penguin"
+   },
+   {
+    "answer": "Lavocatavis",
+    "reason": "Extinct Miocene bird"
+   },
+   {
+    "answer": "Messelirrisor",
+    "reason": "Extinct Eocene bird"
+   },
+   {
+    "answer": "Neogyps",
+    "reason": "Extinct Pleistocene vulture"
+   },
+   {
+    "answer": "Phoeniconaias",
+    "reason": "Flamingo genus (lesser flamingo), a living bird"
+   },
+   {
+    "answer": "Australornis",
+    "reason": "Extinct Paleocene bird"
+   },
+   {
+    "answer": "Bathornis",
+    "reason": "Extinct Cenozoic bathornithid bird"
+   }
+  ]
+ },
+ "ttft_ms": 16188,
+ "type": "result",
+ "duration_ms": 20738,
+ "uuid": "2c16db66-54e6-44da-a856-2ab2558d2bb0",
+ "ttft_stream_ms": 1262,
+ "time_to_request_ms": 167,
+ "first_content_frame_ms": 1262,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

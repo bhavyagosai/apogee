@@ -1,0 +1,254 @@
+{
+ "duration_api_ms": 19829,
+ "stop_reason": "tool_use",
+ "session_id": "9d10ed7e-1351-4119-9bc1-953e87178b04",
+ "total_cost_usd": 0.06649,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9229,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2957,
+  "output_tokens_details": {
+   "thinking_tokens": 1730
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9229,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2957,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 9229,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9229
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2957,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 9229,
+   "webSearchRequests": 0,
+   "costUSD": 0.06649,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 1730,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Pentalath\",\"reason\":\"Abstract strategy game with no dice\"},{\"answer\":\"Smash up\",\"reason\":\"Card game, no dice\"},{\"answer\":\"Photosynthesis\",\"reason\":\"Tile-placement strategy game without dice\"},{\"answer\":\"Hamburgum\",\"reason\":\"Euro game with no dice\"},{\"answer\":\"Underwater Cities\",\"reason\":\"Card-driven worker placement, no dice\"},{\"answer\":\"Sheriff of Nottingham\",\"reason\":\"Card/bluffing game, no dice\"},{\"answer\":\"Calico\",\"reason\":\"Tile-laying game, no dice\"},{\"answer\":\"Seven-player chess\",\"reason\":\"Chess variant, no dice\"},{\"answer\":\"One-player chess\",\"reason\":\"Chess puzzle variant, no dice\"},{\"answer\":\"Neoclassical chess\",\"reason\":\"Chess variant, no dice\"},{\"answer\":\"Diamond Chess\",\"reason\":\"Chess variant, no dice\"},{\"answer\":\"Blindfold checkers\",\"reason\":\"Checkers variant, no dice\"},{\"answer\":\"Spanish Checkers\",\"reason\":\"Draughts variant, no dice\"},{\"answer\":\"Togyzkumalak\",\"reason\":\"Mancala-type game, no dice\"},{\"answer\":\"Tsoro Yematatu\",\"reason\":\"Abstract alignment game, no dice\"},{\"answer\":\"Ta-Ke\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Okiya\",\"reason\":\"Tile/card abstract game, no dice\"},{\"answer\":\"Lishogi\",\"reason\":\"Online shogi server, not a dice board game\"},{\"answer\":\"Oriflamme\",\"reason\":\"Card game, no dice\"},{\"answer\":\"Star Wars: The Deckbuilding Game\",\"reason\":\"Card game, no dice\"},{\"answer\":\"Ticket to Ride Legacy: Legends of the West\",\"reason\":\"Card/train game, no dice\"},{\"answer\":\"Ticket to Ride: Europe\",\"reason\":\"Card/train game, no dice\"},{\"answer\":\"SETI: Search for Extraterrestrial Intelligence\",\"reason\":\"No dice used\"},{\"answer\":\"War Chest\",\"reason\":\"Coin-based tactical game, no dice\"},{\"answer\":\"Gang of Four\",\"reason\":\"Card game, not a board game\"},{\"answer\":\"War\",\"reason\":\"Playing-card game, not a board game\"},{\"answer\":\"Dixit: Odyssey\",\"reason\":\"Card game, no dice\"},{\"answer\":\"Eight-Minute Empire\",\"reason\":\"Card-driven area control, no dice\"},{\"answer\":\"Fantasy Premier League\",\"reason\":\"Online fantasy football, not a board game\"},{\"answer\":\"Anno 1800\",\"reason\":\"Board game has no dice\"},{\"answer\":\"Telephone Pictionary\",\"reason\":\"Paper drawing game, not a board game with dice\"},{\"answer\":\"The Game About Wikipedia\",\"reason\":\"Not a dice board game\"},{\"answer\":\"Cuboro Tricky Ways\",\"reason\":\"Marble-run building toy, no dice\"},{\"answer\":\"Chameleon\",\"reason\":\"Card party game, no dice\"},{\"answer\":\"Black Stories\",\"reason\":\"Card riddle game, no dice\"},{\"answer\":\"Wandering Towers\",\"reason\":\"Movement game, no dice\"},{\"answer\":\"Web of Power\",\"reason\":\"Area control game, no dice\"},{\"answer\":\"Polis\",\"reason\":\"Card-driven Greek city-state game, no dice\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Pentalath",
+    "reason": "Abstract strategy game with no dice"
+   },
+   {
+    "answer": "Smash up",
+    "reason": "Card game, no dice"
+   },
+   {
+    "answer": "Photosynthesis",
+    "reason": "Tile-placement strategy game without dice"
+   },
+   {
+    "answer": "Hamburgum",
+    "reason": "Euro game with no dice"
+   },
+   {
+    "answer": "Underwater Cities",
+    "reason": "Card-driven worker placement, no dice"
+   },
+   {
+    "answer": "Sheriff of Nottingham",
+    "reason": "Card/bluffing game, no dice"
+   },
+   {
+    "answer": "Calico",
+    "reason": "Tile-laying game, no dice"
+   },
+   {
+    "answer": "Seven-player chess",
+    "reason": "Chess variant, no dice"
+   },
+   {
+    "answer": "One-player chess",
+    "reason": "Chess puzzle variant, no dice"
+   },
+   {
+    "answer": "Neoclassical chess",
+    "reason": "Chess variant, no dice"
+   },
+   {
+    "answer": "Diamond Chess",
+    "reason": "Chess variant, no dice"
+   },
+   {
+    "answer": "Blindfold checkers",
+    "reason": "Checkers variant, no dice"
+   },
+   {
+    "answer": "Spanish Checkers",
+    "reason": "Draughts variant, no dice"
+   },
+   {
+    "answer": "Togyzkumalak",
+    "reason": "Mancala-type game, no dice"
+   },
+   {
+    "answer": "Tsoro Yematatu",
+    "reason": "Abstract alignment game, no dice"
+   },
+   {
+    "answer": "Ta-Ke",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Okiya",
+    "reason": "Tile/card abstract game, no dice"
+   },
+   {
+    "answer": "Lishogi",
+    "reason": "Online shogi server, not a dice board game"
+   },
+   {
+    "answer": "Oriflamme",
+    "reason": "Card game, no dice"
+   },
+   {
+    "answer": "Star Wars: The Deckbuilding Game",
+    "reason": "Card game, no dice"
+   },
+   {
+    "answer": "Ticket to Ride Legacy: Legends of the West",
+    "reason": "Card/train game, no dice"
+   },
+   {
+    "answer": "Ticket to Ride: Europe",
+    "reason": "Card/train game, no dice"
+   },
+   {
+    "answer": "SETI: Search for Extraterrestrial Intelligence",
+    "reason": "No dice used"
+   },
+   {
+    "answer": "War Chest",
+    "reason": "Coin-based tactical game, no dice"
+   },
+   {
+    "answer": "Gang of Four",
+    "reason": "Card game, not a board game"
+   },
+   {
+    "answer": "War",
+    "reason": "Playing-card game, not a board game"
+   },
+   {
+    "answer": "Dixit: Odyssey",
+    "reason": "Card game, no dice"
+   },
+   {
+    "answer": "Eight-Minute Empire",
+    "reason": "Card-driven area control, no dice"
+   },
+   {
+    "answer": "Fantasy Premier League",
+    "reason": "Online fantasy football, not a board game"
+   },
+   {
+    "answer": "Anno 1800",
+    "reason": "Board game has no dice"
+   },
+   {
+    "answer": "Telephone Pictionary",
+    "reason": "Paper drawing game, not a board game with dice"
+   },
+   {
+    "answer": "The Game About Wikipedia",
+    "reason": "Not a dice board game"
+   },
+   {
+    "answer": "Cuboro Tricky Ways",
+    "reason": "Marble-run building toy, no dice"
+   },
+   {
+    "answer": "Chameleon",
+    "reason": "Card party game, no dice"
+   },
+   {
+    "answer": "Black Stories",
+    "reason": "Card riddle game, no dice"
+   },
+   {
+    "answer": "Wandering Towers",
+    "reason": "Movement game, no dice"
+   },
+   {
+    "answer": "Web of Power",
+    "reason": "Area control game, no dice"
+   },
+   {
+    "answer": "Polis",
+    "reason": "Card-driven Greek city-state game, no dice"
+   }
+  ]
+ },
+ "ttft_ms": 13719,
+ "type": "result",
+ "duration_ms": 20010,
+ "uuid": "0d3707e0-7358-48d2-82d0-0de415075330",
+ "ttft_stream_ms": 1165,
+ "time_to_request_ms": 131,
+ "first_content_frame_ms": 1166,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

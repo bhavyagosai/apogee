@@ -1,0 +1,390 @@
+{
+ "duration_api_ms": 40759,
+ "stop_reason": "tool_use",
+ "session_id": "209342ac-5eff-4d7a-aeb6-d2fcdbd4129e",
+ "total_cost_usd": 0.10751560000000002,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9400,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 6979,
+  "output_tokens_details": {
+   "thinking_tokens": 4865
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9400,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 6979,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 9400,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9400
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 6979,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 9400,
+   "webSearchRequests": 0,
+   "costUSD": 0.10751560000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 4865,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Mozzarella\",\"reason\":\"Not a place name (from 'mozzare', to cut).\"},{\"answer\":\"Bel Paese\",\"reason\":\"Means 'beautiful country'; not a specific place.\"},{\"answer\":\"Provolone\",\"reason\":\"Not a place name.\"},{\"answer\":\"Bologna\",\"reason\":\"A sausage, not a cheese.\"},{\"answer\":\"Tetilla\",\"reason\":\"Named for its breast shape.\"},{\"answer\":\"Feta\",\"reason\":\"Means 'slice'.\"},{\"answer\":\"Halloumi\",\"reason\":\"Not a place name.\"},{\"answer\":\"Kefalograviera\",\"reason\":\"Not a place name.\"},{\"answer\":\"Kasseri\",\"reason\":\"Not a place name.\"},{\"answer\":\"Reblochon\",\"reason\":\"Named for re-milking, not a place.\"},{\"answer\":\"Brillat-Savarin\",\"reason\":\"Named after a person.\"},{\"answer\":\"Mimolette\",\"reason\":\"Not a place name.\"},{\"answer\":\"Saint-Paulin\",\"reason\":\"Named after a saint.\"},{\"answer\":\"Raclette\",\"reason\":\"Named for the scraping method.\"},{\"answer\":\"Tête de Moine\",\"reason\":\"Means 'monk's head'.\"},{\"answer\":\"Gruyère de Comté\",\"reason\":\"Not a real cheese name; a mix of Gruyère and Comté.\"},{\"answer\":\"Brick\",\"reason\":\"Named for its shape.\"},{\"answer\":\"Oscypek\",\"reason\":\"Not a place name.\"},{\"answer\":\"Tulum\",\"reason\":\"Named for the goatskin casing.\"},{\"answer\":\"Kashkaval\",\"reason\":\"Not a place name.\"},{\"answer\":\"Swiss\",\"reason\":\"Generic category of cheese.\"},{\"answer\":\"Cheddar Gorge\",\"reason\":\"A place, not a cheese.\"},{\"answer\":\"Caboc\",\"reason\":\"Gaelic for 'cheese'.\"},{\"answer\":\"Bergkäse\",\"reason\":\"Generic 'mountain cheese' category.\"},{\"answer\":\"Stracchino\",\"reason\":\"Means 'tired', not a place.\"},{\"answer\":\"Crescenza\",\"reason\":\"Not a place name.\"},{\"answer\":\"Scamorza\",\"reason\":\"Not a place name.\"},{\"answer\":\"Dolcelatte\",\"reason\":\"Means 'sweet milk'.\"},{\"answer\":\"Mascarpone\",\"reason\":\"Not a place name.\"},{\"answer\":\"Maytag Blue\",\"reason\":\"Named after a company/person.\"},{\"answer\":\"Teleme\",\"reason\":\"Not a place name.\"},{\"answer\":\"Pepper Jack\",\"reason\":\"Named for pepper; a Monterey Jack variant.\"},{\"answer\":\"Herrgård\",\"reason\":\"Means 'manor'; generic.\"},{\"answer\":\"Gammelost\",\"reason\":\"Means 'old cheese'.\"},{\"answer\":\"Nøkkelost\",\"reason\":\"Means 'key cheese'.\"},{\"answer\":\"Hushållsost\",\"reason\":\"Means 'household cheese'.\"},{\"answer\":\"Kalix\",\"reason\":\"Known for roe, not a cheese.\"},{\"answer\":\"Karelian\",\"reason\":\"Not a recognized cheese.\"},{\"answer\":\"Boerenkaas\",\"reason\":\"Generic 'farmer's cheese'.\"},{\"answer\":\"Cabécou\",\"reason\":\"Means 'little goat'.\"},{\"answer\":\"Pélardon\",\"reason\":\"Not a place name.\"},{\"answer\":\"Brocciu\",\"reason\":\"Not a place name.\"},{\"answer\":\"Saint-Agur\",\"reason\":\"Named for a saint, not a place.\"},{\"answer\":\"Ardi-Gasna\",\"reason\":\"Means 'sheep cheese' in Basque.\"},{\"answer\":\"Kefalotyri\",\"reason\":\"Means 'head cheese'.\"},{\"answer\":\"Anthotyro\",\"reason\":\"Means 'flower cheese'.\"},{\"answer\":\"Batzos\",\"reason\":\"Not a place name.\"},{\"answer\":\"Sfela\",\"reason\":\"Not a place name.\"},{\"answer\":\"Telemes\",\"reason\":\"Not a place name.\"},{\"answer\":\"Jibneh Arabieh\",\"reason\":\"Means 'Arab cheese'; generic.\"},{\"answer\":\"Tulum Peyniri\",\"reason\":\"Means 'tulum cheese'; goatskin casing.\"},{\"answer\":\"Circassian\",\"reason\":\"Named for a people, not a place.\"},{\"answer\":\"Chechil\",\"reason\":\"Not a place name.\"},{\"answer\":\"Dutch Cheese Gouda Leiden\",\"reason\":\"Not a real cheese name; garbled.\"},{\"answer\":\"Bryndza\",\"reason\":\"Generic sheep cheese; not a place.\"},{\"answer\":\"Tvarůžky\",\"reason\":\"Means 'curds'; not a place.\"},{\"answer\":\"Quargel\",\"reason\":\"Not a place name.\"},{\"answer\":\"Liederkranz\",\"reason\":\"Named for a singing society.\"},{\"answer\":\"Perl Las\",\"reason\":\"Means 'blue pearl'.\"},{\"answer\":\"Huntsman\",\"reason\":\"Not a place name.\"},{\"answer\":\"Crowdie\",\"reason\":\"Not a place name.\"},{\"answer\":\"Gabriel\",\"reason\":\"Named after a person.\"},{\"answer\":\"Stinking Bishop\",\"reason\":\"Named after a pear variety.\"},{\"answer\":\"Grana\",\"reason\":\"Generic category of hard cheeses.\"},{\"answer\":\"Edelpilz\",\"reason\":\"Means 'noble mold'; generic.\"},{\"answer\":\"Afuega'l Pitu\",\"reason\":\"Means 'choke the chicken'.\"},{\"answer\":\"Mató\",\"reason\":\"Generic fresh cheese; not a place.\"},{\"answer\":\"Paneer\",\"reason\":\"Generic cheese type; not a place.\"},{\"answer\":\"Kalari\",\"reason\":\"Not a place name.\"},{\"answer\":\"Chhurpi\",\"reason\":\"Not a place name.\"},{\"answer\":\"Chaubane\",\"reason\":\"Not a recognized cheese.\"},{\"answer\":\"Applewood\",\"reason\":\"Named for smoking wood, not a place.\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Mozzarella",
+    "reason": "Not a place name (from 'mozzare', to cut)."
+   },
+   {
+    "answer": "Bel Paese",
+    "reason": "Means 'beautiful country'; not a specific place."
+   },
+   {
+    "answer": "Provolone",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Bologna",
+    "reason": "A sausage, not a cheese."
+   },
+   {
+    "answer": "Tetilla",
+    "reason": "Named for its breast shape."
+   },
+   {
+    "answer": "Feta",
+    "reason": "Means 'slice'."
+   },
+   {
+    "answer": "Halloumi",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Kefalograviera",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Kasseri",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Reblochon",
+    "reason": "Named for re-milking, not a place."
+   },
+   {
+    "answer": "Brillat-Savarin",
+    "reason": "Named after a person."
+   },
+   {
+    "answer": "Mimolette",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Saint-Paulin",
+    "reason": "Named after a saint."
+   },
+   {
+    "answer": "Raclette",
+    "reason": "Named for the scraping method."
+   },
+   {
+    "answer": "Tête de Moine",
+    "reason": "Means 'monk's head'."
+   },
+   {
+    "answer": "Gruyère de Comté",
+    "reason": "Not a real cheese name; a mix of Gruyère and Comté."
+   },
+   {
+    "answer": "Brick",
+    "reason": "Named for its shape."
+   },
+   {
+    "answer": "Oscypek",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Tulum",
+    "reason": "Named for the goatskin casing."
+   },
+   {
+    "answer": "Kashkaval",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Swiss",
+    "reason": "Generic category of cheese."
+   },
+   {
+    "answer": "Cheddar Gorge",
+    "reason": "A place, not a cheese."
+   },
+   {
+    "answer": "Caboc",
+    "reason": "Gaelic for 'cheese'."
+   },
+   {
+    "answer": "Bergkäse",
+    "reason": "Generic 'mountain cheese' category."
+   },
+   {
+    "answer": "Stracchino",
+    "reason": "Means 'tired', not a place."
+   },
+   {
+    "answer": "Crescenza",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Scamorza",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Dolcelatte",
+    "reason": "Means 'sweet milk'."
+   },
+   {
+    "answer": "Mascarpone",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Maytag Blue",
+    "reason": "Named after a company/person."
+   },
+   {
+    "answer": "Teleme",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Pepper Jack",
+    "reason": "Named for pepper; a Monterey Jack variant."
+   },
+   {
+    "answer": "Herrgård",
+    "reason": "Means 'manor'; generic."
+   },
+   {
+    "answer": "Gammelost",
+    "reason": "Means 'old cheese'."
+   },
+   {
+    "answer": "Nøkkelost",
+    "reason": "Means 'key cheese'."
+   },
+   {
+    "answer": "Hushållsost",
+    "reason": "Means 'household cheese'."
+   },
+   {
+    "answer": "Kalix",
+    "reason": "Known for roe, not a cheese."
+   },
+   {
+    "answer": "Karelian",
+    "reason": "Not a recognized cheese."
+   },
+   {
+    "answer": "Boerenkaas",
+    "reason": "Generic 'farmer's cheese'."
+   },
+   {
+    "answer": "Cabécou",
+    "reason": "Means 'little goat'."
+   },
+   {
+    "answer": "Pélardon",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Brocciu",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Saint-Agur",
+    "reason": "Named for a saint, not a place."
+   },
+   {
+    "answer": "Ardi-Gasna",
+    "reason": "Means 'sheep cheese' in Basque."
+   },
+   {
+    "answer": "Kefalotyri",
+    "reason": "Means 'head cheese'."
+   },
+   {
+    "answer": "Anthotyro",
+    "reason": "Means 'flower cheese'."
+   },
+   {
+    "answer": "Batzos",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Sfela",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Telemes",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Jibneh Arabieh",
+    "reason": "Means 'Arab cheese'; generic."
+   },
+   {
+    "answer": "Tulum Peyniri",
+    "reason": "Means 'tulum cheese'; goatskin casing."
+   },
+   {
+    "answer": "Circassian",
+    "reason": "Named for a people, not a place."
+   },
+   {
+    "answer": "Chechil",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Dutch Cheese Gouda Leiden",
+    "reason": "Not a real cheese name; garbled."
+   },
+   {
+    "answer": "Bryndza",
+    "reason": "Generic sheep cheese; not a place."
+   },
+   {
+    "answer": "Tvarůžky",
+    "reason": "Means 'curds'; not a place."
+   },
+   {
+    "answer": "Quargel",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Liederkranz",
+    "reason": "Named for a singing society."
+   },
+   {
+    "answer": "Perl Las",
+    "reason": "Means 'blue pearl'."
+   },
+   {
+    "answer": "Huntsman",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Crowdie",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Gabriel",
+    "reason": "Named after a person."
+   },
+   {
+    "answer": "Stinking Bishop",
+    "reason": "Named after a pear variety."
+   },
+   {
+    "answer": "Grana",
+    "reason": "Generic category of hard cheeses."
+   },
+   {
+    "answer": "Edelpilz",
+    "reason": "Means 'noble mold'; generic."
+   },
+   {
+    "answer": "Afuega'l Pitu",
+    "reason": "Means 'choke the chicken'."
+   },
+   {
+    "answer": "Mató",
+    "reason": "Generic fresh cheese; not a place."
+   },
+   {
+    "answer": "Paneer",
+    "reason": "Generic cheese type; not a place."
+   },
+   {
+    "answer": "Kalari",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Chhurpi",
+    "reason": "Not a place name."
+   },
+   {
+    "answer": "Chaubane",
+    "reason": "Not a recognized cheese."
+   },
+   {
+    "answer": "Applewood",
+    "reason": "Named for smoking wood, not a place."
+   }
+  ]
+ },
+ "ttft_ms": 30495,
+ "type": "result",
+ "duration_ms": 40818,
+ "uuid": "65674edf-0df8-4709-b19d-07718aa38804",
+ "ttft_stream_ms": 788,
+ "time_to_request_ms": 30,
+ "first_content_frame_ms": 789,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

@@ -1,0 +1,106 @@
+{
+ "duration_api_ms": 4633,
+ "stop_reason": "tool_use",
+ "session_id": "1fac34d5-e6e3-4a8d-8b97-fb07e047d294",
+ "total_cost_usd": 0.0308656,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6795,
+  "cache_read_input_tokens": 708,
+  "output_tokens": 354,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6795,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 354,
+    "cache_read_input_tokens": 708,
+    "cache_creation_input_tokens": 6795,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6795
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 354,
+   "cacheReadInputTokens": 708,
+   "cacheCreationInputTokens": 6795,
+   "webSearchRequests": 0,
+   "costUSD": 0.0308656,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"source\":\"wikidata\",\"reason\":\"Dinosaur genera are Wikidata taxa. The previous query timed out because it used unbounded P171+ twice. This version uses genus-level taxa under Dinosauria (Q430) and removes birds (Neornithes, Q5113).\",\"wikidata\":{\"where\":\"?item wdt:P105 wd:Q34740 ; wdt:P171* wd:Q430 . MINUS { ?item wdt:P171* wd:Q5113 }\",\"notes\":\"Starts from genus-rank taxa (P105 = taxon rank, Q34740 = genus) and walks up the parent taxon chain to Dinosauria. Excludes Neornithes, so modern birds are removed. The ordering puts the selective rank filter first, so the engine does not have to expand the full Dinosauria tree.\"}}",
+ "structured_output": {
+  "source": "wikidata",
+  "reason": "Dinosaur genera are Wikidata taxa. The previous query timed out because it used unbounded P171+ twice. This version uses genus-level taxa under Dinosauria (Q430) and removes birds (Neornithes, Q5113).",
+  "wikidata": {
+   "where": "?item wdt:P105 wd:Q34740 ; wdt:P171* wd:Q430 . MINUS { ?item wdt:P171* wd:Q5113 }",
+   "notes": "Starts from genus-rank taxa (P105 = taxon rank, Q34740 = genus) and walks up the parent taxon chain to Dinosauria. Excludes Neornithes, so modern birds are removed. The ordering puts the selective rank filter first, so the engine does not have to expand the full Dinosauria tree."
+  }
+ },
+ "ttft_ms": 4619,
+ "type": "result",
+ "duration_ms": 4863,
+ "uuid": "65f9d213-e91d-43e6-80e8-31cff812c8de",
+ "ttft_stream_ms": 2529,
+ "time_to_request_ms": 114,
+ "first_content_frame_ms": 2533,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

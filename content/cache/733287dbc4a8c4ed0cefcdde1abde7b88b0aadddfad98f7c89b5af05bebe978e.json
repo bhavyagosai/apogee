@@ -1,0 +1,2270 @@
+{
+ "duration_api_ms": 74492,
+ "stop_reason": "tool_use",
+ "session_id": "0d90e959-efbf-4dc7-ad3d-80173aca5742",
+ "total_cost_usd": 0.133804,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6409,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 10804,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6409,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 10804,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 6409,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6409
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 10804,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 6409,
+   "webSearchRequests": 0,
+   "costUSD": 0.133804,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Blink-182\",\"aliases\":[\"Blink 182\",\"Blink one eight two\"]},{\"answer\":\"U2\",\"aliases\":[\"U 2\"]},{\"answer\":\"UB40\",\"aliases\":[\"UB 40\"]},{\"answer\":\"Maroon 5\",\"aliases\":[\"Maroon Five\"]},{\"answer\":\"Sum 41\",\"aliases\":[\"Sum Forty One\"]},{\"answer\":\"Matchbox Twenty\",\"aliases\":[\"Matchbox 20\"]},{\"answer\":\"Third Eye Blind\",\"aliases\":[]},{\"answer\":\"Jackson 5\",\"aliases\":[\"The Jackson 5\",\"The Jackson Five\",\"Jackson Five\"]},{\"answer\":\"Five Finger Death Punch\",\"aliases\":[\"5FDP\",\"5 Finger Death Punch\"]},{\"answer\":\"Fifth Harmony\",\"aliases\":[\"5th Harmony\"]},{\"answer\":\"5 Seconds of Summer\",\"aliases\":[\"5SOS\",\"Five Seconds of Summer\"]},{\"answer\":\"Twenty One Pilots\",\"aliases\":[\"21 Pilots\",\"Twenty-One Pilots\"]},{\"answer\":\"Eiffel 65\",\"aliases\":[\"Eiffel Sixty Five\"]},{\"answer\":\"Nine Inch Nails\",\"aliases\":[\"NIN\",\"9 Inch Nails\"]},{\"answer\":\"Three Dog Night\",\"aliases\":[\"3 Dog Night\"]},{\"answer\":\"3 Doors Down\",\"aliases\":[\"Three Doors Down\"]},{\"answer\":\"Third Day\",\"aliases\":[]},{\"answer\":\"Four Tops\",\"aliases\":[\"The Four Tops\",\"4 Tops\"]},{\"answer\":\"The Four Seasons\",\"aliases\":[\"Four Seasons\",\"Frankie Valli and the Four Seasons\"]},{\"answer\":\"Four Non Blondes\",\"aliases\":[\"4 Non Blondes\"]},{\"answer\":\"The Fifth Dimension\",\"aliases\":[\"Fifth Dimension\",\"5th Dimension\"]},{\"answer\":\"Level 42\",\"aliases\":[\"Level Forty Two\"]},{\"answer\":\"Boyz II Men\",\"aliases\":[\"Boyz 2 Men\",\"Boys II Men\",\"Boyz to Men\"]},{\"answer\":\"East 17\",\"aliases\":[\"East Seventeen\"]},{\"answer\":\"Right Said Fred\",\"aliases\":[]},{\"answer\":\"10cc\",\"aliases\":[\"10 CC\",\"Ten CC\"]},{\"answer\":\"10,000 Maniacs\",\"aliases\":[\"10000 Maniacs\",\"Ten Thousand Maniacs\"]},{\"answer\":\"Ten Years After\",\"aliases\":[\"10 Years After\"]},{\"answer\":\"10 Years\",\"aliases\":[\"Ten Years\"]},{\"answer\":\"Seven Mary Three\",\"aliases\":[\"7 Mary 3\",\"7 Mary Three\"]},{\"answer\":\"Sixpence None the Richer\",\"aliases\":[\"Sixpence None The Richer\"]},{\"answer\":\"The Thirteenth Floor Elevators\",\"aliases\":[\"13th Floor Elevators\",\"Thirteenth Floor Elevators\"]},{\"answer\":\"Apollo 440\",\"aliases\":[\"Apollo Four Forty\"]},{\"answer\":\"Plan B\",\"aliases\":[]},{\"answer\":\"B2K\",\"aliases\":[\"B2K\"]},{\"answer\":\"112\",\"aliases\":[\"One Twelve\"]},{\"answer\":\"98 Degrees\",\"aliases\":[\"98°\",\"Ninety Eight Degrees\",\"98 Degrees\"]},{\"answer\":\"911\",\"aliases\":[\"Nine One One\"]},{\"answer\":\"702\",\"aliases\":[]},{\"answer\":\"Take 6\",\"aliases\":[\"Take Six\"]},{\"answer\":\"Pet Shop Boys\",\"aliases\":[]},{\"answer\":\"Jackson Five\",\"aliases\":[]},{\"answer\":\"Heavy D\",\"aliases\":[]},{\"answer\":\"50 Cent\",\"aliases\":[\"Fifty Cent\",\"50cent\"]},{\"answer\":\"21 Savage\",\"aliases\":[\"Twenty One Savage\"]},{\"answer\":\"2 Chainz\",\"aliases\":[\"Two Chainz\",\"2Chainz\"]},{\"answer\":\"2Pac\",\"aliases\":[\"Tupac\",\"Tupac Shakur\",\"2 Pac\"]},{\"answer\":\"Lil Wayne\",\"aliases\":[]},{\"answer\":\"6ix9ine\",\"aliases\":[\"Tekashi 6ix9ine\",\"Six Nine\",\"6ix9ine\",\"Tekashi 69\"]},{\"answer\":\"Tyga\",\"aliases\":[]},{\"answer\":\"3OH!3\",\"aliases\":[\"3OH3\",\"Three Oh Three\",\"303\"]},{\"answer\":\"Blue October\",\"aliases\":[]},{\"answer\":\"2 Unlimited\",\"aliases\":[\"Two Unlimited\"]},{\"answer\":\"2 Live Crew\",\"aliases\":[\"2 Live Crew\",\"Two Live Crew\",\"The 2 Live Crew\"]},{\"answer\":\"Tenacious D\",\"aliases\":[]},{\"answer\":\"Sevendust\",\"aliases\":[\"Seven Dust\"]},{\"answer\":\"Seven Nation Army\",\"aliases\":[]},{\"answer\":\"Three Days Grace\",\"aliases\":[\"3 Days Grace\"]},{\"answer\":\"Three 6 Mafia\",\"aliases\":[\"Three Six Mafia\",\"3 6 Mafia\"]},{\"answer\":\"Thirty Seconds to Mars\",\"aliases\":[\"30 Seconds to Mars\",\"30STM\",\"Thirty Seconds To Mars\"]},{\"answer\":\"Thirty Seconds Out\",\"aliases\":[]},{\"answer\":\"Two Door Cinema Club\",\"aliases\":[\"2 Door Cinema Club\"]},{\"answer\":\"Two Friends\",\"aliases\":[\"2 Friends\"]},{\"answer\":\"The Two Man Gentlemen Band\",\"aliases\":[]},{\"answer\":\"One Direction\",\"aliases\":[\"1D\"]},{\"answer\":\"Eleven\",\"aliases\":[]},{\"answer\":\"Better Than Ezra\",\"aliases\":[]},{\"answer\":\"One Republic\",\"aliases\":[\"OneRepublic\",\"One Republic\"]},{\"answer\":\"One Ok Rock\",\"aliases\":[\"ONE OK ROCK\",\"One OK Rock\",\"10969\"]},{\"answer\":\"Four Year Strong\",\"aliases\":[\"4 Year Strong\"]},{\"answer\":\"The Band of Seven\",\"aliases\":[]},{\"answer\":\"Seven Lions\",\"aliases\":[\"7 Lions\"]},{\"answer\":\"Eighth Wonder\",\"aliases\":[\"8th Wonder\"]},{\"answer\":\"Eight Wonder\",\"aliases\":[]},{\"answer\":\"The Nine Nine\",\"aliases\":[]},{\"answer\":\"Nine Black Alps\",\"aliases\":[\"9 Black Alps\"]},{\"answer\":\"Nine Days\",\"aliases\":[\"9 Days\"]},{\"answer\":\"The Nines\",\"aliases\":[\"Nines\"]},{\"answer\":\"Ninja Sex Party\",\"aliases\":[]},{\"answer\":\"Sixteen Horsepower\",\"aliases\":[\"16 Horsepower\",\"16 Horsepower\"]},{\"answer\":\"Twelve Girls Band\",\"aliases\":[\"12 Girls Band\"]},{\"answer\":\"The Thirteenth Floor\",\"aliases\":[]},{\"answer\":\"Thirteen Senses\",\"aliases\":[\"13 Senses\"]},{\"answer\":\"The 1975\",\"aliases\":[\"1975\",\"The Nineteen Seventy Five\"]},{\"answer\":\"Sigue Sigue Sputnik\",\"aliases\":[]},{\"answer\":\"The Four Freshmen\",\"aliases\":[\"Four Freshmen\"]},{\"answer\":\"The Four Preps\",\"aliases\":[\"Four Preps\"]},{\"answer\":\"Four Lads\",\"aliases\":[\"The Four Lads\"]},{\"answer\":\"The Five Satins\",\"aliases\":[\"Five Satins\"]},{\"answer\":\"The Five Stairsteps\",\"aliases\":[\"Five Stairsteps\"]},{\"answer\":\"Five Star\",\"aliases\":[\"5 Star\"]},{\"answer\":\"Five\",\"aliases\":[\"5ive\",\"5ive\",\"5\"]},{\"answer\":\"Five for Fighting\",\"aliases\":[\"5 for Fighting\"]},{\"answer\":\"Five Iron Frenzy\",\"aliases\":[\"5 Iron Frenzy\"]},{\"answer\":\"The Five Americans\",\"aliases\":[\"Five Americans\"]},{\"answer\":\"The Dave Clark Five\",\"aliases\":[\"Dave Clark Five\",\"DC5\"]},{\"answer\":\"The Jackson Five\",\"aliases\":[]},{\"answer\":\"Sly Five\",\"aliases\":[]},{\"answer\":\"Grandmaster Flash and the Furious Five\",\"aliases\":[\"The Furious Five\",\"Furious Five\"]},{\"answer\":\"Ben Folds Five\",\"aliases\":[\"Ben Folds 5\"]},{\"answer\":\"Bruce Hornsby\",\"aliases\":[]},{\"answer\":\"Hootie\",\"aliases\":[]},{\"answer\":\"Fun Boy Three\",\"aliases\":[\"Fun Boy 3\",\"Funboy Three\"]},{\"answer\":\"The Three Degrees\",\"aliases\":[\"Three Degrees\"]},{\"answer\":\"Three Dog Night\",\"aliases\":[]},{\"answer\":\"Three Man Army\",\"aliases\":[]},{\"answer\":\"Three Mile Pilot\",\"aliases\":[\"3 Mile Pilot\"]},{\"answer\":\"Three Fish\",\"aliases\":[\"3 Fish\"]},{\"answer\":\"Three O'Clock\",\"aliases\":[\"The Three O'Clock\",\"3 O'Clock\"]},{\"answer\":\"The Three Tenors\",\"aliases\":[\"Three Tenors\"]},{\"answer\":\"The Three Stooges\",\"aliases\":[\"Three Stooges\"]},{\"answer\":\"Third Eye Blind\",\"aliases\":[]},{\"answer\":\"Triple Eight\",\"aliases\":[]},{\"answer\":\"Deuce\",\"aliases\":[]},{\"answer\":\"The Second City\",\"aliases\":[]},{\"answer\":\"Two Tons O' Fun\",\"aliases\":[]},{\"answer\":\"The Two Tones\",\"aliases\":[]},{\"answer\":\"Two Gallants\",\"aliases\":[\"2 Gallants\"]},{\"answer\":\"Two Lone Swordsmen\",\"aliases\":[\"2 Lone Swordsmen\"]},{\"answer\":\"Two Minutes Hate\",\"aliases\":[]},{\"answer\":\"The Two of Us\",\"aliases\":[]},{\"answer\":\"Eve 6\",\"aliases\":[\"Eve Six\"]},{\"answer\":\"Sixx:A.M.\",\"aliases\":[\"Sixx AM\",\"Sixx A.M.\"]},{\"answer\":\"Six by Seven\",\"aliases\":[\"6 by 7\",\"Six By Seven\"]},{\"answer\":\"Six Finger Satellite\",\"aliases\":[\"6 Finger Satellite\"]},{\"answer\":\"Six Feet Under\",\"aliases\":[\"6 Feet Under\"]},{\"answer\":\"Six Organs of Admittance\",\"aliases\":[\"6 Organs of Admittance\"]},{\"answer\":\"Six Going on Seven\",\"aliases\":[]},{\"answer\":\"Seven Year Bitch\",\"aliases\":[\"7 Year Bitch\"]},{\"answer\":\"Seven Days of Samsara\",\"aliases\":[]},{\"answer\":\"Seven Witches\",\"aliases\":[\"7 Witches\"]},{\"answer\":\"Seventh Day Slumber\",\"aliases\":[\"7th Day Slumber\"]},{\"answer\":\"Seventeen\",\"aliases\":[\"17\",\"SVT\",\"Seventeen K-pop\"]},{\"answer\":\"Sixteen Candles\",\"aliases\":[]},{\"answer\":\"Fifteen\",\"aliases\":[]},{\"answer\":\"Forty Four\",\"aliases\":[]},{\"answer\":\"The 40 Thieves\",\"aliases\":[]},{\"answer\":\"Forty Foot Echo\",\"aliases\":[\"40 Foot Echo\"]},{\"answer\":\"The 4 Skins\",\"aliases\":[\"4 Skins\",\"The Four Skins\",\"Four Skins\"]},{\"answer\":\"Four of Us\",\"aliases\":[\"The Four of Us\"]},{\"answer\":\"4 Strings\",\"aliases\":[\"Four Strings\"]},{\"answer\":\"4 Hero\",\"aliases\":[\"Four Hero\"]},{\"answer\":\"4Minute\",\"aliases\":[\"4 Minute\",\"Four Minute\"]},{\"answer\":\"4Tops\",\"aliases\":[]},{\"answer\":\"4 the Cause\",\"aliases\":[]},{\"answer\":\"Fourplay\",\"aliases\":[\"Four Play\"]},{\"answer\":\"Four Tet\",\"aliases\":[\"4 Tet\",\"Four Tet\"]},{\"answer\":\"Four Year Strong\",\"aliases\":[]},{\"answer\":\"Fourth Day\",\"aliases\":[]},{\"answer\":\"Foreign Beggars\",\"aliases\":[]},{\"answer\":\"Cinderella\",\"aliases\":[]},{\"answer\":\"The 5th Dimension\",\"aliases\":[]},{\"answer\":\"5 Royales\",\"aliases\":[\"The 5 Royales\",\"The Five Royales\",\"Five Royales\"]},{\"answer\":\"Five Man Electrical Band\",\"aliases\":[\"5 Man Electrical Band\"]},{\"answer\":\"The Five Keys\",\"aliases\":[\"Five Keys\"]},{\"answer\":\"The Five Blind Boys of Alabama\",\"aliases\":[\"Five Blind Boys of Alabama\"]},{\"answer\":\"Five Eight\",\"aliases\":[\"5-8\"]},{\"answer\":\"Five Years\",\"aliases\":[]},{\"answer\":\"The 5.6.7.8's\",\"aliases\":[\"5.6.7.8's\",\"The 5678s\",\"5678s\"]},{\"answer\":\"The 6ths\",\"aliases\":[\"The Sixths\",\"6ths\"]},{\"answer\":\"Third Rail\",\"aliases\":[]},{\"answer\":\"Pink Floyd\",\"aliases\":[]},{\"answer\":\"7Horse\",\"aliases\":[\"Seven Horse\"]},{\"answer\":\"7th Heaven\",\"aliases\":[\"Seventh Heaven\"]},{\"answer\":\"Seven Mary Three\",\"aliases\":[]},{\"answer\":\"S Club 7\",\"aliases\":[\"S Club Seven\",\"S Club\"]},{\"answer\":\"Brooklyn Bounce\",\"aliases\":[]},{\"answer\":\"Vengaboys\",\"aliases\":[]},{\"answer\":\"No Doubt\",\"aliases\":[]},{\"answer\":\"Bell Biv DeVoe\",\"aliases\":[]},{\"answer\":\"Dru Hill\",\"aliases\":[]},{\"answer\":\"Highway 101\",\"aliases\":[\"Highway One O One\"]},{\"answer\":\"Route 66\",\"aliases\":[]},{\"answer\":\"Area 51\",\"aliases\":[]},{\"answer\":\"Studio 54\",\"aliases\":[]},{\"answer\":\"Club 8\",\"aliases\":[\"Club Eight\"]},{\"answer\":\"Sector 9\",\"aliases\":[\"Sector Nine\"]},{\"answer\":\"Section 25\",\"aliases\":[\"Section Twenty Five\"]},{\"answer\":\"Group 1850\",\"aliases\":[]},{\"answer\":\"Delta 5\",\"aliases\":[\"Delta Five\"]},{\"answer\":\"Channel 3\",\"aliases\":[\"Channel Three\"]},{\"answer\":\"Boys Like Girls\",\"aliases\":[]},{\"answer\":\"MC 900 Ft Jesus\",\"aliases\":[\"MC 900 Foot Jesus\",\"MC 900 Feet Jesus\"]},{\"answer\":\"Orchestral Manoeuvres in the Dark\",\"aliases\":[]},{\"answer\":\"Dr. Dre\",\"aliases\":[]},{\"answer\":\"Louis XIV\",\"aliases\":[\"Louis the 14th\",\"Louis Fourteenth\"]},{\"answer\":\"Napoleon XIV\",\"aliases\":[\"Napoleon 14\",\"Napoleon the 14th\"]},{\"answer\":\"Pope Joan\",\"aliases\":[]},{\"answer\":\"Sparks\",\"aliases\":[]},{\"answer\":\"Bad Company\",\"aliases\":[]},{\"answer\":\"Kasabian\",\"aliases\":[]},{\"answer\":\"Funkadelic\",\"aliases\":[]},{\"answer\":\"Metro Station\",\"aliases\":[]},{\"answer\":\"The Nightwatchman\",\"aliases\":[]},{\"answer\":\"Dream Theater\",\"aliases\":[]},{\"answer\":\"Alphaville\",\"aliases\":[]},{\"answer\":\"Spacemen 3\",\"aliases\":[\"Spacemen Three\"]},{\"answer\":\"Plan 9\",\"aliases\":[\"Plan Nine\"]},{\"answer\":\"Quad City DJs\",\"aliases\":[]},{\"answer\":\"Zero 7\",\"aliases\":[\"Zero Seven\"]},{\"answer\":\"Zero 7\",\"aliases\":[]},{\"answer\":\"Mother Love Bone\",\"aliases\":[]},{\"answer\":\"Temple of the Dog\",\"aliases\":[]},{\"answer\":\"Pearl Jam\",\"aliases\":[]},{\"answer\":\"Jimmy Eat World\",\"aliases\":[]},{\"answer\":\"Maroon V\",\"aliases\":[]},{\"answer\":\"The 88\",\"aliases\":[\"88\",\"The Eighty Eight\"]},{\"answer\":\"88 Fingers Louie\",\"aliases\":[\"Eighty Eight Fingers Louie\"]},{\"answer\":\"The 69 Eyes\",\"aliases\":[\"69 Eyes\",\"The Sixty Nine Eyes\"]},{\"answer\":\"The 22-20s\",\"aliases\":[\"22-20s\",\"The 2220s\",\"22 20s\"]},{\"answer\":\"The 1990s\",\"aliases\":[\"1990s\"]},{\"answer\":\"The 411\",\"aliases\":[\"411\"]},{\"answer\":\"The 504 Boyz\",\"aliases\":[\"504 Boyz\"]},{\"answer\":\"Cherry Poppin' Daddies\",\"aliases\":[]},{\"answer\":\"Ocean Colour Scene\",\"aliases\":[]},{\"answer\":\"Catatonia\",\"aliases\":[]},{\"answer\":\"The 101ers\",\"aliases\":[\"101ers\",\"The One Oh Ones\"]},{\"answer\":\"The 13th Floor Elevators\",\"aliases\":[]},{\"answer\":\"Sector 27\",\"aliases\":[]},{\"answer\":\"The 18th Dye\",\"aliases\":[\"18th Dye\"]},{\"answer\":\"1000 Homo DJs\",\"aliases\":[\"1000 Homo DJ's\"]},{\"answer\":\"1 Giant Leap\",\"aliases\":[\"One Giant Leap\"]},{\"answer\":\"1 Mile North\",\"aliases\":[]},{\"answer\":\"The 1st Chapter\",\"aliases\":[]},{\"answer\":\"1.8.7\",\"aliases\":[\"187\"]},{\"answer\":\"The 2nd Law\",\"aliases\":[]},{\"answer\":\"The 3rd Bass\",\"aliases\":[\"3rd Bass\",\"Third Bass\"]},{\"answer\":\"The 4th Disciple\",\"aliases\":[\"4th Disciple\"]},{\"answer\":\"7L & Esoteric\",\"aliases\":[\"7L and Esoteric\"]},{\"answer\":\"Jurassic 5\",\"aliases\":[\"Jurassic Five\"]},{\"answer\":\"Compton's Most Wanted\",\"aliases\":[]},{\"answer\":\"MC 5\",\"aliases\":[\"MC5\",\"The MC5\",\"Motor City Five\"]},{\"answer\":\"The Fifth Estate\",\"aliases\":[\"Fifth Estate\"]},{\"answer\":\"The 4 Seasons\",\"aliases\":[]},{\"answer\":\"The Sixth Sense\",\"aliases\":[]},{\"answer\":\"Sixpence\",\"aliases\":[]},{\"answer\":\"Cheap Trick\",\"aliases\":[]},{\"answer\":\"Seven and the Sun\",\"aliases\":[]},{\"answer\":\"Natalie Imbruglia\",\"aliases\":[]},{\"answer\":\"MKTO\",\"aliases\":[]},{\"answer\":\"Boyzone\",\"aliases\":[]},{\"answer\":\"Los Tres\",\"aliases\":[]},{\"answer\":\"Los Tigres del Norte\",\"aliases\":[]},{\"answer\":\"Los Cuatro\",\"aliases\":[]},{\"answer\":\"Tres Hombres\",\"aliases\":[]},{\"answer\":\"Les Trois Accords\",\"aliases\":[]},{\"answer\":\"Les Négresses Vertes\",\"aliases\":[]},{\"answer\":\"Dos Monos\",\"aliases\":[]},{\"answer\":\"Dos Gringos\",\"aliases\":[]},{\"answer\":\"Ocho Macho\",\"aliases\":[]},{\"answer\":\"Cinq\",\"aliases\":[]},{\"answer\":\"Quatre\",\"aliases\":[]},{\"answer\":\"Trio\",\"aliases\":[]},{\"answer\":\"Les Quatre Barbus\",\"aliases\":[]},{\"answer\":\"Eins Zwei Polizei\",\"aliases\":[]},{\"answer\":\"Zwei\",\"aliases\":[]},{\"answer\":\"Drei\",\"aliases\":[]},{\"answer\":\"Vier\",\"aliases\":[]},{\"answer\":\"Fünf\",\"aliases\":[]},{\"answer\":\"Sechs\",\"aliases\":[]},{\"answer\":\"Die Fantastischen Vier\",\"aliases\":[\"Fantastischen Vier\",\"Fanta 4\",\"Fanta Vier\",\"Die Fantastischen 4\"]},{\"answer\":\"Nena\",\"aliases\":[]},{\"answer\":\"99 Posse\",\"aliases\":[\"Novantanove Posse\"]},{\"answer\":\"Tokio Hotel\",\"aliases\":[]},{\"answer\":\"Dreizehn\",\"aliases\":[]},{\"answer\":\"Sechs Tage\",\"aliases\":[]},{\"answer\":\"Mr. Mister\",\"aliases\":[]},{\"answer\":\"Level 42\",\"aliases\":[]},{\"answer\":\"Garbage\",\"aliases\":[]},{\"answer\":\"N-Dubz\",\"aliases\":[]},{\"answer\":\"MN8\",\"aliases\":[\"M N 8\",\"MN Eight\"]},{\"answer\":\"Sneaker Pimps\",\"aliases\":[]},{\"answer\":\"NSYNC\",\"aliases\":[\"*NSYNC\",\"N Sync\"]},{\"answer\":\"O-Town\",\"aliases\":[\"O Town\"]},{\"answer\":\"LFO\",\"aliases\":[]},{\"answer\":\"A1\",\"aliases\":[\"A-One\",\"A One\"]},{\"answer\":\"Another Level\",\"aliases\":[]},{\"answer\":\"Bad Boys Blue\",\"aliases\":[]},{\"answer\":\"Fifth of Beethoven\",\"aliases\":[]},{\"answer\":\"Third Eye\",\"aliases\":[]},{\"answer\":\"Boyz N the Hood\",\"aliases\":[]},{\"answer\":\"The Doors\",\"aliases\":[]},{\"answer\":\"The Hives\",\"aliases\":[]},{\"answer\":\"Taking Back Sunday\",\"aliases\":[]},{\"answer\":\"The Cars\",\"aliases\":[]},{\"answer\":\"Fifty Foot Hose\",\"aliases\":[\"50 Foot Hose\",\"50 Foot Hose\"]},{\"answer\":\"Fifty Foot Wave\",\"aliases\":[\"50 Foot Wave\",\"50FootWave\"]},{\"answer\":\"Forty Winks\",\"aliases\":[]},{\"answer\":\"The Dead 60s\",\"aliases\":[\"Dead 60s\",\"The Dead Sixties\"]},{\"answer\":\"The Black Eyed Peas\",\"aliases\":[]},{\"answer\":\"Catherine Wheel\",\"aliases\":[]},{\"answer\":\"Cold War Kids\",\"aliases\":[]},{\"answer\":\"Highly Suspect\",\"aliases\":[]},{\"answer\":\"Aventura\",\"aliases\":[]},{\"answer\":\"Los 40\",\"aliases\":[]},{\"answer\":\"Eighties Matchbox B-Line Disaster\",\"aliases\":[\"The Eighties Matchbox B-Line Disaster\",\"Eighties Matchbox\"]},{\"answer\":\"Three Colours Red\",\"aliases\":[\"3 Colours Red\",\"Three Colors Red\"]},{\"answer\":\"Ten Foot Pole\",\"aliases\":[\"10 Foot Pole\"]},{\"answer\":\"Ten Masked Men\",\"aliases\":[]},{\"answer\":\"Ten Out of 10\",\"aliases\":[]},{\"answer\":\"Ten Sharp\",\"aliases\":[\"10 Sharp\"]},{\"answer\":\"Ten\",\"aliases\":[]},{\"answer\":\"Tenth Avenue North\",\"aliases\":[\"10th Avenue North\"]},{\"answer\":\"Tenth Avenue Freeze-Out\",\"aliases\":[]},{\"answer\":\"Twenty Twenty\",\"aliases\":[\"20/20\"]},{\"answer\":\"Thirty Eight Special\",\"aliases\":[\"38 Special\",\".38 Special\"]},{\"answer\":\"Forty Fathoms\",\"aliases\":[]},{\"answer\":\"The Four Pennies\",\"aliases\":[\"Four Pennies\"]},{\"answer\":\"The Four Aces\",\"aliases\":[\"Four Aces\"]},{\"answer\":\"The Four Knights\",\"aliases\":[\"Four Knights\"]},{\"answer\":\"The Four Coins\",\"aliases\":[\"Four Coins\"]},{\"answer\":\"The Four Tunes\",\"aliases\":[\"Four Tunes\"]},{\"answer\":\"The Mills Brothers\",\"aliases\":[]},{\"answer\":\"The Ink Spots\",\"aliases\":[]},{\"answer\":\"Three Chuckles\",\"aliases\":[\"The Three Chuckles\"]},{\"answer\":\"Triple Threat\",\"aliases\":[]},{\"answer\":\"The Seekers\",\"aliases\":[]},{\"answer\":\"Pentatonix\",\"aliases\":[]},{\"answer\":\"The Jets\",\"aliases\":[]},{\"answer\":\"Dos Santos\",\"aliases\":[]},{\"answer\":\"The Tens\",\"aliases\":[]},{\"answer\":\"Twenty Flight Rock\",\"aliases\":[]},{\"answer\":\"Sixties\",\"aliases\":[]},{\"answer\":\"Boston\",\"aliases\":[]},{\"answer\":\"Chicago\",\"aliases\":[]},{\"answer\":\"Sum 41\",\"aliases\":[]},{\"answer\":\"The Hundred in the Hands\",\"aliases\":[\"Hundred in the Hands\"]},{\"answer\":\"One Hundred Monkeys\",\"aliases\":[\"100 Monkeys\"]},{\"answer\":\"The Thousand\",\"aliases\":[]},{\"answer\":\"A Thousand Horses\",\"aliases\":[\"1000 Horses\"]},{\"answer\":\"A Thousand Suns\",\"aliases\":[]},{\"answer\":\"A Million Ways to Die\",\"aliases\":[]},{\"answer\":\"Million Dead\",\"aliases\":[]},{\"answer\":\"Hundred Reasons\",\"aliases\":[\"100 Reasons\"]},{\"answer\":\"The Hundred Days\",\"aliases\":[]},{\"answer\":\"100 Gecs\",\"aliases\":[\"100 gecs\",\"One Hundred Gecs\"]},{\"answer\":\"1000 Eyes\",\"aliases\":[]},{\"answer\":\"The 1900s\",\"aliases\":[\"1900s\"]},{\"answer\":\"1349\",\"aliases\":[]},{\"answer\":\"1914\",\"aliases\":[]},{\"answer\":\"1970s\",\"aliases\":[]},{\"answer\":\"The 2 Bears\",\"aliases\":[\"2 Bears\",\"The Two Bears\"]},{\"answer\":\"Orbital 2\",\"aliases\":[]},{\"answer\":\"Deee-Lite\",\"aliases\":[]},{\"answer\":\"E-40\",\"aliases\":[\"E40\",\"E 40\"]},{\"answer\":\"Sevendust\",\"aliases\":[]},{\"answer\":\"Z-Ro\",\"aliases\":[]},{\"answer\":\"Q-Tip\",\"aliases\":[]},{\"answer\":\"Maxi Priest\",\"aliases\":[]},{\"answer\":\"Lil Peep\",\"aliases\":[]},{\"answer\":\"Plan B\",\"aliases\":[]},{\"answer\":\"Danny Brown\",\"aliases\":[]},{\"answer\":\"Kris Kross\",\"aliases\":[]},{\"answer\":\"Pitbull\",\"aliases\":[]},{\"answer\":\"Mr. 305\",\"aliases\":[]},{\"answer\":\"Joey Bada$$\",\"aliases\":[]},{\"answer\":\"Yung Lean\",\"aliases\":[]},{\"answer\":\"Roy Orbison\",\"aliases\":[]},{\"answer\":\"Dr. Feelgood\",\"aliases\":[]},{\"answer\":\"Cuco\",\"aliases\":[]},{\"answer\":\"Cherry Bomb\",\"aliases\":[]},{\"answer\":\"Bomfunk MC's\",\"aliases\":[]},{\"answer\":\"MC Hammer\",\"aliases\":[]},{\"answer\":\"Gen Hoshino\",\"aliases\":[]},{\"answer\":\"NCT 127\",\"aliases\":[\"NCT127\"]},{\"answer\":\"NCT Dream\",\"aliases\":[]},{\"answer\":\"NCT\",\"aliases\":[]},{\"answer\":\"EXO-K\",\"aliases\":[]},{\"answer\":\"2NE1\",\"aliases\":[\"Two Ne One\",\"2 NE 1\"]},{\"answer\":\"2PM\",\"aliases\":[\"Two PM\",\"2 PM\"]},{\"answer\":\"2AM\",\"aliases\":[\"Two AM\",\"2 AM\"]},{\"answer\":\"4Minute\",\"aliases\":[]},{\"answer\":\"f(x)\",\"aliases\":[]},{\"answer\":\"Girls' Generation\",\"aliases\":[]},{\"answer\":\"Super Junior\",\"aliases\":[]},{\"answer\":\"Big Bang\",\"aliases\":[]},{\"answer\":\"Seventeen\",\"aliases\":[]},{\"answer\":\"ZE:A\",\"aliases\":[]},{\"answer\":\"B1A4\",\"aliases\":[\"B1A4\"]},{\"answer\":\"B.A.P\",\"aliases\":[]},{\"answer\":\"U-KISS\",\"aliases\":[]},{\"answer\":\"1TYM\",\"aliases\":[\"One Time\"]},{\"answer\":\"g.o.d\",\"aliases\":[]},{\"answer\":\"2EYES\",\"aliases\":[\"2 Eyes\"]},{\"answer\":\"5urprise\",\"aliases\":[\"Surprise\"]},{\"answer\":\"Sechskies\",\"aliases\":[\"Sechs Kies\",\"Sechskies\"]},{\"answer\":\"Fiestar\",\"aliases\":[]},{\"answer\":\"EXID\",\"aliases\":[]},{\"answer\":\"AOA\",\"aliases\":[]},{\"answer\":\"9MUSES\",\"aliases\":[\"Nine Muses\",\"9 Muses\"]},{\"answer\":\"15&\",\"aliases\":[\"Fifteen And\",\"15 and\"]},{\"answer\":\"24K\",\"aliases\":[\"Twenty Four K\"]},{\"answer\":\"2Yoon\",\"aliases\":[]},{\"answer\":\"Dynamic Duo\",\"aliases\":[]},{\"answer\":\"Typhoon\",\"aliases\":[]},{\"answer\":\"The Boyz\",\"aliases\":[]},{\"answer\":\"Ten Thousand Fists\",\"aliases\":[]},{\"answer\":\"Fifty Shades\",\"aliases\":[]},{\"answer\":\"Les Fils de Teuhpu\",\"aliases\":[]},{\"answer\":\"Triple H\",\"aliases\":[]},{\"answer\":\"The Tragically Hip\",\"aliases\":[]},{\"answer\":\"Gorillaz\",\"aliases\":[]},{\"answer\":\"Seven Dials Mystery\",\"aliases\":[]},{\"answer\":\"Dos Equis\",\"aliases\":[]},{\"answer\":\"The Verve\",\"aliases\":[]},{\"answer\":\"Hi-5\",\"aliases\":[\"Hi Five\",\"Hi 5\",\"Hi-Five\"]},{\"answer\":\"Take That\",\"aliases\":[]},{\"answer\":\"Fifteen Minutes\",\"aliases\":[]},{\"answer\":\"The Twelve Tones\",\"aliases\":[]},{\"answer\":\"Pre-Fab Sprout\",\"aliases\":[]},{\"answer\":\"Wu-Tang Clan\",\"aliases\":[]},{\"answer\":\"Weezer\",\"aliases\":[]},{\"answer\":\"Jay-Z\",\"aliases\":[]},{\"answer\":\"Sevenfold\",\"aliases\":[]},{\"answer\":\"Avenged Sevenfold\",\"aliases\":[\"A7X\",\"Avenged 7fold\",\"Avenged Seven Fold\"]},{\"answer\":\"Twenty Four Hours\",\"aliases\":[]},{\"answer\":\"Of Montreal\",\"aliases\":[]},{\"answer\":\"The Eight Ball\",\"aliases\":[]},{\"answer\":\"Eight Mile\",\"aliases\":[]},{\"answer\":\"Third Man\",\"aliases\":[]},{\"answer\":\"Two Steps From Hell\",\"aliases\":[\"2 Steps From Hell\",\"Two Steps from Hell\"]},{\"answer\":\"Eleven Eleven\",\"aliases\":[]},{\"answer\":\"Blind Melon\",\"aliases\":[]},{\"answer\":\"Ocean\",\"aliases\":[]},{\"answer\":\"Bad Religion\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Blink-182",
+    "aliases": [
+     "Blink 182",
+     "Blink one eight two"
+    ]
+   },
+   {
+    "answer": "U2",
+    "aliases": [
+     "U 2"
+    ]
+   },
+   {
+    "answer": "UB40",
+    "aliases": [
+     "UB 40"
+    ]
+   },
+   {
+    "answer": "Maroon 5",
+    "aliases": [
+     "Maroon Five"
+    ]
+   },
+   {
+    "answer": "Sum 41",
+    "aliases": [
+     "Sum Forty One"
+    ]
+   },
+   {
+    "answer": "Matchbox Twenty",
+    "aliases": [
+     "Matchbox 20"
+    ]
+   },
+   {
+    "answer": "Third Eye Blind",
+    "aliases": []
+   },
+   {
+    "answer": "Jackson 5",
+    "aliases": [
+     "The Jackson 5",
+     "The Jackson Five",
+     "Jackson Five"
+    ]
+   },
+   {
+    "answer": "Five Finger Death Punch",
+    "aliases": [
+     "5FDP",
+     "5 Finger Death Punch"
+    ]
+   },
+   {
+    "answer": "Fifth Harmony",
+    "aliases": [
+     "5th Harmony"
+    ]
+   },
+   {
+    "answer": "5 Seconds of Summer",
+    "aliases": [
+     "5SOS",
+     "Five Seconds of Summer"
+    ]
+   },
+   {
+    "answer": "Twenty One Pilots",
+    "aliases": [
+     "21 Pilots",
+     "Twenty-One Pilots"
+    ]
+   },
+   {
+    "answer": "Eiffel 65",
+    "aliases": [
+     "Eiffel Sixty Five"
+    ]
+   },
+   {
+    "answer": "Nine Inch Nails",
+    "aliases": [
+     "NIN",
+     "9 Inch Nails"
+    ]
+   },
+   {
+    "answer": "Three Dog Night",
+    "aliases": [
+     "3 Dog Night"
+    ]
+   },
+   {
+    "answer": "3 Doors Down",
+    "aliases": [
+     "Three Doors Down"
+    ]
+   },
+   {
+    "answer": "Third Day",
+    "aliases": []
+   },
+   {
+    "answer": "Four Tops",
+    "aliases": [
+     "The Four Tops",
+     "4 Tops"
+    ]
+   },
+   {
+    "answer": "The Four Seasons",
+    "aliases": [
+     "Four Seasons",
+     "Frankie Valli and the Four Seasons"
+    ]
+   },
+   {
+    "answer": "Four Non Blondes",
+    "aliases": [
+     "4 Non Blondes"
+    ]
+   },
+   {
+    "answer": "The Fifth Dimension",
+    "aliases": [
+     "Fifth Dimension",
+     "5th Dimension"
+    ]
+   },
+   {
+    "answer": "Level 42",
+    "aliases": [
+     "Level Forty Two"
+    ]
+   },
+   {
+    "answer": "Boyz II Men",
+    "aliases": [
+     "Boyz 2 Men",
+     "Boys II Men",
+     "Boyz to Men"
+    ]
+   },
+   {
+    "answer": "East 17",
+    "aliases": [
+     "East Seventeen"
+    ]
+   },
+   {
+    "answer": "Right Said Fred",
+    "aliases": []
+   },
+   {
+    "answer": "10cc",
+    "aliases": [
+     "10 CC",
+     "Ten CC"
+    ]
+   },
+   {
+    "answer": "10,000 Maniacs",
+    "aliases": [
+     "10000 Maniacs",
+     "Ten Thousand Maniacs"
+    ]
+   },
+   {
+    "answer": "Ten Years After",
+    "aliases": [
+     "10 Years After"
+    ]
+   },
+   {
+    "answer": "10 Years",
+    "aliases": [
+     "Ten Years"
+    ]
+   },
+   {
+    "answer": "Seven Mary Three",
+    "aliases": [
+     "7 Mary 3",
+     "7 Mary Three"
+    ]
+   },
+   {
+    "answer": "Sixpence None the Richer",
+    "aliases": [
+     "Sixpence None The Richer"
+    ]
+   },
+   {
+    "answer": "The Thirteenth Floor Elevators",
+    "aliases": [
+     "13th Floor Elevators",
+     "Thirteenth Floor Elevators"
+    ]
+   },
+   {
+    "answer": "Apollo 440",
+    "aliases": [
+     "Apollo Four Forty"
+    ]
+   },
+   {
+    "answer": "Plan B",
+    "aliases": []
+   },
+   {
+    "answer": "B2K",
+    "aliases": [
+     "B2K"
+    ]
+   },
+   {
+    "answer": "112",
+    "aliases": [
+     "One Twelve"
+    ]
+   },
+   {
+    "answer": "98 Degrees",
+    "aliases": [
+     "98°",
+     "Ninety Eight Degrees",
+     "98 Degrees"
+    ]
+   },
+   {
+    "answer": "911",
+    "aliases": [
+     "Nine One One"
+    ]
+   },
+   {
+    "answer": "702",
+    "aliases": []
+   },
+   {
+    "answer": "Take 6",
+    "aliases": [
+     "Take Six"
+    ]
+   },
+   {
+    "answer": "Pet Shop Boys",
+    "aliases": []
+   },
+   {
+    "answer": "Jackson Five",
+    "aliases": []
+   },
+   {
+    "answer": "Heavy D",
+    "aliases": []
+   },
+   {
+    "answer": "50 Cent",
+    "aliases": [
+     "Fifty Cent",
+     "50cent"
+    ]
+   },
+   {
+    "answer": "21 Savage",
+    "aliases": [
+     "Twenty One Savage"
+    ]
+   },
+   {
+    "answer": "2 Chainz",
+    "aliases": [
+     "Two Chainz",
+     "2Chainz"
+    ]
+   },
+   {
+    "answer": "2Pac",
+    "aliases": [
+     "Tupac",
+     "Tupac Shakur",
+     "2 Pac"
+    ]
+   },
+   {
+    "answer": "Lil Wayne",
+    "aliases": []
+   },
+   {
+    "answer": "6ix9ine",
+    "aliases": [
+     "Tekashi 6ix9ine",
+     "Six Nine",
+     "6ix9ine",
+     "Tekashi 69"
+    ]
+   },
+   {
+    "answer": "Tyga",
+    "aliases": []
+   },
+   {
+    "answer": "3OH!3",
+    "aliases": [
+     "3OH3",
+     "Three Oh Three",
+     "303"
+    ]
+   },
+   {
+    "answer": "Blue October",
+    "aliases": []
+   },
+   {
+    "answer": "2 Unlimited",
+    "aliases": [
+     "Two Unlimited"
+    ]
+   },
+   {
+    "answer": "2 Live Crew",
+    "aliases": [
+     "2 Live Crew",
+     "Two Live Crew",
+     "The 2 Live Crew"
+    ]
+   },
+   {
+    "answer": "Tenacious D",
+    "aliases": []
+   },
+   {
+    "answer": "Sevendust",
+    "aliases": [
+     "Seven Dust"
+    ]
+   },
+   {
+    "answer": "Seven Nation Army",
+    "aliases": []
+   },
+   {
+    "answer": "Three Days Grace",
+    "aliases": [
+     "3 Days Grace"
+    ]
+   },
+   {
+    "answer": "Three 6 Mafia",
+    "aliases": [
+     "Three Six Mafia",
+     "3 6 Mafia"
+    ]
+   },
+   {
+    "answer": "Thirty Seconds to Mars",
+    "aliases": [
+     "30 Seconds to Mars",
+     "30STM",
+     "Thirty Seconds To Mars"
+    ]
+   },
+   {
+    "answer": "Thirty Seconds Out",
+    "aliases": []
+   },
+   {
+    "answer": "Two Door Cinema Club",
+    "aliases": [
+     "2 Door Cinema Club"
+    ]
+   },
+   {
+    "answer": "Two Friends",
+    "aliases": [
+     "2 Friends"
+    ]
+   },
+   {
+    "answer": "The Two Man Gentlemen Band",
+    "aliases": []
+   },
+   {
+    "answer": "One Direction",
+    "aliases": [
+     "1D"
+    ]
+   },
+   {
+    "answer": "Eleven",
+    "aliases": []
+   },
+   {
+    "answer": "Better Than Ezra",
+    "aliases": []
+   },
+   {
+    "answer": "One Republic",
+    "aliases": [
+     "OneRepublic",
+     "One Republic"
+    ]
+   },
+   {
+    "answer": "One Ok Rock",
+    "aliases": [
+     "ONE OK ROCK",
+     "One OK Rock",
+     "10969"
+    ]
+   },
+   {
+    "answer": "Four Year Strong",
+    "aliases": [
+     "4 Year Strong"
+    ]
+   },
+   {
+    "answer": "The Band of Seven",
+    "aliases": []
+   },
+   {
+    "answer": "Seven Lions",
+    "aliases": [
+     "7 Lions"
+    ]
+   },
+   {
+    "answer": "Eighth Wonder",
+    "aliases": [
+     "8th Wonder"
+    ]
+   },
+   {
+    "answer": "Eight Wonder",
+    "aliases": []
+   },
+   {
+    "answer": "The Nine Nine",
+    "aliases": []
+   },
+   {
+    "answer": "Nine Black Alps",
+    "aliases": [
+     "9 Black Alps"
+    ]
+   },
+   {
+    "answer": "Nine Days",
+    "aliases": [
+     "9 Days"
+    ]
+   },
+   {
+    "answer": "The Nines",
+    "aliases": [
+     "Nines"
+    ]
+   },
+   {
+    "answer": "Ninja Sex Party",
+    "aliases": []
+   },
+   {
+    "answer": "Sixteen Horsepower",
+    "aliases": [
+     "16 Horsepower",
+     "16 Horsepower"
+    ]
+   },
+   {
+    "answer": "Twelve Girls Band",
+    "aliases": [
+     "12 Girls Band"
+    ]
+   },
+   {
+    "answer": "The Thirteenth Floor",
+    "aliases": []
+   },
+   {
+    "answer": "Thirteen Senses",
+    "aliases": [
+     "13 Senses"
+    ]
+   },
+   {
+    "answer": "The 1975",
+    "aliases": [
+     "1975",
+     "The Nineteen Seventy Five"
+    ]
+   },
+   {
+    "answer": "Sigue Sigue Sputnik",
+    "aliases": []
+   },
+   {
+    "answer": "The Four Freshmen",
+    "aliases": [
+     "Four Freshmen"
+    ]
+   },
+   {
+    "answer": "The Four Preps",
+    "aliases": [
+     "Four Preps"
+    ]
+   },
+   {
+    "answer": "Four Lads",
+    "aliases": [
+     "The Four Lads"
+    ]
+   },
+   {
+    "answer": "The Five Satins",
+    "aliases": [
+     "Five Satins"
+    ]
+   },
+   {
+    "answer": "The Five Stairsteps",
+    "aliases": [
+     "Five Stairsteps"
+    ]
+   },
+   {
+    "answer": "Five Star",
+    "aliases": [
+     "5 Star"
+    ]
+   },
+   {
+    "answer": "Five",
+    "aliases": [
+     "5ive",
+     "5ive",
+     "5"
+    ]
+   },
+   {
+    "answer": "Five for Fighting",
+    "aliases": [
+     "5 for Fighting"
+    ]
+   },
+   {
+    "answer": "Five Iron Frenzy",
+    "aliases": [
+     "5 Iron Frenzy"
+    ]
+   },
+   {
+    "answer": "The Five Americans",
+    "aliases": [
+     "Five Americans"
+    ]
+   },
+   {
+    "answer": "The Dave Clark Five",
+    "aliases": [
+     "Dave Clark Five",
+     "DC5"
+    ]
+   },
+   {
+    "answer": "The Jackson Five",
+    "aliases": []
+   },
+   {
+    "answer": "Sly Five",
+    "aliases": []
+   },
+   {
+    "answer": "Grandmaster Flash and the Furious Five",
+    "aliases": [
+     "The Furious Five",
+     "Furious Five"
+    ]
+   },
+   {
+    "answer": "Ben Folds Five",
+    "aliases": [
+     "Ben Folds 5"
+    ]
+   },
+   {
+    "answer": "Bruce Hornsby",
+    "aliases": []
+   },
+   {
+    "answer": "Hootie",
+    "aliases": []
+   },
+   {
+    "answer": "Fun Boy Three",
+    "aliases": [
+     "Fun Boy 3",
+     "Funboy Three"
+    ]
+   },
+   {
+    "answer": "The Three Degrees",
+    "aliases": [
+     "Three Degrees"
+    ]
+   },
+   {
+    "answer": "Three Dog Night",
+    "aliases": []
+   },
+   {
+    "answer": "Three Man Army",
+    "aliases": []
+   },
+   {
+    "answer": "Three Mile Pilot",
+    "aliases": [
+     "3 Mile Pilot"
+    ]
+   },
+   {
+    "answer": "Three Fish",
+    "aliases": [
+     "3 Fish"
+    ]
+   },
+   {
+    "answer": "Three O'Clock",
+    "aliases": [
+     "The Three O'Clock",
+     "3 O'Clock"
+    ]
+   },
+   {
+    "answer": "The Three Tenors",
+    "aliases": [
+     "Three Tenors"
+    ]
+   },
+   {
+    "answer": "The Three Stooges",
+    "aliases": [
+     "Three Stooges"
+    ]
+   },
+   {
+    "answer": "Third Eye Blind",
+    "aliases": []
+   },
+   {
+    "answer": "Triple Eight",
+    "aliases": []
+   },
+   {
+    "answer": "Deuce",
+    "aliases": []
+   },
+   {
+    "answer": "The Second City",
+    "aliases": []
+   },
+   {
+    "answer": "Two Tons O' Fun",
+    "aliases": []
+   },
+   {
+    "answer": "The Two Tones",
+    "aliases": []
+   },
+   {
+    "answer": "Two Gallants",
+    "aliases": [
+     "2 Gallants"
+    ]
+   },
+   {
+    "answer": "Two Lone Swordsmen",
+    "aliases": [
+     "2 Lone Swordsmen"
+    ]
+   },
+   {
+    "answer": "Two Minutes Hate",
+    "aliases": []
+   },
+   {
+    "answer": "The Two of Us",
+    "aliases": []
+   },
+   {
+    "answer": "Eve 6",
+    "aliases": [
+     "Eve Six"
+    ]
+   },
+   {
+    "answer": "Sixx:A.M.",
+    "aliases": [
+     "Sixx AM",
+     "Sixx A.M."
+    ]
+   },
+   {
+    "answer": "Six by Seven",
+    "aliases": [
+     "6 by 7",
+     "Six By Seven"
+    ]
+   },
+   {
+    "answer": "Six Finger Satellite",
+    "aliases": [
+     "6 Finger Satellite"
+    ]
+   },
+   {
+    "answer": "Six Feet Under",
+    "aliases": [
+     "6 Feet Under"
+    ]
+   },
+   {
+    "answer": "Six Organs of Admittance",
+    "aliases": [
+     "6 Organs of Admittance"
+    ]
+   },
+   {
+    "answer": "Six Going on Seven",
+    "aliases": []
+   },
+   {
+    "answer": "Seven Year Bitch",
+    "aliases": [
+     "7 Year Bitch"
+    ]
+   },
+   {
+    "answer": "Seven Days of Samsara",
+    "aliases": []
+   },
+   {
+    "answer": "Seven Witches",
+    "aliases": [
+     "7 Witches"
+    ]
+   },
+   {
+    "answer": "Seventh Day Slumber",
+    "aliases": [
+     "7th Day Slumber"
+    ]
+   },
+   {
+    "answer": "Seventeen",
+    "aliases": [
+     "17",
+     "SVT",
+     "Seventeen K-pop"
+    ]
+   },
+   {
+    "answer": "Sixteen Candles",
+    "aliases": []
+   },
+   {
+    "answer": "Fifteen",
+    "aliases": []
+   },
+   {
+    "answer": "Forty Four",
+    "aliases": []
+   },
+   {
+    "answer": "The 40 Thieves",
+    "aliases": []
+   },
+   {
+    "answer": "Forty Foot Echo",
+    "aliases": [
+     "40 Foot Echo"
+    ]
+   },
+   {
+    "answer": "The 4 Skins",
+    "aliases": [
+     "4 Skins",
+     "The Four Skins",
+     "Four Skins"
+    ]
+   },
+   {
+    "answer": "Four of Us",
+    "aliases": [
+     "The Four of Us"
+    ]
+   },
+   {
+    "answer": "4 Strings",
+    "aliases": [
+     "Four Strings"
+    ]
+   },
+   {
+    "answer": "4 Hero",
+    "aliases": [
+     "Four Hero"
+    ]
+   },
+   {
+    "answer": "4Minute",
+    "aliases": [
+     "4 Minute",
+     "Four Minute"
+    ]
+   },
+   {
+    "answer": "4Tops",
+    "aliases": []
+   },
+   {
+    "answer": "4 the Cause",
+    "aliases": []
+   },
+   {
+    "answer": "Fourplay",
+    "aliases": [
+     "Four Play"
+    ]
+   },
+   {
+    "answer": "Four Tet",
+    "aliases": [
+     "4 Tet",
+     "Four Tet"
+    ]
+   },
+   {
+    "answer": "Four Year Strong",
+    "aliases": []
+   },
+   {
+    "answer": "Fourth Day",
+    "aliases": []
+   },
+   {
+    "answer": "Foreign Beggars",
+    "aliases": []
+   },
+   {
+    "answer": "Cinderella",
+    "aliases": []
+   },
+   {
+    "answer": "The 5th Dimension",
+    "aliases": []
+   },
+   {
+    "answer": "5 Royales",
+    "aliases": [
+     "The 5 Royales",
+     "The Five Royales",
+     "Five Royales"
+    ]
+   },
+   {
+    "answer": "Five Man Electrical Band",
+    "aliases": [
+     "5 Man Electrical Band"
+    ]
+   },
+   {
+    "answer": "The Five Keys",
+    "aliases": [
+     "Five Keys"
+    ]
+   },
+   {
+    "answer": "The Five Blind Boys of Alabama",
+    "aliases": [
+     "Five Blind Boys of Alabama"
+    ]
+   },
+   {
+    "answer": "Five Eight",
+    "aliases": [
+     "5-8"
+    ]
+   },
+   {
+    "answer": "Five Years",
+    "aliases": []
+   },
+   {
+    "answer": "The 5.6.7.8's",
+    "aliases": [
+     "5.6.7.8's",
+     "The 5678s",
+     "5678s"
+    ]
+   },
+   {
+    "answer": "The 6ths",
+    "aliases": [
+     "The Sixths",
+     "6ths"
+    ]
+   },
+   {
+    "answer": "Third Rail",
+    "aliases": []
+   },
+   {
+    "answer": "Pink Floyd",
+    "aliases": []
+   },
+   {
+    "answer": "7Horse",
+    "aliases": [
+     "Seven Horse"
+    ]
+   },
+   {
+    "answer": "7th Heaven",
+    "aliases": [
+     "Seventh Heaven"
+    ]
+   },
+   {
+    "answer": "Seven Mary Three",
+    "aliases": []
+   },
+   {
+    "answer": "S Club 7",
+    "aliases": [
+     "S Club Seven",
+     "S Club"
+    ]
+   },
+   {
+    "answer": "Brooklyn Bounce",
+    "aliases": []
+   },
+   {
+    "answer": "Vengaboys",
+    "aliases": []
+   },
+   {
+    "answer": "No Doubt",
+    "aliases": []
+   },
+   {
+    "answer": "Bell Biv DeVoe",
+    "aliases": []
+   },
+   {
+    "answer": "Dru Hill",
+    "aliases": []
+   },
+   {
+    "answer": "Highway 101",
+    "aliases": [
+     "Highway One O One"
+    ]
+   },
+   {
+    "answer": "Route 66",
+    "aliases": []
+   },
+   {
+    "answer": "Area 51",
+    "aliases": []
+   },
+   {
+    "answer": "Studio 54",
+    "aliases": []
+   },
+   {
+    "answer": "Club 8",
+    "aliases": [
+     "Club Eight"
+    ]
+   },
+   {
+    "answer": "Sector 9",
+    "aliases": [
+     "Sector Nine"
+    ]
+   },
+   {
+    "answer": "Section 25",
+    "aliases": [
+     "Section Twenty Five"
+    ]
+   },
+   {
+    "answer": "Group 1850",
+    "aliases": []
+   },
+   {
+    "answer": "Delta 5",
+    "aliases": [
+     "Delta Five"
+    ]
+   },
+   {
+    "answer": "Channel 3",
+    "aliases": [
+     "Channel Three"
+    ]
+   },
+   {
+    "answer": "Boys Like Girls",
+    "aliases": []
+   },
+   {
+    "answer": "MC 900 Ft Jesus",
+    "aliases": [
+     "MC 900 Foot Jesus",
+     "MC 900 Feet Jesus"
+    ]
+   },
+   {
+    "answer": "Orchestral Manoeuvres in the Dark",
+    "aliases": []
+   },
+   {
+    "answer": "Dr. Dre",
+    "aliases": []
+   },
+   {
+    "answer": "Louis XIV",
+    "aliases": [
+     "Louis the 14th",
+     "Louis Fourteenth"
+    ]
+   },
+   {
+    "answer": "Napoleon XIV",
+    "aliases": [
+     "Napoleon 14",
+     "Napoleon the 14th"
+    ]
+   },
+   {
+    "answer": "Pope Joan",
+    "aliases": []
+   },
+   {
+    "answer": "Sparks",
+    "aliases": []
+   },
+   {
+    "answer": "Bad Company",
+    "aliases": []
+   },
+   {
+    "answer": "Kasabian",
+    "aliases": []
+   },
+   {
+    "answer": "Funkadelic",
+    "aliases": []
+   },
+   {
+    "answer": "Metro Station",
+    "aliases": []
+   },
+   {
+    "answer": "The Nightwatchman",
+    "aliases": []
+   },
+   {
+    "answer": "Dream Theater",
+    "aliases": []
+   },
+   {
+    "answer": "Alphaville",
+    "aliases": []
+   },
+   {
+    "answer": "Spacemen 3",
+    "aliases": [
+     "Spacemen Three"
+    ]
+   },
+   {
+    "answer": "Plan 9",
+    "aliases": [
+     "Plan Nine"
+    ]
+   },
+   {
+    "answer": "Quad City DJs",
+    "aliases": []
+   },
+   {
+    "answer": "Zero 7",
+    "aliases": [
+     "Zero Seven"
+    ]
+   },
+   {
+    "answer": "Zero 7",
+    "aliases": []
+   },
+   {
+    "answer": "Mother Love Bone",
+    "aliases": []
+   },
+   {
+    "answer": "Temple of the Dog",
+    "aliases": []
+   },
+   {
+    "answer": "Pearl Jam",
+    "aliases": []
+   },
+   {
+    "answer": "Jimmy Eat World",
+    "aliases": []
+   },
+   {
+    "answer": "Maroon V",
+    "aliases": []
+   },
+   {
+    "answer": "The 88",
+    "aliases": [
+     "88",
+     "The Eighty Eight"
+    ]
+   },
+   {
+    "answer": "88 Fingers Louie",
+    "aliases": [
+     "Eighty Eight Fingers Louie"
+    ]
+   },
+   {
+    "answer": "The 69 Eyes",
+    "aliases": [
+     "69 Eyes",
+     "The Sixty Nine Eyes"
+    ]
+   },
+   {
+    "answer": "The 22-20s",
+    "aliases": [
+     "22-20s",
+     "The 2220s",
+     "22 20s"
+    ]
+   },
+   {
+    "answer": "The 1990s",
+    "aliases": [
+     "1990s"
+    ]
+   },
+   {
+    "answer": "The 411",
+    "aliases": [
+     "411"
+    ]
+   },
+   {
+    "answer": "The 504 Boyz",
+    "aliases": [
+     "504 Boyz"
+    ]
+   },
+   {
+    "answer": "Cherry Poppin' Daddies",
+    "aliases": []
+   },
+   {
+    "answer": "Ocean Colour Scene",
+    "aliases": []
+   },
+   {
+    "answer": "Catatonia",
+    "aliases": []
+   },
+   {
+    "answer": "The 101ers",
+    "aliases": [
+     "101ers",
+     "The One Oh Ones"
+    ]
+   },
+   {
+    "answer": "The 13th Floor Elevators",
+    "aliases": []
+   },
+   {
+    "answer": "Sector 27",
+    "aliases": []
+   },
+   {
+    "answer": "The 18th Dye",
+    "aliases": [
+     "18th Dye"
+    ]
+   },
+   {
+    "answer": "1000 Homo DJs",
+    "aliases": [
+     "1000 Homo DJ's"
+    ]
+   },
+   {
+    "answer": "1 Giant Leap",
+    "aliases": [
+     "One Giant Leap"
+    ]
+   },
+   {
+    "answer": "1 Mile North",
+    "aliases": []
+   },
+   {
+    "answer": "The 1st Chapter",
+    "aliases": []
+   },
+   {
+    "answer": "1.8.7",
+    "aliases": [
+     "187"
+    ]
+   },
+   {
+    "answer": "The 2nd Law",
+    "aliases": []
+   },
+   {
+    "answer": "The 3rd Bass",
+    "aliases": [
+     "3rd Bass",
+     "Third Bass"
+    ]
+   },
+   {
+    "answer": "The 4th Disciple",
+    "aliases": [
+     "4th Disciple"
+    ]
+   },
+   {
+    "answer": "7L & Esoteric",
+    "aliases": [
+     "7L and Esoteric"
+    ]
+   },
+   {
+    "answer": "Jurassic 5",
+    "aliases": [
+     "Jurassic Five"
+    ]
+   },
+   {
+    "answer": "Compton's Most Wanted",
+    "aliases": []
+   },
+   {
+    "answer": "MC 5",
+    "aliases": [
+     "MC5",
+     "The MC5",
+     "Motor City Five"
+    ]
+   },
+   {
+    "answer": "The Fifth Estate",
+    "aliases": [
+     "Fifth Estate"
+    ]
+   },
+   {
+    "answer": "The 4 Seasons",
+    "aliases": []
+   },
+   {
+    "answer": "The Sixth Sense",
+    "aliases": []
+   },
+   {
+    "answer": "Sixpence",
+    "aliases": []
+   },
+   {
+    "answer": "Cheap Trick",
+    "aliases": []
+   },
+   {
+    "answer": "Seven and the Sun",
+    "aliases": []
+   },
+   {
+    "answer": "Natalie Imbruglia",
+    "aliases": []
+   },
+   {
+    "answer": "MKTO",
+    "aliases": []
+   },
+   {
+    "answer": "Boyzone",
+    "aliases": []
+   },
+   {
+    "answer": "Los Tres",
+    "aliases": []
+   },
+   {
+    "answer": "Los Tigres del Norte",
+    "aliases": []
+   },
+   {
+    "answer": "Los Cuatro",
+    "aliases": []
+   },
+   {
+    "answer": "Tres Hombres",
+    "aliases": []
+   },
+   {
+    "answer": "Les Trois Accords",
+    "aliases": []
+   },
+   {
+    "answer": "Les Négresses Vertes",
+    "aliases": []
+   },
+   {
+    "answer": "Dos Monos",
+    "aliases": []
+   },
+   {
+    "answer": "Dos Gringos",
+    "aliases": []
+   },
+   {
+    "answer": "Ocho Macho",
+    "aliases": []
+   },
+   {
+    "answer": "Cinq",
+    "aliases": []
+   },
+   {
+    "answer": "Quatre",
+    "aliases": []
+   },
+   {
+    "answer": "Trio",
+    "aliases": []
+   },
+   {
+    "answer": "Les Quatre Barbus",
+    "aliases": []
+   },
+   {
+    "answer": "Eins Zwei Polizei",
+    "aliases": []
+   },
+   {
+    "answer": "Zwei",
+    "aliases": []
+   },
+   {
+    "answer": "Drei",
+    "aliases": []
+   },
+   {
+    "answer": "Vier",
+    "aliases": []
+   },
+   {
+    "answer": "Fünf",
+    "aliases": []
+   },
+   {
+    "answer": "Sechs",
+    "aliases": []
+   },
+   {
+    "answer": "Die Fantastischen Vier",
+    "aliases": [
+     "Fantastischen Vier",
+     "Fanta 4",
+     "Fanta Vier",
+     "Die Fantastischen 4"
+    ]
+   },
+   {
+    "answer": "Nena",
+    "aliases": []
+   },
+   {
+    "answer": "99 Posse",
+    "aliases": [
+     "Novantanove Posse"
+    ]
+   },
+   {
+    "answer": "Tokio Hotel",
+    "aliases": []
+   },
+   {
+    "answer": "Dreizehn",
+    "aliases": []
+   },
+   {
+    "answer": "Sechs Tage",
+    "aliases": []
+   },
+   {
+    "answer": "Mr. Mister",
+    "aliases": []
+   },
+   {
+    "answer": "Level 42",
+    "aliases": []
+   },
+   {
+    "answer": "Garbage",
+    "aliases": []
+   },
+   {
+    "answer": "N-Dubz",
+    "aliases": []
+   },
+   {
+    "answer": "MN8",
+    "aliases": [
+     "M N 8",
+     "MN Eight"
+    ]
+   },
+   {
+    "answer": "Sneaker Pimps",
+    "aliases": []
+   },
+   {
+    "answer": "NSYNC",
+    "aliases": [
+     "*NSYNC",
+     "N Sync"
+    ]
+   },
+   {
+    "answer": "O-Town",
+    "aliases": [
+     "O Town"
+    ]
+   },
+   {
+    "answer": "LFO",
+    "aliases": []
+   },
+   {
+    "answer": "A1",
+    "aliases": [
+     "A-One",
+     "A One"
+    ]
+   },
+   {
+    "answer": "Another Level",
+    "aliases": []
+   },
+   {
+    "answer": "Bad Boys Blue",
+    "aliases": []
+   },
+   {
+    "answer": "Fifth of Beethoven",
+    "aliases": []
+   },
+   {
+    "answer": "Third Eye",
+    "aliases": []
+   },
+   {
+    "answer": "Boyz N the Hood",
+    "aliases": []
+   },
+   {
+    "answer": "The Doors",
+    "aliases": []
+   },
+   {
+    "answer": "The Hives",
+    "aliases": []
+   },
+   {
+    "answer": "Taking Back Sunday",
+    "aliases": []
+   },
+   {
+    "answer": "The Cars",
+    "aliases": []
+   },
+   {
+    "answer": "Fifty Foot Hose",
+    "aliases": [
+     "50 Foot Hose",
+     "50 Foot Hose"
+    ]
+   },
+   {
+    "answer": "Fifty Foot Wave",
+    "aliases": [
+     "50 Foot Wave",
+     "50FootWave"
+    ]
+   },
+   {
+    "answer": "Forty Winks",
+    "aliases": []
+   },
+   {
+    "answer": "The Dead 60s",
+    "aliases": [
+     "Dead 60s",
+     "The Dead Sixties"
+    ]
+   },
+   {
+    "answer": "The Black Eyed Peas",
+    "aliases": []
+   },
+   {
+    "answer": "Catherine Wheel",
+    "aliases": []
+   },
+   {
+    "answer": "Cold War Kids",
+    "aliases": []
+   },
+   {
+    "answer": "Highly Suspect",
+    "aliases": []
+   },
+   {
+    "answer": "Aventura",
+    "aliases": []
+   },
+   {
+    "answer": "Los 40",
+    "aliases": []
+   },
+   {
+    "answer": "Eighties Matchbox B-Line Disaster",
+    "aliases": [
+     "The Eighties Matchbox B-Line Disaster",
+     "Eighties Matchbox"
+    ]
+   },
+   {
+    "answer": "Three Colours Red",
+    "aliases": [
+     "3 Colours Red",
+     "Three Colors Red"
+    ]
+   },
+   {
+    "answer": "Ten Foot Pole",
+    "aliases": [
+     "10 Foot Pole"
+    ]
+   },
+   {
+    "answer": "Ten Masked Men",
+    "aliases": []
+   },
+   {
+    "answer": "Ten Out of 10",
+    "aliases": []
+   },
+   {
+    "answer": "Ten Sharp",
+    "aliases": [
+     "10 Sharp"
+    ]
+   },
+   {
+    "answer": "Ten",
+    "aliases": []
+   },
+   {
+    "answer": "Tenth Avenue North",
+    "aliases": [
+     "10th Avenue North"
+    ]
+   },
+   {
+    "answer": "Tenth Avenue Freeze-Out",
+    "aliases": []
+   },
+   {
+    "answer": "Twenty Twenty",
+    "aliases": [
+     "20/20"
+    ]
+   },
+   {
+    "answer": "Thirty Eight Special",
+    "aliases": [
+     "38 Special",
+     ".38 Special"
+    ]
+   },
+   {
+    "answer": "Forty Fathoms",
+    "aliases": []
+   },
+   {
+    "answer": "The Four Pennies",
+    "aliases": [
+     "Four Pennies"
+    ]
+   },
+   {
+    "answer": "The Four Aces",
+    "aliases": [
+     "Four Aces"
+    ]
+   },
+   {
+    "answer": "The Four Knights",
+    "aliases": [
+     "Four Knights"
+    ]
+   },
+   {
+    "answer": "The Four Coins",
+    "aliases": [
+     "Four Coins"
+    ]
+   },
+   {
+    "answer": "The Four Tunes",
+    "aliases": [
+     "Four Tunes"
+    ]
+   },
+   {
+    "answer": "The Mills Brothers",
+    "aliases": []
+   },
+   {
+    "answer": "The Ink Spots",
+    "aliases": []
+   },
+   {
+    "answer": "Three Chuckles",
+    "aliases": [
+     "The Three Chuckles"
+    ]
+   },
+   {
+    "answer": "Triple Threat",
+    "aliases": []
+   },
+   {
+    "answer": "The Seekers",
+    "aliases": []
+   },
+   {
+    "answer": "Pentatonix",
+    "aliases": []
+   },
+   {
+    "answer": "The Jets",
+    "aliases": []
+   },
+   {
+    "answer": "Dos Santos",
+    "aliases": []
+   },
+   {
+    "answer": "The Tens",
+    "aliases": []
+   },
+   {
+    "answer": "Twenty Flight Rock",
+    "aliases": []
+   },
+   {
+    "answer": "Sixties",
+    "aliases": []
+   },
+   {
+    "answer": "Boston",
+    "aliases": []
+   },
+   {
+    "answer": "Chicago",
+    "aliases": []
+   },
+   {
+    "answer": "Sum 41",
+    "aliases": []
+   },
+   {
+    "answer": "The Hundred in the Hands",
+    "aliases": [
+     "Hundred in the Hands"
+    ]
+   },
+   {
+    "answer": "One Hundred Monkeys",
+    "aliases": [
+     "100 Monkeys"
+    ]
+   },
+   {
+    "answer": "The Thousand",
+    "aliases": []
+   },
+   {
+    "answer": "A Thousand Horses",
+    "aliases": [
+     "1000 Horses"
+    ]
+   },
+   {
+    "answer": "A Thousand Suns",
+    "aliases": []
+   },
+   {
+    "answer": "A Million Ways to Die",
+    "aliases": []
+   },
+   {
+    "answer": "Million Dead",
+    "aliases": []
+   },
+   {
+    "answer": "Hundred Reasons",
+    "aliases": [
+     "100 Reasons"
+    ]
+   },
+   {
+    "answer": "The Hundred Days",
+    "aliases": []
+   },
+   {
+    "answer": "100 Gecs",
+    "aliases": [
+     "100 gecs",
+     "One Hundred Gecs"
+    ]
+   },
+   {
+    "answer": "1000 Eyes",
+    "aliases": []
+   },
+   {
+    "answer": "The 1900s",
+    "aliases": [
+     "1900s"
+    ]
+   },
+   {
+    "answer": "1349",
+    "aliases": []
+   },
+   {
+    "answer": "1914",
+    "aliases": []
+   },
+   {
+    "answer": "1970s",
+    "aliases": []
+   },
+   {
+    "answer": "The 2 Bears",
+    "aliases": [
+     "2 Bears",
+     "The Two Bears"
+    ]
+   },
+   {
+    "answer": "Orbital 2",
+    "aliases": []
+   },
+   {
+    "answer": "Deee-Lite",
+    "aliases": []
+   },
+   {
+    "answer": "E-40",
+    "aliases": [
+     "E40",
+     "E 40"
+    ]
+   },
+   {
+    "answer": "Sevendust",
+    "aliases": []
+   },
+   {
+    "answer": "Z-Ro",
+    "aliases": []
+   },
+   {
+    "answer": "Q-Tip",
+    "aliases": []
+   },
+   {
+    "answer": "Maxi Priest",
+    "aliases": []
+   },
+   {
+    "answer": "Lil Peep",
+    "aliases": []
+   },
+   {
+    "answer": "Plan B",
+    "aliases": []
+   },
+   {
+    "answer": "Danny Brown",
+    "aliases": []
+   },
+   {
+    "answer": "Kris Kross",
+    "aliases": []
+   },
+   {
+    "answer": "Pitbull",
+    "aliases": []
+   },
+   {
+    "answer": "Mr. 305",
+    "aliases": []
+   },
+   {
+    "answer": "Joey Bada$$",
+    "aliases": []
+   },
+   {
+    "answer": "Yung Lean",
+    "aliases": []
+   },
+   {
+    "answer": "Roy Orbison",
+    "aliases": []
+   },
+   {
+    "answer": "Dr. Feelgood",
+    "aliases": []
+   },
+   {
+    "answer": "Cuco",
+    "aliases": []
+   },
+   {
+    "answer": "Cherry Bomb",
+    "aliases": []
+   },
+   {
+    "answer": "Bomfunk MC's",
+    "aliases": []
+   },
+   {
+    "answer": "MC Hammer",
+    "aliases": []
+   },
+   {
+    "answer": "Gen Hoshino",
+    "aliases": []
+   },
+   {
+    "answer": "NCT 127",
+    "aliases": [
+     "NCT127"
+    ]
+   },
+   {
+    "answer": "NCT Dream",
+    "aliases": []
+   },
+   {
+    "answer": "NCT",
+    "aliases": []
+   },
+   {
+    "answer": "EXO-K",
+    "aliases": []
+   },
+   {
+    "answer": "2NE1",
+    "aliases": [
+     "Two Ne One",
+     "2 NE 1"
+    ]
+   },
+   {
+    "answer": "2PM",
+    "aliases": [
+     "Two PM",
+     "2 PM"
+    ]
+   },
+   {
+    "answer": "2AM",
+    "aliases": [
+     "Two AM",
+     "2 AM"
+    ]
+   },
+   {
+    "answer": "4Minute",
+    "aliases": []
+   },
+   {
+    "answer": "f(x)",
+    "aliases": []
+   },
+   {
+    "answer": "Girls' Generation",
+    "aliases": []
+   },
+   {
+    "answer": "Super Junior",
+    "aliases": []
+   },
+   {
+    "answer": "Big Bang",
+    "aliases": []
+   },
+   {
+    "answer": "Seventeen",
+    "aliases": []
+   },
+   {
+    "answer": "ZE:A",
+    "aliases": []
+   },
+   {
+    "answer": "B1A4",
+    "aliases": [
+     "B1A4"
+    ]
+   },
+   {
+    "answer": "B.A.P",
+    "aliases": []
+   },
+   {
+    "answer": "U-KISS",
+    "aliases": []
+   },
+   {
+    "answer": "1TYM",
+    "aliases": [
+     "One Time"
+    ]
+   },
+   {
+    "answer": "g.o.d",
+    "aliases": []
+   },
+   {
+    "answer": "2EYES",
+    "aliases": [
+     "2 Eyes"
+    ]
+   },
+   {
+    "answer": "5urprise",
+    "aliases": [
+     "Surprise"
+    ]
+   },
+   {
+    "answer": "Sechskies",
+    "aliases": [
+     "Sechs Kies",
+     "Sechskies"
+    ]
+   },
+   {
+    "answer": "Fiestar",
+    "aliases": []
+   },
+   {
+    "answer": "EXID",
+    "aliases": []
+   },
+   {
+    "answer": "AOA",
+    "aliases": []
+   },
+   {
+    "answer": "9MUSES",
+    "aliases": [
+     "Nine Muses",
+     "9 Muses"
+    ]
+   },
+   {
+    "answer": "15&",
+    "aliases": [
+     "Fifteen And",
+     "15 and"
+    ]
+   },
+   {
+    "answer": "24K",
+    "aliases": [
+     "Twenty Four K"
+    ]
+   },
+   {
+    "answer": "2Yoon",
+    "aliases": []
+   },
+   {
+    "answer": "Dynamic Duo",
+    "aliases": []
+   },
+   {
+    "answer": "Typhoon",
+    "aliases": []
+   },
+   {
+    "answer": "The Boyz",
+    "aliases": []
+   },
+   {
+    "answer": "Ten Thousand Fists",
+    "aliases": []
+   },
+   {
+    "answer": "Fifty Shades",
+    "aliases": []
+   },
+   {
+    "answer": "Les Fils de Teuhpu",
+    "aliases": []
+   },
+   {
+    "answer": "Triple H",
+    "aliases": []
+   },
+   {
+    "answer": "The Tragically Hip",
+    "aliases": []
+   },
+   {
+    "answer": "Gorillaz",
+    "aliases": []
+   },
+   {
+    "answer": "Seven Dials Mystery",
+    "aliases": []
+   },
+   {
+    "answer": "Dos Equis",
+    "aliases": []
+   },
+   {
+    "answer": "The Verve",
+    "aliases": []
+   },
+   {
+    "answer": "Hi-5",
+    "aliases": [
+     "Hi Five",
+     "Hi 5",
+     "Hi-Five"
+    ]
+   },
+   {
+    "answer": "Take That",
+    "aliases": []
+   },
+   {
+    "answer": "Fifteen Minutes",
+    "aliases": []
+   },
+   {
+    "answer": "The Twelve Tones",
+    "aliases": []
+   },
+   {
+    "answer": "Pre-Fab Sprout",
+    "aliases": []
+   },
+   {
+    "answer": "Wu-Tang Clan",
+    "aliases": []
+   },
+   {
+    "answer": "Weezer",
+    "aliases": []
+   },
+   {
+    "answer": "Jay-Z",
+    "aliases": []
+   },
+   {
+    "answer": "Sevenfold",
+    "aliases": []
+   },
+   {
+    "answer": "Avenged Sevenfold",
+    "aliases": [
+     "A7X",
+     "Avenged 7fold",
+     "Avenged Seven Fold"
+    ]
+   },
+   {
+    "answer": "Twenty Four Hours",
+    "aliases": []
+   },
+   {
+    "answer": "Of Montreal",
+    "aliases": []
+   },
+   {
+    "answer": "The Eight Ball",
+    "aliases": []
+   },
+   {
+    "answer": "Eight Mile",
+    "aliases": []
+   },
+   {
+    "answer": "Third Man",
+    "aliases": []
+   },
+   {
+    "answer": "Two Steps From Hell",
+    "aliases": [
+     "2 Steps From Hell",
+     "Two Steps from Hell"
+    ]
+   },
+   {
+    "answer": "Eleven Eleven",
+    "aliases": []
+   },
+   {
+    "answer": "Blind Melon",
+    "aliases": []
+   },
+   {
+    "answer": "Ocean",
+    "aliases": []
+   },
+   {
+    "answer": "Bad Religion",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 74500,
+ "type": "result",
+ "duration_ms": 74549,
+ "uuid": "90c35e9b-b360-4b4a-96a1-8e6db49f3450",
+ "ttft_stream_ms": 858,
+ "time_to_request_ms": 30,
+ "first_content_frame_ms": 859,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

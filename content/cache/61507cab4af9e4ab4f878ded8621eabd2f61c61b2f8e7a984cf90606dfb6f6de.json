@@ -1,0 +1,1966 @@
+{
+ "duration_api_ms": 46055,
+ "stop_reason": "tool_use",
+ "session_id": "46537671-6b1f-4526-ad36-3fe16ccc9bf3",
+ "total_cost_usd": 0.1083,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6403,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 8256,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6403,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 8256,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 6403,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6403
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 8256,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 6403,
+   "webSearchRequests": 0,
+   "costUSD": 0.1083,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Mug\",\"aliases\":[\"Coffee mug\",\"Cup mug\"]},{\"answer\":\"Door\",\"aliases\":[\"Doors\"]},{\"answer\":\"Suitcase\",\"aliases\":[\"Luggage\",\"Travel case\"]},{\"answer\":\"Frying pan\",\"aliases\":[\"Skillet\",\"Fry pan\"]},{\"answer\":\"Saucepan\",\"aliases\":[\"Pot\",\"Sauce pan\"]},{\"answer\":\"Knife\",\"aliases\":[\"Kitchen knife\"]},{\"answer\":\"Hammer\",\"aliases\":[]},{\"answer\":\"Axe\",\"aliases\":[\"Ax\"]},{\"answer\":\"Broom\",\"aliases\":[\"Broomstick\"]},{\"answer\":\"Mop\",\"aliases\":[]},{\"answer\":\"Shovel\",\"aliases\":[\"Spade\"]},{\"answer\":\"Rake\",\"aliases\":[]},{\"answer\":\"Hoe\",\"aliases\":[]},{\"answer\":\"Pitchfork\",\"aliases\":[\"Hay fork\"]},{\"answer\":\"Umbrella\",\"aliases\":[\"Brolly\"]},{\"answer\":\"Cane\",\"aliases\":[\"Walking stick\"]},{\"answer\":\"Bucket\",\"aliases\":[\"Pail\"]},{\"answer\":\"Watering can\",\"aliases\":[]},{\"answer\":\"Kettle\",\"aliases\":[\"Tea kettle\"]},{\"answer\":\"Teapot\",\"aliases\":[\"Tea pot\"]},{\"answer\":\"Coffee pot\",\"aliases\":[\"Coffee maker\",\"Carafe\"]},{\"answer\":\"Drawer\",\"aliases\":[\"Dresser drawer\"]},{\"answer\":\"Cabinet\",\"aliases\":[\"Cupboard\"]},{\"answer\":\"Refrigerator\",\"aliases\":[\"Fridge\"]},{\"answer\":\"Oven\",\"aliases\":[\"Stove\"]},{\"answer\":\"Microwave\",\"aliases\":[\"Microwave oven\"]},{\"answer\":\"Dishwasher\",\"aliases\":[]},{\"answer\":\"Toilet\",\"aliases\":[\"Toilet flusher\",\"Loo\"]},{\"answer\":\"Faucet\",\"aliases\":[\"Tap\"]},{\"answer\":\"Window\",\"aliases\":[]},{\"answer\":\"Gate\",\"aliases\":[]},{\"answer\":\"Wheelbarrow\",\"aliases\":[]},{\"answer\":\"Wagon\",\"aliases\":[\"Little red wagon\"]},{\"answer\":\"Stroller\",\"aliases\":[\"Pram\",\"Pushchair\",\"Buggy\"]},{\"answer\":\"Shopping cart\",\"aliases\":[\"Trolley\",\"Shopping trolley\"]},{\"answer\":\"Lawn mower\",\"aliases\":[\"Lawnmower\",\"Mower\"]},{\"answer\":\"Bicycle\",\"aliases\":[\"Bike\",\"Handlebars\"]},{\"answer\":\"Motorcycle\",\"aliases\":[\"Motorbike\"]},{\"answer\":\"Scooter\",\"aliases\":[\"Kick scooter\"]},{\"answer\":\"Skateboard\",\"aliases\":[]},{\"answer\":\"Pram\",\"aliases\":[\"Baby carriage\"]},{\"answer\":\"Basket\",\"aliases\":[\"Picnic basket\"]},{\"answer\":\"Handbag\",\"aliases\":[\"Purse\",\"Bag\"]},{\"answer\":\"Briefcase\",\"aliases\":[\"Attache case\"]},{\"answer\":\"Backpack\",\"aliases\":[\"Rucksack\"]},{\"answer\":\"Tote bag\",\"aliases\":[\"Tote\"]},{\"answer\":\"Shopping bag\",\"aliases\":[\"Carrier bag\"]},{\"answer\":\"Toolbox\",\"aliases\":[\"Tool box\"]},{\"answer\":\"Screwdriver\",\"aliases\":[\"Screw driver\"]},{\"answer\":\"Wrench\",\"aliases\":[\"Spanner\"]},{\"answer\":\"Pliers\",\"aliases\":[]},{\"answer\":\"Saw\",\"aliases\":[\"Handsaw\",\"Hand saw\"]},{\"answer\":\"Chainsaw\",\"aliases\":[\"Chain saw\"]},{\"answer\":\"Hatchet\",\"aliases\":[]},{\"answer\":\"Sledgehammer\",\"aliases\":[\"Sledge hammer\"]},{\"answer\":\"Mallet\",\"aliases\":[]},{\"answer\":\"Crowbar\",\"aliases\":[\"Pry bar\"]},{\"answer\":\"Chisel\",\"aliases\":[]},{\"answer\":\"Drill\",\"aliases\":[\"Power drill\"]},{\"answer\":\"Jackhammer\",\"aliases\":[]},{\"answer\":\"Paintbrush\",\"aliases\":[\"Paint brush\",\"Brush\"]},{\"answer\":\"Paint roller\",\"aliases\":[\"Roller\"]},{\"answer\":\"Toothbrush\",\"aliases\":[\"Tooth brush\"]},{\"answer\":\"Hairbrush\",\"aliases\":[\"Hair brush\"]},{\"answer\":\"Razor\",\"aliases\":[\"Shaver\"]},{\"answer\":\"Hair dryer\",\"aliases\":[\"Hairdryer\",\"Blow dryer\"]},{\"answer\":\"Vacuum cleaner\",\"aliases\":[\"Vacuum\",\"Hoover\"]},{\"answer\":\"Dustpan\",\"aliases\":[\"Dust pan\"]},{\"answer\":\"Plunger\",\"aliases\":[\"Toilet plunger\"]},{\"answer\":\"Scrub brush\",\"aliases\":[\"Scrubbing brush\"]},{\"answer\":\"Squeegee\",\"aliases\":[]},{\"answer\":\"Feather duster\",\"aliases\":[\"Duster\"]},{\"answer\":\"Ladle\",\"aliases\":[]},{\"answer\":\"Spatula\",\"aliases\":[\"Turner\"]},{\"answer\":\"Whisk\",\"aliases\":[]},{\"answer\":\"Spoon\",\"aliases\":[\"Wooden spoon\"]},{\"answer\":\"Fork\",\"aliases\":[]},{\"answer\":\"Colander\",\"aliases\":[\"Strainer\"]},{\"answer\":\"Sieve\",\"aliases\":[]},{\"answer\":\"Grater\",\"aliases\":[\"Cheese grater\"]},{\"answer\":\"Peeler\",\"aliases\":[\"Vegetable peeler\"]},{\"answer\":\"Can opener\",\"aliases\":[\"Tin opener\"]},{\"answer\":\"Corkscrew\",\"aliases\":[\"Wine opener\"]},{\"answer\":\"Bottle opener\",\"aliases\":[]},{\"answer\":\"Rolling pin\",\"aliases\":[]},{\"answer\":\"Meat cleaver\",\"aliases\":[\"Cleaver\"]},{\"answer\":\"Potato masher\",\"aliases\":[\"Masher\"]},{\"answer\":\"Tongs\",\"aliases\":[]},{\"answer\":\"Wok\",\"aliases\":[]},{\"answer\":\"Casserole dish\",\"aliases\":[\"Casserole\"]},{\"answer\":\"Cooking pot\",\"aliases\":[\"Stockpot\",\"Stock pot\"]},{\"answer\":\"Pressure cooker\",\"aliases\":[]},{\"answer\":\"Slow cooker\",\"aliases\":[\"Crock-Pot\",\"Crockpot\"]},{\"answer\":\"Toaster\",\"aliases\":[\"Toaster oven\"]},{\"answer\":\"Blender\",\"aliases\":[]},{\"answer\":\"Mixer\",\"aliases\":[\"Stand mixer\",\"Hand mixer\"]},{\"answer\":\"Coffee cup\",\"aliases\":[\"Teacup\",\"Tea cup\"]},{\"answer\":\"Pitcher\",\"aliases\":[\"Jug\",\"Water pitcher\"]},{\"answer\":\"Jug\",\"aliases\":[\"Water jug\"]},{\"answer\":\"Beer stein\",\"aliases\":[\"Stein\",\"Tankard\"]},{\"answer\":\"Beer mug\",\"aliases\":[]},{\"answer\":\"Tankard\",\"aliases\":[]},{\"answer\":\"Thermos\",\"aliases\":[\"Flask\",\"Vacuum flask\"]},{\"answer\":\"Cooler\",\"aliases\":[\"Ice chest\",\"Esky\"]},{\"answer\":\"Lunch box\",\"aliases\":[\"Lunchbox\"]},{\"answer\":\"Sword\",\"aliases\":[\"Sabre\",\"Saber\"]},{\"answer\":\"Dagger\",\"aliases\":[]},{\"answer\":\"Katana\",\"aliases\":[]},{\"answer\":\"Machete\",\"aliases\":[]},{\"answer\":\"Scythe\",\"aliases\":[]},{\"answer\":\"Sickle\",\"aliases\":[]},{\"answer\":\"Pickaxe\",\"aliases\":[\"Pick axe\",\"Pickax\"]},{\"answer\":\"Battle axe\",\"aliases\":[\"Battleaxe\"]},{\"answer\":\"Mace\",\"aliases\":[]},{\"answer\":\"Flail\",\"aliases\":[]},{\"answer\":\"Pistol\",\"aliases\":[\"Handgun\"]},{\"answer\":\"Revolver\",\"aliases\":[]},{\"answer\":\"Rifle\",\"aliases\":[]},{\"answer\":\"Shotgun\",\"aliases\":[]},{\"answer\":\"Bow\",\"aliases\":[\"Bow and arrow\"]},{\"answer\":\"Crossbow\",\"aliases\":[]},{\"answer\":\"Whip\",\"aliases\":[]},{\"answer\":\"Baseball bat\",\"aliases\":[\"Bat\"]},{\"answer\":\"Cricket bat\",\"aliases\":[]},{\"answer\":\"Tennis racket\",\"aliases\":[\"Racquet\",\"Tennis racquet\"]},{\"answer\":\"Badminton racket\",\"aliases\":[\"Badminton racquet\"]},{\"answer\":\"Squash racket\",\"aliases\":[]},{\"answer\":\"Golf club\",\"aliases\":[\"Club\"]},{\"answer\":\"Hockey stick\",\"aliases\":[]},{\"answer\":\"Lacrosse stick\",\"aliases\":[\"Lacrosse crosse\"]},{\"answer\":\"Ping pong paddle\",\"aliases\":[\"Table tennis paddle\",\"Table tennis bat\"]},{\"answer\":\"Fishing rod\",\"aliases\":[\"Fishing pole\"]},{\"answer\":\"Fishing reel\",\"aliases\":[\"Reel\"]},{\"answer\":\"Kettlebell\",\"aliases\":[\"Kettle bell\"]},{\"answer\":\"Dumbbell\",\"aliases\":[\"Dumb bell\"]},{\"answer\":\"Jump rope\",\"aliases\":[\"Skipping rope\"]},{\"answer\":\"Ski pole\",\"aliases\":[]},{\"answer\":\"Oar\",\"aliases\":[\"Paddle\"]},{\"answer\":\"Paddle\",\"aliases\":[\"Canoe paddle\"]},{\"answer\":\"Boat\",\"aliases\":[]},{\"answer\":\"Car door\",\"aliases\":[\"Car\"]},{\"answer\":\"Steering wheel\",\"aliases\":[]},{\"answer\":\"Gear stick\",\"aliases\":[\"Gearshift\",\"Gear shift\",\"Gear lever\",\"Shifter\"]},{\"answer\":\"Handbrake\",\"aliases\":[\"Hand brake\",\"Parking brake\",\"Emergency brake\"]},{\"answer\":\"Joystick\",\"aliases\":[\"Joy stick\"]},{\"answer\":\"Lever\",\"aliases\":[]},{\"answer\":\"Crank\",\"aliases\":[\"Hand crank\"]},{\"answer\":\"Slot machine\",\"aliases\":[\"One-armed bandit\",\"Fruit machine\"]},{\"answer\":\"Pinball machine\",\"aliases\":[\"Pinball\"]},{\"answer\":\"Doorknob\",\"aliases\":[\"Door knob\",\"Door handle\"]},{\"answer\":\"Pump\",\"aliases\":[\"Hand pump\",\"Water pump\",\"Bike pump\"]},{\"answer\":\"Well pump\",\"aliases\":[\"Well\"]},{\"answer\":\"Cart\",\"aliases\":[\"Handcart\"]},{\"answer\":\"Rickshaw\",\"aliases\":[]},{\"answer\":\"Sled\",\"aliases\":[\"Sledge\",\"Sleigh\"]},{\"answer\":\"Hand truck\",\"aliases\":[\"Dolly\",\"Sack truck\"]},{\"answer\":\"Pallet jack\",\"aliases\":[]},{\"answer\":\"Trowel\",\"aliases\":[]},{\"answer\":\"Garden fork\",\"aliases\":[]},{\"answer\":\"Hedge trimmer\",\"aliases\":[]},{\"answer\":\"Pruning shears\",\"aliases\":[\"Secateurs\",\"Pruners\"]},{\"answer\":\"Shears\",\"aliases\":[\"Garden shears\"]},{\"answer\":\"Scissors\",\"aliases\":[\"Shears\"]},{\"answer\":\"Loppers\",\"aliases\":[]},{\"answer\":\"Leaf blower\",\"aliases\":[]},{\"answer\":\"Weed whacker\",\"aliases\":[\"Weed eater\",\"String trimmer\",\"Strimmer\"]},{\"answer\":\"Garden hose nozzle\",\"aliases\":[\"Hose nozzle\"]},{\"answer\":\"Spray bottle\",\"aliases\":[\"Spritzer\"]},{\"answer\":\"Trigger sprayer\",\"aliases\":[\"Sprayer\"]},{\"answer\":\"Stapler\",\"aliases\":[]},{\"answer\":\"Hole punch\",\"aliases\":[\"Hole puncher\"]},{\"answer\":\"Paper cutter\",\"aliases\":[\"Guillotine\"]},{\"answer\":\"Pencil sharpener\",\"aliases\":[]},{\"answer\":\"Clipboard\",\"aliases\":[]},{\"answer\":\"Briefcase handle\",\"aliases\":[]},{\"answer\":\"Trunk\",\"aliases\":[\"Steamer trunk\"]},{\"answer\":\"Chest\",\"aliases\":[\"Treasure chest\"]},{\"answer\":\"Toolkit\",\"aliases\":[]},{\"answer\":\"Lantern\",\"aliases\":[\"Lamp\"]},{\"answer\":\"Oil lamp\",\"aliases\":[\"Hurricane lamp\"]},{\"answer\":\"Flashlight\",\"aliases\":[\"Torch\"]},{\"answer\":\"Candle holder\",\"aliases\":[\"Candlestick\",\"Candelabra\"]},{\"answer\":\"Cauldron\",\"aliases\":[]},{\"answer\":\"Wand\",\"aliases\":[]},{\"answer\":\"Staff\",\"aliases\":[]},{\"answer\":\"Scepter\",\"aliases\":[\"Sceptre\"]},{\"answer\":\"Shield\",\"aliases\":[]},{\"answer\":\"Trophy\",\"aliases\":[\"Cup\",\"Stanley Cup\",\"Loving cup\"]},{\"answer\":\"Urn\",\"aliases\":[\"Vase with handles\"]},{\"answer\":\"Amphora\",\"aliases\":[]},{\"answer\":\"Pottery jug\",\"aliases\":[\"Pitcher jug\"]},{\"answer\":\"Sauce boat\",\"aliases\":[\"Gravy boat\"]},{\"answer\":\"Cocktail shaker\",\"aliases\":[\"Shaker\"]},{\"answer\":\"French press\",\"aliases\":[\"Cafetiere\"]},{\"answer\":\"Moka pot\",\"aliases\":[\"Stovetop espresso maker\"]},{\"answer\":\"Espresso machine\",\"aliases\":[]},{\"answer\":\"Pizza cutter\",\"aliases\":[\"Pizza wheel\"]},{\"answer\":\"Pizza peel\",\"aliases\":[]},{\"answer\":\"Ice cream scoop\",\"aliases\":[\"Scoop\"]},{\"answer\":\"Butter knife\",\"aliases\":[]},{\"answer\":\"Cake server\",\"aliases\":[\"Pie server\"]},{\"answer\":\"Skimmer\",\"aliases\":[]},{\"answer\":\"Basting brush\",\"aliases\":[\"Pastry brush\"]},{\"answer\":\"Barbecue tongs\",\"aliases\":[\"BBQ tongs\"]},{\"answer\":\"Grill brush\",\"aliases\":[]},{\"answer\":\"Waffle iron\",\"aliases\":[]},{\"answer\":\"Iron\",\"aliases\":[\"Clothes iron\",\"Steam iron\"]},{\"answer\":\"Cast iron skillet\",\"aliases\":[\"Cast iron pan\"]},{\"answer\":\"Clothes hanger\",\"aliases\":[\"Hanger\"]},{\"answer\":\"Laundry basket\",\"aliases\":[\"Hamper\"]},{\"answer\":\"Washboard\",\"aliases\":[]},{\"answer\":\"Carpet beater\",\"aliases\":[]},{\"answer\":\"Carpet sweeper\",\"aliases\":[]},{\"answer\":\"Wringer\",\"aliases\":[\"Mop bucket\"]},{\"answer\":\"Stool\",\"aliases\":[\"Step stool\"]},{\"answer\":\"Ladder\",\"aliases\":[]},{\"answer\":\"Wheelchair\",\"aliases\":[]},{\"answer\":\"Crutch\",\"aliases\":[\"Crutches\"]},{\"answer\":\"Walker\",\"aliases\":[\"Zimmer frame\",\"Walking frame\"]},{\"answer\":\"Rollator\",\"aliases\":[]},{\"answer\":\"Walking cane\",\"aliases\":[]},{\"answer\":\"Shepherd's crook\",\"aliases\":[\"Crook\"]},{\"answer\":\"Bishop's crosier\",\"aliases\":[\"Crosier\",\"Crozier\"]},{\"answer\":\"Hockey puck pusher\",\"aliases\":[]},{\"answer\":\"Broom handle\",\"aliases\":[]},{\"answer\":\"Curling broom\",\"aliases\":[\"Curling brush\"]},{\"answer\":\"Croquet mallet\",\"aliases\":[]},{\"answer\":\"Polo mallet\",\"aliases\":[]},{\"answer\":\"Pool cue\",\"aliases\":[\"Cue stick\"]},{\"answer\":\"Billiard cue\",\"aliases\":[]},{\"answer\":\"Foosball table\",\"aliases\":[\"Foosball\",\"Table football\"]},{\"answer\":\"Air hockey striker\",\"aliases\":[\"Air hockey mallet\"]},{\"answer\":\"Butterfly net\",\"aliases\":[\"Net\"]},{\"answer\":\"Fishing net\",\"aliases\":[\"Landing net\"]},{\"answer\":\"Fly swatter\",\"aliases\":[\"Swatter\"]},{\"answer\":\"Tennis racket\",\"aliases\":[]},{\"answer\":\"Frisbee\",\"aliases\":[]},{\"answer\":\"Bagpipes\",\"aliases\":[]},{\"answer\":\"Hurdy-gurdy\",\"aliases\":[\"Hurdy gurdy\"]},{\"answer\":\"Barrel organ\",\"aliases\":[\"Organ grinder\"]},{\"answer\":\"Guitar\",\"aliases\":[]},{\"answer\":\"Banjo\",\"aliases\":[]},{\"answer\":\"Violin\",\"aliases\":[\"Fiddle\"]},{\"answer\":\"Double bass\",\"aliases\":[\"Upright bass\"]},{\"answer\":\"Cello\",\"aliases\":[]},{\"answer\":\"Drum stick\",\"aliases\":[\"Drumstick\"]},{\"answer\":\"Maraca\",\"aliases\":[\"Maracas\"]},{\"answer\":\"Tambourine\",\"aliases\":[]},{\"answer\":\"Cowbell\",\"aliases\":[\"Cow bell\"]},{\"answer\":\"Hand bell\",\"aliases\":[\"Handbell\"]},{\"answer\":\"Spoon rest\",\"aliases\":[]},{\"answer\":\"Gavel\",\"aliases\":[]},{\"answer\":\"Magnifying glass\",\"aliases\":[\"Magnifier\"]},{\"answer\":\"Hand mirror\",\"aliases\":[\"Hand-held mirror\"]},{\"answer\":\"Fan\",\"aliases\":[\"Hand fan\",\"Folding fan\"]},{\"answer\":\"Parasol\",\"aliases\":[\"Sunshade\"]},{\"answer\":\"Telescope\",\"aliases\":[]},{\"answer\":\"Binoculars\",\"aliases\":[]},{\"answer\":\"Metal detector\",\"aliases\":[]},{\"answer\":\"Stethoscope\",\"aliases\":[]},{\"answer\":\"Scalpel\",\"aliases\":[]},{\"answer\":\"Forceps\",\"aliases\":[]},{\"answer\":\"Syringe\",\"aliases\":[]},{\"answer\":\"Tennis ball hopper\",\"aliases\":[]},{\"answer\":\"Cash register\",\"aliases\":[\"Till\"]},{\"answer\":\"Typewriter carriage\",\"aliases\":[\"Typewriter\"]},{\"answer\":\"Pencil case\",\"aliases\":[]},{\"answer\":\"Slingshot\",\"aliases\":[\"Catapult\"]},{\"answer\":\"Trebuchet\",\"aliases\":[]},{\"answer\":\"Spear\",\"aliases\":[\"Lance\"]},{\"answer\":\"Halberd\",\"aliases\":[]},{\"answer\":\"Pickle jar\",\"aliases\":[\"Jar\"]},{\"answer\":\"Cookie jar\",\"aliases\":[]},{\"answer\":\"Mason jar\",\"aliases\":[]},{\"answer\":\"Bucket and spade\",\"aliases\":[]},{\"answer\":\"Sand shovel\",\"aliases\":[]},{\"answer\":\"Snow shovel\",\"aliases\":[]},{\"answer\":\"Ice axe\",\"aliases\":[\"Ice pick\"]},{\"answer\":\"Ice scraper\",\"aliases\":[\"Windshield scraper\"]},{\"answer\":\"Windshield wiper\",\"aliases\":[\"Wiper\"]},{\"answer\":\"Garage door\",\"aliases\":[]},{\"answer\":\"Fire extinguisher\",\"aliases\":[]},{\"answer\":\"Fire hose\",\"aliases\":[]},{\"answer\":\"Jerrycan\",\"aliases\":[\"Jerry can\",\"Gas can\",\"Petrol can\"]},{\"answer\":\"Gas pump\",\"aliases\":[\"Petrol pump\",\"Fuel nozzle\"]},{\"answer\":\"Tea strainer\",\"aliases\":[\"Tea infuser\"]},{\"answer\":\"Sauce pot\",\"aliases\":[]},{\"answer\":\"Dutch oven\",\"aliases\":[]},{\"answer\":\"Griddle\",\"aliases\":[]},{\"answer\":\"Roasting pan\",\"aliases\":[]},{\"answer\":\"Baking tray\",\"aliases\":[\"Baking sheet\"]},{\"answer\":\"Oven mitt\",\"aliases\":[]},{\"answer\":\"Coffee grinder\",\"aliases\":[\"Hand grinder\"]},{\"answer\":\"Pepper mill\",\"aliases\":[\"Pepper grinder\"]},{\"answer\":\"Mortar and pestle\",\"aliases\":[\"Pestle\"]},{\"answer\":\"Meat grinder\",\"aliases\":[\"Mincer\"]},{\"answer\":\"Food mill\",\"aliases\":[]},{\"answer\":\"Ice cream maker\",\"aliases\":[]},{\"answer\":\"Butter churn\",\"aliases\":[\"Churn\"]},{\"answer\":\"Milk can\",\"aliases\":[\"Milk churn\"]},{\"answer\":\"Pail\",\"aliases\":[\"Milk pail\"]},{\"answer\":\"Plow\",\"aliases\":[\"Plough\"]},{\"answer\":\"Scraper\",\"aliases\":[\"Paint scraper\"]},{\"answer\":\"Putty knife\",\"aliases\":[]},{\"answer\":\"Trowel float\",\"aliases\":[\"Float\"]},{\"answer\":\"Caulking gun\",\"aliases\":[\"Caulk gun\"]},{\"answer\":\"Glue gun\",\"aliases\":[\"Hot glue gun\"]},{\"answer\":\"Staple gun\",\"aliases\":[]},{\"answer\":\"Nail gun\",\"aliases\":[]},{\"answer\":\"Soldering iron\",\"aliases\":[]},{\"answer\":\"Blowtorch\",\"aliases\":[\"Blow torch\"]},{\"answer\":\"Spray gun\",\"aliases\":[]},{\"answer\":\"Water gun\",\"aliases\":[\"Squirt gun\",\"Super Soaker\"]},{\"answer\":\"Toy gun\",\"aliases\":[]},{\"answer\":\"Shopping basket\",\"aliases\":[]},{\"answer\":\"Bin\",\"aliases\":[\"Trash can\",\"Wheelie bin\"]},{\"answer\":\"Garbage can\",\"aliases\":[\"Dustbin\"]},{\"answer\":\"Lunch pail\",\"aliases\":[]},{\"answer\":\"Doorbell pull\",\"aliases\":[\"Bell pull\"]},{\"answer\":\"Drawer pull\",\"aliases\":[\"Cabinet pull\"]},{\"answer\":\"Pram handle\",\"aliases\":[]},{\"answer\":\"Sauce ladle\",\"aliases\":[]},{\"answer\":\"Tea cup with handle\",\"aliases\":[]},{\"answer\":\"Samovar\",\"aliases\":[]},{\"answer\":\"Tagine\",\"aliases\":[]},{\"answer\":\"Pot lid\",\"aliases\":[\"Lid\"]},{\"answer\":\"Skillet lid\",\"aliases\":[]},{\"answer\":\"Spade\",\"aliases\":[\"Garden spade\"]},{\"answer\":\"Pickle fork\",\"aliases\":[]},{\"answer\":\"Briefcase lock\",\"aliases\":[]},{\"answer\":\"Punching bag\",\"aliases\":[]},{\"answer\":\"Boomerang\",\"aliases\":[]},{\"answer\":\"Cricket stump\",\"aliases\":[]},{\"answer\":\"Tennis ball machine\",\"aliases\":[]},{\"answer\":\"Pogo stick\",\"aliases\":[]},{\"answer\":\"Rocking horse\",\"aliases\":[]},{\"answer\":\"Bike lock\",\"aliases\":[]},{\"answer\":\"Hand drill\",\"aliases\":[]},{\"answer\":\"Brace and bit\",\"aliases\":[\"Hand brace\"]},{\"answer\":\"Plane\",\"aliases\":[\"Hand plane\",\"Wood plane\"]},{\"answer\":\"File\",\"aliases\":[\"Rasp\"]},{\"answer\":\"Bolt cutters\",\"aliases\":[\"Bolt cutter\"]},{\"answer\":\"Tin snips\",\"aliases\":[\"Snips\"]},{\"answer\":\"Adze\",\"aliases\":[]},{\"answer\":\"Awl\",\"aliases\":[]},{\"answer\":\"Hacksaw\",\"aliases\":[]},{\"answer\":\"Jigsaw\",\"aliases\":[]},{\"answer\":\"Circular saw\",\"aliases\":[]},{\"answer\":\"Angle grinder\",\"aliases\":[]},{\"answer\":\"Sander\",\"aliases\":[]},{\"answer\":\"Pressure washer\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Mug",
+    "aliases": [
+     "Coffee mug",
+     "Cup mug"
+    ]
+   },
+   {
+    "answer": "Door",
+    "aliases": [
+     "Doors"
+    ]
+   },
+   {
+    "answer": "Suitcase",
+    "aliases": [
+     "Luggage",
+     "Travel case"
+    ]
+   },
+   {
+    "answer": "Frying pan",
+    "aliases": [
+     "Skillet",
+     "Fry pan"
+    ]
+   },
+   {
+    "answer": "Saucepan",
+    "aliases": [
+     "Pot",
+     "Sauce pan"
+    ]
+   },
+   {
+    "answer": "Knife",
+    "aliases": [
+     "Kitchen knife"
+    ]
+   },
+   {
+    "answer": "Hammer",
+    "aliases": []
+   },
+   {
+    "answer": "Axe",
+    "aliases": [
+     "Ax"
+    ]
+   },
+   {
+    "answer": "Broom",
+    "aliases": [
+     "Broomstick"
+    ]
+   },
+   {
+    "answer": "Mop",
+    "aliases": []
+   },
+   {
+    "answer": "Shovel",
+    "aliases": [
+     "Spade"
+    ]
+   },
+   {
+    "answer": "Rake",
+    "aliases": []
+   },
+   {
+    "answer": "Hoe",
+    "aliases": []
+   },
+   {
+    "answer": "Pitchfork",
+    "aliases": [
+     "Hay fork"
+    ]
+   },
+   {
+    "answer": "Umbrella",
+    "aliases": [
+     "Brolly"
+    ]
+   },
+   {
+    "answer": "Cane",
+    "aliases": [
+     "Walking stick"
+    ]
+   },
+   {
+    "answer": "Bucket",
+    "aliases": [
+     "Pail"
+    ]
+   },
+   {
+    "answer": "Watering can",
+    "aliases": []
+   },
+   {
+    "answer": "Kettle",
+    "aliases": [
+     "Tea kettle"
+    ]
+   },
+   {
+    "answer": "Teapot",
+    "aliases": [
+     "Tea pot"
+    ]
+   },
+   {
+    "answer": "Coffee pot",
+    "aliases": [
+     "Coffee maker",
+     "Carafe"
+    ]
+   },
+   {
+    "answer": "Drawer",
+    "aliases": [
+     "Dresser drawer"
+    ]
+   },
+   {
+    "answer": "Cabinet",
+    "aliases": [
+     "Cupboard"
+    ]
+   },
+   {
+    "answer": "Refrigerator",
+    "aliases": [
+     "Fridge"
+    ]
+   },
+   {
+    "answer": "Oven",
+    "aliases": [
+     "Stove"
+    ]
+   },
+   {
+    "answer": "Microwave",
+    "aliases": [
+     "Microwave oven"
+    ]
+   },
+   {
+    "answer": "Dishwasher",
+    "aliases": []
+   },
+   {
+    "answer": "Toilet",
+    "aliases": [
+     "Toilet flusher",
+     "Loo"
+    ]
+   },
+   {
+    "answer": "Faucet",
+    "aliases": [
+     "Tap"
+    ]
+   },
+   {
+    "answer": "Window",
+    "aliases": []
+   },
+   {
+    "answer": "Gate",
+    "aliases": []
+   },
+   {
+    "answer": "Wheelbarrow",
+    "aliases": []
+   },
+   {
+    "answer": "Wagon",
+    "aliases": [
+     "Little red wagon"
+    ]
+   },
+   {
+    "answer": "Stroller",
+    "aliases": [
+     "Pram",
+     "Pushchair",
+     "Buggy"
+    ]
+   },
+   {
+    "answer": "Shopping cart",
+    "aliases": [
+     "Trolley",
+     "Shopping trolley"
+    ]
+   },
+   {
+    "answer": "Lawn mower",
+    "aliases": [
+     "Lawnmower",
+     "Mower"
+    ]
+   },
+   {
+    "answer": "Bicycle",
+    "aliases": [
+     "Bike",
+     "Handlebars"
+    ]
+   },
+   {
+    "answer": "Motorcycle",
+    "aliases": [
+     "Motorbike"
+    ]
+   },
+   {
+    "answer": "Scooter",
+    "aliases": [
+     "Kick scooter"
+    ]
+   },
+   {
+    "answer": "Skateboard",
+    "aliases": []
+   },
+   {
+    "answer": "Pram",
+    "aliases": [
+     "Baby carriage"
+    ]
+   },
+   {
+    "answer": "Basket",
+    "aliases": [
+     "Picnic basket"
+    ]
+   },
+   {
+    "answer": "Handbag",
+    "aliases": [
+     "Purse",
+     "Bag"
+    ]
+   },
+   {
+    "answer": "Briefcase",
+    "aliases": [
+     "Attache case"
+    ]
+   },
+   {
+    "answer": "Backpack",
+    "aliases": [
+     "Rucksack"
+    ]
+   },
+   {
+    "answer": "Tote bag",
+    "aliases": [
+     "Tote"
+    ]
+   },
+   {
+    "answer": "Shopping bag",
+    "aliases": [
+     "Carrier bag"
+    ]
+   },
+   {
+    "answer": "Toolbox",
+    "aliases": [
+     "Tool box"
+    ]
+   },
+   {
+    "answer": "Screwdriver",
+    "aliases": [
+     "Screw driver"
+    ]
+   },
+   {
+    "answer": "Wrench",
+    "aliases": [
+     "Spanner"
+    ]
+   },
+   {
+    "answer": "Pliers",
+    "aliases": []
+   },
+   {
+    "answer": "Saw",
+    "aliases": [
+     "Handsaw",
+     "Hand saw"
+    ]
+   },
+   {
+    "answer": "Chainsaw",
+    "aliases": [
+     "Chain saw"
+    ]
+   },
+   {
+    "answer": "Hatchet",
+    "aliases": []
+   },
+   {
+    "answer": "Sledgehammer",
+    "aliases": [
+     "Sledge hammer"
+    ]
+   },
+   {
+    "answer": "Mallet",
+    "aliases": []
+   },
+   {
+    "answer": "Crowbar",
+    "aliases": [
+     "Pry bar"
+    ]
+   },
+   {
+    "answer": "Chisel",
+    "aliases": []
+   },
+   {
+    "answer": "Drill",
+    "aliases": [
+     "Power drill"
+    ]
+   },
+   {
+    "answer": "Jackhammer",
+    "aliases": []
+   },
+   {
+    "answer": "Paintbrush",
+    "aliases": [
+     "Paint brush",
+     "Brush"
+    ]
+   },
+   {
+    "answer": "Paint roller",
+    "aliases": [
+     "Roller"
+    ]
+   },
+   {
+    "answer": "Toothbrush",
+    "aliases": [
+     "Tooth brush"
+    ]
+   },
+   {
+    "answer": "Hairbrush",
+    "aliases": [
+     "Hair brush"
+    ]
+   },
+   {
+    "answer": "Razor",
+    "aliases": [
+     "Shaver"
+    ]
+   },
+   {
+    "answer": "Hair dryer",
+    "aliases": [
+     "Hairdryer",
+     "Blow dryer"
+    ]
+   },
+   {
+    "answer": "Vacuum cleaner",
+    "aliases": [
+     "Vacuum",
+     "Hoover"
+    ]
+   },
+   {
+    "answer": "Dustpan",
+    "aliases": [
+     "Dust pan"
+    ]
+   },
+   {
+    "answer": "Plunger",
+    "aliases": [
+     "Toilet plunger"
+    ]
+   },
+   {
+    "answer": "Scrub brush",
+    "aliases": [
+     "Scrubbing brush"
+    ]
+   },
+   {
+    "answer": "Squeegee",
+    "aliases": []
+   },
+   {
+    "answer": "Feather duster",
+    "aliases": [
+     "Duster"
+    ]
+   },
+   {
+    "answer": "Ladle",
+    "aliases": []
+   },
+   {
+    "answer": "Spatula",
+    "aliases": [
+     "Turner"
+    ]
+   },
+   {
+    "answer": "Whisk",
+    "aliases": []
+   },
+   {
+    "answer": "Spoon",
+    "aliases": [
+     "Wooden spoon"
+    ]
+   },
+   {
+    "answer": "Fork",
+    "aliases": []
+   },
+   {
+    "answer": "Colander",
+    "aliases": [
+     "Strainer"
+    ]
+   },
+   {
+    "answer": "Sieve",
+    "aliases": []
+   },
+   {
+    "answer": "Grater",
+    "aliases": [
+     "Cheese grater"
+    ]
+   },
+   {
+    "answer": "Peeler",
+    "aliases": [
+     "Vegetable peeler"
+    ]
+   },
+   {
+    "answer": "Can opener",
+    "aliases": [
+     "Tin opener"
+    ]
+   },
+   {
+    "answer": "Corkscrew",
+    "aliases": [
+     "Wine opener"
+    ]
+   },
+   {
+    "answer": "Bottle opener",
+    "aliases": []
+   },
+   {
+    "answer": "Rolling pin",
+    "aliases": []
+   },
+   {
+    "answer": "Meat cleaver",
+    "aliases": [
+     "Cleaver"
+    ]
+   },
+   {
+    "answer": "Potato masher",
+    "aliases": [
+     "Masher"
+    ]
+   },
+   {
+    "answer": "Tongs",
+    "aliases": []
+   },
+   {
+    "answer": "Wok",
+    "aliases": []
+   },
+   {
+    "answer": "Casserole dish",
+    "aliases": [
+     "Casserole"
+    ]
+   },
+   {
+    "answer": "Cooking pot",
+    "aliases": [
+     "Stockpot",
+     "Stock pot"
+    ]
+   },
+   {
+    "answer": "Pressure cooker",
+    "aliases": []
+   },
+   {
+    "answer": "Slow cooker",
+    "aliases": [
+     "Crock-Pot",
+     "Crockpot"
+    ]
+   },
+   {
+    "answer": "Toaster",
+    "aliases": [
+     "Toaster oven"
+    ]
+   },
+   {
+    "answer": "Blender",
+    "aliases": []
+   },
+   {
+    "answer": "Mixer",
+    "aliases": [
+     "Stand mixer",
+     "Hand mixer"
+    ]
+   },
+   {
+    "answer": "Coffee cup",
+    "aliases": [
+     "Teacup",
+     "Tea cup"
+    ]
+   },
+   {
+    "answer": "Pitcher",
+    "aliases": [
+     "Jug",
+     "Water pitcher"
+    ]
+   },
+   {
+    "answer": "Jug",
+    "aliases": [
+     "Water jug"
+    ]
+   },
+   {
+    "answer": "Beer stein",
+    "aliases": [
+     "Stein",
+     "Tankard"
+    ]
+   },
+   {
+    "answer": "Beer mug",
+    "aliases": []
+   },
+   {
+    "answer": "Tankard",
+    "aliases": []
+   },
+   {
+    "answer": "Thermos",
+    "aliases": [
+     "Flask",
+     "Vacuum flask"
+    ]
+   },
+   {
+    "answer": "Cooler",
+    "aliases": [
+     "Ice chest",
+     "Esky"
+    ]
+   },
+   {
+    "answer": "Lunch box",
+    "aliases": [
+     "Lunchbox"
+    ]
+   },
+   {
+    "answer": "Sword",
+    "aliases": [
+     "Sabre",
+     "Saber"
+    ]
+   },
+   {
+    "answer": "Dagger",
+    "aliases": []
+   },
+   {
+    "answer": "Katana",
+    "aliases": []
+   },
+   {
+    "answer": "Machete",
+    "aliases": []
+   },
+   {
+    "answer": "Scythe",
+    "aliases": []
+   },
+   {
+    "answer": "Sickle",
+    "aliases": []
+   },
+   {
+    "answer": "Pickaxe",
+    "aliases": [
+     "Pick axe",
+     "Pickax"
+    ]
+   },
+   {
+    "answer": "Battle axe",
+    "aliases": [
+     "Battleaxe"
+    ]
+   },
+   {
+    "answer": "Mace",
+    "aliases": []
+   },
+   {
+    "answer": "Flail",
+    "aliases": []
+   },
+   {
+    "answer": "Pistol",
+    "aliases": [
+     "Handgun"
+    ]
+   },
+   {
+    "answer": "Revolver",
+    "aliases": []
+   },
+   {
+    "answer": "Rifle",
+    "aliases": []
+   },
+   {
+    "answer": "Shotgun",
+    "aliases": []
+   },
+   {
+    "answer": "Bow",
+    "aliases": [
+     "Bow and arrow"
+    ]
+   },
+   {
+    "answer": "Crossbow",
+    "aliases": []
+   },
+   {
+    "answer": "Whip",
+    "aliases": []
+   },
+   {
+    "answer": "Baseball bat",
+    "aliases": [
+     "Bat"
+    ]
+   },
+   {
+    "answer": "Cricket bat",
+    "aliases": []
+   },
+   {
+    "answer": "Tennis racket",
+    "aliases": [
+     "Racquet",
+     "Tennis racquet"
+    ]
+   },
+   {
+    "answer": "Badminton racket",
+    "aliases": [
+     "Badminton racquet"
+    ]
+   },
+   {
+    "answer": "Squash racket",
+    "aliases": []
+   },
+   {
+    "answer": "Golf club",
+    "aliases": [
+     "Club"
+    ]
+   },
+   {
+    "answer": "Hockey stick",
+    "aliases": []
+   },
+   {
+    "answer": "Lacrosse stick",
+    "aliases": [
+     "Lacrosse crosse"
+    ]
+   },
+   {
+    "answer": "Ping pong paddle",
+    "aliases": [
+     "Table tennis paddle",
+     "Table tennis bat"
+    ]
+   },
+   {
+    "answer": "Fishing rod",
+    "aliases": [
+     "Fishing pole"
+    ]
+   },
+   {
+    "answer": "Fishing reel",
+    "aliases": [
+     "Reel"
+    ]
+   },
+   {
+    "answer": "Kettlebell",
+    "aliases": [
+     "Kettle bell"
+    ]
+   },
+   {
+    "answer": "Dumbbell",
+    "aliases": [
+     "Dumb bell"
+    ]
+   },
+   {
+    "answer": "Jump rope",
+    "aliases": [
+     "Skipping rope"
+    ]
+   },
+   {
+    "answer": "Ski pole",
+    "aliases": []
+   },
+   {
+    "answer": "Oar",
+    "aliases": [
+     "Paddle"
+    ]
+   },
+   {
+    "answer": "Paddle",
+    "aliases": [
+     "Canoe paddle"
+    ]
+   },
+   {
+    "answer": "Boat",
+    "aliases": []
+   },
+   {
+    "answer": "Car door",
+    "aliases": [
+     "Car"
+    ]
+   },
+   {
+    "answer": "Steering wheel",
+    "aliases": []
+   },
+   {
+    "answer": "Gear stick",
+    "aliases": [
+     "Gearshift",
+     "Gear shift",
+     "Gear lever",
+     "Shifter"
+    ]
+   },
+   {
+    "answer": "Handbrake",
+    "aliases": [
+     "Hand brake",
+     "Parking brake",
+     "Emergency brake"
+    ]
+   },
+   {
+    "answer": "Joystick",
+    "aliases": [
+     "Joy stick"
+    ]
+   },
+   {
+    "answer": "Lever",
+    "aliases": []
+   },
+   {
+    "answer": "Crank",
+    "aliases": [
+     "Hand crank"
+    ]
+   },
+   {
+    "answer": "Slot machine",
+    "aliases": [
+     "One-armed bandit",
+     "Fruit machine"
+    ]
+   },
+   {
+    "answer": "Pinball machine",
+    "aliases": [
+     "Pinball"
+    ]
+   },
+   {
+    "answer": "Doorknob",
+    "aliases": [
+     "Door knob",
+     "Door handle"
+    ]
+   },
+   {
+    "answer": "Pump",
+    "aliases": [
+     "Hand pump",
+     "Water pump",
+     "Bike pump"
+    ]
+   },
+   {
+    "answer": "Well pump",
+    "aliases": [
+     "Well"
+    ]
+   },
+   {
+    "answer": "Cart",
+    "aliases": [
+     "Handcart"
+    ]
+   },
+   {
+    "answer": "Rickshaw",
+    "aliases": []
+   },
+   {
+    "answer": "Sled",
+    "aliases": [
+     "Sledge",
+     "Sleigh"
+    ]
+   },
+   {
+    "answer": "Hand truck",
+    "aliases": [
+     "Dolly",
+     "Sack truck"
+    ]
+   },
+   {
+    "answer": "Pallet jack",
+    "aliases": []
+   },
+   {
+    "answer": "Trowel",
+    "aliases": []
+   },
+   {
+    "answer": "Garden fork",
+    "aliases": []
+   },
+   {
+    "answer": "Hedge trimmer",
+    "aliases": []
+   },
+   {
+    "answer": "Pruning shears",
+    "aliases": [
+     "Secateurs",
+     "Pruners"
+    ]
+   },
+   {
+    "answer": "Shears",
+    "aliases": [
+     "Garden shears"
+    ]
+   },
+   {
+    "answer": "Scissors",
+    "aliases": [
+     "Shears"
+    ]
+   },
+   {
+    "answer": "Loppers",
+    "aliases": []
+   },
+   {
+    "answer": "Leaf blower",
+    "aliases": []
+   },
+   {
+    "answer": "Weed whacker",
+    "aliases": [
+     "Weed eater",
+     "String trimmer",
+     "Strimmer"
+    ]
+   },
+   {
+    "answer": "Garden hose nozzle",
+    "aliases": [
+     "Hose nozzle"
+    ]
+   },
+   {
+    "answer": "Spray bottle",
+    "aliases": [
+     "Spritzer"
+    ]
+   },
+   {
+    "answer": "Trigger sprayer",
+    "aliases": [
+     "Sprayer"
+    ]
+   },
+   {
+    "answer": "Stapler",
+    "aliases": []
+   },
+   {
+    "answer": "Hole punch",
+    "aliases": [
+     "Hole puncher"
+    ]
+   },
+   {
+    "answer": "Paper cutter",
+    "aliases": [
+     "Guillotine"
+    ]
+   },
+   {
+    "answer": "Pencil sharpener",
+    "aliases": []
+   },
+   {
+    "answer": "Clipboard",
+    "aliases": []
+   },
+   {
+    "answer": "Briefcase handle",
+    "aliases": []
+   },
+   {
+    "answer": "Trunk",
+    "aliases": [
+     "Steamer trunk"
+    ]
+   },
+   {
+    "answer": "Chest",
+    "aliases": [
+     "Treasure chest"
+    ]
+   },
+   {
+    "answer": "Toolkit",
+    "aliases": []
+   },
+   {
+    "answer": "Lantern",
+    "aliases": [
+     "Lamp"
+    ]
+   },
+   {
+    "answer": "Oil lamp",
+    "aliases": [
+     "Hurricane lamp"
+    ]
+   },
+   {
+    "answer": "Flashlight",
+    "aliases": [
+     "Torch"
+    ]
+   },
+   {
+    "answer": "Candle holder",
+    "aliases": [
+     "Candlestick",
+     "Candelabra"
+    ]
+   },
+   {
+    "answer": "Cauldron",
+    "aliases": []
+   },
+   {
+    "answer": "Wand",
+    "aliases": []
+   },
+   {
+    "answer": "Staff",
+    "aliases": []
+   },
+   {
+    "answer": "Scepter",
+    "aliases": [
+     "Sceptre"
+    ]
+   },
+   {
+    "answer": "Shield",
+    "aliases": []
+   },
+   {
+    "answer": "Trophy",
+    "aliases": [
+     "Cup",
+     "Stanley Cup",
+     "Loving cup"
+    ]
+   },
+   {
+    "answer": "Urn",
+    "aliases": [
+     "Vase with handles"
+    ]
+   },
+   {
+    "answer": "Amphora",
+    "aliases": []
+   },
+   {
+    "answer": "Pottery jug",
+    "aliases": [
+     "Pitcher jug"
+    ]
+   },
+   {
+    "answer": "Sauce boat",
+    "aliases": [
+     "Gravy boat"
+    ]
+   },
+   {
+    "answer": "Cocktail shaker",
+    "aliases": [
+     "Shaker"
+    ]
+   },
+   {
+    "answer": "French press",
+    "aliases": [
+     "Cafetiere"
+    ]
+   },
+   {
+    "answer": "Moka pot",
+    "aliases": [
+     "Stovetop espresso maker"
+    ]
+   },
+   {
+    "answer": "Espresso machine",
+    "aliases": []
+   },
+   {
+    "answer": "Pizza cutter",
+    "aliases": [
+     "Pizza wheel"
+    ]
+   },
+   {
+    "answer": "Pizza peel",
+    "aliases": []
+   },
+   {
+    "answer": "Ice cream scoop",
+    "aliases": [
+     "Scoop"
+    ]
+   },
+   {
+    "answer": "Butter knife",
+    "aliases": []
+   },
+   {
+    "answer": "Cake server",
+    "aliases": [
+     "Pie server"
+    ]
+   },
+   {
+    "answer": "Skimmer",
+    "aliases": []
+   },
+   {
+    "answer": "Basting brush",
+    "aliases": [
+     "Pastry brush"
+    ]
+   },
+   {
+    "answer": "Barbecue tongs",
+    "aliases": [
+     "BBQ tongs"
+    ]
+   },
+   {
+    "answer": "Grill brush",
+    "aliases": []
+   },
+   {
+    "answer": "Waffle iron",
+    "aliases": []
+   },
+   {
+    "answer": "Iron",
+    "aliases": [
+     "Clothes iron",
+     "Steam iron"
+    ]
+   },
+   {
+    "answer": "Cast iron skillet",
+    "aliases": [
+     "Cast iron pan"
+    ]
+   },
+   {
+    "answer": "Clothes hanger",
+    "aliases": [
+     "Hanger"
+    ]
+   },
+   {
+    "answer": "Laundry basket",
+    "aliases": [
+     "Hamper"
+    ]
+   },
+   {
+    "answer": "Washboard",
+    "aliases": []
+   },
+   {
+    "answer": "Carpet beater",
+    "aliases": []
+   },
+   {
+    "answer": "Carpet sweeper",
+    "aliases": []
+   },
+   {
+    "answer": "Wringer",
+    "aliases": [
+     "Mop bucket"
+    ]
+   },
+   {
+    "answer": "Stool",
+    "aliases": [
+     "Step stool"
+    ]
+   },
+   {
+    "answer": "Ladder",
+    "aliases": []
+   },
+   {
+    "answer": "Wheelchair",
+    "aliases": []
+   },
+   {
+    "answer": "Crutch",
+    "aliases": [
+     "Crutches"
+    ]
+   },
+   {
+    "answer": "Walker",
+    "aliases": [
+     "Zimmer frame",
+     "Walking frame"
+    ]
+   },
+   {
+    "answer": "Rollator",
+    "aliases": []
+   },
+   {
+    "answer": "Walking cane",
+    "aliases": []
+   },
+   {
+    "answer": "Shepherd's crook",
+    "aliases": [
+     "Crook"
+    ]
+   },
+   {
+    "answer": "Bishop's crosier",
+    "aliases": [
+     "Crosier",
+     "Crozier"
+    ]
+   },
+   {
+    "answer": "Hockey puck pusher",
+    "aliases": []
+   },
+   {
+    "answer": "Broom handle",
+    "aliases": []
+   },
+   {
+    "answer": "Curling broom",
+    "aliases": [
+     "Curling brush"
+    ]
+   },
+   {
+    "answer": "Croquet mallet",
+    "aliases": []
+   },
+   {
+    "answer": "Polo mallet",
+    "aliases": []
+   },
+   {
+    "answer": "Pool cue",
+    "aliases": [
+     "Cue stick"
+    ]
+   },
+   {
+    "answer": "Billiard cue",
+    "aliases": []
+   },
+   {
+    "answer": "Foosball table",
+    "aliases": [
+     "Foosball",
+     "Table football"
+    ]
+   },
+   {
+    "answer": "Air hockey striker",
+    "aliases": [
+     "Air hockey mallet"
+    ]
+   },
+   {
+    "answer": "Butterfly net",
+    "aliases": [
+     "Net"
+    ]
+   },
+   {
+    "answer": "Fishing net",
+    "aliases": [
+     "Landing net"
+    ]
+   },
+   {
+    "answer": "Fly swatter",
+    "aliases": [
+     "Swatter"
+    ]
+   },
+   {
+    "answer": "Tennis racket",
+    "aliases": []
+   },
+   {
+    "answer": "Frisbee",
+    "aliases": []
+   },
+   {
+    "answer": "Bagpipes",
+    "aliases": []
+   },
+   {
+    "answer": "Hurdy-gurdy",
+    "aliases": [
+     "Hurdy gurdy"
+    ]
+   },
+   {
+    "answer": "Barrel organ",
+    "aliases": [
+     "Organ grinder"
+    ]
+   },
+   {
+    "answer": "Guitar",
+    "aliases": []
+   },
+   {
+    "answer": "Banjo",
+    "aliases": []
+   },
+   {
+    "answer": "Violin",
+    "aliases": [
+     "Fiddle"
+    ]
+   },
+   {
+    "answer": "Double bass",
+    "aliases": [
+     "Upright bass"
+    ]
+   },
+   {
+    "answer": "Cello",
+    "aliases": []
+   },
+   {
+    "answer": "Drum stick",
+    "aliases": [
+     "Drumstick"
+    ]
+   },
+   {
+    "answer": "Maraca",
+    "aliases": [
+     "Maracas"
+    ]
+   },
+   {
+    "answer": "Tambourine",
+    "aliases": []
+   },
+   {
+    "answer": "Cowbell",
+    "aliases": [
+     "Cow bell"
+    ]
+   },
+   {
+    "answer": "Hand bell",
+    "aliases": [
+     "Handbell"
+    ]
+   },
+   {
+    "answer": "Spoon rest",
+    "aliases": []
+   },
+   {
+    "answer": "Gavel",
+    "aliases": []
+   },
+   {
+    "answer": "Magnifying glass",
+    "aliases": [
+     "Magnifier"
+    ]
+   },
+   {
+    "answer": "Hand mirror",
+    "aliases": [
+     "Hand-held mirror"
+    ]
+   },
+   {
+    "answer": "Fan",
+    "aliases": [
+     "Hand fan",
+     "Folding fan"
+    ]
+   },
+   {
+    "answer": "Parasol",
+    "aliases": [
+     "Sunshade"
+    ]
+   },
+   {
+    "answer": "Telescope",
+    "aliases": []
+   },
+   {
+    "answer": "Binoculars",
+    "aliases": []
+   },
+   {
+    "answer": "Metal detector",
+    "aliases": []
+   },
+   {
+    "answer": "Stethoscope",
+    "aliases": []
+   },
+   {
+    "answer": "Scalpel",
+    "aliases": []
+   },
+   {
+    "answer": "Forceps",
+    "aliases": []
+   },
+   {
+    "answer": "Syringe",
+    "aliases": []
+   },
+   {
+    "answer": "Tennis ball hopper",
+    "aliases": []
+   },
+   {
+    "answer": "Cash register",
+    "aliases": [
+     "Till"
+    ]
+   },
+   {
+    "answer": "Typewriter carriage",
+    "aliases": [
+     "Typewriter"
+    ]
+   },
+   {
+    "answer": "Pencil case",
+    "aliases": []
+   },
+   {
+    "answer": "Slingshot",
+    "aliases": [
+     "Catapult"
+    ]
+   },
+   {
+    "answer": "Trebuchet",
+    "aliases": []
+   },
+   {
+    "answer": "Spear",
+    "aliases": [
+     "Lance"
+    ]
+   },
+   {
+    "answer": "Halberd",
+    "aliases": []
+   },
+   {
+    "answer": "Pickle jar",
+    "aliases": [
+     "Jar"
+    ]
+   },
+   {
+    "answer": "Cookie jar",
+    "aliases": []
+   },
+   {
+    "answer": "Mason jar",
+    "aliases": []
+   },
+   {
+    "answer": "Bucket and spade",
+    "aliases": []
+   },
+   {
+    "answer": "Sand shovel",
+    "aliases": []
+   },
+   {
+    "answer": "Snow shovel",
+    "aliases": []
+   },
+   {
+    "answer": "Ice axe",
+    "aliases": [
+     "Ice pick"
+    ]
+   },
+   {
+    "answer": "Ice scraper",
+    "aliases": [
+     "Windshield scraper"
+    ]
+   },
+   {
+    "answer": "Windshield wiper",
+    "aliases": [
+     "Wiper"
+    ]
+   },
+   {
+    "answer": "Garage door",
+    "aliases": []
+   },
+   {
+    "answer": "Fire extinguisher",
+    "aliases": []
+   },
+   {
+    "answer": "Fire hose",
+    "aliases": []
+   },
+   {
+    "answer": "Jerrycan",
+    "aliases": [
+     "Jerry can",
+     "Gas can",
+     "Petrol can"
+    ]
+   },
+   {
+    "answer": "Gas pump",
+    "aliases": [
+     "Petrol pump",
+     "Fuel nozzle"
+    ]
+   },
+   {
+    "answer": "Tea strainer",
+    "aliases": [
+     "Tea infuser"
+    ]
+   },
+   {
+    "answer": "Sauce pot",
+    "aliases": []
+   },
+   {
+    "answer": "Dutch oven",
+    "aliases": []
+   },
+   {
+    "answer": "Griddle",
+    "aliases": []
+   },
+   {
+    "answer": "Roasting pan",
+    "aliases": []
+   },
+   {
+    "answer": "Baking tray",
+    "aliases": [
+     "Baking sheet"
+    ]
+   },
+   {
+    "answer": "Oven mitt",
+    "aliases": []
+   },
+   {
+    "answer": "Coffee grinder",
+    "aliases": [
+     "Hand grinder"
+    ]
+   },
+   {
+    "answer": "Pepper mill",
+    "aliases": [
+     "Pepper grinder"
+    ]
+   },
+   {
+    "answer": "Mortar and pestle",
+    "aliases": [
+     "Pestle"
+    ]
+   },
+   {
+    "answer": "Meat grinder",
+    "aliases": [
+     "Mincer"
+    ]
+   },
+   {
+    "answer": "Food mill",
+    "aliases": []
+   },
+   {
+    "answer": "Ice cream maker",
+    "aliases": []
+   },
+   {
+    "answer": "Butter churn",
+    "aliases": [
+     "Churn"
+    ]
+   },
+   {
+    "answer": "Milk can",
+    "aliases": [
+     "Milk churn"
+    ]
+   },
+   {
+    "answer": "Pail",
+    "aliases": [
+     "Milk pail"
+    ]
+   },
+   {
+    "answer": "Plow",
+    "aliases": [
+     "Plough"
+    ]
+   },
+   {
+    "answer": "Scraper",
+    "aliases": [
+     "Paint scraper"
+    ]
+   },
+   {
+    "answer": "Putty knife",
+    "aliases": []
+   },
+   {
+    "answer": "Trowel float",
+    "aliases": [
+     "Float"
+    ]
+   },
+   {
+    "answer": "Caulking gun",
+    "aliases": [
+     "Caulk gun"
+    ]
+   },
+   {
+    "answer": "Glue gun",
+    "aliases": [
+     "Hot glue gun"
+    ]
+   },
+   {
+    "answer": "Staple gun",
+    "aliases": []
+   },
+   {
+    "answer": "Nail gun",
+    "aliases": []
+   },
+   {
+    "answer": "Soldering iron",
+    "aliases": []
+   },
+   {
+    "answer": "Blowtorch",
+    "aliases": [
+     "Blow torch"
+    ]
+   },
+   {
+    "answer": "Spray gun",
+    "aliases": []
+   },
+   {
+    "answer": "Water gun",
+    "aliases": [
+     "Squirt gun",
+     "Super Soaker"
+    ]
+   },
+   {
+    "answer": "Toy gun",
+    "aliases": []
+   },
+   {
+    "answer": "Shopping basket",
+    "aliases": []
+   },
+   {
+    "answer": "Bin",
+    "aliases": [
+     "Trash can",
+     "Wheelie bin"
+    ]
+   },
+   {
+    "answer": "Garbage can",
+    "aliases": [
+     "Dustbin"
+    ]
+   },
+   {
+    "answer": "Lunch pail",
+    "aliases": []
+   },
+   {
+    "answer": "Doorbell pull",
+    "aliases": [
+     "Bell pull"
+    ]
+   },
+   {
+    "answer": "Drawer pull",
+    "aliases": [
+     "Cabinet pull"
+    ]
+   },
+   {
+    "answer": "Pram handle",
+    "aliases": []
+   },
+   {
+    "answer": "Sauce ladle",
+    "aliases": []
+   },
+   {
+    "answer": "Tea cup with handle",
+    "aliases": []
+   },
+   {
+    "answer": "Samovar",
+    "aliases": []
+   },
+   {
+    "answer": "Tagine",
+    "aliases": []
+   },
+   {
+    "answer": "Pot lid",
+    "aliases": [
+     "Lid"
+    ]
+   },
+   {
+    "answer": "Skillet lid",
+    "aliases": []
+   },
+   {
+    "answer": "Spade",
+    "aliases": [
+     "Garden spade"
+    ]
+   },
+   {
+    "answer": "Pickle fork",
+    "aliases": []
+   },
+   {
+    "answer": "Briefcase lock",
+    "aliases": []
+   },
+   {
+    "answer": "Punching bag",
+    "aliases": []
+   },
+   {
+    "answer": "Boomerang",
+    "aliases": []
+   },
+   {
+    "answer": "Cricket stump",
+    "aliases": []
+   },
+   {
+    "answer": "Tennis ball machine",
+    "aliases": []
+   },
+   {
+    "answer": "Pogo stick",
+    "aliases": []
+   },
+   {
+    "answer": "Rocking horse",
+    "aliases": []
+   },
+   {
+    "answer": "Bike lock",
+    "aliases": []
+   },
+   {
+    "answer": "Hand drill",
+    "aliases": []
+   },
+   {
+    "answer": "Brace and bit",
+    "aliases": [
+     "Hand brace"
+    ]
+   },
+   {
+    "answer": "Plane",
+    "aliases": [
+     "Hand plane",
+     "Wood plane"
+    ]
+   },
+   {
+    "answer": "File",
+    "aliases": [
+     "Rasp"
+    ]
+   },
+   {
+    "answer": "Bolt cutters",
+    "aliases": [
+     "Bolt cutter"
+    ]
+   },
+   {
+    "answer": "Tin snips",
+    "aliases": [
+     "Snips"
+    ]
+   },
+   {
+    "answer": "Adze",
+    "aliases": []
+   },
+   {
+    "answer": "Awl",
+    "aliases": []
+   },
+   {
+    "answer": "Hacksaw",
+    "aliases": []
+   },
+   {
+    "answer": "Jigsaw",
+    "aliases": []
+   },
+   {
+    "answer": "Circular saw",
+    "aliases": []
+   },
+   {
+    "answer": "Angle grinder",
+    "aliases": []
+   },
+   {
+    "answer": "Sander",
+    "aliases": []
+   },
+   {
+    "answer": "Pressure washer",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 46063,
+ "type": "result",
+ "duration_ms": 46542,
+ "uuid": "53937e1b-50d1-441a-aefb-f2ff91b520a9",
+ "ttft_stream_ms": 783,
+ "time_to_request_ms": 29,
+ "first_content_frame_ms": 783,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

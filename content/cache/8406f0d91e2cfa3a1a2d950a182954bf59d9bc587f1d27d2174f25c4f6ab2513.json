@@ -1,0 +1,550 @@
+{
+ "duration_api_ms": 37405,
+ "stop_reason": "tool_use",
+ "session_id": "44c7f33e-2c82-48ad-834e-3be5ee7c7c71",
+ "total_cost_usd": 0.09377559999999999,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8060,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 6141,
+  "output_tokens_details": {
+   "thinking_tokens": 3368
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8060,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 6141,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 8060,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8060
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 6141,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 8060,
+   "webSearchRequests": 0,
+   "costUSD": 0.09377559999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 3368,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Qantas\",\"reason\":\"Brand name\"},{\"answer\":\"Qin\",\"reason\":\"Proper noun (dynasty)\"},{\"answer\":\"Qajar\",\"reason\":\"Proper noun (dynasty)\"},{\"answer\":\"Qwghlm\",\"reason\":\"Fictional place\"},{\"answer\":\"Tariq\",\"reason\":\"Personal name\"},{\"answer\":\"Qur'an\",\"reason\":\"Contains QU\"},{\"answer\":\"Mosque\",\"reason\":\"Contains QU\"},{\"answer\":\"Qubit\",\"reason\":\"Contains QU\"},{\"answer\":\"Qufu\",\"reason\":\"Contains QU; also a place name\"},{\"answer\":\"Shekel\",\"reason\":\"No letter Q\"},{\"answer\":\"Tsunami\",\"reason\":\"No letter Q\"},{\"answer\":\"Inuktitut Qamutik\",\"reason\":\"Multi-word phrase\"},{\"answer\":\"Qaanaaq\",\"reason\":\"Place name\"},{\"answer\":\"Nunavut Iqaluit\",\"reason\":\"Multi-word phrase\"},{\"answer\":\"Iqaluit\",\"reason\":\"Place name\"},{\"answer\":\"Qingdao\",\"reason\":\"Place name\"},{\"answer\":\"Qinghai\",\"reason\":\"Place name\"},{\"answer\":\"Qom\",\"reason\":\"Place name\"},{\"answer\":\"Qatar Airways\",\"reason\":\"Brand, multi-word\"},{\"answer\":\"Qiana\",\"reason\":\"Trademark/name\"},{\"answer\":\"Qaraqalpaq\",\"reason\":\"Ethnonym/proper noun\"},{\"answer\":\"Coq\",\"reason\":\"French word, not English\"},{\"answer\":\"Qiang\",\"reason\":\"Proper noun (ethnic group)\"},{\"answer\":\"Qingming\",\"reason\":\"Proper noun (festival)\"},{\"answer\":\"Qianlong\",\"reason\":\"Personal name (emperor)\"},{\"answer\":\"Qila\",\"reason\":\"Non-English word\"},{\"answer\":\"Qizilbash\",\"reason\":\"Proper noun (historical group)\"},{\"answer\":\"Qashqai\",\"reason\":\"Proper noun (ethnic group)\"},{\"answer\":\"Qilalugaq\",\"reason\":\"Non-English (Inuktitut) word\"},{\"answer\":\"Nunatsiaq\",\"reason\":\"Proper noun (newspaper)\"},{\"answer\":\"Qaqortoq\",\"reason\":\"Place name\"},{\"answer\":\"Qeqertarsuaq\",\"reason\":\"Place name\"},{\"answer\":\"Qasigiannguit\",\"reason\":\"Place name\"},{\"answer\":\"Qeshm\",\"reason\":\"Place name\"},{\"answer\":\"Qazvin\",\"reason\":\"Place name\"},{\"answer\":\"Qena\",\"reason\":\"Place name\"},{\"answer\":\"Qamishli\",\"reason\":\"Place name\"},{\"answer\":\"Qandahar\",\"reason\":\"Place name\"},{\"answer\":\"Qiqihar\",\"reason\":\"Place name\"},{\"answer\":\"Qinhuangdao\",\"reason\":\"Place name\"},{\"answer\":\"Qinling\",\"reason\":\"Place name\"},{\"answer\":\"Qostanay\",\"reason\":\"Place name\"},{\"answer\":\"Qyzylorda\",\"reason\":\"Place name\"},{\"answer\":\"Qaraghandy\",\"reason\":\"Place name\"},{\"answer\":\"Qalqilya\",\"reason\":\"Place name\"},{\"answer\":\"Qattara Depression\",\"reason\":\"Place name, multi-word\"},{\"answer\":\"Raqqa\",\"reason\":\"Place name\"},{\"answer\":\"Zarqa\",\"reason\":\"Place name\"},{\"answer\":\"Aqaba\",\"reason\":\"Place name\"},{\"answer\":\"Aqsa\",\"reason\":\"Proper noun\"},{\"answer\":\"Saqqara\",\"reason\":\"Place name\"},{\"answer\":\"Haqqani\",\"reason\":\"Proper noun\"},{\"answer\":\"Naqshbandi\",\"reason\":\"Proper noun (Sufi order)\"},{\"answer\":\"Iqbal\",\"reason\":\"Personal name\"},{\"answer\":\"Luqman\",\"reason\":\"Personal name\"},{\"answer\":\"Yaqub\",\"reason\":\"Personal name\"},{\"answer\":\"Ishaq\",\"reason\":\"Personal name\"},{\"answer\":\"Shaq\",\"reason\":\"Personal nickname\"},{\"answer\":\"Aqeel\",\"reason\":\"Personal name\"},{\"answer\":\"Baqarah\",\"reason\":\"Proper noun (Quranic chapter)\"},{\"answer\":\"Al-Qaeda\",\"reason\":\"Proper noun (organization)\"},{\"answer\":\"Qassam\",\"reason\":\"Proper noun\"},{\"answer\":\"Qaboos\",\"reason\":\"Personal name\"},{\"answer\":\"Qaddafi\",\"reason\":\"Personal name\"},{\"answer\":\"Qaitbay\",\"reason\":\"Personal name\"},{\"answer\":\"Qalawun\",\"reason\":\"Personal name\"},{\"answer\":\"Qebehsenuef\",\"reason\":\"Mythological figure\"},{\"answer\":\"Qetesh\",\"reason\":\"Mythological figure\"},{\"answer\":\"Q-Tip\",\"reason\":\"Brand name\"},{\"answer\":\"QAnon\",\"reason\":\"Proper noun (movement)\"},{\"answer\":\"Qix\",\"reason\":\"Video game title\"},{\"answer\":\"Qdoba\",\"reason\":\"Brand name\"},{\"answer\":\"Qwest\",\"reason\":\"Brand name\"},{\"answer\":\"Qiagen\",\"reason\":\"Brand name\"},{\"answer\":\"Qwant\",\"reason\":\"Brand name\"},{\"answer\":\"QR code\",\"reason\":\"Multi-word phrase/abbreviation\"},{\"answer\":\"Qapla'\",\"reason\":\"Fictional (Klingon) word\"},{\"answer\":\"Qadiriyya\",\"reason\":\"Proper noun (Sufi order)\"},{\"answer\":\"Qatif\",\"reason\":\"Place name\"},{\"answer\":\"Qaisar\",\"reason\":\"Personal name\"},{\"answer\":\"Qasim\",\"reason\":\"Personal name\"},{\"answer\":\"Qasab\",\"reason\":\"Non-English word\"},{\"answer\":\"Qaum\",\"reason\":\"Non-English word\"},{\"answer\":\"Qoliqoli\",\"reason\":\"Non-English (Fijian) word\"},{\"answer\":\"Sharqi\",\"reason\":\"Non-English word\"},{\"answer\":\"Raqs\",\"reason\":\"Non-English word\"},{\"answer\":\"Buraq\",\"reason\":\"Proper noun (mythical steed)\"},{\"answer\":\"Zarqawi\",\"reason\":\"Personal name\"},{\"answer\":\"Marqab\",\"reason\":\"Star name\"},{\"answer\":\"Qalyub\",\"reason\":\"Place name\"},{\"answer\":\"Qadisiyyah\",\"reason\":\"Place name\"},{\"answer\":\"Dhi Qar\",\"reason\":\"Place name, multi-word\"},{\"answer\":\"Qikiqtarjuaq\",\"reason\":\"Place name\"},{\"answer\":\"Qikiqtaaluk\",\"reason\":\"Place name\"},{\"answer\":\"Iqaluktuuttiaq\",\"reason\":\"Place name\"},{\"answer\":\"Qaggiq\",\"reason\":\"Non-English (Inuktitut) word\"},{\"answer\":\"Qivittoq\",\"reason\":\"Non-English (Greenlandic) word\"},{\"answer\":\"Qarmaq\",\"reason\":\"Non-English (Inuktitut) word\"},{\"answer\":\"Haqq\",\"reason\":\"Non-English word\"},{\"answer\":\"Qiraat\",\"reason\":\"Non-English word\"},{\"answer\":\"Qalat\",\"reason\":\"Place name\"},{\"answer\":\"Tabaqat\",\"reason\":\"Non-English word\"},{\"answer\":\"Fuqaha\",\"reason\":\"Non-English word\"},{\"answer\":\"Qazaq\",\"reason\":\"Non-English spelling/ethnonym\"},{\"answer\":\"Qazaqstan\",\"reason\":\"Place name\"},{\"answer\":\"Qamar\",\"reason\":\"Personal name\"},{\"answer\":\"Qwaqwa\",\"reason\":\"Place name\"},{\"answer\":\"Qonce\",\"reason\":\"Place name\"},{\"answer\":\"Qacha's Nek\",\"reason\":\"Place name, multi-word\"},{\"answer\":\"Nqamakwe\",\"reason\":\"Place name\"},{\"answer\":\"Ngqeleni\",\"reason\":\"Place name\"},{\"answer\":\"Ngqura\",\"reason\":\"Place name\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Qantas",
+    "reason": "Brand name"
+   },
+   {
+    "answer": "Qin",
+    "reason": "Proper noun (dynasty)"
+   },
+   {
+    "answer": "Qajar",
+    "reason": "Proper noun (dynasty)"
+   },
+   {
+    "answer": "Qwghlm",
+    "reason": "Fictional place"
+   },
+   {
+    "answer": "Tariq",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Qur'an",
+    "reason": "Contains QU"
+   },
+   {
+    "answer": "Mosque",
+    "reason": "Contains QU"
+   },
+   {
+    "answer": "Qubit",
+    "reason": "Contains QU"
+   },
+   {
+    "answer": "Qufu",
+    "reason": "Contains QU; also a place name"
+   },
+   {
+    "answer": "Shekel",
+    "reason": "No letter Q"
+   },
+   {
+    "answer": "Tsunami",
+    "reason": "No letter Q"
+   },
+   {
+    "answer": "Inuktitut Qamutik",
+    "reason": "Multi-word phrase"
+   },
+   {
+    "answer": "Qaanaaq",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Nunavut Iqaluit",
+    "reason": "Multi-word phrase"
+   },
+   {
+    "answer": "Iqaluit",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qingdao",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qinghai",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qom",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qatar Airways",
+    "reason": "Brand, multi-word"
+   },
+   {
+    "answer": "Qiana",
+    "reason": "Trademark/name"
+   },
+   {
+    "answer": "Qaraqalpaq",
+    "reason": "Ethnonym/proper noun"
+   },
+   {
+    "answer": "Coq",
+    "reason": "French word, not English"
+   },
+   {
+    "answer": "Qiang",
+    "reason": "Proper noun (ethnic group)"
+   },
+   {
+    "answer": "Qingming",
+    "reason": "Proper noun (festival)"
+   },
+   {
+    "answer": "Qianlong",
+    "reason": "Personal name (emperor)"
+   },
+   {
+    "answer": "Qila",
+    "reason": "Non-English word"
+   },
+   {
+    "answer": "Qizilbash",
+    "reason": "Proper noun (historical group)"
+   },
+   {
+    "answer": "Qashqai",
+    "reason": "Proper noun (ethnic group)"
+   },
+   {
+    "answer": "Qilalugaq",
+    "reason": "Non-English (Inuktitut) word"
+   },
+   {
+    "answer": "Nunatsiaq",
+    "reason": "Proper noun (newspaper)"
+   },
+   {
+    "answer": "Qaqortoq",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qeqertarsuaq",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qasigiannguit",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qeshm",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qazvin",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qena",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qamishli",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qandahar",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qiqihar",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qinhuangdao",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qinling",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qostanay",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qyzylorda",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qaraghandy",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qalqilya",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qattara Depression",
+    "reason": "Place name, multi-word"
+   },
+   {
+    "answer": "Raqqa",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Zarqa",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Aqaba",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Aqsa",
+    "reason": "Proper noun"
+   },
+   {
+    "answer": "Saqqara",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Haqqani",
+    "reason": "Proper noun"
+   },
+   {
+    "answer": "Naqshbandi",
+    "reason": "Proper noun (Sufi order)"
+   },
+   {
+    "answer": "Iqbal",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Luqman",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Yaqub",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Ishaq",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Shaq",
+    "reason": "Personal nickname"
+   },
+   {
+    "answer": "Aqeel",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Baqarah",
+    "reason": "Proper noun (Quranic chapter)"
+   },
+   {
+    "answer": "Al-Qaeda",
+    "reason": "Proper noun (organization)"
+   },
+   {
+    "answer": "Qassam",
+    "reason": "Proper noun"
+   },
+   {
+    "answer": "Qaboos",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Qaddafi",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Qaitbay",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Qalawun",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Qebehsenuef",
+    "reason": "Mythological figure"
+   },
+   {
+    "answer": "Qetesh",
+    "reason": "Mythological figure"
+   },
+   {
+    "answer": "Q-Tip",
+    "reason": "Brand name"
+   },
+   {
+    "answer": "QAnon",
+    "reason": "Proper noun (movement)"
+   },
+   {
+    "answer": "Qix",
+    "reason": "Video game title"
+   },
+   {
+    "answer": "Qdoba",
+    "reason": "Brand name"
+   },
+   {
+    "answer": "Qwest",
+    "reason": "Brand name"
+   },
+   {
+    "answer": "Qiagen",
+    "reason": "Brand name"
+   },
+   {
+    "answer": "Qwant",
+    "reason": "Brand name"
+   },
+   {
+    "answer": "QR code",
+    "reason": "Multi-word phrase/abbreviation"
+   },
+   {
+    "answer": "Qapla'",
+    "reason": "Fictional (Klingon) word"
+   },
+   {
+    "answer": "Qadiriyya",
+    "reason": "Proper noun (Sufi order)"
+   },
+   {
+    "answer": "Qatif",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qaisar",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Qasim",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Qasab",
+    "reason": "Non-English word"
+   },
+   {
+    "answer": "Qaum",
+    "reason": "Non-English word"
+   },
+   {
+    "answer": "Qoliqoli",
+    "reason": "Non-English (Fijian) word"
+   },
+   {
+    "answer": "Sharqi",
+    "reason": "Non-English word"
+   },
+   {
+    "answer": "Raqs",
+    "reason": "Non-English word"
+   },
+   {
+    "answer": "Buraq",
+    "reason": "Proper noun (mythical steed)"
+   },
+   {
+    "answer": "Zarqawi",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Marqab",
+    "reason": "Star name"
+   },
+   {
+    "answer": "Qalyub",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qadisiyyah",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Dhi Qar",
+    "reason": "Place name, multi-word"
+   },
+   {
+    "answer": "Qikiqtarjuaq",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qikiqtaaluk",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Iqaluktuuttiaq",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qaggiq",
+    "reason": "Non-English (Inuktitut) word"
+   },
+   {
+    "answer": "Qivittoq",
+    "reason": "Non-English (Greenlandic) word"
+   },
+   {
+    "answer": "Qarmaq",
+    "reason": "Non-English (Inuktitut) word"
+   },
+   {
+    "answer": "Haqq",
+    "reason": "Non-English word"
+   },
+   {
+    "answer": "Qiraat",
+    "reason": "Non-English word"
+   },
+   {
+    "answer": "Qalat",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Tabaqat",
+    "reason": "Non-English word"
+   },
+   {
+    "answer": "Fuqaha",
+    "reason": "Non-English word"
+   },
+   {
+    "answer": "Qazaq",
+    "reason": "Non-English spelling/ethnonym"
+   },
+   {
+    "answer": "Qazaqstan",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qamar",
+    "reason": "Personal name"
+   },
+   {
+    "answer": "Qwaqwa",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qonce",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Qacha's Nek",
+    "reason": "Place name, multi-word"
+   },
+   {
+    "answer": "Nqamakwe",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Ngqeleni",
+    "reason": "Place name"
+   },
+   {
+    "answer": "Ngqura",
+    "reason": "Place name"
+   }
+  ]
+ },
+ "ttft_ms": 25356,
+ "type": "result",
+ "duration_ms": 37450,
+ "uuid": "96e45411-9bad-4bee-acab-977f6215f07f",
+ "ttft_stream_ms": 2788,
+ "time_to_request_ms": 27,
+ "first_content_frame_ms": 2788,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

@@ -1,0 +1,694 @@
+{
+ "duration_api_ms": 44277,
+ "stop_reason": "tool_use",
+ "session_id": "f88e4d32-202a-4a6b-96ac-07cb08e39f0a",
+ "total_cost_usd": 0.1216976,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 10528,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 7946,
+  "output_tokens_details": {
+   "thinking_tokens": 3659
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10528,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 7946,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 10528,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10528
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 7946,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 10528,
+   "webSearchRequests": 0,
+   "costUSD": 0.1216976,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 3659,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Garofalo\",\"reason\":\"Pasta brand, not a shape\"},{\"answer\":\"Pasta e ceci\",\"reason\":\"Dish, not a shape\"},{\"answer\":\"Pasta nests\",\"reason\":\"Generic form, not a specific shape\"},{\"answer\":\"Lasagna sheets\",\"reason\":\"Generic description (lasagne is already listed)\"},{\"answer\":\"Egg noodles\",\"reason\":\"Generic category\"},{\"answer\":\"Udon\",\"reason\":\"Japanese noodle, not pasta\"},{\"answer\":\"Soba\",\"reason\":\"Japanese noodle, not pasta\"},{\"answer\":\"Ramen\",\"reason\":\"Japanese noodle/dish, not pasta\"},{\"answer\":\"Corkscrew\",\"reason\":\"Generic descriptor, not a specific shape name\"},{\"answer\":\"Pasta shells\",\"reason\":\"Generic descriptor\"},{\"answer\":\"Bowtie\",\"reason\":\"Generic descriptor (farfalle is the name)\"},{\"answer\":\"Pasta mista\",\"reason\":\"Mixed assortment, not a shape\"},{\"answer\":\"Pasta alla Norma\",\"reason\":\"Dish, not a shape\"},{\"answer\":\"Pasta fresca\",\"reason\":\"Generic category\"},{\"answer\":\"Sfoglia\",\"reason\":\"Sheet of dough, not a shape\"},{\"answer\":\"Sfoglierina\",\"reason\":\"A person who makes pasta\"},{\"answer\":\"Squid ink pasta\",\"reason\":\"Flavor/color, not a shape\"},{\"answer\":\"Tagliatelle nero\",\"reason\":\"Colored variant, not a distinct shape\"},{\"answer\":\"Pasta ripiena\",\"reason\":\"Generic category\"},{\"answer\":\"Rotolo\",\"reason\":\"Rolled dish, not a shape\"},{\"answer\":\"Lasagne al forno\",\"reason\":\"Baked dish\"},{\"answer\":\"Pasta fatta in casa\",\"reason\":\"Means homemade pasta; generic\"},{\"answer\":\"Garmugia\",\"reason\":\"Soup\"},{\"answer\":\"Pasta sfoglia\",\"reason\":\"Puff pastry, not pasta\"},{\"answer\":\"Canederli\",\"reason\":\"Bread dumplings, not pasta\"},{\"answer\":\"Spaghetti alla carbonara\",\"reason\":\"Dish, not a shape\"},{\"answer\":\"Pasta tubes\",\"reason\":\"Generic category\"},{\"answer\":\"Pasta twists\",\"reason\":\"Generic category\"},{\"answer\":\"Pappardelle al cinghiale\",\"reason\":\"Dish, not a shape\"},{\"answer\":\"Pici all'aglione\",\"reason\":\"Dish, not a shape\"},{\"answer\":\"Gnocchi alla romana\",\"reason\":\"Semolina dumpling dish, not pasta\"},{\"answer\":\"Mischiata\",\"reason\":\"Mixed pasta, not a shape\"},{\"answer\":\"Pasta Mista Napoletana\",\"reason\":\"Mixed assortment/dish\"},{\"answer\":\"Gluten-free pasta\",\"reason\":\"Generic category\"},{\"answer\":\"Ramen noodles\",\"reason\":\"Not pasta\"},{\"answer\":\"Fettuccine alfredo\",\"reason\":\"Dish, not a shape\"},{\"answer\":\"Pasta primavera\",\"reason\":\"Dish, not a shape\"},{\"answer\":\"Samosa\",\"reason\":\"Not pasta\"},{\"answer\":\"Pelmeni\",\"reason\":\"Dumpling, not pasta shape\"},{\"answer\":\"Pierogi\",\"reason\":\"Dumpling, not pasta shape\"},{\"answer\":\"Empanada\",\"reason\":\"Pastry, not pasta\"},{\"answer\":\"Manti\",\"reason\":\"Dumpling, not pasta shape\"},{\"answer\":\"Spring roll\",\"reason\":\"Not pasta\"},{\"answer\":\"Wonton\",\"reason\":\"Dumpling, not pasta\"},{\"answer\":\"Dango\",\"reason\":\"Japanese rice dumpling\"},{\"answer\":\"Varenyky\",\"reason\":\"Dumpling, not pasta shape\"},{\"answer\":\"Baozi\",\"reason\":\"Steamed bun\"},{\"answer\":\"Jiaozi\",\"reason\":\"Chinese dumpling\"},{\"answer\":\"Dim sum\",\"reason\":\"Cuisine category\"},{\"answer\":\"Chebureki\",\"reason\":\"Fried turnover\"},{\"answer\":\"Cellophane noodles\",\"reason\":\"Not pasta\"},{\"answer\":\"Egg tart\",\"reason\":\"Pastry\"},{\"answer\":\"Mandu\",\"reason\":\"Korean dumpling\"},{\"answer\":\"Uszka\",\"reason\":\"Polish dumpling\"},{\"answer\":\"Xiaolongbao\",\"reason\":\"Chinese soup dumpling\"},{\"answer\":\"Khuushuur\",\"reason\":\"Mongolian fried pastry\"},{\"answer\":\"Popiah\",\"reason\":\"Spring roll\"},{\"answer\":\"Shumai\",\"reason\":\"Chinese dumpling\"},{\"answer\":\"Cha siu bao\",\"reason\":\"Steamed bun\"},{\"answer\":\"Kreplach\",\"reason\":\"Jewish dumpling\"},{\"answer\":\"Songpyeon\",\"reason\":\"Korean rice cake\"},{\"answer\":\"Kalduny\",\"reason\":\"Dumpling\"},{\"answer\":\"Gujia\",\"reason\":\"Indian sweet pastry\"},{\"answer\":\"Bánh cuốn\",\"reason\":\"Vietnamese rice roll\"},{\"answer\":\"Har gow\",\"reason\":\"Chinese dumpling\"},{\"answer\":\"Ba-wan\",\"reason\":\"Taiwanese snack\"},{\"answer\":\"Pamonha\",\"reason\":\"Brazilian corn dish\"},{\"answer\":\"Salteña\",\"reason\":\"Bolivian pastry\"},{\"answer\":\"Siopao\",\"reason\":\"Steamed bun\"},{\"answer\":\"Nikuman\",\"reason\":\"Steamed bun\"},{\"answer\":\"Kenkey\",\"reason\":\"Ghanaian corn dumpling\"},{\"answer\":\"Shrimp toast\",\"reason\":\"Not pasta\"},{\"answer\":\"Shengjian mantou\",\"reason\":\"Pan-fried bun\"},{\"answer\":\"Rice noodle roll\",\"reason\":\"Not pasta\"},{\"answer\":\"Crab rangoon\",\"reason\":\"Not pasta\"},{\"answer\":\"Pasta mollicata\",\"reason\":\"Dish with breadcrumbs, not a shape\"},{\"answer\":\"Sebada\",\"reason\":\"Sardinian dessert\"},{\"answer\":\"Taro dumpling\",\"reason\":\"Not pasta\"},{\"answer\":\"Eo-mandu\",\"reason\":\"Korean fish dumpling\"},{\"answer\":\"Tangbao\",\"reason\":\"Soup dumpling\"},{\"answer\":\"Tofu skin roll\",\"reason\":\"Not pasta\"},{\"answer\":\"Gyoza\",\"reason\":\"Japanese dumpling\"},{\"answer\":\"Boraki\",\"reason\":\"Dumpling, not pasta\"},{\"answer\":\"Corunda\",\"reason\":\"Tamale\"},{\"answer\":\"Mitarashi dango\",\"reason\":\"Japanese sweet\"},{\"answer\":\"Bean vermicelli\",\"reason\":\"Not pasta\"},{\"answer\":\"Dangmyeon\",\"reason\":\"Korean glass noodle\"},{\"answer\":\"Garlic chives pocket\",\"reason\":\"Not pasta\"},{\"answer\":\"Galician empanada\",\"reason\":\"Pastry\"},{\"answer\":\"Chaoshou\",\"reason\":\"Sichuan wonton\"},{\"answer\":\"Youmian\",\"reason\":\"Chinese oat noodle\"},{\"answer\":\"Empanadilla\",\"reason\":\"Pastry\"},{\"answer\":\"Chichi dango\",\"reason\":\"Japanese sweet\"},{\"answer\":\"Bakpau\",\"reason\":\"Steamed bun\"},{\"answer\":\"Bánh bột lọc\",\"reason\":\"Vietnamese dumpling\"},{\"answer\":\"Banana pasta\",\"reason\":\"Not a pasta shape\"},{\"answer\":\"Lumpiang keso\",\"reason\":\"Filipino spring roll\"},{\"answer\":\"Toasted ravioli\",\"reason\":\"Dish, not a shape\"},{\"answer\":\"Gnocchi alla sorrentina\",\"reason\":\"Dish, not a shape\"},{\"answer\":\"Shiratama\",\"reason\":\"Japanese rice dumpling\"},{\"answer\":\"Campanian pasta\",\"reason\":\"Regional category\"},{\"answer\":\"Sharkfin and prawn dumpling in superior soup\",\"reason\":\"Dish\"},{\"answer\":\"Chicken riggies\",\"reason\":\"Dish\"},{\"answer\":\"Pasta all'Ortolana\",\"reason\":\"Dish\"},{\"answer\":\"Dinamita\",\"reason\":\"Not a pasta shape\"},{\"answer\":\"Shui jiao\",\"reason\":\"Chinese dumpling\"},{\"answer\":\"Foi thong\",\"reason\":\"Thai egg yolk sweet\"},{\"answer\":\"Italian stuffed pasta\",\"reason\":\"Generic category\"},{\"answer\":\"Zhēngjiao\",\"reason\":\"Chinese dumpling\"},{\"answer\":\"Pasta di Gragnano PGI\",\"reason\":\"Protected product label, not a shape\"},{\"answer\":\"Sasa dango\",\"reason\":\"Japanese sweet\"},{\"answer\":\"Ruthenian pierogi\",\"reason\":\"Dumpling\"},{\"answer\":\"Red bean paste bun\",\"reason\":\"Not pasta\"},{\"answer\":\"Bryndzové pirohy\",\"reason\":\"Slovak dumpling\"},{\"answer\":\"Niflettes\",\"reason\":\"French puff pastry\"},{\"answer\":\"Egg pasta\",\"reason\":\"Generic category\"},{\"answer\":\"Piracicaba pamonha\",\"reason\":\"Brazilian corn dish\"},{\"answer\":\"Nō manjū\",\"reason\":\"Japanese sweet\"},{\"answer\":\"Midarashi dango\",\"reason\":\"Japanese sweet\"},{\"answer\":\"Myōga bochi\",\"reason\":\"Japanese snack\"},{\"answer\":\"Uroko dango\",\"reason\":\"Japanese sweet\"},{\"answer\":\"Fen hao zi\",\"reason\":\"Chinese dumpling\"},{\"answer\":\"Ika shūmai\",\"reason\":\"Japanese dumpling\"},{\"answer\":\"ì-mī\",\"reason\":\"Chinese noodle\"},{\"answer\":\"Minestra imbottita PAT\",\"reason\":\"Dish/product label\"},{\"answer\":\"Hot snack\",\"reason\":\"Not a pasta\"},{\"answer\":\"Ankake spaghetti\",\"reason\":\"Dish\"},{\"answer\":\"Kibi dango\",\"reason\":\"Japanese sweet\"},{\"answer\":\"Botchan dango\",\"reason\":\"Japanese sweet\"},{\"answer\":\"Doubao\",\"reason\":\"Chinese bun\"},{\"answer\":\"Suan tang shui jiao\",\"reason\":\"Chinese dish\"},{\"answer\":\"Hanazono Dango\",\"reason\":\"Japanese sweet\"},{\"answer\":\"Danjiao\",\"reason\":\"Chinese dumpling\"},{\"answer\":\"Huo guo dun fen\",\"reason\":\"Chinese dish\"},{\"answer\":\"Pasta al zozzona\",\"reason\":\"Dish\"},{\"answer\":\"Keiran sōmen\",\"reason\":\"Japanese sweet\"},{\"answer\":\"Harusame noodles\",\"reason\":\"Not pasta\"},{\"answer\":\"Turkish mantı\",\"reason\":\"Dumpling, not pasta shape\"},{\"answer\":\"Deep-fried wonton\",\"reason\":\"Not pasta\"},{\"answer\":\"Ashikaga shūmai\",\"reason\":\"Japanese dumpling\"},{\"answer\":\"Chicken feet\",\"reason\":\"Not pasta\"},{\"answer\":\"Explorador\",\"reason\":\"Not a recognized pasta shape\"},{\"answer\":\"Zoodle\",\"reason\":\"Zucchini noodle, not pasta\"},{\"answer\":\"Dalle terre liberate dalla mafia\",\"reason\":\"Product label, not a shape\"},{\"answer\":\"Kakaran dango\",\"reason\":\"Japanese sweet\"},{\"answer\":\"Denpun dango\",\"reason\":\"Japanese sweet\"},{\"answer\":\"Hitokuchi gyoza\",\"reason\":\"Japanese dumpling\"},{\"answer\":\"Panzerotti\",\"reason\":\"Fried turnover, not pasta\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Garofalo",
+    "reason": "Pasta brand, not a shape"
+   },
+   {
+    "answer": "Pasta e ceci",
+    "reason": "Dish, not a shape"
+   },
+   {
+    "answer": "Pasta nests",
+    "reason": "Generic form, not a specific shape"
+   },
+   {
+    "answer": "Lasagna sheets",
+    "reason": "Generic description (lasagne is already listed)"
+   },
+   {
+    "answer": "Egg noodles",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Udon",
+    "reason": "Japanese noodle, not pasta"
+   },
+   {
+    "answer": "Soba",
+    "reason": "Japanese noodle, not pasta"
+   },
+   {
+    "answer": "Ramen",
+    "reason": "Japanese noodle/dish, not pasta"
+   },
+   {
+    "answer": "Corkscrew",
+    "reason": "Generic descriptor, not a specific shape name"
+   },
+   {
+    "answer": "Pasta shells",
+    "reason": "Generic descriptor"
+   },
+   {
+    "answer": "Bowtie",
+    "reason": "Generic descriptor (farfalle is the name)"
+   },
+   {
+    "answer": "Pasta mista",
+    "reason": "Mixed assortment, not a shape"
+   },
+   {
+    "answer": "Pasta alla Norma",
+    "reason": "Dish, not a shape"
+   },
+   {
+    "answer": "Pasta fresca",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Sfoglia",
+    "reason": "Sheet of dough, not a shape"
+   },
+   {
+    "answer": "Sfoglierina",
+    "reason": "A person who makes pasta"
+   },
+   {
+    "answer": "Squid ink pasta",
+    "reason": "Flavor/color, not a shape"
+   },
+   {
+    "answer": "Tagliatelle nero",
+    "reason": "Colored variant, not a distinct shape"
+   },
+   {
+    "answer": "Pasta ripiena",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Rotolo",
+    "reason": "Rolled dish, not a shape"
+   },
+   {
+    "answer": "Lasagne al forno",
+    "reason": "Baked dish"
+   },
+   {
+    "answer": "Pasta fatta in casa",
+    "reason": "Means homemade pasta; generic"
+   },
+   {
+    "answer": "Garmugia",
+    "reason": "Soup"
+   },
+   {
+    "answer": "Pasta sfoglia",
+    "reason": "Puff pastry, not pasta"
+   },
+   {
+    "answer": "Canederli",
+    "reason": "Bread dumplings, not pasta"
+   },
+   {
+    "answer": "Spaghetti alla carbonara",
+    "reason": "Dish, not a shape"
+   },
+   {
+    "answer": "Pasta tubes",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Pasta twists",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Pappardelle al cinghiale",
+    "reason": "Dish, not a shape"
+   },
+   {
+    "answer": "Pici all'aglione",
+    "reason": "Dish, not a shape"
+   },
+   {
+    "answer": "Gnocchi alla romana",
+    "reason": "Semolina dumpling dish, not pasta"
+   },
+   {
+    "answer": "Mischiata",
+    "reason": "Mixed pasta, not a shape"
+   },
+   {
+    "answer": "Pasta Mista Napoletana",
+    "reason": "Mixed assortment/dish"
+   },
+   {
+    "answer": "Gluten-free pasta",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Ramen noodles",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Fettuccine alfredo",
+    "reason": "Dish, not a shape"
+   },
+   {
+    "answer": "Pasta primavera",
+    "reason": "Dish, not a shape"
+   },
+   {
+    "answer": "Samosa",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Pelmeni",
+    "reason": "Dumpling, not pasta shape"
+   },
+   {
+    "answer": "Pierogi",
+    "reason": "Dumpling, not pasta shape"
+   },
+   {
+    "answer": "Empanada",
+    "reason": "Pastry, not pasta"
+   },
+   {
+    "answer": "Manti",
+    "reason": "Dumpling, not pasta shape"
+   },
+   {
+    "answer": "Spring roll",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Wonton",
+    "reason": "Dumpling, not pasta"
+   },
+   {
+    "answer": "Dango",
+    "reason": "Japanese rice dumpling"
+   },
+   {
+    "answer": "Varenyky",
+    "reason": "Dumpling, not pasta shape"
+   },
+   {
+    "answer": "Baozi",
+    "reason": "Steamed bun"
+   },
+   {
+    "answer": "Jiaozi",
+    "reason": "Chinese dumpling"
+   },
+   {
+    "answer": "Dim sum",
+    "reason": "Cuisine category"
+   },
+   {
+    "answer": "Chebureki",
+    "reason": "Fried turnover"
+   },
+   {
+    "answer": "Cellophane noodles",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Egg tart",
+    "reason": "Pastry"
+   },
+   {
+    "answer": "Mandu",
+    "reason": "Korean dumpling"
+   },
+   {
+    "answer": "Uszka",
+    "reason": "Polish dumpling"
+   },
+   {
+    "answer": "Xiaolongbao",
+    "reason": "Chinese soup dumpling"
+   },
+   {
+    "answer": "Khuushuur",
+    "reason": "Mongolian fried pastry"
+   },
+   {
+    "answer": "Popiah",
+    "reason": "Spring roll"
+   },
+   {
+    "answer": "Shumai",
+    "reason": "Chinese dumpling"
+   },
+   {
+    "answer": "Cha siu bao",
+    "reason": "Steamed bun"
+   },
+   {
+    "answer": "Kreplach",
+    "reason": "Jewish dumpling"
+   },
+   {
+    "answer": "Songpyeon",
+    "reason": "Korean rice cake"
+   },
+   {
+    "answer": "Kalduny",
+    "reason": "Dumpling"
+   },
+   {
+    "answer": "Gujia",
+    "reason": "Indian sweet pastry"
+   },
+   {
+    "answer": "Bánh cuốn",
+    "reason": "Vietnamese rice roll"
+   },
+   {
+    "answer": "Har gow",
+    "reason": "Chinese dumpling"
+   },
+   {
+    "answer": "Ba-wan",
+    "reason": "Taiwanese snack"
+   },
+   {
+    "answer": "Pamonha",
+    "reason": "Brazilian corn dish"
+   },
+   {
+    "answer": "Salteña",
+    "reason": "Bolivian pastry"
+   },
+   {
+    "answer": "Siopao",
+    "reason": "Steamed bun"
+   },
+   {
+    "answer": "Nikuman",
+    "reason": "Steamed bun"
+   },
+   {
+    "answer": "Kenkey",
+    "reason": "Ghanaian corn dumpling"
+   },
+   {
+    "answer": "Shrimp toast",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Shengjian mantou",
+    "reason": "Pan-fried bun"
+   },
+   {
+    "answer": "Rice noodle roll",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Crab rangoon",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Pasta mollicata",
+    "reason": "Dish with breadcrumbs, not a shape"
+   },
+   {
+    "answer": "Sebada",
+    "reason": "Sardinian dessert"
+   },
+   {
+    "answer": "Taro dumpling",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Eo-mandu",
+    "reason": "Korean fish dumpling"
+   },
+   {
+    "answer": "Tangbao",
+    "reason": "Soup dumpling"
+   },
+   {
+    "answer": "Tofu skin roll",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Gyoza",
+    "reason": "Japanese dumpling"
+   },
+   {
+    "answer": "Boraki",
+    "reason": "Dumpling, not pasta"
+   },
+   {
+    "answer": "Corunda",
+    "reason": "Tamale"
+   },
+   {
+    "answer": "Mitarashi dango",
+    "reason": "Japanese sweet"
+   },
+   {
+    "answer": "Bean vermicelli",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Dangmyeon",
+    "reason": "Korean glass noodle"
+   },
+   {
+    "answer": "Garlic chives pocket",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Galician empanada",
+    "reason": "Pastry"
+   },
+   {
+    "answer": "Chaoshou",
+    "reason": "Sichuan wonton"
+   },
+   {
+    "answer": "Youmian",
+    "reason": "Chinese oat noodle"
+   },
+   {
+    "answer": "Empanadilla",
+    "reason": "Pastry"
+   },
+   {
+    "answer": "Chichi dango",
+    "reason": "Japanese sweet"
+   },
+   {
+    "answer": "Bakpau",
+    "reason": "Steamed bun"
+   },
+   {
+    "answer": "Bánh bột lọc",
+    "reason": "Vietnamese dumpling"
+   },
+   {
+    "answer": "Banana pasta",
+    "reason": "Not a pasta shape"
+   },
+   {
+    "answer": "Lumpiang keso",
+    "reason": "Filipino spring roll"
+   },
+   {
+    "answer": "Toasted ravioli",
+    "reason": "Dish, not a shape"
+   },
+   {
+    "answer": "Gnocchi alla sorrentina",
+    "reason": "Dish, not a shape"
+   },
+   {
+    "answer": "Shiratama",
+    "reason": "Japanese rice dumpling"
+   },
+   {
+    "answer": "Campanian pasta",
+    "reason": "Regional category"
+   },
+   {
+    "answer": "Sharkfin and prawn dumpling in superior soup",
+    "reason": "Dish"
+   },
+   {
+    "answer": "Chicken riggies",
+    "reason": "Dish"
+   },
+   {
+    "answer": "Pasta all'Ortolana",
+    "reason": "Dish"
+   },
+   {
+    "answer": "Dinamita",
+    "reason": "Not a pasta shape"
+   },
+   {
+    "answer": "Shui jiao",
+    "reason": "Chinese dumpling"
+   },
+   {
+    "answer": "Foi thong",
+    "reason": "Thai egg yolk sweet"
+   },
+   {
+    "answer": "Italian stuffed pasta",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Zhēngjiao",
+    "reason": "Chinese dumpling"
+   },
+   {
+    "answer": "Pasta di Gragnano PGI",
+    "reason": "Protected product label, not a shape"
+   },
+   {
+    "answer": "Sasa dango",
+    "reason": "Japanese sweet"
+   },
+   {
+    "answer": "Ruthenian pierogi",
+    "reason": "Dumpling"
+   },
+   {
+    "answer": "Red bean paste bun",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Bryndzové pirohy",
+    "reason": "Slovak dumpling"
+   },
+   {
+    "answer": "Niflettes",
+    "reason": "French puff pastry"
+   },
+   {
+    "answer": "Egg pasta",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Piracicaba pamonha",
+    "reason": "Brazilian corn dish"
+   },
+   {
+    "answer": "Nō manjū",
+    "reason": "Japanese sweet"
+   },
+   {
+    "answer": "Midarashi dango",
+    "reason": "Japanese sweet"
+   },
+   {
+    "answer": "Myōga bochi",
+    "reason": "Japanese snack"
+   },
+   {
+    "answer": "Uroko dango",
+    "reason": "Japanese sweet"
+   },
+   {
+    "answer": "Fen hao zi",
+    "reason": "Chinese dumpling"
+   },
+   {
+    "answer": "Ika shūmai",
+    "reason": "Japanese dumpling"
+   },
+   {
+    "answer": "ì-mī",
+    "reason": "Chinese noodle"
+   },
+   {
+    "answer": "Minestra imbottita PAT",
+    "reason": "Dish/product label"
+   },
+   {
+    "answer": "Hot snack",
+    "reason": "Not a pasta"
+   },
+   {
+    "answer": "Ankake spaghetti",
+    "reason": "Dish"
+   },
+   {
+    "answer": "Kibi dango",
+    "reason": "Japanese sweet"
+   },
+   {
+    "answer": "Botchan dango",
+    "reason": "Japanese sweet"
+   },
+   {
+    "answer": "Doubao",
+    "reason": "Chinese bun"
+   },
+   {
+    "answer": "Suan tang shui jiao",
+    "reason": "Chinese dish"
+   },
+   {
+    "answer": "Hanazono Dango",
+    "reason": "Japanese sweet"
+   },
+   {
+    "answer": "Danjiao",
+    "reason": "Chinese dumpling"
+   },
+   {
+    "answer": "Huo guo dun fen",
+    "reason": "Chinese dish"
+   },
+   {
+    "answer": "Pasta al zozzona",
+    "reason": "Dish"
+   },
+   {
+    "answer": "Keiran sōmen",
+    "reason": "Japanese sweet"
+   },
+   {
+    "answer": "Harusame noodles",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Turkish mantı",
+    "reason": "Dumpling, not pasta shape"
+   },
+   {
+    "answer": "Deep-fried wonton",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Ashikaga shūmai",
+    "reason": "Japanese dumpling"
+   },
+   {
+    "answer": "Chicken feet",
+    "reason": "Not pasta"
+   },
+   {
+    "answer": "Explorador",
+    "reason": "Not a recognized pasta shape"
+   },
+   {
+    "answer": "Zoodle",
+    "reason": "Zucchini noodle, not pasta"
+   },
+   {
+    "answer": "Dalle terre liberate dalla mafia",
+    "reason": "Product label, not a shape"
+   },
+   {
+    "answer": "Kakaran dango",
+    "reason": "Japanese sweet"
+   },
+   {
+    "answer": "Denpun dango",
+    "reason": "Japanese sweet"
+   },
+   {
+    "answer": "Hitokuchi gyoza",
+    "reason": "Japanese dumpling"
+   },
+   {
+    "answer": "Panzerotti",
+    "reason": "Fried turnover, not pasta"
+   }
+  ]
+ },
+ "ttft_ms": 24200,
+ "type": "result",
+ "duration_ms": 44385,
+ "uuid": "5b837353-9b3b-4045-b876-0fe15fb684bf",
+ "ttft_stream_ms": 1039,
+ "time_to_request_ms": 60,
+ "first_content_frame_ms": 1039,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

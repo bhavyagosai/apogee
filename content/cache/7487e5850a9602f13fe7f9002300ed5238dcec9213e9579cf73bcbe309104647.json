@@ -1,0 +1,862 @@
+{
+ "duration_api_ms": 72288,
+ "stop_reason": "tool_use",
+ "session_id": "5512cc45-0104-4bdc-9c31-8fe3908dc4d9",
+ "total_cost_usd": 0.1649496,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 10576,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 12252,
+  "output_tokens_details": {
+   "thinking_tokens": 6644
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10576,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 12252,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 10576,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10576
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 12252,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 10576,
+   "webSearchRequests": 0,
+   "costUSD": 0.1649496,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 6644,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Bioluminescent plankton\",\"reason\":\"Generic category; mostly non-animals\"},{\"answer\":\"Dinoflagellate\",\"reason\":\"Single-celled protist, not an animal\"},{\"answer\":\"Bigfin squid\",\"reason\":\"No known bioluminescence\"},{\"answer\":\"Octopus\",\"reason\":\"Generic; almost none glow\"},{\"answer\":\"Dumbo octopus\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Pelagic octopus\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Cuttlefish\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Sea urchin\",\"reason\":\"Not known to glow\"},{\"answer\":\"Bobbit worm\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Christmas tree worm\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Tubeworm\",\"reason\":\"Generic; tubeworms generally don't glow\"},{\"answer\":\"Earthworm\",\"reason\":\"Common earthworms don't glow\"},{\"answer\":\"Scorpion\",\"reason\":\"Fluoresces under UV only; doesn't glow in the dark\"},{\"answer\":\"Tarantula\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Spider\",\"reason\":\"Doesn't glow in the dark\"},{\"answer\":\"Cockroach\",\"reason\":\"Generic; almost none glow\"},{\"answer\":\"Ant\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Cicada\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Planthopper\",\"reason\":\"Glowing planthoppers are a myth\"},{\"answer\":\"Mushroom-eating beetle\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Weevil\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Snail\",\"reason\":\"Generic; almost none glow\"},{\"answer\":\"Clam\",\"reason\":\"Generic; almost none glow\"},{\"answer\":\"Crab\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Lobster\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Platypus\",\"reason\":\"Fluoresces under UV only\"},{\"answer\":\"Flying squirrel\",\"reason\":\"Fluoresces under UV only\"},{\"answer\":\"Opossum\",\"reason\":\"Fluoresces under UV only\"},{\"answer\":\"Tasmanian devil\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Wombat\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Springhare\",\"reason\":\"Fluoresces under UV only\"},{\"answer\":\"Rabbit\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Bat\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Echidna\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Kiwi\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Parrot\",\"reason\":\"Fluoresces under UV only\"},{\"answer\":\"Owl\",\"reason\":\"Doesn't glow in the dark\"},{\"answer\":\"Nightjar\",\"reason\":\"Doesn't glow in the dark\"},{\"answer\":\"Puffin\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Pigeon\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Frog\",\"reason\":\"Generic; fluorescence only in a few\"},{\"answer\":\"Polka-dot tree frog\",\"reason\":\"Fluoresces under UV only\"},{\"answer\":\"Salamander\",\"reason\":\"Fluoresces under UV only\"},{\"answer\":\"Tiger salamander\",\"reason\":\"Fluoresces under UV only\"},{\"answer\":\"Sea turtle\",\"reason\":\"Doesn't glow in the dark\"},{\"answer\":\"Chameleon\",\"reason\":\"Fluoresces under UV only\"},{\"answer\":\"Gecko\",\"reason\":\"Doesn't glow in the dark\"},{\"answer\":\"Eel\",\"reason\":\"Generic; doesn't glow\"},{\"answer\":\"Catshark\",\"reason\":\"Biofluorescent, not bioluminescent\"},{\"answer\":\"Swell shark\",\"reason\":\"Biofluorescent, not bioluminescent\"},{\"answer\":\"Chain catshark\",\"reason\":\"Biofluorescent, not bioluminescent\"},{\"answer\":\"Shark\",\"reason\":\"Generic; most sharks don't glow\"},{\"answer\":\"Skate\",\"reason\":\"Generic; doesn't glow\"},{\"answer\":\"Ray\",\"reason\":\"Generic; doesn't glow\"},{\"answer\":\"Barreleye\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Black swallower\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Fangtooth\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Cusk eel\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Ribbon eel\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Scorpionfish\",\"reason\":\"Doesn't glow in the dark\"},{\"answer\":\"Flounder\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Goby\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Blenny\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Wrasse\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Seahorse\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Pipefish\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Clownfish\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Lionfish\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Zebrafish\",\"reason\":\"Wild type doesn't glow\"},{\"answer\":\"GloFish\",\"reason\":\"Engineered; fluoresces only under light\"},{\"answer\":\"Medaka\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Mouse\",\"reason\":\"Doesn't naturally glow\"},{\"answer\":\"Pig\",\"reason\":\"Doesn't naturally glow\"},{\"answer\":\"Cat\",\"reason\":\"Doesn't naturally glow\"},{\"answer\":\"Dog\",\"reason\":\"Doesn't naturally glow\"},{\"answer\":\"Monkey\",\"reason\":\"Doesn't naturally glow\"},{\"answer\":\"Sheep\",\"reason\":\"Doesn't naturally glow\"},{\"answer\":\"Silkworm\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Mealworm\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Sea sparkle\",\"reason\":\"Dinoflagellate, not an animal\"},{\"answer\":\"Mushroom beetle\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Moon jellyfish\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Portuguese man o' war\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"By-the-wind sailor\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Sea mouse\",\"reason\":\"Iridescent, not glowing\"},{\"answer\":\"Elephant seal\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Spiny lobster\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Deep-sea octopus\",\"reason\":\"Generic; most don't glow\"},{\"answer\":\"Mushroom coral\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Leopard shark\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Whale shark\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Eelpout\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Sea robin\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Snailfish\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Cod\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Jack-o'-lantern mushroom\",\"reason\":\"Fungus, not an animal\"},{\"answer\":\"Foxfire\",\"reason\":\"Fungal glow, not an animal\"},{\"answer\":\"Honey fungus\",\"reason\":\"Fungus, not an animal\"},{\"answer\":\"Panellus stipticus\",\"reason\":\"Fungus, not an animal\"},{\"answer\":\"Noctiluca scintillans\",\"reason\":\"Dinoflagellate, not an animal\"},{\"answer\":\"Pyrocystis fusiformis\",\"reason\":\"Dinoflagellate, not an animal\"},{\"answer\":\"Lingulodinium polyedra\",\"reason\":\"Dinoflagellate, not an animal\"},{\"answer\":\"Cat's eye ctenophore\",\"reason\":\"Not a recognized glowing animal\"},{\"answer\":\"Hinea brasiliana\",\"reason\":\"Snail not known to glow\"},{\"answer\":\"Thysanoteuthis rhombus\",\"reason\":\"Diamondback squid lacks photophores\"},{\"answer\":\"Cystisoma\",\"reason\":\"Transparent, not bioluminescent\"},{\"answer\":\"Pacific spookfish\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Spookfish\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Sixgill shark\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Greenland shark\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Bamboo shark\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Epaulette shark\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Zebra shark\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Cuttlefish shark\",\"reason\":\"Not a real animal\"},{\"answer\":\"Bioluminescent bay organisms\",\"reason\":\"Generic; mostly dinoflagellates\"},{\"answer\":\"Pearleye\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Greeneye\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Cutthroat eel\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Bobtail snipe eel\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Pelican eel\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Bigscale fish\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Hagfish\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Ribbonfish\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Sea spider\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Gorgon's head\",\"reason\":\"Not known to glow\"},{\"answer\":\"Deepstaria\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Stygiomedusa\",\"reason\":\"Not known to glow\"},{\"answer\":\"Pocillopora\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Green fluorescent coral\",\"reason\":\"Fluorescent, not glowing in dark\"},{\"answer\":\"Fluorescent sea anemone\",\"reason\":\"Fluorescent, not glowing in dark\"},{\"answer\":\"Fluorescent frog\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Hypsiboas punctatus\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Fluorescent turtle\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Hawksbill turtle\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Scorpion fish\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Fluorescent scorpion\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Emperor scorpion\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Arizona bark scorpion\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Desert hairy scorpion\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Deathstalker scorpion\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Southern flying squirrel\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Northern flying squirrel\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Virginia opossum\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Eastern quoll\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Spiny anteater\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Pink fairy armadillo\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Peacock spider\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Jumping spider\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Fluorescent butterfly\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Glow-in-the-dark mouse\",\"reason\":\"Engineered, not natural\"},{\"answer\":\"Glowing rabbit\",\"reason\":\"Engineered, not natural\"},{\"answer\":\"Glowing cat\",\"reason\":\"Engineered, not natural\"},{\"answer\":\"Glowing pig\",\"reason\":\"Engineered, not natural\"},{\"answer\":\"Glowing dog\",\"reason\":\"Engineered, not natural\"},{\"answer\":\"Glowing monkey\",\"reason\":\"Engineered, not natural\"},{\"answer\":\"Tetra\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Danio\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Tiger barb\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Shiner\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Pyrodinium bahamense\",\"reason\":\"Dinoflagellate, not an animal\"},{\"answer\":\"Alexandrium\",\"reason\":\"Dinoflagellate, not an animal\"},{\"answer\":\"Gonyaulax\",\"reason\":\"Dinoflagellate, not an animal\"},{\"answer\":\"Ceratium\",\"reason\":\"Dinoflagellate, not an animal\"},{\"answer\":\"Protoperidinium\",\"reason\":\"Dinoflagellate, not an animal\"},{\"answer\":\"Photobacterium\",\"reason\":\"Bacterium, not an animal\"},{\"answer\":\"Vibrio harveyi\",\"reason\":\"Bacterium, not an animal\"},{\"answer\":\"Photorhabdus\",\"reason\":\"Bacterium, not an animal\"},{\"answer\":\"Ghost shark\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Spotted ratfish\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Leaf-nosed bat\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Tiger beetle\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Luminous planthopper\",\"reason\":\"Myth; no glowing planthoppers\"},{\"answer\":\"Lanternfly\",\"reason\":\"Doesn't glow despite name\"},{\"answer\":\"Luminous termite mound\",\"reason\":\"Not an animal\"},{\"answer\":\"Fluorescent chameleon\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Fluorescent gecko\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Fluorescent parrot\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Budgerigar\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Barn owl\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Fluorescent platypus\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Axolotl\",\"reason\":\"Wild type doesn't glow\"},{\"answer\":\"Fluorescent sea horse\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Fluorescent eel\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Fluorescent moray\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Sand tiger shark\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Smalltooth sand tiger shark\",\"reason\":\"Doesn't glow\"},{\"answer\":\"Fluorescent stingray\",\"reason\":\"Fluorescent only\"},{\"answer\":\"Pyjama squid\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Pygmy squid\",\"reason\":\"Not bioluminescent\"},{\"answer\":\"Nautilus\",\"reason\":\"Not bioluminescent\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Bioluminescent plankton",
+    "reason": "Generic category; mostly non-animals"
+   },
+   {
+    "answer": "Dinoflagellate",
+    "reason": "Single-celled protist, not an animal"
+   },
+   {
+    "answer": "Bigfin squid",
+    "reason": "No known bioluminescence"
+   },
+   {
+    "answer": "Octopus",
+    "reason": "Generic; almost none glow"
+   },
+   {
+    "answer": "Dumbo octopus",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Pelagic octopus",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Cuttlefish",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Sea urchin",
+    "reason": "Not known to glow"
+   },
+   {
+    "answer": "Bobbit worm",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Christmas tree worm",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Tubeworm",
+    "reason": "Generic; tubeworms generally don't glow"
+   },
+   {
+    "answer": "Earthworm",
+    "reason": "Common earthworms don't glow"
+   },
+   {
+    "answer": "Scorpion",
+    "reason": "Fluoresces under UV only; doesn't glow in the dark"
+   },
+   {
+    "answer": "Tarantula",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Spider",
+    "reason": "Doesn't glow in the dark"
+   },
+   {
+    "answer": "Cockroach",
+    "reason": "Generic; almost none glow"
+   },
+   {
+    "answer": "Ant",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Cicada",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Planthopper",
+    "reason": "Glowing planthoppers are a myth"
+   },
+   {
+    "answer": "Mushroom-eating beetle",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Weevil",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Snail",
+    "reason": "Generic; almost none glow"
+   },
+   {
+    "answer": "Clam",
+    "reason": "Generic; almost none glow"
+   },
+   {
+    "answer": "Crab",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Lobster",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Platypus",
+    "reason": "Fluoresces under UV only"
+   },
+   {
+    "answer": "Flying squirrel",
+    "reason": "Fluoresces under UV only"
+   },
+   {
+    "answer": "Opossum",
+    "reason": "Fluoresces under UV only"
+   },
+   {
+    "answer": "Tasmanian devil",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Wombat",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Springhare",
+    "reason": "Fluoresces under UV only"
+   },
+   {
+    "answer": "Rabbit",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Bat",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Echidna",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Kiwi",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Parrot",
+    "reason": "Fluoresces under UV only"
+   },
+   {
+    "answer": "Owl",
+    "reason": "Doesn't glow in the dark"
+   },
+   {
+    "answer": "Nightjar",
+    "reason": "Doesn't glow in the dark"
+   },
+   {
+    "answer": "Puffin",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Pigeon",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Frog",
+    "reason": "Generic; fluorescence only in a few"
+   },
+   {
+    "answer": "Polka-dot tree frog",
+    "reason": "Fluoresces under UV only"
+   },
+   {
+    "answer": "Salamander",
+    "reason": "Fluoresces under UV only"
+   },
+   {
+    "answer": "Tiger salamander",
+    "reason": "Fluoresces under UV only"
+   },
+   {
+    "answer": "Sea turtle",
+    "reason": "Doesn't glow in the dark"
+   },
+   {
+    "answer": "Chameleon",
+    "reason": "Fluoresces under UV only"
+   },
+   {
+    "answer": "Gecko",
+    "reason": "Doesn't glow in the dark"
+   },
+   {
+    "answer": "Eel",
+    "reason": "Generic; doesn't glow"
+   },
+   {
+    "answer": "Catshark",
+    "reason": "Biofluorescent, not bioluminescent"
+   },
+   {
+    "answer": "Swell shark",
+    "reason": "Biofluorescent, not bioluminescent"
+   },
+   {
+    "answer": "Chain catshark",
+    "reason": "Biofluorescent, not bioluminescent"
+   },
+   {
+    "answer": "Shark",
+    "reason": "Generic; most sharks don't glow"
+   },
+   {
+    "answer": "Skate",
+    "reason": "Generic; doesn't glow"
+   },
+   {
+    "answer": "Ray",
+    "reason": "Generic; doesn't glow"
+   },
+   {
+    "answer": "Barreleye",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Black swallower",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Fangtooth",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Cusk eel",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Ribbon eel",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Scorpionfish",
+    "reason": "Doesn't glow in the dark"
+   },
+   {
+    "answer": "Flounder",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Goby",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Blenny",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Wrasse",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Seahorse",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Pipefish",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Clownfish",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Lionfish",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Zebrafish",
+    "reason": "Wild type doesn't glow"
+   },
+   {
+    "answer": "GloFish",
+    "reason": "Engineered; fluoresces only under light"
+   },
+   {
+    "answer": "Medaka",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Mouse",
+    "reason": "Doesn't naturally glow"
+   },
+   {
+    "answer": "Pig",
+    "reason": "Doesn't naturally glow"
+   },
+   {
+    "answer": "Cat",
+    "reason": "Doesn't naturally glow"
+   },
+   {
+    "answer": "Dog",
+    "reason": "Doesn't naturally glow"
+   },
+   {
+    "answer": "Monkey",
+    "reason": "Doesn't naturally glow"
+   },
+   {
+    "answer": "Sheep",
+    "reason": "Doesn't naturally glow"
+   },
+   {
+    "answer": "Silkworm",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Mealworm",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Sea sparkle",
+    "reason": "Dinoflagellate, not an animal"
+   },
+   {
+    "answer": "Mushroom beetle",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Moon jellyfish",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Portuguese man o' war",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "By-the-wind sailor",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Sea mouse",
+    "reason": "Iridescent, not glowing"
+   },
+   {
+    "answer": "Elephant seal",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Spiny lobster",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Deep-sea octopus",
+    "reason": "Generic; most don't glow"
+   },
+   {
+    "answer": "Mushroom coral",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Leopard shark",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Whale shark",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Eelpout",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Sea robin",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Snailfish",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Cod",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Jack-o'-lantern mushroom",
+    "reason": "Fungus, not an animal"
+   },
+   {
+    "answer": "Foxfire",
+    "reason": "Fungal glow, not an animal"
+   },
+   {
+    "answer": "Honey fungus",
+    "reason": "Fungus, not an animal"
+   },
+   {
+    "answer": "Panellus stipticus",
+    "reason": "Fungus, not an animal"
+   },
+   {
+    "answer": "Noctiluca scintillans",
+    "reason": "Dinoflagellate, not an animal"
+   },
+   {
+    "answer": "Pyrocystis fusiformis",
+    "reason": "Dinoflagellate, not an animal"
+   },
+   {
+    "answer": "Lingulodinium polyedra",
+    "reason": "Dinoflagellate, not an animal"
+   },
+   {
+    "answer": "Cat's eye ctenophore",
+    "reason": "Not a recognized glowing animal"
+   },
+   {
+    "answer": "Hinea brasiliana",
+    "reason": "Snail not known to glow"
+   },
+   {
+    "answer": "Thysanoteuthis rhombus",
+    "reason": "Diamondback squid lacks photophores"
+   },
+   {
+    "answer": "Cystisoma",
+    "reason": "Transparent, not bioluminescent"
+   },
+   {
+    "answer": "Pacific spookfish",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Spookfish",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Sixgill shark",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Greenland shark",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Bamboo shark",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Epaulette shark",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Zebra shark",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Cuttlefish shark",
+    "reason": "Not a real animal"
+   },
+   {
+    "answer": "Bioluminescent bay organisms",
+    "reason": "Generic; mostly dinoflagellates"
+   },
+   {
+    "answer": "Pearleye",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Greeneye",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Cutthroat eel",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Bobtail snipe eel",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Pelican eel",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Bigscale fish",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Hagfish",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Ribbonfish",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Sea spider",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Gorgon's head",
+    "reason": "Not known to glow"
+   },
+   {
+    "answer": "Deepstaria",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Stygiomedusa",
+    "reason": "Not known to glow"
+   },
+   {
+    "answer": "Pocillopora",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Green fluorescent coral",
+    "reason": "Fluorescent, not glowing in dark"
+   },
+   {
+    "answer": "Fluorescent sea anemone",
+    "reason": "Fluorescent, not glowing in dark"
+   },
+   {
+    "answer": "Fluorescent frog",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Hypsiboas punctatus",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Fluorescent turtle",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Hawksbill turtle",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Scorpion fish",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Fluorescent scorpion",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Emperor scorpion",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Arizona bark scorpion",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Desert hairy scorpion",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Deathstalker scorpion",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Southern flying squirrel",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Northern flying squirrel",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Virginia opossum",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Eastern quoll",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Spiny anteater",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Pink fairy armadillo",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Peacock spider",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Jumping spider",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Fluorescent butterfly",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Glow-in-the-dark mouse",
+    "reason": "Engineered, not natural"
+   },
+   {
+    "answer": "Glowing rabbit",
+    "reason": "Engineered, not natural"
+   },
+   {
+    "answer": "Glowing cat",
+    "reason": "Engineered, not natural"
+   },
+   {
+    "answer": "Glowing pig",
+    "reason": "Engineered, not natural"
+   },
+   {
+    "answer": "Glowing dog",
+    "reason": "Engineered, not natural"
+   },
+   {
+    "answer": "Glowing monkey",
+    "reason": "Engineered, not natural"
+   },
+   {
+    "answer": "Tetra",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Danio",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Tiger barb",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Shiner",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Pyrodinium bahamense",
+    "reason": "Dinoflagellate, not an animal"
+   },
+   {
+    "answer": "Alexandrium",
+    "reason": "Dinoflagellate, not an animal"
+   },
+   {
+    "answer": "Gonyaulax",
+    "reason": "Dinoflagellate, not an animal"
+   },
+   {
+    "answer": "Ceratium",
+    "reason": "Dinoflagellate, not an animal"
+   },
+   {
+    "answer": "Protoperidinium",
+    "reason": "Dinoflagellate, not an animal"
+   },
+   {
+    "answer": "Photobacterium",
+    "reason": "Bacterium, not an animal"
+   },
+   {
+    "answer": "Vibrio harveyi",
+    "reason": "Bacterium, not an animal"
+   },
+   {
+    "answer": "Photorhabdus",
+    "reason": "Bacterium, not an animal"
+   },
+   {
+    "answer": "Ghost shark",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Spotted ratfish",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Leaf-nosed bat",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Tiger beetle",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Luminous planthopper",
+    "reason": "Myth; no glowing planthoppers"
+   },
+   {
+    "answer": "Lanternfly",
+    "reason": "Doesn't glow despite name"
+   },
+   {
+    "answer": "Luminous termite mound",
+    "reason": "Not an animal"
+   },
+   {
+    "answer": "Fluorescent chameleon",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Fluorescent gecko",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Fluorescent parrot",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Budgerigar",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Barn owl",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Fluorescent platypus",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Axolotl",
+    "reason": "Wild type doesn't glow"
+   },
+   {
+    "answer": "Fluorescent sea horse",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Fluorescent eel",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Fluorescent moray",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Sand tiger shark",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Smalltooth sand tiger shark",
+    "reason": "Doesn't glow"
+   },
+   {
+    "answer": "Fluorescent stingray",
+    "reason": "Fluorescent only"
+   },
+   {
+    "answer": "Pyjama squid",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Pygmy squid",
+    "reason": "Not bioluminescent"
+   },
+   {
+    "answer": "Nautilus",
+    "reason": "Not bioluminescent"
+   }
+  ]
+ },
+ "ttft_ms": 46188,
+ "type": "result",
+ "duration_ms": 72339,
+ "uuid": "cbe2a311-0db2-4e58-a431-42efa1b38b34",
+ "ttft_stream_ms": 1523,
+ "time_to_request_ms": 31,
+ "first_content_frame_ms": 1523,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Apogee
 
-## Getting Started
+A daily rarity word game. Seven prompts a day, the same for everyone, 25 seconds each. You type one answer; the rarer it is among all players, the farther your rocket flies — from the launch pad past the Kármán line, the Moon, Mars and Voyager. The obvious answer barely leaves your hand.
 
-First, run the development server:
+Tiers: Paper Plane (10) · Weather Balloon (15) · Jetliner (30) · Orbiter (60) · Deep Space (85) · Apogee (100, one gem per prompt).
+
+## Develop
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+cp .env.example .env.local   # defaults work locally
+pnpm dev                     # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Play data (runs, answer popularity) lives in a local SQLite file at `data/apogee.db` via libsql; point `DATABASE_URL` at Turso in production.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Env var               | Purpose                                                     |
+| --------------------- | ----------------------------------------------------------- |
+| `DATABASE_URL`        | libsql URL. Default `file:data/apogee.db`.                  |
+| `DATABASE_AUTH_TOKEN` | Turso auth token (production only).                         |
+| `RECEIPT_SECRET`      | HMAC key for signed answer receipts. Required in production. |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Content pipeline
 
-## Learn More
+Each day is a file `content/days/YYYY-MM-DD.json` holding seven prompts and their full answer sets with tiers (see `src/lib/game/types.ts`). Days roll over at 00:00 UTC.
 
-To learn more about Next.js, take a look at the following resources:
+Answer sets are curated by `scripts/curate.ts`, which drives the Claude Code CLI headlessly (`claude -p`) on your subscription — no API key needed:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# seven prompts, one per line
+pnpm curate --date 2026-11-28 --prompts prompts/2026-11-28.txt --model sonnet
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# dry-run a single prompt and print its tiers
+pnpm curate --prompt "Name a type of pasta shape" --model sonnet
+```
 
-## Deploy on Vercel
+Per prompt the script runs four model calls:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **plan** — pick a long-tail source: a **Wikidata** SPARQL `WHERE` body (films, rivers, species, pasta types…), a **dictionary** filter over the ENABLE word list (letter/spelling prompts), or **none** (everyday things). The query is wrapped with English labels, aliases and `sitelinks` counts and run against `query.wikidata.org`; a failing or empty query is fed back to the model for up to three attempts.
+2. **generate** — a wide answer list with aliases from the model's own knowledge.
+3. **audit** — drop answers that don't satisfy the prompt. The 150 most familiar long-tail items (by sitelinks) the model didn't name are audited too.
+4. **tier** — the obvious ones (Paper Plane), the go-to "clever" picks (Weather Balloon), Jetliner, Orbiter, and exactly one Apogee with a fun-fact quip. Everything unlisted — including the rest of the long tail — is Deep Space.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Answers and aliases are deduped by the game's `normalize()` key. Every model response and SPARQL result is cached under `content/cache/`, so re-runs are free; pass `--force` to regenerate. One to three minutes per prompt with Sonnet; Wikidata queries take 2–60 s.
+
+Skim each day's Paper/Jetliner lists before publishing — the model's sense of "obvious" is Western, so Indian and Asian answers sometimes need adding by hand. Day files hot-reload in dev.

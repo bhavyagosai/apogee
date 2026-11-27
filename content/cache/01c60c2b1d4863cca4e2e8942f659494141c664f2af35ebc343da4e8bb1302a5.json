@@ -1,0 +1,106 @@
+{
+ "duration_api_ms": 8660,
+ "stop_reason": "tool_use",
+ "session_id": "e69f695b-f045-4cfe-9d8e-39309e0753bc",
+ "total_cost_usd": 0.0367836,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6887,
+  "cache_read_input_tokens": 708,
+  "output_tokens": 909,
+  "output_tokens_details": {
+   "thinking_tokens": 516
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6887,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 909,
+    "cache_read_input_tokens": 708,
+    "cache_creation_input_tokens": 6887,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6887
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 909,
+   "cacheReadInputTokens": 708,
+   "cacheCreationInputTokens": 6887,
+   "webSearchRequests": 0,
+   "costUSD": 0.0367836,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 516,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"source\":\"wikidata\",\"reason\":\"Bands and musicians are Wikidata entities, so a label filter for digits can enumerate the long tail. It misses names that spell the number out (e.g. \\\"Three Dog Night\\\").\",\"wikidata\":{\"where\":\"{ VALUES ?cls { wd:Q215380 wd:Q5741069 wd:Q56816954 } ?item wdt:P31 ?cls . } UNION { ?item wdt:P31 wd:Q5 ; wdt:P106 wd:Q639669 . } ?item rdfs:label ?lbl . FILTER(LANG(?lbl) = \\\"en\\\") FILTER(REGEX(?lbl, \\\"[0-9]\\\"))\",\"notes\":\"Instances of musical group, rock band or hip hop group, plus humans who are musicians, whose English label contains a digit. Class items are not returned, so no exclusion is needed. If it times out, drop the human-musician branch.\"}}",
+ "structured_output": {
+  "source": "wikidata",
+  "reason": "Bands and musicians are Wikidata entities, so a label filter for digits can enumerate the long tail. It misses names that spell the number out (e.g. \"Three Dog Night\").",
+  "wikidata": {
+   "where": "{ VALUES ?cls { wd:Q215380 wd:Q5741069 wd:Q56816954 } ?item wdt:P31 ?cls . } UNION { ?item wdt:P31 wd:Q5 ; wdt:P106 wd:Q639669 . } ?item rdfs:label ?lbl . FILTER(LANG(?lbl) = \"en\") FILTER(REGEX(?lbl, \"[0-9]\"))",
+   "notes": "Instances of musical group, rock band or hip hop group, plus humans who are musicians, whose English label contains a digit. Class items are not returned, so no exclusion is needed. If it times out, drop the human-musician branch."
+  }
+ },
+ "ttft_ms": 6337,
+ "type": "result",
+ "duration_ms": 8849,
+ "uuid": "ef662442-2a7d-4b9c-ac17-fbdfbe8f286d",
+ "ttft_stream_ms": 843,
+ "time_to_request_ms": 44,
+ "first_content_frame_ms": 843,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

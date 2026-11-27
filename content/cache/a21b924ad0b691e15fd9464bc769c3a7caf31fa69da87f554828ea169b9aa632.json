@@ -1,0 +1,114 @@
+{
+ "duration_api_ms": 14167,
+ "stop_reason": "tool_use",
+ "session_id": "16127be2-9b8a-4ffd-b5af-6800ea143383",
+ "total_cost_usd": 0.0561556,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 10065,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 1577,
+  "output_tokens_details": {
+   "thinking_tokens": 1364
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10065,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1577,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 10065,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10065
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1577,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 10065,
+   "webSearchRequests": 0,
+   "costUSD": 0.0561556,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 1364,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Pterodactyl\",\"reason\":\"Pterodactyls were pterosaurs, flying reptiles that were not dinosaurs.\"},{\"answer\":\"Oviraptorosaur\",\"reason\":\"This is a group of dinosaurs, not a specific dinosaur.\"},{\"answer\":\"Ampelognathus\",\"reason\":\"I'm not confident this is a valid dinosaur genus. I believe it is a dubious or non-dinosaur name.\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Pterodactyl",
+    "reason": "Pterodactyls were pterosaurs, flying reptiles that were not dinosaurs."
+   },
+   {
+    "answer": "Oviraptorosaur",
+    "reason": "This is a group of dinosaurs, not a specific dinosaur."
+   },
+   {
+    "answer": "Ampelognathus",
+    "reason": "I'm not confident this is a valid dinosaur genus. I believe it is a dubious or non-dinosaur name."
+   }
+  ]
+ },
+ "ttft_ms": 13214,
+ "type": "result",
+ "duration_ms": 14220,
+ "uuid": "b52070b0-6040-424b-9bdb-700cf67ce2cf",
+ "ttft_stream_ms": 3901,
+ "time_to_request_ms": 31,
+ "first_content_frame_ms": 3901,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

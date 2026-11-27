@@ -1,0 +1,482 @@
+{
+ "duration_api_ms": 42864,
+ "stop_reason": "tool_use",
+ "session_id": "5a400809-4dea-4bda-bb99-42beebd129e1",
+ "total_cost_usd": 0.112588,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9066,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7632,
+  "output_tokens_details": {
+   "thinking_tokens": 4940
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9066,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 7632,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 9066,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9066
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 7632,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 9066,
+   "webSearchRequests": 0,
+   "costUSD": 0.112588,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 4940,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Waurie\",\"reason\":\"Mancala-type game without dice\"},{\"answer\":\"Aqua Romana\",\"reason\":\"Card/auction euro game with no dice\"},{\"answer\":\"3M bookshelf game series\",\"reason\":\"A generic series, not a single game\"},{\"answer\":\"Buffy the Vampire Slayer Collectible Card Game\",\"reason\":\"Collectible card game, not a board game with dice\"},{\"answer\":\"Carolus Magnus\",\"reason\":\"No dice in the game\"},{\"answer\":\"Chouine\",\"reason\":\"Card game\"},{\"answer\":\"Colonial Diplomacy\",\"reason\":\"Diplomacy variant with no dice\"},{\"answer\":\"Diam\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Exxit\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Gounki\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Maka Bana\",\"reason\":\"Mancala-type game without dice\"},{\"answer\":\"Mission: Red Planet\",\"reason\":\"No dice in the game\"},{\"answer\":\"Mystery of the Abbey\",\"reason\":\"Deduction game with no dice\"},{\"answer\":\"Sleuth\",\"reason\":\"Deduction card game with no dice\"},{\"answer\":\"Toscana\",\"reason\":\"No dice in the game\"},{\"answer\":\"Ace of Aces\",\"reason\":\"Paged book game with no dice\"},{\"answer\":\"Scarabeo\",\"reason\":\"Word tile game with no dice\"},{\"answer\":\"Aye, Dark Overlord!\",\"reason\":\"Party game with no dice\"},{\"answer\":\"Age of Renaissance\",\"reason\":\"No dice in the game\"},{\"answer\":\"Andantino\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Bizingo\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Bleach Trading Card Game\",\"reason\":\"Card game\"},{\"answer\":\"Cannon shogi\",\"reason\":\"Shogi variant with no dice\"},{\"answer\":\"Fauna\",\"reason\":\"Trivia game with no dice\"},{\"answer\":\"Streetcar\",\"reason\":\"No dice in the game\"},{\"answer\":\"Asara\",\"reason\":\"No dice in the game\"},{\"answer\":\"Thebes\",\"reason\":\"No dice in the game\"},{\"answer\":\"Ido\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Blink\",\"reason\":\"Card game\"},{\"answer\":\"Sowing\",\"reason\":\"Mancala-type game without dice\"},{\"answer\":\"Killer Bunnies and the Quest for the Magic Carrot\",\"reason\":\"Card game\"},{\"answer\":\"The Mad Magazine Card Game\",\"reason\":\"Card game\"},{\"answer\":\"EuroShogi\",\"reason\":\"Shogi variant with no dice\"},{\"answer\":\"Dark Millennium\",\"reason\":\"Card game\"},{\"answer\":\"Doctor Who – Battles in Time\",\"reason\":\"Card game\"},{\"answer\":\"Dungeons & Dragons Computer Labyrinth Game\",\"reason\":\"Electronic game with no dice\"},{\"answer\":\"Emergo\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Fantasy basketball\",\"reason\":\"Not a board game\"},{\"answer\":\"Hexshogi\",\"reason\":\"Shogi variant with no dice\"},{\"answer\":\"Imaginiff\",\"reason\":\"Party game with no dice\"},{\"answer\":\"Indian and jackrabbits\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Italian Damone\",\"reason\":\"Draughts variant with no dice\"},{\"answer\":\"Jul-gonu\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Kaooa\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Kingdoms\",\"reason\":\"No dice in the game\"},{\"answer\":\"Mak-yek\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"New World: A Carcassonne Game\",\"reason\":\"No dice in the game\"},{\"answer\":\"Okisaki shogi\",\"reason\":\"Shogi variant with no dice\"},{\"answer\":\"Perfection\",\"reason\":\"Timer-based game with no dice\"},{\"answer\":\"Say Anything\",\"reason\":\"Party game with no dice\"},{\"answer\":\"Schotten-Totten\",\"reason\":\"Card game\"},{\"answer\":\"Stay Alive\",\"reason\":\"Marble-based game with no dice\"},{\"answer\":\"TacTix\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Tiger and buffaloes\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Trishogi\",\"reason\":\"Shogi variant with no dice\"},{\"answer\":\"Watermelon chess\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"We the People\",\"reason\":\"Card-driven game with no dice\"},{\"answer\":\"Zingo!\",\"reason\":\"Bingo-style tile game with no dice\"},{\"answer\":\"Mykerinos\",\"reason\":\"No dice in the game\"},{\"answer\":\"Octi\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Yavalath\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Nana shogi\",\"reason\":\"Shogi variant with no dice\"},{\"answer\":\"Quinamid\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Tsuitate shogi\",\"reason\":\"Shogi variant with no dice\"},{\"answer\":\"Mawari shogi\",\"reason\":\"Shogi variant with no dice\"},{\"answer\":\"Lunch Money\",\"reason\":\"Card game\"},{\"answer\":\"Oltre Mare\",\"reason\":\"Card game with no dice\"},{\"answer\":\"Rattus\",\"reason\":\"No dice in the game\"},{\"answer\":\"Sword Girls\",\"reason\":\"Card game\"},{\"answer\":\"Star Wars: The Card Game\",\"reason\":\"Card game\"},{\"answer\":\"Egizia\",\"reason\":\"No dice in the game\"},{\"answer\":\"Uisge\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Abacus checkers\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"369 Qí\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Bisca\",\"reason\":\"Card game\"},{\"answer\":\"Bushi shogi\",\"reason\":\"Shogi variant with no dice\"},{\"answer\":\"Trajan\",\"reason\":\"No dice in the game\"},{\"answer\":\"Cacao\",\"reason\":\"Tile-laying game with no dice\"},{\"answer\":\"Gomocup\",\"reason\":\"Computer gomoku tournament, not a board game\"},{\"answer\":\"Tsoro\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"A Feast for Odin\",\"reason\":\"No dice in the game\"},{\"answer\":\"Keyflower\",\"reason\":\"No dice in the game\"},{\"answer\":\"Tzolk'in: The Mayan Calendar\",\"reason\":\"No dice in the game\"},{\"answer\":\"Barragoon\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Kanagawa\",\"reason\":\"Card game with no dice\"},{\"answer\":\"1989: Dawn of Freedom\",\"reason\":\"Card-driven game with no dice\"},{\"answer\":\"Gaia Project\",\"reason\":\"No dice in the game\"},{\"answer\":\"Raiders of the North Sea\",\"reason\":\"Worker placement game with no dice\"},{\"answer\":\"Shiftago\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Antike\",\"reason\":\"No dice in the game\"},{\"answer\":\"Axiom\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Goro goro shogi\",\"reason\":\"Shogi variant with no dice\"},{\"answer\":\"Mascarade\",\"reason\":\"Card game\"},{\"answer\":\"BattleTech Collectible Card Game\",\"reason\":\"Card game\"},{\"answer\":\"Sixteen soldiers\",\"reason\":\"Abstract game with no dice\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Waurie",
+    "reason": "Mancala-type game without dice"
+   },
+   {
+    "answer": "Aqua Romana",
+    "reason": "Card/auction euro game with no dice"
+   },
+   {
+    "answer": "3M bookshelf game series",
+    "reason": "A generic series, not a single game"
+   },
+   {
+    "answer": "Buffy the Vampire Slayer Collectible Card Game",
+    "reason": "Collectible card game, not a board game with dice"
+   },
+   {
+    "answer": "Carolus Magnus",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Chouine",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Colonial Diplomacy",
+    "reason": "Diplomacy variant with no dice"
+   },
+   {
+    "answer": "Diam",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Exxit",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Gounki",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Maka Bana",
+    "reason": "Mancala-type game without dice"
+   },
+   {
+    "answer": "Mission: Red Planet",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Mystery of the Abbey",
+    "reason": "Deduction game with no dice"
+   },
+   {
+    "answer": "Sleuth",
+    "reason": "Deduction card game with no dice"
+   },
+   {
+    "answer": "Toscana",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Ace of Aces",
+    "reason": "Paged book game with no dice"
+   },
+   {
+    "answer": "Scarabeo",
+    "reason": "Word tile game with no dice"
+   },
+   {
+    "answer": "Aye, Dark Overlord!",
+    "reason": "Party game with no dice"
+   },
+   {
+    "answer": "Age of Renaissance",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Andantino",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Bizingo",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Bleach Trading Card Game",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Cannon shogi",
+    "reason": "Shogi variant with no dice"
+   },
+   {
+    "answer": "Fauna",
+    "reason": "Trivia game with no dice"
+   },
+   {
+    "answer": "Streetcar",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Asara",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Thebes",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Ido",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Blink",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Sowing",
+    "reason": "Mancala-type game without dice"
+   },
+   {
+    "answer": "Killer Bunnies and the Quest for the Magic Carrot",
+    "reason": "Card game"
+   },
+   {
+    "answer": "The Mad Magazine Card Game",
+    "reason": "Card game"
+   },
+   {
+    "answer": "EuroShogi",
+    "reason": "Shogi variant with no dice"
+   },
+   {
+    "answer": "Dark Millennium",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Doctor Who – Battles in Time",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Dungeons & Dragons Computer Labyrinth Game",
+    "reason": "Electronic game with no dice"
+   },
+   {
+    "answer": "Emergo",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Fantasy basketball",
+    "reason": "Not a board game"
+   },
+   {
+    "answer": "Hexshogi",
+    "reason": "Shogi variant with no dice"
+   },
+   {
+    "answer": "Imaginiff",
+    "reason": "Party game with no dice"
+   },
+   {
+    "answer": "Indian and jackrabbits",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Italian Damone",
+    "reason": "Draughts variant with no dice"
+   },
+   {
+    "answer": "Jul-gonu",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Kaooa",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Kingdoms",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Mak-yek",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "New World: A Carcassonne Game",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Okisaki shogi",
+    "reason": "Shogi variant with no dice"
+   },
+   {
+    "answer": "Perfection",
+    "reason": "Timer-based game with no dice"
+   },
+   {
+    "answer": "Say Anything",
+    "reason": "Party game with no dice"
+   },
+   {
+    "answer": "Schotten-Totten",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Stay Alive",
+    "reason": "Marble-based game with no dice"
+   },
+   {
+    "answer": "TacTix",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Tiger and buffaloes",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Trishogi",
+    "reason": "Shogi variant with no dice"
+   },
+   {
+    "answer": "Watermelon chess",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "We the People",
+    "reason": "Card-driven game with no dice"
+   },
+   {
+    "answer": "Zingo!",
+    "reason": "Bingo-style tile game with no dice"
+   },
+   {
+    "answer": "Mykerinos",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Octi",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Yavalath",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Nana shogi",
+    "reason": "Shogi variant with no dice"
+   },
+   {
+    "answer": "Quinamid",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Tsuitate shogi",
+    "reason": "Shogi variant with no dice"
+   },
+   {
+    "answer": "Mawari shogi",
+    "reason": "Shogi variant with no dice"
+   },
+   {
+    "answer": "Lunch Money",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Oltre Mare",
+    "reason": "Card game with no dice"
+   },
+   {
+    "answer": "Rattus",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Sword Girls",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Star Wars: The Card Game",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Egizia",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Uisge",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Abacus checkers",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "369 Qí",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Bisca",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Bushi shogi",
+    "reason": "Shogi variant with no dice"
+   },
+   {
+    "answer": "Trajan",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Cacao",
+    "reason": "Tile-laying game with no dice"
+   },
+   {
+    "answer": "Gomocup",
+    "reason": "Computer gomoku tournament, not a board game"
+   },
+   {
+    "answer": "Tsoro",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "A Feast for Odin",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Keyflower",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Tzolk'in: The Mayan Calendar",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Barragoon",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Kanagawa",
+    "reason": "Card game with no dice"
+   },
+   {
+    "answer": "1989: Dawn of Freedom",
+    "reason": "Card-driven game with no dice"
+   },
+   {
+    "answer": "Gaia Project",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Raiders of the North Sea",
+    "reason": "Worker placement game with no dice"
+   },
+   {
+    "answer": "Shiftago",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Antike",
+    "reason": "No dice in the game"
+   },
+   {
+    "answer": "Axiom",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Goro goro shogi",
+    "reason": "Shogi variant with no dice"
+   },
+   {
+    "answer": "Mascarade",
+    "reason": "Card game"
+   },
+   {
+    "answer": "BattleTech Collectible Card Game",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Sixteen soldiers",
+    "reason": "Abstract game with no dice"
+   }
+  ]
+ },
+ "ttft_ms": 31116,
+ "type": "result",
+ "duration_ms": 42999,
+ "uuid": "f2a6b9e2-2515-4c00-99ff-0cd6fac94e6b",
+ "ttft_stream_ms": 851,
+ "time_to_request_ms": 106,
+ "first_content_frame_ms": 851,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

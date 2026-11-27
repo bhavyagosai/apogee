@@ -1,0 +1,210 @@
+{
+ "duration_api_ms": 6739,
+ "stop_reason": "tool_use",
+ "session_id": "162181bf-79a3-4de9-89ae-0928adece3a5",
+ "total_cost_usd": 0.0403272,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7560,
+  "cache_read_input_tokens": 716,
+  "output_tokens": 994,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7560,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 994,
+    "cache_read_input_tokens": 716,
+    "cache_creation_input_tokens": 7560,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7560
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 994,
+   "cacheReadInputTokens": 716,
+   "cacheCreationInputTokens": 7560,
+   "webSearchRequests": 0,
+   "costUSD": 0.0403272,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"paper\":[\"Titanic\",\"Forrest Gump\",\"Gladiator\",\"The Godfather\",\"Schindler's List\",\"Casablanca\",\"Gone with the Wind\",\"Braveheart\",\"Rocky\",\"Parasite\",\"The Silence of the Lambs\",\"Oppenheimer\"],\"balloon\":[\"Crash\",\"Chicago\",\"Moonlight\",\"Birdman\"],\"jet\":[\"The Godfather Part II\",\"Ben-Hur\",\"Lawrence of Arabia\",\"The Sound of Music\",\"West Side Story\",\"My Fair Lady\",\"Amadeus\",\"Platoon\",\"Rain Man\",\"Dances with Wolves\",\"Unforgiven\",\"The English Patient\",\"Shakespeare in Love\",\"American Beauty\",\"A Beautiful Mind\",\"The Lord of the Rings: The Return of the King\",\"Million Dollar Baby\",\"The Departed\",\"No Country for Old Men\",\"Slumdog Millionaire\",\"The Hurt Locker\",\"The King's Speech\",\"The Artist\",\"Argo\",\"12 Years a Slave\",\"Spotlight\",\"The Shape of Water\",\"Green Book\",\"Nomadland\",\"CODA\",\"Everything Everywhere All at Once\",\"Anora\",\"One Flew Over the Cuckoo's Nest\",\"The Sting\",\"Annie Hall\",\"Kramer vs. Kramer\",\"Chariots of Fire\",\"Gandhi\",\"Out of Africa\",\"Driving Miss Daisy\",\"Midnight Cowboy\",\"Patton\",\"The French Connection\",\"All About Eve\",\"On the Waterfront\",\"The Bridge on the River Kwai\",\"Rebecca\",\"It Happened One Night\",\"The Deer Hunter\",\"Terms of Endearment\",\"Ordinary People\",\"The Apartment\",\"Around the World in 80 Days\",\"Mutiny on the Bounty\",\"One Battle After Another\",\"In the Heat of the Night\",\"Oliver!\",\"Wings\"],\"orbit\":[\"The Last Emperor\",\"Mrs. Miniver\",\"The Best Years of Our Lives\",\"From Here to Eternity\",\"Gigi\",\"An American in Paris\",\"The Greatest Show on Earth\",\"Marty\",\"Tom Jones\",\"A Man for All Seasons\",\"The Lost Weekend\",\"Going My Way\",\"How Green Was My Valley\",\"Grand Hotel\",\"All Quiet on the Western Front\",\"The Broadway Melody\",\"Cavalcade\",\"Cimarron\",\"You Can't Take It with You\",\"The Great Ziegfeld\",\"The Life of Emile Zola\",\"Gentleman's Agreement\",\"Hamlet\",\"All the King's Men\"],\"apogee\":{\"answer\":\"The Greatest Show on Earth\",\"quip\":\"Cecil B. DeMille's 1952 circus epic beat High Noon and The Quiet Man, and is often ranked a weak Best Picture winner.\"}}",
+ "structured_output": {
+  "paper": [
+   "Titanic",
+   "Forrest Gump",
+   "Gladiator",
+   "The Godfather",
+   "Schindler's List",
+   "Casablanca",
+   "Gone with the Wind",
+   "Braveheart",
+   "Rocky",
+   "Parasite",
+   "The Silence of the Lambs",
+   "Oppenheimer"
+  ],
+  "balloon": [
+   "Crash",
+   "Chicago",
+   "Moonlight",
+   "Birdman"
+  ],
+  "jet": [
+   "The Godfather Part II",
+   "Ben-Hur",
+   "Lawrence of Arabia",
+   "The Sound of Music",
+   "West Side Story",
+   "My Fair Lady",
+   "Amadeus",
+   "Platoon",
+   "Rain Man",
+   "Dances with Wolves",
+   "Unforgiven",
+   "The English Patient",
+   "Shakespeare in Love",
+   "American Beauty",
+   "A Beautiful Mind",
+   "The Lord of the Rings: The Return of the King",
+   "Million Dollar Baby",
+   "The Departed",
+   "No Country for Old Men",
+   "Slumdog Millionaire",
+   "The Hurt Locker",
+   "The King's Speech",
+   "The Artist",
+   "Argo",
+   "12 Years a Slave",
+   "Spotlight",
+   "The Shape of Water",
+   "Green Book",
+   "Nomadland",
+   "CODA",
+   "Everything Everywhere All at Once",
+   "Anora",
+   "One Flew Over the Cuckoo's Nest",
+   "The Sting",
+   "Annie Hall",
+   "Kramer vs. Kramer",
+   "Chariots of Fire",
+   "Gandhi",
+   "Out of Africa",
+   "Driving Miss Daisy",
+   "Midnight Cowboy",
+   "Patton",
+   "The French Connection",
+   "All About Eve",
+   "On the Waterfront",
+   "The Bridge on the River Kwai",
+   "Rebecca",
+   "It Happened One Night",
+   "The Deer Hunter",
+   "Terms of Endearment",
+   "Ordinary People",
+   "The Apartment",
+   "Around the World in 80 Days",
+   "Mutiny on the Bounty",
+   "One Battle After Another",
+   "In the Heat of the Night",
+   "Oliver!",
+   "Wings"
+  ],
+  "orbit": [
+   "The Last Emperor",
+   "Mrs. Miniver",
+   "The Best Years of Our Lives",
+   "From Here to Eternity",
+   "Gigi",
+   "An American in Paris",
+   "The Greatest Show on Earth",
+   "Marty",
+   "Tom Jones",
+   "A Man for All Seasons",
+   "The Lost Weekend",
+   "Going My Way",
+   "How Green Was My Valley",
+   "Grand Hotel",
+   "All Quiet on the Western Front",
+   "The Broadway Melody",
+   "Cavalcade",
+   "Cimarron",
+   "You Can't Take It with You",
+   "The Great Ziegfeld",
+   "The Life of Emile Zola",
+   "Gentleman's Agreement",
+   "Hamlet",
+   "All the King's Men"
+  ],
+  "apogee": {
+   "answer": "The Greatest Show on Earth",
+   "quip": "Cecil B. DeMille's 1952 circus epic beat High Noon and The Quiet Man, and is often ranked a weak Best Picture winner."
+  }
+ },
+ "ttft_ms": 6757,
+ "type": "result",
+ "duration_ms": 6784,
+ "uuid": "af0906bc-8d5e-47de-ab31-f41fb5f8a08b",
+ "ttft_stream_ms": 1624,
+ "time_to_request_ms": 29,
+ "first_content_frame_ms": 1624,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

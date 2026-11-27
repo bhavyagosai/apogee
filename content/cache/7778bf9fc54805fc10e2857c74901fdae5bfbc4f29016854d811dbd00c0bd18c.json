@@ -1,0 +1,768 @@
+{
+ "duration_api_ms": 23574,
+ "stop_reason": "tool_use",
+ "session_id": "2c948710-7f0b-4211-882a-a14ba00d8a23",
+ "total_cost_usd": 0.065408,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7755,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 3426,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7755,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 3426,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 7755,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7755
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 3426,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 7755,
+   "webSearchRequests": 0,
+   "costUSD": 0.065408,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Rotelle\",\"aliases\":[]},{\"answer\":\"Tagliatelle\",\"aliases\":[]},{\"answer\":\"Spaghetti alla chitarra\",\"aliases\":[\"Chitarra\"]},{\"answer\":\"Lasagnette\",\"aliases\":[]},{\"answer\":\"Mafaldine\",\"aliases\":[\"Reginette\"]},{\"answer\":\"Ruote\",\"aliases\":[\"Wagon wheels\",\"Wheels\"]},{\"answer\":\"Ditali\",\"aliases\":[]},{\"answer\":\"Tubetti\",\"aliases\":[]},{\"answer\":\"Mezzani\",\"aliases\":[]},{\"answer\":\"Pennoni\",\"aliases\":[]},{\"answer\":\"Penne rigate\",\"aliases\":[]},{\"answer\":\"Pasta shells\",\"aliases\":[\"Shells\",\"Small shells\",\"Medium shells\",\"Jumbo shells\"]},{\"answer\":\"Bowtie\",\"aliases\":[\"Bow tie pasta\",\"Bow ties\"]},{\"answer\":\"Elbow macaroni\",\"aliases\":[\"Elbows\"]},{\"answer\":\"Cappelletti\",\"aliases\":[]},{\"answer\":\"Tortellini\",\"aliases\":[]},{\"answer\":\"Ruote\",\"aliases\":[]},{\"answer\":\"Gnocchetti sardi\",\"aliases\":[\"Malloreddus\",\"Sardinian gnocchi\"]},{\"answer\":\"Cavatelli\",\"aliases\":[]},{\"answer\":\"Pasta mista\",\"aliases\":[]},{\"answer\":\"Tagliatelle\",\"aliases\":[]},{\"answer\":\"Stortini\",\"aliases\":[]},{\"answer\":\"Fusilli napoletani\",\"aliases\":[]},{\"answer\":\"Spaghetti rigati\",\"aliases\":[]},{\"answer\":\"Spaghettoni\",\"aliases\":[]},{\"answer\":\"Vermicelli\",\"aliases\":[]},{\"answer\":\"Capellini\",\"aliases\":[]},{\"answer\":\"Bucatini\",\"aliases\":[]},{\"answer\":\"Perciatelli\",\"aliases\":[\"Bucatoni\"]},{\"answer\":\"Tagliatelle\",\"aliases\":[]},{\"answer\":\"Ciriole\",\"aliases\":[]},{\"answer\":\"Pasta alla Norma\",\"aliases\":[]},{\"answer\":\"Bigoli\",\"aliases\":[]},{\"answer\":\"Fettuccelle\",\"aliases\":[]},{\"answer\":\"Fusilli col buco\",\"aliases\":[]},{\"answer\":\"Lasagne verdi\",\"aliases\":[]},{\"answer\":\"Maccheroncini\",\"aliases\":[]},{\"answer\":\"Mezzelune\",\"aliases\":[]},{\"answer\":\"Nidi\",\"aliases\":[\"Nests\",\"Pasta nest\"]},{\"answer\":\"Occhi di lupo\",\"aliases\":[]},{\"answer\":\"Orecchiette\",\"aliases\":[]},{\"answer\":\"Pasta fresca\",\"aliases\":[]},{\"answer\":\"Pizzoccheri\",\"aliases\":[]},{\"answer\":\"Quadrucci\",\"aliases\":[]},{\"answer\":\"Rosamarina\",\"aliases\":[\"Risoni\"]},{\"answer\":\"Risoni\",\"aliases\":[]},{\"answer\":\"Semi di melone\",\"aliases\":[\"Melon seeds\"]},{\"answer\":\"Seme di mela\",\"aliases\":[]},{\"answer\":\"Midolline\",\"aliases\":[]},{\"answer\":\"Occhi di pernice\",\"aliases\":[]},{\"answer\":\"Puntine\",\"aliases\":[]},{\"answer\":\"Grattini\",\"aliases\":[]},{\"answer\":\"Granetti\",\"aliases\":[]},{\"answer\":\"Tubettini rigati\",\"aliases\":[]},{\"answer\":\"Stelle\",\"aliases\":[]},{\"answer\":\"Stellette\",\"aliases\":[]},{\"answer\":\"Avemarie\",\"aliases\":[]},{\"answer\":\"Corallini\",\"aliases\":[]},{\"answer\":\"Conchigliette\",\"aliases\":[]},{\"answer\":\"Farfalloni\",\"aliases\":[]},{\"answer\":\"Cappelletti\",\"aliases\":[]},{\"answer\":\"Crozets\",\"aliases\":[\"Crozet\"]},{\"answer\":\"Croxetti\",\"aliases\":[\"Corzetti\"]},{\"answer\":\"Troccoli\",\"aliases\":[\"Tronchetti\"]},{\"answer\":\"Tagliolini\",\"aliases\":[]},{\"answer\":\"Taglierini\",\"aliases\":[]},{\"answer\":\"Sfoglia\",\"aliases\":[]},{\"answer\":\"Sfoglierina\",\"aliases\":[]},{\"answer\":\"Cannelle\",\"aliases\":[]},{\"answer\":\"Cannolicchi\",\"aliases\":[]},{\"answer\":\"Cannaroni\",\"aliases\":[]},{\"answer\":\"Cavatappi\",\"aliases\":[]},{\"answer\":\"Ricciolini\",\"aliases\":[]},{\"answer\":\"Ricciutelle\",\"aliases\":[]},{\"answer\":\"Ricciarelle\",\"aliases\":[]},{\"answer\":\"Mezze zite\",\"aliases\":[\"Mezzi ziti\"]},{\"answer\":\"Stringozzi\",\"aliases\":[\"Strangozzi\",\"Strozzapreti umbri\"]},{\"answer\":\"Tagliatelle al cacao\",\"aliases\":[]},{\"answer\":\"Tortelli di zucca\",\"aliases\":[\"Pumpkin tortelli\"]},{\"answer\":\"Sorrentine\",\"aliases\":[]},{\"answer\":\"Spaghetti alla chitarra\",\"aliases\":[]},{\"answer\":\"Maccheroni\",\"aliases\":[\"Maccaroni\"]},{\"answer\":\"Maccheroncelli\",\"aliases\":[]},{\"answer\":\"Cappellacci dei briganti\",\"aliases\":[]},{\"answer\":\"Tortelli maremmani\",\"aliases\":[]},{\"answer\":\"Ciufoli\",\"aliases\":[]},{\"answer\":\"Fregula\",\"aliases\":[\"Fregola sarda\"]},{\"answer\":\"Su filindeu\",\"aliases\":[\"Filindeu\"]},{\"answer\":\"Pillus\",\"aliases\":[]},{\"answer\":\"Sa Fregula\",\"aliases\":[]},{\"answer\":\"Cordula\",\"aliases\":[]},{\"answer\":\"Pastina stars\",\"aliases\":[]},{\"answer\":\"Squid ink pasta\",\"aliases\":[\"Nero di seppia\"]},{\"answer\":\"Tagliatelle nero\",\"aliases\":[]},{\"answer\":\"Panzerotti\",\"aliases\":[\"Panzarotti\"]},{\"answer\":\"Pasta ripiena\",\"aliases\":[\"Stuffed pasta\"]},{\"answer\":\"Triangoli\",\"aliases\":[]},{\"answer\":\"Raviolini\",\"aliases\":[]},{\"answer\":\"Ravioloni\",\"aliases\":[]},{\"answer\":\"Plin\",\"aliases\":[\"Agnolotti del plin\"]},{\"answer\":\"Tortellacci\",\"aliases\":[]},{\"answer\":\"Rotolo\",\"aliases\":[\"Pasta roll\"]},{\"answer\":\"Lasagne al forno\",\"aliases\":[]},{\"answer\":\"Pasta fatta in casa\",\"aliases\":[]},{\"answer\":\"Cappelletti romagnoli\",\"aliases\":[]},{\"answer\":\"Passatelli\",\"aliases\":[]},{\"answer\":\"Garmugia\",\"aliases\":[]},{\"answer\":\"Pasta sfoglia\",\"aliases\":[]},{\"answer\":\"Gnudi\",\"aliases\":[]},{\"answer\":\"Canederli\",\"aliases\":[]},{\"answer\":\"Spaghetti alla carbonara\",\"aliases\":[]},{\"answer\":\"Spaghetti quadrati\",\"aliases\":[\"Square spaghetti\"]},{\"answer\":\"Tonnarelli\",\"aliases\":[\"Spaghetti alla chitarra\"]},{\"answer\":\"Fusilli bucati corti\",\"aliases\":[]},{\"answer\":\"Fusilli corti\",\"aliases\":[]},{\"answer\":\"Penne mezzane\",\"aliases\":[]},{\"answer\":\"Penne zita\",\"aliases\":[]},{\"answer\":\"Pasta tubes\",\"aliases\":[]},{\"answer\":\"Cavatelli ricci\",\"aliases\":[]},{\"answer\":\"Radiatori\",\"aliases\":[]},{\"answer\":\"Tortiglioni\",\"aliases\":[]},{\"answer\":\"Lumaconi\",\"aliases\":[]},{\"answer\":\"Pasta twists\",\"aliases\":[]},{\"answer\":\"Cencioni\",\"aliases\":[]},{\"answer\":\"Ferrazzuoli\",\"aliases\":[\"Fusilli avellinesi\"]},{\"answer\":\"Fusilli avellinesi\",\"aliases\":[]},{\"answer\":\"Laganelle\",\"aliases\":[]},{\"answer\":\"Lagane e ceci\",\"aliases\":[]},{\"answer\":\"Cicatelli\",\"aliases\":[]},{\"answer\":\"Cecamariti\",\"aliases\":[]},{\"answer\":\"Pappardelle al cinghiale\",\"aliases\":[]},{\"answer\":\"Tacconelle\",\"aliases\":[]},{\"answer\":\"Pici all'aglione\",\"aliases\":[]},{\"answer\":\"Orecchiette ricce\",\"aliases\":[]},{\"answer\":\"Minchiareddi\",\"aliases\":[\"Minchiareddhi\"]},{\"answer\":\"Sagne 'ncannulate\",\"aliases\":[\"Sagne incannulate\"]},{\"answer\":\"Manate\",\"aliases\":[]},{\"answer\":\"Bringoli\",\"aliases\":[]},{\"answer\":\"Cavatelli molisani\",\"aliases\":[]},{\"answer\":\"Gnocchi alla romana\",\"aliases\":[]},{\"answer\":\"Mischiata\",\"aliases\":[]},{\"answer\":\"Pasta Mista Napoletana\",\"aliases\":[]},{\"answer\":\"Tagliatelle all'uovo\",\"aliases\":[]},{\"answer\":\"Spaghetti integrali\",\"aliases\":[\"Whole wheat spaghetti\"]},{\"answer\":\"Gluten-free pasta\",\"aliases\":[]},{\"answer\":\"Ramen noodles\",\"aliases\":[]},{\"answer\":\"Lasagne\",\"aliases\":[]},{\"answer\":\"Fettuccine alfredo\",\"aliases\":[]},{\"answer\":\"Pasta primavera\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Rotelle",
+    "aliases": []
+   },
+   {
+    "answer": "Tagliatelle",
+    "aliases": []
+   },
+   {
+    "answer": "Spaghetti alla chitarra",
+    "aliases": [
+     "Chitarra"
+    ]
+   },
+   {
+    "answer": "Lasagnette",
+    "aliases": []
+   },
+   {
+    "answer": "Mafaldine",
+    "aliases": [
+     "Reginette"
+    ]
+   },
+   {
+    "answer": "Ruote",
+    "aliases": [
+     "Wagon wheels",
+     "Wheels"
+    ]
+   },
+   {
+    "answer": "Ditali",
+    "aliases": []
+   },
+   {
+    "answer": "Tubetti",
+    "aliases": []
+   },
+   {
+    "answer": "Mezzani",
+    "aliases": []
+   },
+   {
+    "answer": "Pennoni",
+    "aliases": []
+   },
+   {
+    "answer": "Penne rigate",
+    "aliases": []
+   },
+   {
+    "answer": "Pasta shells",
+    "aliases": [
+     "Shells",
+     "Small shells",
+     "Medium shells",
+     "Jumbo shells"
+    ]
+   },
+   {
+    "answer": "Bowtie",
+    "aliases": [
+     "Bow tie pasta",
+     "Bow ties"
+    ]
+   },
+   {
+    "answer": "Elbow macaroni",
+    "aliases": [
+     "Elbows"
+    ]
+   },
+   {
+    "answer": "Cappelletti",
+    "aliases": []
+   },
+   {
+    "answer": "Tortellini",
+    "aliases": []
+   },
+   {
+    "answer": "Ruote",
+    "aliases": []
+   },
+   {
+    "answer": "Gnocchetti sardi",
+    "aliases": [
+     "Malloreddus",
+     "Sardinian gnocchi"
+    ]
+   },
+   {
+    "answer": "Cavatelli",
+    "aliases": []
+   },
+   {
+    "answer": "Pasta mista",
+    "aliases": []
+   },
+   {
+    "answer": "Tagliatelle",
+    "aliases": []
+   },
+   {
+    "answer": "Stortini",
+    "aliases": []
+   },
+   {
+    "answer": "Fusilli napoletani",
+    "aliases": []
+   },
+   {
+    "answer": "Spaghetti rigati",
+    "aliases": []
+   },
+   {
+    "answer": "Spaghettoni",
+    "aliases": []
+   },
+   {
+    "answer": "Vermicelli",
+    "aliases": []
+   },
+   {
+    "answer": "Capellini",
+    "aliases": []
+   },
+   {
+    "answer": "Bucatini",
+    "aliases": []
+   },
+   {
+    "answer": "Perciatelli",
+    "aliases": [
+     "Bucatoni"
+    ]
+   },
+   {
+    "answer": "Tagliatelle",
+    "aliases": []
+   },
+   {
+    "answer": "Ciriole",
+    "aliases": []
+   },
+   {
+    "answer": "Pasta alla Norma",
+    "aliases": []
+   },
+   {
+    "answer": "Bigoli",
+    "aliases": []
+   },
+   {
+    "answer": "Fettuccelle",
+    "aliases": []
+   },
+   {
+    "answer": "Fusilli col buco",
+    "aliases": []
+   },
+   {
+    "answer": "Lasagne verdi",
+    "aliases": []
+   },
+   {
+    "answer": "Maccheroncini",
+    "aliases": []
+   },
+   {
+    "answer": "Mezzelune",
+    "aliases": []
+   },
+   {
+    "answer": "Nidi",
+    "aliases": [
+     "Nests",
+     "Pasta nest"
+    ]
+   },
+   {
+    "answer": "Occhi di lupo",
+    "aliases": []
+   },
+   {
+    "answer": "Orecchiette",
+    "aliases": []
+   },
+   {
+    "answer": "Pasta fresca",
+    "aliases": []
+   },
+   {
+    "answer": "Pizzoccheri",
+    "aliases": []
+   },
+   {
+    "answer": "Quadrucci",
+    "aliases": []
+   },
+   {
+    "answer": "Rosamarina",
+    "aliases": [
+     "Risoni"
+    ]
+   },
+   {
+    "answer": "Risoni",
+    "aliases": []
+   },
+   {
+    "answer": "Semi di melone",
+    "aliases": [
+     "Melon seeds"
+    ]
+   },
+   {
+    "answer": "Seme di mela",
+    "aliases": []
+   },
+   {
+    "answer": "Midolline",
+    "aliases": []
+   },
+   {
+    "answer": "Occhi di pernice",
+    "aliases": []
+   },
+   {
+    "answer": "Puntine",
+    "aliases": []
+   },
+   {
+    "answer": "Grattini",
+    "aliases": []
+   },
+   {
+    "answer": "Granetti",
+    "aliases": []
+   },
+   {
+    "answer": "Tubettini rigati",
+    "aliases": []
+   },
+   {
+    "answer": "Stelle",
+    "aliases": []
+   },
+   {
+    "answer": "Stellette",
+    "aliases": []
+   },
+   {
+    "answer": "Avemarie",
+    "aliases": []
+   },
+   {
+    "answer": "Corallini",
+    "aliases": []
+   },
+   {
+    "answer": "Conchigliette",
+    "aliases": []
+   },
+   {
+    "answer": "Farfalloni",
+    "aliases": []
+   },
+   {
+    "answer": "Cappelletti",
+    "aliases": []
+   },
+   {
+    "answer": "Crozets",
+    "aliases": [
+     "Crozet"
+    ]
+   },
+   {
+    "answer": "Croxetti",
+    "aliases": [
+     "Corzetti"
+    ]
+   },
+   {
+    "answer": "Troccoli",
+    "aliases": [
+     "Tronchetti"
+    ]
+   },
+   {
+    "answer": "Tagliolini",
+    "aliases": []
+   },
+   {
+    "answer": "Taglierini",
+    "aliases": []
+   },
+   {
+    "answer": "Sfoglia",
+    "aliases": []
+   },
+   {
+    "answer": "Sfoglierina",
+    "aliases": []
+   },
+   {
+    "answer": "Cannelle",
+    "aliases": []
+   },
+   {
+    "answer": "Cannolicchi",
+    "aliases": []
+   },
+   {
+    "answer": "Cannaroni",
+    "aliases": []
+   },
+   {
+    "answer": "Cavatappi",
+    "aliases": []
+   },
+   {
+    "answer": "Ricciolini",
+    "aliases": []
+   },
+   {
+    "answer": "Ricciutelle",
+    "aliases": []
+   },
+   {
+    "answer": "Ricciarelle",
+    "aliases": []
+   },
+   {
+    "answer": "Mezze zite",
+    "aliases": [
+     "Mezzi ziti"
+    ]
+   },
+   {
+    "answer": "Stringozzi",
+    "aliases": [
+     "Strangozzi",
+     "Strozzapreti umbri"
+    ]
+   },
+   {
+    "answer": "Tagliatelle al cacao",
+    "aliases": []
+   },
+   {
+    "answer": "Tortelli di zucca",
+    "aliases": [
+     "Pumpkin tortelli"
+    ]
+   },
+   {
+    "answer": "Sorrentine",
+    "aliases": []
+   },
+   {
+    "answer": "Spaghetti alla chitarra",
+    "aliases": []
+   },
+   {
+    "answer": "Maccheroni",
+    "aliases": [
+     "Maccaroni"
+    ]
+   },
+   {
+    "answer": "Maccheroncelli",
+    "aliases": []
+   },
+   {
+    "answer": "Cappellacci dei briganti",
+    "aliases": []
+   },
+   {
+    "answer": "Tortelli maremmani",
+    "aliases": []
+   },
+   {
+    "answer": "Ciufoli",
+    "aliases": []
+   },
+   {
+    "answer": "Fregula",
+    "aliases": [
+     "Fregola sarda"
+    ]
+   },
+   {
+    "answer": "Su filindeu",
+    "aliases": [
+     "Filindeu"
+    ]
+   },
+   {
+    "answer": "Pillus",
+    "aliases": []
+   },
+   {
+    "answer": "Sa Fregula",
+    "aliases": []
+   },
+   {
+    "answer": "Cordula",
+    "aliases": []
+   },
+   {
+    "answer": "Pastina stars",
+    "aliases": []
+   },
+   {
+    "answer": "Squid ink pasta",
+    "aliases": [
+     "Nero di seppia"
+    ]
+   },
+   {
+    "answer": "Tagliatelle nero",
+    "aliases": []
+   },
+   {
+    "answer": "Panzerotti",
+    "aliases": [
+     "Panzarotti"
+    ]
+   },
+   {
+    "answer": "Pasta ripiena",
+    "aliases": [
+     "Stuffed pasta"
+    ]
+   },
+   {
+    "answer": "Triangoli",
+    "aliases": []
+   },
+   {
+    "answer": "Raviolini",
+    "aliases": []
+   },
+   {
+    "answer": "Ravioloni",
+    "aliases": []
+   },
+   {
+    "answer": "Plin",
+    "aliases": [
+     "Agnolotti del plin"
+    ]
+   },
+   {
+    "answer": "Tortellacci",
+    "aliases": []
+   },
+   {
+    "answer": "Rotolo",
+    "aliases": [
+     "Pasta roll"
+    ]
+   },
+   {
+    "answer": "Lasagne al forno",
+    "aliases": []
+   },
+   {
+    "answer": "Pasta fatta in casa",
+    "aliases": []
+   },
+   {
+    "answer": "Cappelletti romagnoli",
+    "aliases": []
+   },
+   {
+    "answer": "Passatelli",
+    "aliases": []
+   },
+   {
+    "answer": "Garmugia",
+    "aliases": []
+   },
+   {
+    "answer": "Pasta sfoglia",
+    "aliases": []
+   },
+   {
+    "answer": "Gnudi",
+    "aliases": []
+   },
+   {
+    "answer": "Canederli",
+    "aliases": []
+   },
+   {
+    "answer": "Spaghetti alla carbonara",
+    "aliases": []
+   },
+   {
+    "answer": "Spaghetti quadrati",
+    "aliases": [
+     "Square spaghetti"
+    ]
+   },
+   {
+    "answer": "Tonnarelli",
+    "aliases": [
+     "Spaghetti alla chitarra"
+    ]
+   },
+   {
+    "answer": "Fusilli bucati corti",
+    "aliases": []
+   },
+   {
+    "answer": "Fusilli corti",
+    "aliases": []
+   },
+   {
+    "answer": "Penne mezzane",
+    "aliases": []
+   },
+   {
+    "answer": "Penne zita",
+    "aliases": []
+   },
+   {
+    "answer": "Pasta tubes",
+    "aliases": []
+   },
+   {
+    "answer": "Cavatelli ricci",
+    "aliases": []
+   },
+   {
+    "answer": "Radiatori",
+    "aliases": []
+   },
+   {
+    "answer": "Tortiglioni",
+    "aliases": []
+   },
+   {
+    "answer": "Lumaconi",
+    "aliases": []
+   },
+   {
+    "answer": "Pasta twists",
+    "aliases": []
+   },
+   {
+    "answer": "Cencioni",
+    "aliases": []
+   },
+   {
+    "answer": "Ferrazzuoli",
+    "aliases": [
+     "Fusilli avellinesi"
+    ]
+   },
+   {
+    "answer": "Fusilli avellinesi",
+    "aliases": []
+   },
+   {
+    "answer": "Laganelle",
+    "aliases": []
+   },
+   {
+    "answer": "Lagane e ceci",
+    "aliases": []
+   },
+   {
+    "answer": "Cicatelli",
+    "aliases": []
+   },
+   {
+    "answer": "Cecamariti",
+    "aliases": []
+   },
+   {
+    "answer": "Pappardelle al cinghiale",
+    "aliases": []
+   },
+   {
+    "answer": "Tacconelle",
+    "aliases": []
+   },
+   {
+    "answer": "Pici all'aglione",
+    "aliases": []
+   },
+   {
+    "answer": "Orecchiette ricce",
+    "aliases": []
+   },
+   {
+    "answer": "Minchiareddi",
+    "aliases": [
+     "Minchiareddhi"
+    ]
+   },
+   {
+    "answer": "Sagne 'ncannulate",
+    "aliases": [
+     "Sagne incannulate"
+    ]
+   },
+   {
+    "answer": "Manate",
+    "aliases": []
+   },
+   {
+    "answer": "Bringoli",
+    "aliases": []
+   },
+   {
+    "answer": "Cavatelli molisani",
+    "aliases": []
+   },
+   {
+    "answer": "Gnocchi alla romana",
+    "aliases": []
+   },
+   {
+    "answer": "Mischiata",
+    "aliases": []
+   },
+   {
+    "answer": "Pasta Mista Napoletana",
+    "aliases": []
+   },
+   {
+    "answer": "Tagliatelle all'uovo",
+    "aliases": []
+   },
+   {
+    "answer": "Spaghetti integrali",
+    "aliases": [
+     "Whole wheat spaghetti"
+    ]
+   },
+   {
+    "answer": "Gluten-free pasta",
+    "aliases": []
+   },
+   {
+    "answer": "Ramen noodles",
+    "aliases": []
+   },
+   {
+    "answer": "Lasagne",
+    "aliases": []
+   },
+   {
+    "answer": "Fettuccine alfredo",
+    "aliases": []
+   },
+   {
+    "answer": "Pasta primavera",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 23587,
+ "type": "result",
+ "duration_ms": 23629,
+ "uuid": "161d74df-de4d-486d-a764-981ec282c07f",
+ "ttft_stream_ms": 1103,
+ "time_to_request_ms": 32,
+ "first_content_frame_ms": 1104,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

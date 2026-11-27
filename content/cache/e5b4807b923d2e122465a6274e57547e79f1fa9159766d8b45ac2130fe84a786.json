@@ -1,0 +1,324 @@
+{
+ "duration_api_ms": 7365,
+ "stop_reason": "tool_use",
+ "session_id": "66138d91-c8d5-4a88-8bf0-d9b386784750",
+ "total_cost_usd": 0.036406,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6417,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 1061,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6417,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1061,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 6417,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6417
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1061,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 6417,
+   "webSearchRequests": 0,
+   "costUSD": 0.036406,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Iraq\",\"aliases\":[]},{\"answer\":\"Iraqi\",\"aliases\":[]},{\"answer\":\"Qatar\",\"aliases\":[]},{\"answer\":\"Qatari\",\"aliases\":[]},{\"answer\":\"Qantas\",\"aliases\":[]},{\"answer\":\"Qi\",\"aliases\":[]},{\"answer\":\"Qin\",\"aliases\":[]},{\"answer\":\"Qadi\",\"aliases\":[]},{\"answer\":\"Qaid\",\"aliases\":[]},{\"answer\":\"Qanat\",\"aliases\":[]},{\"answer\":\"Qat\",\"aliases\":[]},{\"answer\":\"Qibla\",\"aliases\":[]},{\"answer\":\"Qigong\",\"aliases\":[\"Qi Gong\",\"Chi Kung\"]},{\"answer\":\"Qindar\",\"aliases\":[]},{\"answer\":\"Qintar\",\"aliases\":[]},{\"answer\":\"Qoph\",\"aliases\":[]},{\"answer\":\"Qwerty\",\"aliases\":[\"QWERTY\"]},{\"answer\":\"Qorma\",\"aliases\":[]},{\"answer\":\"Qasida\",\"aliases\":[]},{\"answer\":\"Qawwali\",\"aliases\":[]},{\"answer\":\"Qiviut\",\"aliases\":[]},{\"answer\":\"Qajar\",\"aliases\":[]},{\"answer\":\"Qabalah\",\"aliases\":[\"Kabbalah\"]},{\"answer\":\"Qalam\",\"aliases\":[]},{\"answer\":\"Qasr\",\"aliases\":[]},{\"answer\":\"Qubit\",\"aliases\":[]},{\"answer\":\"Qur'an\",\"aliases\":[\"Quran\",\"Koran\"]},{\"answer\":\"Qwghlm\",\"aliases\":[]},{\"answer\":\"Tranq\",\"aliases\":[]},{\"answer\":\"Burqa\",\"aliases\":[\"Burka\"]},{\"answer\":\"Niqab\",\"aliases\":[]},{\"answer\":\"Suq\",\"aliases\":[]},{\"answer\":\"Tariq\",\"aliases\":[]},{\"answer\":\"Faqir\",\"aliases\":[\"Fakir\"]},{\"answer\":\"Mosque\",\"aliases\":[]},{\"answer\":\"Sheqel\",\"aliases\":[]},{\"answer\":\"Shekel\",\"aliases\":[]},{\"answer\":\"Tsunami\",\"aliases\":[]},{\"answer\":\"Umiaq\",\"aliases\":[]},{\"answer\":\"Inuktitut Qamutik\",\"aliases\":[]},{\"answer\":\"Qamutik\",\"aliases\":[]},{\"answer\":\"Qaanaaq\",\"aliases\":[]},{\"answer\":\"Nunavut Iqaluit\",\"aliases\":[]},{\"answer\":\"Iqaluit\",\"aliases\":[]},{\"answer\":\"Qingdao\",\"aliases\":[\"Tsingtao\"]},{\"answer\":\"Qinghai\",\"aliases\":[]},{\"answer\":\"Qom\",\"aliases\":[\"Qum\"]},{\"answer\":\"Qatar Airways\",\"aliases\":[]},{\"answer\":\"Qiana\",\"aliases\":[]},{\"answer\":\"Qaraqalpaq\",\"aliases\":[]},{\"answer\":\"Quran\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Iraq",
+    "aliases": []
+   },
+   {
+    "answer": "Iraqi",
+    "aliases": []
+   },
+   {
+    "answer": "Qatar",
+    "aliases": []
+   },
+   {
+    "answer": "Qatari",
+    "aliases": []
+   },
+   {
+    "answer": "Qantas",
+    "aliases": []
+   },
+   {
+    "answer": "Qi",
+    "aliases": []
+   },
+   {
+    "answer": "Qin",
+    "aliases": []
+   },
+   {
+    "answer": "Qadi",
+    "aliases": []
+   },
+   {
+    "answer": "Qaid",
+    "aliases": []
+   },
+   {
+    "answer": "Qanat",
+    "aliases": []
+   },
+   {
+    "answer": "Qat",
+    "aliases": []
+   },
+   {
+    "answer": "Qibla",
+    "aliases": []
+   },
+   {
+    "answer": "Qigong",
+    "aliases": [
+     "Qi Gong",
+     "Chi Kung"
+    ]
+   },
+   {
+    "answer": "Qindar",
+    "aliases": []
+   },
+   {
+    "answer": "Qintar",
+    "aliases": []
+   },
+   {
+    "answer": "Qoph",
+    "aliases": []
+   },
+   {
+    "answer": "Qwerty",
+    "aliases": [
+     "QWERTY"
+    ]
+   },
+   {
+    "answer": "Qorma",
+    "aliases": []
+   },
+   {
+    "answer": "Qasida",
+    "aliases": []
+   },
+   {
+    "answer": "Qawwali",
+    "aliases": []
+   },
+   {
+    "answer": "Qiviut",
+    "aliases": []
+   },
+   {
+    "answer": "Qajar",
+    "aliases": []
+   },
+   {
+    "answer": "Qabalah",
+    "aliases": [
+     "Kabbalah"
+    ]
+   },
+   {
+    "answer": "Qalam",
+    "aliases": []
+   },
+   {
+    "answer": "Qasr",
+    "aliases": []
+   },
+   {
+    "answer": "Qubit",
+    "aliases": []
+   },
+   {
+    "answer": "Qur'an",
+    "aliases": [
+     "Quran",
+     "Koran"
+    ]
+   },
+   {
+    "answer": "Qwghlm",
+    "aliases": []
+   },
+   {
+    "answer": "Tranq",
+    "aliases": []
+   },
+   {
+    "answer": "Burqa",
+    "aliases": [
+     "Burka"
+    ]
+   },
+   {
+    "answer": "Niqab",
+    "aliases": []
+   },
+   {
+    "answer": "Suq",
+    "aliases": []
+   },
+   {
+    "answer": "Tariq",
+    "aliases": []
+   },
+   {
+    "answer": "Faqir",
+    "aliases": [
+     "Fakir"
+    ]
+   },
+   {
+    "answer": "Mosque",
+    "aliases": []
+   },
+   {
+    "answer": "Sheqel",
+    "aliases": []
+   },
+   {
+    "answer": "Shekel",
+    "aliases": []
+   },
+   {
+    "answer": "Tsunami",
+    "aliases": []
+   },
+   {
+    "answer": "Umiaq",
+    "aliases": []
+   },
+   {
+    "answer": "Inuktitut Qamutik",
+    "aliases": []
+   },
+   {
+    "answer": "Qamutik",
+    "aliases": []
+   },
+   {
+    "answer": "Qaanaaq",
+    "aliases": []
+   },
+   {
+    "answer": "Nunavut Iqaluit",
+    "aliases": []
+   },
+   {
+    "answer": "Iqaluit",
+    "aliases": []
+   },
+   {
+    "answer": "Qingdao",
+    "aliases": [
+     "Tsingtao"
+    ]
+   },
+   {
+    "answer": "Qinghai",
+    "aliases": []
+   },
+   {
+    "answer": "Qom",
+    "aliases": [
+     "Qum"
+    ]
+   },
+   {
+    "answer": "Qatar Airways",
+    "aliases": []
+   },
+   {
+    "answer": "Qiana",
+    "aliases": []
+   },
+   {
+    "answer": "Qaraqalpaq",
+    "aliases": []
+   },
+   {
+    "answer": "Quran",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 7375,
+ "type": "result",
+ "duration_ms": 7417,
+ "uuid": "676e2896-ab9e-4f80-9c8c-c0f8a7d1fd66",
+ "ttft_stream_ms": 861,
+ "time_to_request_ms": 29,
+ "first_content_frame_ms": 861,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

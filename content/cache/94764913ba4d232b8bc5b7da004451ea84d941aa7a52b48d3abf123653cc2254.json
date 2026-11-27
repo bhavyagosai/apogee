@@ -1,0 +1,218 @@
+{
+ "duration_api_ms": 13939,
+ "stop_reason": "tool_use",
+ "session_id": "d8908b11-382f-4353-9ce8-06da4b4c6b47",
+ "total_cost_usd": 0.0600516,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 10124,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 1943,
+  "output_tokens_details": {
+   "thinking_tokens": 1006
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10124,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1943,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 10124,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10124
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1943,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 10124,
+   "webSearchRequests": 0,
+   "costUSD": 0.0600516,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 1006,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Tape\",\"reason\":\"Generic category, not a specific item\"},{\"answer\":\"Toolbox\",\"reason\":\"The container itself, not something found in it\"},{\"answer\":\"Tool belt\",\"reason\":\"Worn on the body, not stored in a toolbox\"},{\"answer\":\"Tool bag\",\"reason\":\"Alternative container, not an item inside a toolbox\"},{\"answer\":\"Sawhorse\",\"reason\":\"Too large to fit in a toolbox\"},{\"answer\":\"Knee pads\",\"reason\":\"Safety gear, not a typical toolbox item\"},{\"answer\":\"Bandages\",\"reason\":\"First-aid item, not a toolbox item\"},{\"answer\":\"Coins\",\"reason\":\"Not a tool or toolbox item\"},{\"answer\":\"Spare keys\",\"reason\":\"Not a tool or toolbox item\"},{\"answer\":\"Shovel\",\"reason\":\"Too large, a garden/yard tool\"},{\"answer\":\"Axe\",\"reason\":\"Too large for a toolbox\"},{\"answer\":\"Machete\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Pruning shears\",\"reason\":\"Garden tool, not a toolbox item\"},{\"answer\":\"Fishing line\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Dust pan\",\"reason\":\"Cleaning item, not a toolbox item\"},{\"answer\":\"Shop vac\",\"reason\":\"Too large to fit in a toolbox\"},{\"answer\":\"Wheel chocks\",\"reason\":\"Vehicle safety item, not a toolbox item\"},{\"answer\":\"Hard hat\",\"reason\":\"Too bulky, not stored in a toolbox\"},{\"answer\":\"Face shield\",\"reason\":\"Too bulky, not stored in a toolbox\"},{\"answer\":\"Welding gloves\",\"reason\":\"Specialty gear, not a toolbox item\"},{\"answer\":\"Miter saw\",\"reason\":\"Large stationary power tool, won't fit in a toolbox\"},{\"answer\":\"Plunger\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Oil filter\",\"reason\":\"A car part, not a tool\"},{\"answer\":\"Tape square\",\"reason\":\"Not a real tool\"},{\"answer\":\"Tape knife\",\"reason\":\"Not a real tool (taping knife is a separate entry)\"},{\"answer\":\"Yardstick\",\"reason\":\"Too long to fit in a toolbox\"},{\"answer\":\"Measuring wheel\",\"reason\":\"Too large for a toolbox\"},{\"answer\":\"Tile cutter\",\"reason\":\"Large tool, won't fit in a toolbox\"},{\"answer\":\"Shovel\",\"reason\":\"Duplicate flag: a yard tool, not a toolbox item\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Tape",
+    "reason": "Generic category, not a specific item"
+   },
+   {
+    "answer": "Toolbox",
+    "reason": "The container itself, not something found in it"
+   },
+   {
+    "answer": "Tool belt",
+    "reason": "Worn on the body, not stored in a toolbox"
+   },
+   {
+    "answer": "Tool bag",
+    "reason": "Alternative container, not an item inside a toolbox"
+   },
+   {
+    "answer": "Sawhorse",
+    "reason": "Too large to fit in a toolbox"
+   },
+   {
+    "answer": "Knee pads",
+    "reason": "Safety gear, not a typical toolbox item"
+   },
+   {
+    "answer": "Bandages",
+    "reason": "First-aid item, not a toolbox item"
+   },
+   {
+    "answer": "Coins",
+    "reason": "Not a tool or toolbox item"
+   },
+   {
+    "answer": "Spare keys",
+    "reason": "Not a tool or toolbox item"
+   },
+   {
+    "answer": "Shovel",
+    "reason": "Too large, a garden/yard tool"
+   },
+   {
+    "answer": "Axe",
+    "reason": "Too large for a toolbox"
+   },
+   {
+    "answer": "Machete",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Pruning shears",
+    "reason": "Garden tool, not a toolbox item"
+   },
+   {
+    "answer": "Fishing line",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Dust pan",
+    "reason": "Cleaning item, not a toolbox item"
+   },
+   {
+    "answer": "Shop vac",
+    "reason": "Too large to fit in a toolbox"
+   },
+   {
+    "answer": "Wheel chocks",
+    "reason": "Vehicle safety item, not a toolbox item"
+   },
+   {
+    "answer": "Hard hat",
+    "reason": "Too bulky, not stored in a toolbox"
+   },
+   {
+    "answer": "Face shield",
+    "reason": "Too bulky, not stored in a toolbox"
+   },
+   {
+    "answer": "Welding gloves",
+    "reason": "Specialty gear, not a toolbox item"
+   },
+   {
+    "answer": "Miter saw",
+    "reason": "Large stationary power tool, won't fit in a toolbox"
+   },
+   {
+    "answer": "Plunger",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Oil filter",
+    "reason": "A car part, not a tool"
+   },
+   {
+    "answer": "Tape square",
+    "reason": "Not a real tool"
+   },
+   {
+    "answer": "Tape knife",
+    "reason": "Not a real tool (taping knife is a separate entry)"
+   },
+   {
+    "answer": "Yardstick",
+    "reason": "Too long to fit in a toolbox"
+   },
+   {
+    "answer": "Measuring wheel",
+    "reason": "Too large for a toolbox"
+   },
+   {
+    "answer": "Tile cutter",
+    "reason": "Large tool, won't fit in a toolbox"
+   },
+   {
+    "answer": "Shovel",
+    "reason": "Duplicate flag: a yard tool, not a toolbox item"
+   }
+  ]
+ },
+ "ttft_ms": 9110,
+ "type": "result",
+ "duration_ms": 13991,
+ "uuid": "e8cfee3a-20af-45fe-a603-367ae7e85494",
+ "ttft_stream_ms": 1935,
+ "time_to_request_ms": 31,
+ "first_content_frame_ms": 1936,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

@@ -1,0 +1,714 @@
+{
+ "duration_api_ms": 15524,
+ "stop_reason": "tool_use",
+ "session_id": "6042e132-78e7-44df-8327-88a88532344e",
+ "total_cost_usd": 0.055518,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6410,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 2975,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6410,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2975,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 6410,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6410
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2975,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 6410,
+   "webSearchRequests": 0,
+   "costUSD": 0.055518,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"London\",\"aliases\":[]},{\"answer\":\"Paris\",\"aliases\":[]},{\"answer\":\"Tokyo\",\"aliases\":[]},{\"answer\":\"Lisbon\",\"aliases\":[\"Lisboa\"]},{\"answer\":\"Dublin\",\"aliases\":[]},{\"answer\":\"Copenhagen\",\"aliases\":[\"København\"]},{\"answer\":\"Stockholm\",\"aliases\":[]},{\"answer\":\"Oslo\",\"aliases\":[]},{\"answer\":\"Helsinki\",\"aliases\":[]},{\"answer\":\"Tallinn\",\"aliases\":[]},{\"answer\":\"Riga\",\"aliases\":[]},{\"answer\":\"Athens\",\"aliases\":[\"Athina\"]},{\"answer\":\"Rome\",\"aliases\":[\"Roma\"]},{\"answer\":\"Valletta\",\"aliases\":[]},{\"answer\":\"Tirana\",\"aliases\":[]},{\"answer\":\"Podgorica\",\"aliases\":[]},{\"answer\":\"Reykjavik\",\"aliases\":[\"Reykjavík\"]},{\"answer\":\"Washington, D.C.\",\"aliases\":[\"Washington DC\",\"Washington\"]},{\"answer\":\"Havana\",\"aliases\":[\"La Habana\"]},{\"answer\":\"Kingston\",\"aliases\":[]},{\"answer\":\"Santo Domingo\",\"aliases\":[]},{\"answer\":\"Port-au-Prince\",\"aliases\":[\"Port au Prince\"]},{\"answer\":\"Nassau\",\"aliases\":[]},{\"answer\":\"Bridgetown\",\"aliases\":[]},{\"answer\":\"Castries\",\"aliases\":[]},{\"answer\":\"Kingstown\",\"aliases\":[]},{\"answer\":\"St. George's\",\"aliases\":[\"Saint George's\",\"St Georges\"]},{\"answer\":\"Roseau\",\"aliases\":[]},{\"answer\":\"Basseterre\",\"aliases\":[]},{\"answer\":\"Port of Spain\",\"aliases\":[\"Port-of-Spain\"]},{\"answer\":\"Belize City\",\"aliases\":[]},{\"answer\":\"Panama City\",\"aliases\":[\"Ciudad de Panamá\"]},{\"answer\":\"San Juan\",\"aliases\":[]},{\"answer\":\"Montevideo\",\"aliases\":[]},{\"answer\":\"Buenos Aires\",\"aliases\":[]},{\"answer\":\"Lima\",\"aliases\":[]},{\"answer\":\"Santiago\",\"aliases\":[]},{\"answer\":\"Caracas\",\"aliases\":[]},{\"answer\":\"Georgetown\",\"aliases\":[]},{\"answer\":\"Paramaribo\",\"aliases\":[]},{\"answer\":\"Cayenne\",\"aliases\":[]},{\"answer\":\"Brasília\",\"aliases\":[]},{\"answer\":\"Dakar\",\"aliases\":[]},{\"answer\":\"Banjul\",\"aliases\":[]},{\"answer\":\"Bissau\",\"aliases\":[]},{\"answer\":\"Conakry\",\"aliases\":[]},{\"answer\":\"Freetown\",\"aliases\":[]},{\"answer\":\"Monrovia\",\"aliases\":[]},{\"answer\":\"Accra\",\"aliases\":[]},{\"answer\":\"Lomé\",\"aliases\":[\"Lome\"]},{\"answer\":\"Porto-Novo\",\"aliases\":[\"Porto Novo\"]},{\"answer\":\"Libreville\",\"aliases\":[]},{\"answer\":\"Luanda\",\"aliases\":[]},{\"answer\":\"Maputo\",\"aliases\":[]},{\"answer\":\"Dar es Salaam\",\"aliases\":[]},{\"answer\":\"Mogadishu\",\"aliases\":[\"Muqdisho\"]},{\"answer\":\"Djibouti\",\"aliases\":[\"Djibouti City\"]},{\"answer\":\"Moroni\",\"aliases\":[]},{\"answer\":\"Port Louis\",\"aliases\":[]},{\"answer\":\"Victoria\",\"aliases\":[]},{\"answer\":\"Rabat\",\"aliases\":[]},{\"answer\":\"Algiers\",\"aliases\":[\"Alger\"]},{\"answer\":\"Tunis\",\"aliases\":[]},{\"answer\":\"Tripoli\",\"aliases\":[]},{\"answer\":\"Cairo\",\"aliases\":[]},{\"answer\":\"Nouakchott\",\"aliases\":[]},{\"answer\":\"Asmara\",\"aliases\":[]},{\"answer\":\"Malabo\",\"aliases\":[]},{\"answer\":\"São Tomé\",\"aliases\":[\"Sao Tome\"]},{\"answer\":\"Praia\",\"aliases\":[]},{\"answer\":\"Abidjan\",\"aliases\":[]},{\"answer\":\"Beirut\",\"aliases\":[]},{\"answer\":\"Tel Aviv\",\"aliases\":[]},{\"answer\":\"Manama\",\"aliases\":[]},{\"answer\":\"Doha\",\"aliases\":[]},{\"answer\":\"Kuwait City\",\"aliases\":[]},{\"answer\":\"Abu Dhabi\",\"aliases\":[]},{\"answer\":\"Muscat\",\"aliases\":[]},{\"answer\":\"Baku\",\"aliases\":[]},{\"answer\":\"Colombo\",\"aliases\":[]},{\"answer\":\"Sri Jayawardenepura Kotte\",\"aliases\":[\"Kotte\"]},{\"answer\":\"Malé\",\"aliases\":[\"Male\"]},{\"answer\":\"Dhaka\",\"aliases\":[]},{\"answer\":\"Jakarta\",\"aliases\":[]},{\"answer\":\"Manila\",\"aliases\":[]},{\"answer\":\"Bandar Seri Begawan\",\"aliases\":[]},{\"answer\":\"Dili\",\"aliases\":[]},{\"answer\":\"Singapore\",\"aliases\":[]},{\"answer\":\"Hanoi\",\"aliases\":[]},{\"answer\":\"Phnom Penh\",\"aliases\":[]},{\"answer\":\"Bangkok\",\"aliases\":[]},{\"answer\":\"Seoul\",\"aliases\":[]},{\"answer\":\"Pyongyang\",\"aliases\":[]},{\"answer\":\"Wellington\",\"aliases\":[]},{\"answer\":\"Canberra\",\"aliases\":[]},{\"answer\":\"Port Moresby\",\"aliases\":[]},{\"answer\":\"Honiara\",\"aliases\":[]},{\"answer\":\"Port Vila\",\"aliases\":[]},{\"answer\":\"Suva\",\"aliases\":[]},{\"answer\":\"Apia\",\"aliases\":[]},{\"answer\":\"Nuku'alofa\",\"aliases\":[\"Nukualofa\"]},{\"answer\":\"Tarawa\",\"aliases\":[\"South Tarawa\"]},{\"answer\":\"Majuro\",\"aliases\":[]},{\"answer\":\"Funafuti\",\"aliases\":[]},{\"answer\":\"Palikir\",\"aliases\":[]},{\"answer\":\"Ngerulmud\",\"aliases\":[]},{\"answer\":\"Yaren\",\"aliases\":[]},{\"answer\":\"Amsterdam\",\"aliases\":[]},{\"answer\":\"Zagreb\",\"aliases\":[]},{\"answer\":\"Ljubljana\",\"aliases\":[]},{\"answer\":\"Edinburgh\",\"aliases\":[]},{\"answer\":\"Cardiff\",\"aliases\":[]},{\"answer\":\"Belfast\",\"aliases\":[]},{\"answer\":\"Monaco\",\"aliases\":[]},{\"answer\":\"Nicosia\",\"aliases\":[]},{\"answer\":\"Ankara\",\"aliases\":[]},{\"answer\":\"Berlin\",\"aliases\":[]},{\"answer\":\"Warsaw\",\"aliases\":[]},{\"answer\":\"Vilnius\",\"aliases\":[]},{\"answer\":\"Kyiv\",\"aliases\":[\"Kiev\"]},{\"answer\":\"Moscow\",\"aliases\":[]},{\"answer\":\"Brussels\",\"aliases\":[]},{\"answer\":\"Madrid\",\"aliases\":[]},{\"answer\":\"Sukhumi\",\"aliases\":[]},{\"answer\":\"Sri Lanka\",\"aliases\":[]},{\"answer\":\"Mumbai\",\"aliases\":[]},{\"answer\":\"Nouméa\",\"aliases\":[\"Noumea\"]},{\"answer\":\"Papeete\",\"aliases\":[]},{\"answer\":\"Hamilton\",\"aliases\":[]},{\"answer\":\"George Town\",\"aliases\":[\"Georgetown\"]},{\"answer\":\"Charlotte Amalie\",\"aliases\":[]},{\"answer\":\"Willemstad\",\"aliases\":[]},{\"answer\":\"Oranjestad\",\"aliases\":[]},{\"answer\":\"Gibraltar\",\"aliases\":[]},{\"answer\":\"Tórshavn\",\"aliases\":[\"Torshavn\"]},{\"answer\":\"Nuuk\",\"aliases\":[]},{\"answer\":\"Stanley\",\"aliases\":[\"Port Stanley\"]},{\"answer\":\"Hong Kong\",\"aliases\":[]},{\"answer\":\"Macau\",\"aliases\":[\"Macao\"]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "London",
+    "aliases": []
+   },
+   {
+    "answer": "Paris",
+    "aliases": []
+   },
+   {
+    "answer": "Tokyo",
+    "aliases": []
+   },
+   {
+    "answer": "Lisbon",
+    "aliases": [
+     "Lisboa"
+    ]
+   },
+   {
+    "answer": "Dublin",
+    "aliases": []
+   },
+   {
+    "answer": "Copenhagen",
+    "aliases": [
+     "København"
+    ]
+   },
+   {
+    "answer": "Stockholm",
+    "aliases": []
+   },
+   {
+    "answer": "Oslo",
+    "aliases": []
+   },
+   {
+    "answer": "Helsinki",
+    "aliases": []
+   },
+   {
+    "answer": "Tallinn",
+    "aliases": []
+   },
+   {
+    "answer": "Riga",
+    "aliases": []
+   },
+   {
+    "answer": "Athens",
+    "aliases": [
+     "Athina"
+    ]
+   },
+   {
+    "answer": "Rome",
+    "aliases": [
+     "Roma"
+    ]
+   },
+   {
+    "answer": "Valletta",
+    "aliases": []
+   },
+   {
+    "answer": "Tirana",
+    "aliases": []
+   },
+   {
+    "answer": "Podgorica",
+    "aliases": []
+   },
+   {
+    "answer": "Reykjavik",
+    "aliases": [
+     "Reykjavík"
+    ]
+   },
+   {
+    "answer": "Washington, D.C.",
+    "aliases": [
+     "Washington DC",
+     "Washington"
+    ]
+   },
+   {
+    "answer": "Havana",
+    "aliases": [
+     "La Habana"
+    ]
+   },
+   {
+    "answer": "Kingston",
+    "aliases": []
+   },
+   {
+    "answer": "Santo Domingo",
+    "aliases": []
+   },
+   {
+    "answer": "Port-au-Prince",
+    "aliases": [
+     "Port au Prince"
+    ]
+   },
+   {
+    "answer": "Nassau",
+    "aliases": []
+   },
+   {
+    "answer": "Bridgetown",
+    "aliases": []
+   },
+   {
+    "answer": "Castries",
+    "aliases": []
+   },
+   {
+    "answer": "Kingstown",
+    "aliases": []
+   },
+   {
+    "answer": "St. George's",
+    "aliases": [
+     "Saint George's",
+     "St Georges"
+    ]
+   },
+   {
+    "answer": "Roseau",
+    "aliases": []
+   },
+   {
+    "answer": "Basseterre",
+    "aliases": []
+   },
+   {
+    "answer": "Port of Spain",
+    "aliases": [
+     "Port-of-Spain"
+    ]
+   },
+   {
+    "answer": "Belize City",
+    "aliases": []
+   },
+   {
+    "answer": "Panama City",
+    "aliases": [
+     "Ciudad de Panamá"
+    ]
+   },
+   {
+    "answer": "San Juan",
+    "aliases": []
+   },
+   {
+    "answer": "Montevideo",
+    "aliases": []
+   },
+   {
+    "answer": "Buenos Aires",
+    "aliases": []
+   },
+   {
+    "answer": "Lima",
+    "aliases": []
+   },
+   {
+    "answer": "Santiago",
+    "aliases": []
+   },
+   {
+    "answer": "Caracas",
+    "aliases": []
+   },
+   {
+    "answer": "Georgetown",
+    "aliases": []
+   },
+   {
+    "answer": "Paramaribo",
+    "aliases": []
+   },
+   {
+    "answer": "Cayenne",
+    "aliases": []
+   },
+   {
+    "answer": "Brasília",
+    "aliases": []
+   },
+   {
+    "answer": "Dakar",
+    "aliases": []
+   },
+   {
+    "answer": "Banjul",
+    "aliases": []
+   },
+   {
+    "answer": "Bissau",
+    "aliases": []
+   },
+   {
+    "answer": "Conakry",
+    "aliases": []
+   },
+   {
+    "answer": "Freetown",
+    "aliases": []
+   },
+   {
+    "answer": "Monrovia",
+    "aliases": []
+   },
+   {
+    "answer": "Accra",
+    "aliases": []
+   },
+   {
+    "answer": "Lomé",
+    "aliases": [
+     "Lome"
+    ]
+   },
+   {
+    "answer": "Porto-Novo",
+    "aliases": [
+     "Porto Novo"
+    ]
+   },
+   {
+    "answer": "Libreville",
+    "aliases": []
+   },
+   {
+    "answer": "Luanda",
+    "aliases": []
+   },
+   {
+    "answer": "Maputo",
+    "aliases": []
+   },
+   {
+    "answer": "Dar es Salaam",
+    "aliases": []
+   },
+   {
+    "answer": "Mogadishu",
+    "aliases": [
+     "Muqdisho"
+    ]
+   },
+   {
+    "answer": "Djibouti",
+    "aliases": [
+     "Djibouti City"
+    ]
+   },
+   {
+    "answer": "Moroni",
+    "aliases": []
+   },
+   {
+    "answer": "Port Louis",
+    "aliases": []
+   },
+   {
+    "answer": "Victoria",
+    "aliases": []
+   },
+   {
+    "answer": "Rabat",
+    "aliases": []
+   },
+   {
+    "answer": "Algiers",
+    "aliases": [
+     "Alger"
+    ]
+   },
+   {
+    "answer": "Tunis",
+    "aliases": []
+   },
+   {
+    "answer": "Tripoli",
+    "aliases": []
+   },
+   {
+    "answer": "Cairo",
+    "aliases": []
+   },
+   {
+    "answer": "Nouakchott",
+    "aliases": []
+   },
+   {
+    "answer": "Asmara",
+    "aliases": []
+   },
+   {
+    "answer": "Malabo",
+    "aliases": []
+   },
+   {
+    "answer": "São Tomé",
+    "aliases": [
+     "Sao Tome"
+    ]
+   },
+   {
+    "answer": "Praia",
+    "aliases": []
+   },
+   {
+    "answer": "Abidjan",
+    "aliases": []
+   },
+   {
+    "answer": "Beirut",
+    "aliases": []
+   },
+   {
+    "answer": "Tel Aviv",
+    "aliases": []
+   },
+   {
+    "answer": "Manama",
+    "aliases": []
+   },
+   {
+    "answer": "Doha",
+    "aliases": []
+   },
+   {
+    "answer": "Kuwait City",
+    "aliases": []
+   },
+   {
+    "answer": "Abu Dhabi",
+    "aliases": []
+   },
+   {
+    "answer": "Muscat",
+    "aliases": []
+   },
+   {
+    "answer": "Baku",
+    "aliases": []
+   },
+   {
+    "answer": "Colombo",
+    "aliases": []
+   },
+   {
+    "answer": "Sri Jayawardenepura Kotte",
+    "aliases": [
+     "Kotte"
+    ]
+   },
+   {
+    "answer": "Malé",
+    "aliases": [
+     "Male"
+    ]
+   },
+   {
+    "answer": "Dhaka",
+    "aliases": []
+   },
+   {
+    "answer": "Jakarta",
+    "aliases": []
+   },
+   {
+    "answer": "Manila",
+    "aliases": []
+   },
+   {
+    "answer": "Bandar Seri Begawan",
+    "aliases": []
+   },
+   {
+    "answer": "Dili",
+    "aliases": []
+   },
+   {
+    "answer": "Singapore",
+    "aliases": []
+   },
+   {
+    "answer": "Hanoi",
+    "aliases": []
+   },
+   {
+    "answer": "Phnom Penh",
+    "aliases": []
+   },
+   {
+    "answer": "Bangkok",
+    "aliases": []
+   },
+   {
+    "answer": "Seoul",
+    "aliases": []
+   },
+   {
+    "answer": "Pyongyang",
+    "aliases": []
+   },
+   {
+    "answer": "Wellington",
+    "aliases": []
+   },
+   {
+    "answer": "Canberra",
+    "aliases": []
+   },
+   {
+    "answer": "Port Moresby",
+    "aliases": []
+   },
+   {
+    "answer": "Honiara",
+    "aliases": []
+   },
+   {
+    "answer": "Port Vila",
+    "aliases": []
+   },
+   {
+    "answer": "Suva",
+    "aliases": []
+   },
+   {
+    "answer": "Apia",
+    "aliases": []
+   },
+   {
+    "answer": "Nuku'alofa",
+    "aliases": [
+     "Nukualofa"
+    ]
+   },
+   {
+    "answer": "Tarawa",
+    "aliases": [
+     "South Tarawa"
+    ]
+   },
+   {
+    "answer": "Majuro",
+    "aliases": []
+   },
+   {
+    "answer": "Funafuti",
+    "aliases": []
+   },
+   {
+    "answer": "Palikir",
+    "aliases": []
+   },
+   {
+    "answer": "Ngerulmud",
+    "aliases": []
+   },
+   {
+    "answer": "Yaren",
+    "aliases": []
+   },
+   {
+    "answer": "Amsterdam",
+    "aliases": []
+   },
+   {
+    "answer": "Zagreb",
+    "aliases": []
+   },
+   {
+    "answer": "Ljubljana",
+    "aliases": []
+   },
+   {
+    "answer": "Edinburgh",
+    "aliases": []
+   },
+   {
+    "answer": "Cardiff",
+    "aliases": []
+   },
+   {
+    "answer": "Belfast",
+    "aliases": []
+   },
+   {
+    "answer": "Monaco",
+    "aliases": []
+   },
+   {
+    "answer": "Nicosia",
+    "aliases": []
+   },
+   {
+    "answer": "Ankara",
+    "aliases": []
+   },
+   {
+    "answer": "Berlin",
+    "aliases": []
+   },
+   {
+    "answer": "Warsaw",
+    "aliases": []
+   },
+   {
+    "answer": "Vilnius",
+    "aliases": []
+   },
+   {
+    "answer": "Kyiv",
+    "aliases": [
+     "Kiev"
+    ]
+   },
+   {
+    "answer": "Moscow",
+    "aliases": []
+   },
+   {
+    "answer": "Brussels",
+    "aliases": []
+   },
+   {
+    "answer": "Madrid",
+    "aliases": []
+   },
+   {
+    "answer": "Sukhumi",
+    "aliases": []
+   },
+   {
+    "answer": "Sri Lanka",
+    "aliases": []
+   },
+   {
+    "answer": "Mumbai",
+    "aliases": []
+   },
+   {
+    "answer": "Nouméa",
+    "aliases": [
+     "Noumea"
+    ]
+   },
+   {
+    "answer": "Papeete",
+    "aliases": []
+   },
+   {
+    "answer": "Hamilton",
+    "aliases": []
+   },
+   {
+    "answer": "George Town",
+    "aliases": [
+     "Georgetown"
+    ]
+   },
+   {
+    "answer": "Charlotte Amalie",
+    "aliases": []
+   },
+   {
+    "answer": "Willemstad",
+    "aliases": []
+   },
+   {
+    "answer": "Oranjestad",
+    "aliases": []
+   },
+   {
+    "answer": "Gibraltar",
+    "aliases": []
+   },
+   {
+    "answer": "Tórshavn",
+    "aliases": [
+     "Torshavn"
+    ]
+   },
+   {
+    "answer": "Nuuk",
+    "aliases": []
+   },
+   {
+    "answer": "Stanley",
+    "aliases": [
+     "Port Stanley"
+    ]
+   },
+   {
+    "answer": "Hong Kong",
+    "aliases": []
+   },
+   {
+    "answer": "Macau",
+    "aliases": [
+     "Macao"
+    ]
+   }
+  ]
+ },
+ "ttft_ms": 15541,
+ "type": "result",
+ "duration_ms": 15581,
+ "uuid": "43bb328e-bc49-4140-b325-4c2b1ea861af",
+ "ttft_stream_ms": 651,
+ "time_to_request_ms": 35,
+ "first_content_frame_ms": 651,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

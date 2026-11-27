@@ -1,0 +1,339 @@
+{
+ "duration_api_ms": 34891,
+ "stop_reason": "tool_use",
+ "session_id": "b50488cf-e81a-4d5d-987e-3dbadd4a98c9",
+ "total_cost_usd": 0.098888,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9171,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6220,
+  "output_tokens_details": {
+   "thinking_tokens": 4452
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9171,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 6220,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 9171,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9171
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 6220,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 9171,
+   "webSearchRequests": 0,
+   "costUSD": 0.098888,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 4452,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invoke_placeholder\":\"x\",\"invalid\":[{\"answer\":\"Haggis\",\"reason\":\"Card game, not a dice board game\"},{\"answer\":\"I Vant to Bite Your Finger\",\"reason\":\"Card game\"},{\"answer\":\"IceTowers\",\"reason\":\"Abstract strategy game with no dice\"},{\"answer\":\"It's Alive!\",\"reason\":\"Card game\"},{\"answer\":\"Okey 101\",\"reason\":\"Tile-based rummy game, not dice\"},{\"answer\":\"Jedi Knights Trading Card Game\",\"reason\":\"Trading card game, not a board game\"},{\"answer\":\"Killer Bunnies and the Journey to Jupiter\",\"reason\":\"Card game\"},{\"answer\":\"KingsRow\",\"reason\":\"Abstract game with no dice\"},{\"answer\":\"Kotu Ellima\",\"reason\":\"Traditional abstract game without dice\"},{\"answer\":\"Kruzno\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"København\",\"reason\":\"Tile/card placement game, no dice\"},{\"answer\":\"Lord of the Fries\",\"reason\":\"Card game\"},{\"answer\":\"Main Tapal Empat\",\"reason\":\"Traditional abstract game without dice\"},{\"answer\":\"Nsolo\",\"reason\":\"Mancala-type game without dice\"},{\"answer\":\"Nuclear War\",\"reason\":\"Card game\"},{\"answer\":\"Oh-Wah-Ree\",\"reason\":\"Mancala-type game without dice\"},{\"answer\":\"Pimp: The Backhanding\",\"reason\":\"Card game\"},{\"answer\":\"Pirate and Traveler\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"Probe\",\"reason\":\"Word-guessing game, no dice\"},{\"answer\":\"Quiddler\",\"reason\":\"Card game\"},{\"answer\":\"Reef Encounter\",\"reason\":\"Strategy game with no dice\"},{\"answer\":\"Replay Publishing\",\"reason\":\"A publisher, not a game\"},{\"answer\":\"Rimau\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"Rummoli\",\"reason\":\"Card/chip game, not a dice board game\"},{\"answer\":\"Sailor Moon Collectible Card Game\",\"reason\":\"Card game\"},{\"answer\":\"Second World War at Sea series\",\"reason\":\"A series, not a specific game\"},{\"answer\":\"Sher-bakar\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"Sixteen\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"Star Wars PocketModel Trading Card Game\",\"reason\":\"Trading card game\"},{\"answer\":\"Stratego: Legends\",\"reason\":\"Stratego variant with no dice\"},{\"answer\":\"Sua ghin gnua\",\"reason\":\"Traditional abstract game without dice\"},{\"answer\":\"Super Scrabble\",\"reason\":\"Word tile game, no dice\"},{\"answer\":\"Swipe\",\"reason\":\"Card game\"},{\"answer\":\"The Game of Life Card Game\",\"reason\":\"Card game\"},{\"answer\":\"The Very Clever Pipe Game\",\"reason\":\"Tile-laying game with no dice\"},{\"answer\":\"The Wheel of Time Collectible Card Game\",\"reason\":\"Collectible card game\"},{\"answer\":\"Tiger game played with forty\",\"reason\":\"A description of a traditional game, not a specific dice game\"},{\"answer\":\"TriBond\",\"reason\":\"Trivia/association game, no dice\"},{\"answer\":\"Tuknanavuhpi\",\"reason\":\"Traditional abstract game without dice\"},{\"answer\":\"Unexploded Cow\",\"reason\":\"Card game\"},{\"answer\":\"Xactika\",\"reason\":\"Card game\"},{\"answer\":\"Young Jedi Collectible Card Game\",\"reason\":\"Collectible card game\"},{\"answer\":\"Zendo\",\"reason\":\"Pieces-and-rules inductive logic game, no dice\"},{\"answer\":\"Zohn Ahl\",\"reason\":\"Abstract tafl-type game without dice\"},{\"answer\":\"Category:Card exchange games\",\"reason\":\"A wiki category, not a game\"},{\"answer\":\"Attangle\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"3-stones\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"Tavreli\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"SANQI\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"Ferris Bueller's Day Off\",\"reason\":\"A film, not a board game\"},{\"answer\":\"Dipole\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"Abande\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"Sygo\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"Akron\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"Oust\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"Halusa\",\"reason\":\"Abstract game without dice\"},{\"answer\":\"Ka-Bala\",\"reason\":\"Card-based game, not dice\"},{\"answer\":\"Mad Gab\",\"reason\":\"Word/phrase party game, no dice\"},{\"answer\":\"Wizard\",\"reason\":\"Trick-taking card game\"}]}",
+ "structured_output": {
+  "invoke_placeholder": "x",
+  "invalid": [
+   {
+    "answer": "Haggis",
+    "reason": "Card game, not a dice board game"
+   },
+   {
+    "answer": "I Vant to Bite Your Finger",
+    "reason": "Card game"
+   },
+   {
+    "answer": "IceTowers",
+    "reason": "Abstract strategy game with no dice"
+   },
+   {
+    "answer": "It's Alive!",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Okey 101",
+    "reason": "Tile-based rummy game, not dice"
+   },
+   {
+    "answer": "Jedi Knights Trading Card Game",
+    "reason": "Trading card game, not a board game"
+   },
+   {
+    "answer": "Killer Bunnies and the Journey to Jupiter",
+    "reason": "Card game"
+   },
+   {
+    "answer": "KingsRow",
+    "reason": "Abstract game with no dice"
+   },
+   {
+    "answer": "Kotu Ellima",
+    "reason": "Traditional abstract game without dice"
+   },
+   {
+    "answer": "Kruzno",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "København",
+    "reason": "Tile/card placement game, no dice"
+   },
+   {
+    "answer": "Lord of the Fries",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Main Tapal Empat",
+    "reason": "Traditional abstract game without dice"
+   },
+   {
+    "answer": "Nsolo",
+    "reason": "Mancala-type game without dice"
+   },
+   {
+    "answer": "Nuclear War",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Oh-Wah-Ree",
+    "reason": "Mancala-type game without dice"
+   },
+   {
+    "answer": "Pimp: The Backhanding",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Pirate and Traveler",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "Probe",
+    "reason": "Word-guessing game, no dice"
+   },
+   {
+    "answer": "Quiddler",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Reef Encounter",
+    "reason": "Strategy game with no dice"
+   },
+   {
+    "answer": "Replay Publishing",
+    "reason": "A publisher, not a game"
+   },
+   {
+    "answer": "Rimau",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "Rummoli",
+    "reason": "Card/chip game, not a dice board game"
+   },
+   {
+    "answer": "Sailor Moon Collectible Card Game",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Second World War at Sea series",
+    "reason": "A series, not a specific game"
+   },
+   {
+    "answer": "Sher-bakar",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "Sixteen",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "Star Wars PocketModel Trading Card Game",
+    "reason": "Trading card game"
+   },
+   {
+    "answer": "Stratego: Legends",
+    "reason": "Stratego variant with no dice"
+   },
+   {
+    "answer": "Sua ghin gnua",
+    "reason": "Traditional abstract game without dice"
+   },
+   {
+    "answer": "Super Scrabble",
+    "reason": "Word tile game, no dice"
+   },
+   {
+    "answer": "Swipe",
+    "reason": "Card game"
+   },
+   {
+    "answer": "The Game of Life Card Game",
+    "reason": "Card game"
+   },
+   {
+    "answer": "The Very Clever Pipe Game",
+    "reason": "Tile-laying game with no dice"
+   },
+   {
+    "answer": "The Wheel of Time Collectible Card Game",
+    "reason": "Collectible card game"
+   },
+   {
+    "answer": "Tiger game played with forty",
+    "reason": "A description of a traditional game, not a specific dice game"
+   },
+   {
+    "answer": "TriBond",
+    "reason": "Trivia/association game, no dice"
+   },
+   {
+    "answer": "Tuknanavuhpi",
+    "reason": "Traditional abstract game without dice"
+   },
+   {
+    "answer": "Unexploded Cow",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Xactika",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Young Jedi Collectible Card Game",
+    "reason": "Collectible card game"
+   },
+   {
+    "answer": "Zendo",
+    "reason": "Pieces-and-rules inductive logic game, no dice"
+   },
+   {
+    "answer": "Zohn Ahl",
+    "reason": "Abstract tafl-type game without dice"
+   },
+   {
+    "answer": "Category:Card exchange games",
+    "reason": "A wiki category, not a game"
+   },
+   {
+    "answer": "Attangle",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "3-stones",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "Tavreli",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "SANQI",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "Ferris Bueller's Day Off",
+    "reason": "A film, not a board game"
+   },
+   {
+    "answer": "Dipole",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "Abande",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "Sygo",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "Akron",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "Oust",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "Halusa",
+    "reason": "Abstract game without dice"
+   },
+   {
+    "answer": "Ka-Bala",
+    "reason": "Card-based game, not dice"
+   },
+   {
+    "answer": "Mad Gab",
+    "reason": "Word/phrase party game, no dice"
+   },
+   {
+    "answer": "Wizard",
+    "reason": "Trick-taking card game"
+   }
+  ]
+ },
+ "ttft_ms": 26733,
+ "type": "result",
+ "duration_ms": 35108,
+ "uuid": "1fcc8912-e81d-4f24-aad1-a51ef2eb4c1b",
+ "ttft_stream_ms": 1102,
+ "time_to_request_ms": 133,
+ "first_content_frame_ms": 1102,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

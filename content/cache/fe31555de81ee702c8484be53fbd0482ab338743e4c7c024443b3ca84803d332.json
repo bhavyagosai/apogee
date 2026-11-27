@@ -1,0 +1,106 @@
+{
+ "duration_api_ms": 9708,
+ "stop_reason": "tool_use",
+ "session_id": "fe6f0cc1-18cd-4fa8-927e-1d5ba15e89b3",
+ "total_cost_usd": 0.0355316,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6884,
+  "cache_read_input_tokens": 708,
+  "output_tokens": 785,
+  "output_tokens_details": {
+   "thinking_tokens": 472
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6884,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 785,
+    "cache_read_input_tokens": 708,
+    "cache_creation_input_tokens": 6884,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6884
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 785,
+   "cacheReadInputTokens": 708,
+   "cacheCreationInputTokens": 6884,
+   "webSearchRequests": 0,
+   "costUSD": 0.0355316,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 472,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"source\":\"wikidata\",\"reason\":\"Cheeses are modeled in Wikidata as a class. Many have a \\\"named after\\\" (P138) link to a place, so the query selects cheeses named after a geographic location.\",\"wikidata\":{\"where\":\"?item wdt:P31/wdt:P279* wd:Q10943 .\\n?item wdt:P138 ?place .\\n?place wdt:P31/wdt:P279* wd:Q2221906 .\\nFILTER(?item != wd:Q10943)\",\"notes\":\"Q10943 is cheese. P138 is named after. Q2221906 is geographic location. Cheeses without a P138 statement will be missed, so coverage depends on how complete Wikidata is.\"}}",
+ "structured_output": {
+  "source": "wikidata",
+  "reason": "Cheeses are modeled in Wikidata as a class. Many have a \"named after\" (P138) link to a place, so the query selects cheeses named after a geographic location.",
+  "wikidata": {
+   "where": "?item wdt:P31/wdt:P279* wd:Q10943 .\n?item wdt:P138 ?place .\n?place wdt:P31/wdt:P279* wd:Q2221906 .\nFILTER(?item != wd:Q10943)",
+   "notes": "Q10943 is cheese. P138 is named after. Q2221906 is geographic location. Cheeses without a P138 statement will be missed, so coverage depends on how complete Wikidata is."
+  }
+ },
+ "ttft_ms": 8022,
+ "type": "result",
+ "duration_ms": 9872,
+ "uuid": "22fb98f2-cfbd-4383-b7b9-2dca8c6f2017",
+ "ttft_stream_ms": 3348,
+ "time_to_request_ms": 97,
+ "first_content_frame_ms": 3348,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

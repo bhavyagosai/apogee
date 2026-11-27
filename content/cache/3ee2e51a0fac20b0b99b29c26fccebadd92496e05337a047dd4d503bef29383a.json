@@ -1,0 +1,1704 @@
+{
+ "duration_api_ms": 60389,
+ "stop_reason": "tool_use",
+ "session_id": "3e5cc90d-c4c5-4985-93cc-396b65d39f8c",
+ "total_cost_usd": 0.109894,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6404,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 8415,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6404,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 8415,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 6404,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6404
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 8415,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 6404,
+   "webSearchRequests": 0,
+   "costUSD": 0.109894,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Tyrannosaurus rex\",\"aliases\":[\"T. rex\",\"T-rex\",\"Tyrannosaurus\",\"trex\",\"tyranosaurus rex\",\"tyrannosaurus\"]},{\"answer\":\"Triceratops\",\"aliases\":[\"triceratop\",\"triceratops horridus\"]},{\"answer\":\"Stegosaurus\",\"aliases\":[\"stegosaur\",\"stegasaurus\"]},{\"answer\":\"Velociraptor\",\"aliases\":[\"raptor\",\"velocirapter\",\"velociraptor mongoliensis\"]},{\"answer\":\"Brachiosaurus\",\"aliases\":[\"brachiosaur\",\"brachiasaurus\"]},{\"answer\":\"Diplodocus\",\"aliases\":[\"diplodicus\"]},{\"answer\":\"Apatosaurus\",\"aliases\":[\"brontosaurus\"]},{\"answer\":\"Brontosaurus\",\"aliases\":[\"brontosaur\",\"thunder lizard\"]},{\"answer\":\"Allosaurus\",\"aliases\":[\"allosaur\"]},{\"answer\":\"Ankylosaurus\",\"aliases\":[\"ankylosaur\",\"anklyosaurus\"]},{\"answer\":\"Spinosaurus\",\"aliases\":[\"spinosaur\",\"spinasaurus\"]},{\"answer\":\"Pterodactyl\",\"aliases\":[\"pterodactylus\"]},{\"answer\":\"Iguanodon\",\"aliases\":[\"iguanadon\"]},{\"answer\":\"Parasaurolophus\",\"aliases\":[\"parasaurolophus walkeri\"]},{\"answer\":\"Pachycephalosaurus\",\"aliases\":[\"pachycephalosaur\"]},{\"answer\":\"Gallimimus\",\"aliases\":[\"gallimimous\"]},{\"answer\":\"Dilophosaurus\",\"aliases\":[\"dilophosaur\"]},{\"answer\":\"Compsognathus\",\"aliases\":[\"compy\",\"compsognathus longipes\"]},{\"answer\":\"Carnotaurus\",\"aliases\":[\"carnotaur\"]},{\"answer\":\"Giganotosaurus\",\"aliases\":[\"giganotosaur\"]},{\"answer\":\"Archaeopteryx\",\"aliases\":[\"archeopteryx\"]},{\"answer\":\"Deinonychus\",\"aliases\":[\"deinonychus antirrhopus\"]},{\"answer\":\"Utahraptor\",\"aliases\":[\"utahraptor ostrommaysorum\"]},{\"answer\":\"Argentinosaurus\",\"aliases\":[\"argentinosaur\"]},{\"answer\":\"Baryonyx\",\"aliases\":[\"baryonyx walkeri\"]},{\"answer\":\"Maiasaura\",\"aliases\":[\"maiasaur\"]},{\"answer\":\"Protoceratops\",\"aliases\":[\"protoceratop\"]},{\"answer\":\"Oviraptor\",\"aliases\":[\"oviraptor philoceratops\"]},{\"answer\":\"Albertosaurus\",\"aliases\":[\"albertosaur\"]},{\"answer\":\"Edmontosaurus\",\"aliases\":[\"edmontosaur\"]},{\"answer\":\"Styracosaurus\",\"aliases\":[\"styracosaur\"]},{\"answer\":\"Centrosaurus\",\"aliases\":[\"centrosaur\"]},{\"answer\":\"Corythosaurus\",\"aliases\":[\"corythosaur\"]},{\"answer\":\"Hadrosaurus\",\"aliases\":[\"hadrosaur\"]},{\"answer\":\"Megalosaurus\",\"aliases\":[\"megalosaur\"]},{\"answer\":\"Plateosaurus\",\"aliases\":[\"plateosaur\"]},{\"answer\":\"Coelophysis\",\"aliases\":[\"coelophysis bauri\"]},{\"answer\":\"Ceratosaurus\",\"aliases\":[\"ceratosaur\"]},{\"answer\":\"Camarasaurus\",\"aliases\":[\"camarasaur\"]},{\"answer\":\"Therizinosaurus\",\"aliases\":[\"therizinosaur\"]},{\"answer\":\"Troodon\",\"aliases\":[\"troodon formosus\"]},{\"answer\":\"Microraptor\",\"aliases\":[\"microraptor gui\"]},{\"answer\":\"Ornithomimus\",\"aliases\":[\"ornithomimid\"]},{\"answer\":\"Struthiomimus\",\"aliases\":[\"struthiomimus altus\"]},{\"answer\":\"Dreadnoughtus\",\"aliases\":[\"dreadnaughtus\"]},{\"answer\":\"Patagotitan\",\"aliases\":[\"patagotitan mayorum\"]},{\"answer\":\"Amargasaurus\",\"aliases\":[\"amargasaur\"]},{\"answer\":\"Mamenchisaurus\",\"aliases\":[\"mamenchisaur\"]},{\"answer\":\"Kentrosaurus\",\"aliases\":[\"kentrosaur\"]},{\"answer\":\"Pachyrhinosaurus\",\"aliases\":[\"pachyrhinosaur\"]},{\"answer\":\"Psittacosaurus\",\"aliases\":[\"psittacosaur\"]},{\"answer\":\"Sauropelta\",\"aliases\":[]},{\"answer\":\"Euoplocephalus\",\"aliases\":[]},{\"answer\":\"Nodosaurus\",\"aliases\":[]},{\"answer\":\"Minmi\",\"aliases\":[]},{\"answer\":\"Hypsilophodon\",\"aliases\":[]},{\"answer\":\"Tenontosaurus\",\"aliases\":[]},{\"answer\":\"Dryosaurus\",\"aliases\":[]},{\"answer\":\"Camptosaurus\",\"aliases\":[]},{\"answer\":\"Lambeosaurus\",\"aliases\":[]},{\"answer\":\"Saurolophus\",\"aliases\":[]},{\"answer\":\"Kritosaurus\",\"aliases\":[]},{\"answer\":\"Shantungosaurus\",\"aliases\":[]},{\"answer\":\"Tuojiangosaurus\",\"aliases\":[]},{\"answer\":\"Huayangosaurus\",\"aliases\":[]},{\"answer\":\"Scelidosaurus\",\"aliases\":[]},{\"answer\":\"Stygimoloch\",\"aliases\":[]},{\"answer\":\"Dracorex\",\"aliases\":[]},{\"answer\":\"Stegoceras\",\"aliases\":[]},{\"answer\":\"Homalocephale\",\"aliases\":[]},{\"answer\":\"Torosaurus\",\"aliases\":[]},{\"answer\":\"Chasmosaurus\",\"aliases\":[]},{\"answer\":\"Pentaceratops\",\"aliases\":[]},{\"answer\":\"Einiosaurus\",\"aliases\":[]},{\"answer\":\"Achelousaurus\",\"aliases\":[]},{\"answer\":\"Leptoceratops\",\"aliases\":[]},{\"answer\":\"Zuniceratops\",\"aliases\":[]},{\"answer\":\"Mapusaurus\",\"aliases\":[]},{\"answer\":\"Carcharodontosaurus\",\"aliases\":[\"carcharodontosaur\"]},{\"answer\":\"Acrocanthosaurus\",\"aliases\":[]},{\"answer\":\"Yangchuanosaurus\",\"aliases\":[]},{\"answer\":\"Neovenator\",\"aliases\":[]},{\"answer\":\"Eoraptor\",\"aliases\":[]},{\"answer\":\"Herrerasaurus\",\"aliases\":[]},{\"answer\":\"Staurikosaurus\",\"aliases\":[]},{\"answer\":\"Liliensternus\",\"aliases\":[]},{\"answer\":\"Cryolophosaurus\",\"aliases\":[]},{\"answer\":\"Monolophosaurus\",\"aliases\":[]},{\"answer\":\"Suchomimus\",\"aliases\":[]},{\"answer\":\"Irritator\",\"aliases\":[]},{\"answer\":\"Ouranosaurus\",\"aliases\":[]},{\"answer\":\"Muttaburrasaurus\",\"aliases\":[]},{\"answer\":\"Gorgosaurus\",\"aliases\":[]},{\"answer\":\"Daspletosaurus\",\"aliases\":[]},{\"answer\":\"Tarbosaurus\",\"aliases\":[]},{\"answer\":\"Tyrannotitan\",\"aliases\":[]},{\"answer\":\"Yutyrannus\",\"aliases\":[]},{\"answer\":\"Dilong\",\"aliases\":[]},{\"answer\":\"Guanlong\",\"aliases\":[]},{\"answer\":\"Proceratosaurus\",\"aliases\":[]},{\"answer\":\"Eotyrannus\",\"aliases\":[]},{\"answer\":\"Zhuchengtyrannus\",\"aliases\":[]},{\"answer\":\"Lythronax\",\"aliases\":[]},{\"answer\":\"Teratophoneus\",\"aliases\":[]},{\"answer\":\"Bistahieversor\",\"aliases\":[]},{\"answer\":\"Nanotyrannus\",\"aliases\":[]},{\"answer\":\"Alioramus\",\"aliases\":[]},{\"answer\":\"Sinraptor\",\"aliases\":[]},{\"answer\":\"Majungasaurus\",\"aliases\":[\"majungatholus\"]},{\"answer\":\"Abelisaurus\",\"aliases\":[]},{\"answer\":\"Ceratosaurus nasicornis\",\"aliases\":[]},{\"answer\":\"Masiakasaurus\",\"aliases\":[]},{\"answer\":\"Rajasaurus\",\"aliases\":[]},{\"answer\":\"Skorpiovenator\",\"aliases\":[]},{\"answer\":\"Aucasaurus\",\"aliases\":[]},{\"answer\":\"Noasaurus\",\"aliases\":[]},{\"answer\":\"Dromaeosaurus\",\"aliases\":[]},{\"answer\":\"Saurornitholestes\",\"aliases\":[]},{\"answer\":\"Bambiraptor\",\"aliases\":[]},{\"answer\":\"Achillobator\",\"aliases\":[]},{\"answer\":\"Austroraptor\",\"aliases\":[]},{\"answer\":\"Dakotaraptor\",\"aliases\":[]},{\"answer\":\"Velociraptor osmolskae\",\"aliases\":[]},{\"answer\":\"Sinornithosaurus\",\"aliases\":[]},{\"answer\":\"Zhenyuanlong\",\"aliases\":[]},{\"answer\":\"Anchiornis\",\"aliases\":[]},{\"answer\":\"Caudipteryx\",\"aliases\":[]},{\"answer\":\"Citipati\",\"aliases\":[]},{\"answer\":\"Gigantoraptor\",\"aliases\":[]},{\"answer\":\"Oviraptorosaur\",\"aliases\":[]},{\"answer\":\"Beipiaosaurus\",\"aliases\":[]},{\"answer\":\"Segnosaurus\",\"aliases\":[]},{\"answer\":\"Deinocheirus\",\"aliases\":[]},{\"answer\":\"Dromiceiomimus\",\"aliases\":[]},{\"answer\":\"Ornitholestes\",\"aliases\":[]},{\"answer\":\"Sinosauropteryx\",\"aliases\":[]},{\"answer\":\"Scansoriopteryx\",\"aliases\":[]},{\"answer\":\"Yi qi\",\"aliases\":[\"yi\"]},{\"answer\":\"Epidexipteryx\",\"aliases\":[]},{\"answer\":\"Troodon inequalis\",\"aliases\":[]},{\"answer\":\"Mei long\",\"aliases\":[\"mei\"]},{\"answer\":\"Jinfengopteryx\",\"aliases\":[]},{\"answer\":\"Saurornithoides\",\"aliases\":[]},{\"answer\":\"Byronosaurus\",\"aliases\":[]},{\"answer\":\"Avimimus\",\"aliases\":[]},{\"answer\":\"Alvarezsaurus\",\"aliases\":[]},{\"answer\":\"Mononykus\",\"aliases\":[]},{\"answer\":\"Shuvuuia\",\"aliases\":[]},{\"answer\":\"Parvicursor\",\"aliases\":[]},{\"answer\":\"Haplocheirus\",\"aliases\":[]},{\"answer\":\"Falcarius\",\"aliases\":[]},{\"answer\":\"Nothronychus\",\"aliases\":[]},{\"answer\":\"Erlikosaurus\",\"aliases\":[]},{\"answer\":\"Supersaurus\",\"aliases\":[]},{\"answer\":\"Seismosaurus\",\"aliases\":[]},{\"answer\":\"Barosaurus\",\"aliases\":[]},{\"answer\":\"Amphicoelias\",\"aliases\":[]},{\"answer\":\"Haplocanthosaurus\",\"aliases\":[]},{\"answer\":\"Cetiosaurus\",\"aliases\":[]},{\"answer\":\"Shunosaurus\",\"aliases\":[]},{\"answer\":\"Omeisaurus\",\"aliases\":[]},{\"answer\":\"Euhelopus\",\"aliases\":[]},{\"answer\":\"Giraffatitan\",\"aliases\":[]},{\"answer\":\"Sauroposeidon\",\"aliases\":[]},{\"answer\":\"Brachytrachelopan\",\"aliases\":[]},{\"answer\":\"Dicraeosaurus\",\"aliases\":[]},{\"answer\":\"Nigersaurus\",\"aliases\":[]},{\"answer\":\"Rebbachisaurus\",\"aliases\":[]},{\"answer\":\"Titanosaurus\",\"aliases\":[\"titanosaur\"]},{\"answer\":\"Saltasaurus\",\"aliases\":[]},{\"answer\":\"Alamosaurus\",\"aliases\":[]},{\"answer\":\"Futalognkosaurus\",\"aliases\":[]},{\"answer\":\"Puertasaurus\",\"aliases\":[]},{\"answer\":\"Paralititan\",\"aliases\":[]},{\"answer\":\"Rapetosaurus\",\"aliases\":[]},{\"answer\":\"Isisaurus\",\"aliases\":[]},{\"answer\":\"Opisthocoelicaudia\",\"aliases\":[]},{\"answer\":\"Ampelosaurus\",\"aliases\":[]},{\"answer\":\"Magyarosaurus\",\"aliases\":[]},{\"answer\":\"Bruhathkayosaurus\",\"aliases\":[]},{\"answer\":\"Diamantinasaurus\",\"aliases\":[]},{\"answer\":\"Australotitan\",\"aliases\":[]},{\"answer\":\"Notocolossus\",\"aliases\":[]},{\"answer\":\"Sonorasaurus\",\"aliases\":[]},{\"answer\":\"Jobaria\",\"aliases\":[]},{\"answer\":\"Vulcanodon\",\"aliases\":[]},{\"answer\":\"Melanorosaurus\",\"aliases\":[]},{\"answer\":\"Massospondylus\",\"aliases\":[]},{\"answer\":\"Anchisaurus\",\"aliases\":[]},{\"answer\":\"Riojasaurus\",\"aliases\":[]},{\"answer\":\"Lufengosaurus\",\"aliases\":[]},{\"answer\":\"Coelurus\",\"aliases\":[]},{\"answer\":\"Elaphrosaurus\",\"aliases\":[]},{\"answer\":\"Syntarsus\",\"aliases\":[\"megapnosaurus\"]},{\"answer\":\"Zupaysaurus\",\"aliases\":[]},{\"answer\":\"Sinosaurus\",\"aliases\":[]},{\"answer\":\"Segisaurus\",\"aliases\":[]},{\"answer\":\"Tawa\",\"aliases\":[]},{\"answer\":\"Saturnalia\",\"aliases\":[]},{\"answer\":\"Eodromaeus\",\"aliases\":[]},{\"answer\":\"Pisanosaurus\",\"aliases\":[]},{\"answer\":\"Heterodontosaurus\",\"aliases\":[]},{\"answer\":\"Fruitadens\",\"aliases\":[]},{\"answer\":\"Lesothosaurus\",\"aliases\":[]},{\"answer\":\"Scutellosaurus\",\"aliases\":[]},{\"answer\":\"Emausaurus\",\"aliases\":[]},{\"answer\":\"Gastonia\",\"aliases\":[]},{\"answer\":\"Polacanthus\",\"aliases\":[]},{\"answer\":\"Hylaeosaurus\",\"aliases\":[]},{\"answer\":\"Edmontonia\",\"aliases\":[]},{\"answer\":\"Panoplosaurus\",\"aliases\":[]},{\"answer\":\"Animantarx\",\"aliases\":[]},{\"answer\":\"Borealopelta\",\"aliases\":[]},{\"answer\":\"Talarurus\",\"aliases\":[]},{\"answer\":\"Pinacosaurus\",\"aliases\":[]},{\"answer\":\"Saichania\",\"aliases\":[]},{\"answer\":\"Tarchia\",\"aliases\":[]},{\"answer\":\"Zuul\",\"aliases\":[\"zuul crurivastator\"]},{\"answer\":\"Ankylosaurus magniventris\",\"aliases\":[]},{\"answer\":\"Scolosaurus\",\"aliases\":[]},{\"answer\":\"Dyoplosaurus\",\"aliases\":[]},{\"answer\":\"Wuerhosaurus\",\"aliases\":[]},{\"answer\":\"Chungkingosaurus\",\"aliases\":[]},{\"answer\":\"Gigantspinosaurus\",\"aliases\":[]},{\"answer\":\"Miragaia\",\"aliases\":[]},{\"answer\":\"Dacentrurus\",\"aliases\":[]},{\"answer\":\"Lexovisaurus\",\"aliases\":[]},{\"answer\":\"Hesperosaurus\",\"aliases\":[]},{\"answer\":\"Leaellynasaura\",\"aliases\":[]},{\"answer\":\"Othnielosaurus\",\"aliases\":[]},{\"answer\":\"Thescelosaurus\",\"aliases\":[]},{\"answer\":\"Parksosaurus\",\"aliases\":[]},{\"answer\":\"Orodromeus\",\"aliases\":[]},{\"answer\":\"Gasparinisaura\",\"aliases\":[]},{\"answer\":\"Valdosaurus\",\"aliases\":[]},{\"answer\":\"Mantellisaurus\",\"aliases\":[]},{\"answer\":\"Altirhinus\",\"aliases\":[]},{\"answer\":\"Probactrosaurus\",\"aliases\":[]},{\"answer\":\"Bactrosaurus\",\"aliases\":[]},{\"answer\":\"Gilmoreosaurus\",\"aliases\":[]},{\"answer\":\"Telmatosaurus\",\"aliases\":[]},{\"answer\":\"Hadrosaurus foulkii\",\"aliases\":[]},{\"answer\":\"Gryposaurus\",\"aliases\":[]},{\"answer\":\"Brachylophosaurus\",\"aliases\":[]},{\"answer\":\"Prosaurolophus\",\"aliases\":[]},{\"answer\":\"Hypacrosaurus\",\"aliases\":[]},{\"answer\":\"Tsintaosaurus\",\"aliases\":[]},{\"answer\":\"Charonosaurus\",\"aliases\":[]},{\"answer\":\"Olorotitan\",\"aliases\":[]},{\"answer\":\"Amurosaurus\",\"aliases\":[]},{\"answer\":\"Anatotitan\",\"aliases\":[]},{\"answer\":\"Shantungosaurus giganteus\",\"aliases\":[]},{\"answer\":\"Augustynolophus\",\"aliases\":[]},{\"answer\":\"Eotrachodon\",\"aliases\":[]},{\"answer\":\"Acristavus\",\"aliases\":[]},{\"answer\":\"Kosmoceratops\",\"aliases\":[]},{\"answer\":\"Utahceratops\",\"aliases\":[]},{\"answer\":\"Diabloceratops\",\"aliases\":[]},{\"answer\":\"Regaliceratops\",\"aliases\":[]},{\"answer\":\"Medusaceratops\",\"aliases\":[]},{\"answer\":\"Coahuilaceratops\",\"aliases\":[]},{\"answer\":\"Nasutoceratops\",\"aliases\":[]},{\"answer\":\"Albertaceratops\",\"aliases\":[]},{\"answer\":\"Spinops\",\"aliases\":[]},{\"answer\":\"Triceratops prorsus\",\"aliases\":[]},{\"answer\":\"Arrhinoceratops\",\"aliases\":[]},{\"answer\":\"Anchiceratops\",\"aliases\":[]},{\"answer\":\"Bagaceratops\",\"aliases\":[]},{\"answer\":\"Montanoceratops\",\"aliases\":[]},{\"answer\":\"Udanoceratops\",\"aliases\":[]},{\"answer\":\"Yinlong\",\"aliases\":[]},{\"answer\":\"Chaoyangsaurus\",\"aliases\":[]},{\"answer\":\"Liaoceratops\",\"aliases\":[]},{\"answer\":\"Archaeoceratops\",\"aliases\":[]},{\"answer\":\"Microceratus\",\"aliases\":[]},{\"answer\":\"Graciliceratops\",\"aliases\":[]},{\"answer\":\"Sinoceratops\",\"aliases\":[]},{\"answer\":\"Wendiceratops\",\"aliases\":[]},{\"answer\":\"Machairoceratops\",\"aliases\":[]},{\"answer\":\"Xenoceratops\",\"aliases\":[]},{\"answer\":\"Eotriceratops\",\"aliases\":[]},{\"answer\":\"Ojoceratops\",\"aliases\":[]},{\"answer\":\"Titanoceratops\",\"aliases\":[]},{\"answer\":\"Sinotyrannus\",\"aliases\":[]},{\"answer\":\"Raptorex\",\"aliases\":[]},{\"answer\":\"Appalachiosaurus\",\"aliases\":[]},{\"answer\":\"Dryptosaurus\",\"aliases\":[]},{\"answer\":\"Aorun\",\"aliases\":[]},{\"answer\":\"Eocarcharia\",\"aliases\":[]},{\"answer\":\"Concavenator\",\"aliases\":[]},{\"answer\":\"Australovenator\",\"aliases\":[]},{\"answer\":\"Fukuiraptor\",\"aliases\":[]},{\"answer\":\"Megaraptor\",\"aliases\":[]},{\"answer\":\"Siats\",\"aliases\":[]},{\"answer\":\"Eocursor\",\"aliases\":[]},{\"answer\":\"Torvosaurus\",\"aliases\":[]},{\"answer\":\"Eustreptospondylus\",\"aliases\":[]},{\"answer\":\"Afrovenator\",\"aliases\":[]},{\"answer\":\"Dubreuillosaurus\",\"aliases\":[]},{\"answer\":\"Piatnitzkysaurus\",\"aliases\":[]},{\"answer\":\"Marshosaurus\",\"aliases\":[]},{\"answer\":\"Saurophaganax\",\"aliases\":[]},{\"answer\":\"Metriacanthosaurus\",\"aliases\":[]},{\"answer\":\"Szechuanosaurus\",\"aliases\":[]},{\"answer\":\"Becklespinax\",\"aliases\":[]},{\"answer\":\"Altispinax\",\"aliases\":[]},{\"answer\":\"Ichthyovenator\",\"aliases\":[]},{\"answer\":\"Oxalaia\",\"aliases\":[]},{\"answer\":\"Spinosaurus aegyptiacus\",\"aliases\":[]},{\"answer\":\"Cristatusaurus\",\"aliases\":[]},{\"answer\":\"Ceratosuchops\",\"aliases\":[]},{\"answer\":\"Riparovenator\",\"aliases\":[]},{\"answer\":\"Vectaerovenator\",\"aliases\":[]},{\"answer\":\"Dracovenator\",\"aliases\":[]},{\"answer\":\"Gojirasaurus\",\"aliases\":[]},{\"answer\":\"Ammosaurus\",\"aliases\":[]},{\"answer\":\"Yunnanosaurus\",\"aliases\":[]},{\"answer\":\"Efraasia\",\"aliases\":[]},{\"answer\":\"Thecodontosaurus\",\"aliases\":[]},{\"answer\":\"Mussaurus\",\"aliases\":[]},{\"answer\":\"Sellosaurus\",\"aliases\":[]},{\"answer\":\"Camelotia\",\"aliases\":[]},{\"answer\":\"Blikanasaurus\",\"aliases\":[]},{\"answer\":\"Antetonitrus\",\"aliases\":[]},{\"answer\":\"Isanosaurus\",\"aliases\":[]},{\"answer\":\"Barapasaurus\",\"aliases\":[]},{\"answer\":\"Patagosaurus\",\"aliases\":[]},{\"answer\":\"Lapparentosaurus\",\"aliases\":[]},{\"answer\":\"Bellusaurus\",\"aliases\":[]},{\"answer\":\"Datousaurus\",\"aliases\":[]},{\"answer\":\"Abrosaurus\",\"aliases\":[]},{\"answer\":\"Atlasaurus\",\"aliases\":[]},{\"answer\":\"Tehuelchesaurus\",\"aliases\":[]},{\"answer\":\"Brachytrachelopan mesai\",\"aliases\":[]},{\"answer\":\"Suuwassea\",\"aliases\":[]},{\"answer\":\"Tornieria\",\"aliases\":[]},{\"answer\":\"Janenschia\",\"aliases\":[]},{\"answer\":\"Tendaguria\",\"aliases\":[]},{\"answer\":\"Venenosaurus\",\"aliases\":[]},{\"answer\":\"Cedarosaurus\",\"aliases\":[]},{\"answer\":\"Abydosaurus\",\"aliases\":[]},{\"answer\":\"Qijianglong\",\"aliases\":[]},{\"answer\":\"Xinjiangtitan\",\"aliases\":[]},{\"answer\":\"Zhuchengosaurus\",\"aliases\":[]},{\"answer\":\"Huabeisaurus\",\"aliases\":[]},{\"answer\":\"Jainosaurus\",\"aliases\":[]},{\"answer\":\"Aeolosaurus\",\"aliases\":[]},{\"answer\":\"Antarctosaurus\",\"aliases\":[]},{\"answer\":\"Neuquensaurus\",\"aliases\":[]},{\"answer\":\"Lirainosaurus\",\"aliases\":[]},{\"answer\":\"Hypselosaurus\",\"aliases\":[]},{\"answer\":\"Dongbeititan\",\"aliases\":[]},{\"answer\":\"Elaltitan\",\"aliases\":[]},{\"answer\":\"Epachthosaurus\",\"aliases\":[]},{\"answer\":\"Mendozasaurus\",\"aliases\":[]},{\"answer\":\"Chubutisaurus\",\"aliases\":[]},{\"answer\":\"Andesaurus\",\"aliases\":[]},{\"answer\":\"Malawisaurus\",\"aliases\":[]},{\"answer\":\"Pelorosaurus\",\"aliases\":[]},{\"answer\":\"Ornithopsis\",\"aliases\":[]},{\"answer\":\"Sarcosaurus\",\"aliases\":[]},{\"answer\":\"Gojirasaurus quayi\",\"aliases\":[]},{\"answer\":\"Spicomellus\",\"aliases\":[]},{\"answer\":\"Ngwevu\",\"aliases\":[]},{\"answer\":\"Pantydraco\",\"aliases\":[]},{\"answer\":\"Mamenchisaurus sinocanadorum\",\"aliases\":[]},{\"answer\":\"Lourinhanosaurus\",\"aliases\":[]},{\"answer\":\"Ampelognathus\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Tyrannosaurus rex",
+    "aliases": [
+     "T. rex",
+     "T-rex",
+     "Tyrannosaurus",
+     "trex",
+     "tyranosaurus rex",
+     "tyrannosaurus"
+    ]
+   },
+   {
+    "answer": "Triceratops",
+    "aliases": [
+     "triceratop",
+     "triceratops horridus"
+    ]
+   },
+   {
+    "answer": "Stegosaurus",
+    "aliases": [
+     "stegosaur",
+     "stegasaurus"
+    ]
+   },
+   {
+    "answer": "Velociraptor",
+    "aliases": [
+     "raptor",
+     "velocirapter",
+     "velociraptor mongoliensis"
+    ]
+   },
+   {
+    "answer": "Brachiosaurus",
+    "aliases": [
+     "brachiosaur",
+     "brachiasaurus"
+    ]
+   },
+   {
+    "answer": "Diplodocus",
+    "aliases": [
+     "diplodicus"
+    ]
+   },
+   {
+    "answer": "Apatosaurus",
+    "aliases": [
+     "brontosaurus"
+    ]
+   },
+   {
+    "answer": "Brontosaurus",
+    "aliases": [
+     "brontosaur",
+     "thunder lizard"
+    ]
+   },
+   {
+    "answer": "Allosaurus",
+    "aliases": [
+     "allosaur"
+    ]
+   },
+   {
+    "answer": "Ankylosaurus",
+    "aliases": [
+     "ankylosaur",
+     "anklyosaurus"
+    ]
+   },
+   {
+    "answer": "Spinosaurus",
+    "aliases": [
+     "spinosaur",
+     "spinasaurus"
+    ]
+   },
+   {
+    "answer": "Pterodactyl",
+    "aliases": [
+     "pterodactylus"
+    ]
+   },
+   {
+    "answer": "Iguanodon",
+    "aliases": [
+     "iguanadon"
+    ]
+   },
+   {
+    "answer": "Parasaurolophus",
+    "aliases": [
+     "parasaurolophus walkeri"
+    ]
+   },
+   {
+    "answer": "Pachycephalosaurus",
+    "aliases": [
+     "pachycephalosaur"
+    ]
+   },
+   {
+    "answer": "Gallimimus",
+    "aliases": [
+     "gallimimous"
+    ]
+   },
+   {
+    "answer": "Dilophosaurus",
+    "aliases": [
+     "dilophosaur"
+    ]
+   },
+   {
+    "answer": "Compsognathus",
+    "aliases": [
+     "compy",
+     "compsognathus longipes"
+    ]
+   },
+   {
+    "answer": "Carnotaurus",
+    "aliases": [
+     "carnotaur"
+    ]
+   },
+   {
+    "answer": "Giganotosaurus",
+    "aliases": [
+     "giganotosaur"
+    ]
+   },
+   {
+    "answer": "Archaeopteryx",
+    "aliases": [
+     "archeopteryx"
+    ]
+   },
+   {
+    "answer": "Deinonychus",
+    "aliases": [
+     "deinonychus antirrhopus"
+    ]
+   },
+   {
+    "answer": "Utahraptor",
+    "aliases": [
+     "utahraptor ostrommaysorum"
+    ]
+   },
+   {
+    "answer": "Argentinosaurus",
+    "aliases": [
+     "argentinosaur"
+    ]
+   },
+   {
+    "answer": "Baryonyx",
+    "aliases": [
+     "baryonyx walkeri"
+    ]
+   },
+   {
+    "answer": "Maiasaura",
+    "aliases": [
+     "maiasaur"
+    ]
+   },
+   {
+    "answer": "Protoceratops",
+    "aliases": [
+     "protoceratop"
+    ]
+   },
+   {
+    "answer": "Oviraptor",
+    "aliases": [
+     "oviraptor philoceratops"
+    ]
+   },
+   {
+    "answer": "Albertosaurus",
+    "aliases": [
+     "albertosaur"
+    ]
+   },
+   {
+    "answer": "Edmontosaurus",
+    "aliases": [
+     "edmontosaur"
+    ]
+   },
+   {
+    "answer": "Styracosaurus",
+    "aliases": [
+     "styracosaur"
+    ]
+   },
+   {
+    "answer": "Centrosaurus",
+    "aliases": [
+     "centrosaur"
+    ]
+   },
+   {
+    "answer": "Corythosaurus",
+    "aliases": [
+     "corythosaur"
+    ]
+   },
+   {
+    "answer": "Hadrosaurus",
+    "aliases": [
+     "hadrosaur"
+    ]
+   },
+   {
+    "answer": "Megalosaurus",
+    "aliases": [
+     "megalosaur"
+    ]
+   },
+   {
+    "answer": "Plateosaurus",
+    "aliases": [
+     "plateosaur"
+    ]
+   },
+   {
+    "answer": "Coelophysis",
+    "aliases": [
+     "coelophysis bauri"
+    ]
+   },
+   {
+    "answer": "Ceratosaurus",
+    "aliases": [
+     "ceratosaur"
+    ]
+   },
+   {
+    "answer": "Camarasaurus",
+    "aliases": [
+     "camarasaur"
+    ]
+   },
+   {
+    "answer": "Therizinosaurus",
+    "aliases": [
+     "therizinosaur"
+    ]
+   },
+   {
+    "answer": "Troodon",
+    "aliases": [
+     "troodon formosus"
+    ]
+   },
+   {
+    "answer": "Microraptor",
+    "aliases": [
+     "microraptor gui"
+    ]
+   },
+   {
+    "answer": "Ornithomimus",
+    "aliases": [
+     "ornithomimid"
+    ]
+   },
+   {
+    "answer": "Struthiomimus",
+    "aliases": [
+     "struthiomimus altus"
+    ]
+   },
+   {
+    "answer": "Dreadnoughtus",
+    "aliases": [
+     "dreadnaughtus"
+    ]
+   },
+   {
+    "answer": "Patagotitan",
+    "aliases": [
+     "patagotitan mayorum"
+    ]
+   },
+   {
+    "answer": "Amargasaurus",
+    "aliases": [
+     "amargasaur"
+    ]
+   },
+   {
+    "answer": "Mamenchisaurus",
+    "aliases": [
+     "mamenchisaur"
+    ]
+   },
+   {
+    "answer": "Kentrosaurus",
+    "aliases": [
+     "kentrosaur"
+    ]
+   },
+   {
+    "answer": "Pachyrhinosaurus",
+    "aliases": [
+     "pachyrhinosaur"
+    ]
+   },
+   {
+    "answer": "Psittacosaurus",
+    "aliases": [
+     "psittacosaur"
+    ]
+   },
+   {
+    "answer": "Sauropelta",
+    "aliases": []
+   },
+   {
+    "answer": "Euoplocephalus",
+    "aliases": []
+   },
+   {
+    "answer": "Nodosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Minmi",
+    "aliases": []
+   },
+   {
+    "answer": "Hypsilophodon",
+    "aliases": []
+   },
+   {
+    "answer": "Tenontosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Dryosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Camptosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Lambeosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Saurolophus",
+    "aliases": []
+   },
+   {
+    "answer": "Kritosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Shantungosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Tuojiangosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Huayangosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Scelidosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Stygimoloch",
+    "aliases": []
+   },
+   {
+    "answer": "Dracorex",
+    "aliases": []
+   },
+   {
+    "answer": "Stegoceras",
+    "aliases": []
+   },
+   {
+    "answer": "Homalocephale",
+    "aliases": []
+   },
+   {
+    "answer": "Torosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Chasmosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Pentaceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Einiosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Achelousaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Leptoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Zuniceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Mapusaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Carcharodontosaurus",
+    "aliases": [
+     "carcharodontosaur"
+    ]
+   },
+   {
+    "answer": "Acrocanthosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Yangchuanosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Neovenator",
+    "aliases": []
+   },
+   {
+    "answer": "Eoraptor",
+    "aliases": []
+   },
+   {
+    "answer": "Herrerasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Staurikosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Liliensternus",
+    "aliases": []
+   },
+   {
+    "answer": "Cryolophosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Monolophosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Suchomimus",
+    "aliases": []
+   },
+   {
+    "answer": "Irritator",
+    "aliases": []
+   },
+   {
+    "answer": "Ouranosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Muttaburrasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Gorgosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Daspletosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Tarbosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Tyrannotitan",
+    "aliases": []
+   },
+   {
+    "answer": "Yutyrannus",
+    "aliases": []
+   },
+   {
+    "answer": "Dilong",
+    "aliases": []
+   },
+   {
+    "answer": "Guanlong",
+    "aliases": []
+   },
+   {
+    "answer": "Proceratosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Eotyrannus",
+    "aliases": []
+   },
+   {
+    "answer": "Zhuchengtyrannus",
+    "aliases": []
+   },
+   {
+    "answer": "Lythronax",
+    "aliases": []
+   },
+   {
+    "answer": "Teratophoneus",
+    "aliases": []
+   },
+   {
+    "answer": "Bistahieversor",
+    "aliases": []
+   },
+   {
+    "answer": "Nanotyrannus",
+    "aliases": []
+   },
+   {
+    "answer": "Alioramus",
+    "aliases": []
+   },
+   {
+    "answer": "Sinraptor",
+    "aliases": []
+   },
+   {
+    "answer": "Majungasaurus",
+    "aliases": [
+     "majungatholus"
+    ]
+   },
+   {
+    "answer": "Abelisaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Ceratosaurus nasicornis",
+    "aliases": []
+   },
+   {
+    "answer": "Masiakasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Rajasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Skorpiovenator",
+    "aliases": []
+   },
+   {
+    "answer": "Aucasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Noasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Dromaeosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Saurornitholestes",
+    "aliases": []
+   },
+   {
+    "answer": "Bambiraptor",
+    "aliases": []
+   },
+   {
+    "answer": "Achillobator",
+    "aliases": []
+   },
+   {
+    "answer": "Austroraptor",
+    "aliases": []
+   },
+   {
+    "answer": "Dakotaraptor",
+    "aliases": []
+   },
+   {
+    "answer": "Velociraptor osmolskae",
+    "aliases": []
+   },
+   {
+    "answer": "Sinornithosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Zhenyuanlong",
+    "aliases": []
+   },
+   {
+    "answer": "Anchiornis",
+    "aliases": []
+   },
+   {
+    "answer": "Caudipteryx",
+    "aliases": []
+   },
+   {
+    "answer": "Citipati",
+    "aliases": []
+   },
+   {
+    "answer": "Gigantoraptor",
+    "aliases": []
+   },
+   {
+    "answer": "Oviraptorosaur",
+    "aliases": []
+   },
+   {
+    "answer": "Beipiaosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Segnosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Deinocheirus",
+    "aliases": []
+   },
+   {
+    "answer": "Dromiceiomimus",
+    "aliases": []
+   },
+   {
+    "answer": "Ornitholestes",
+    "aliases": []
+   },
+   {
+    "answer": "Sinosauropteryx",
+    "aliases": []
+   },
+   {
+    "answer": "Scansoriopteryx",
+    "aliases": []
+   },
+   {
+    "answer": "Yi qi",
+    "aliases": [
+     "yi"
+    ]
+   },
+   {
+    "answer": "Epidexipteryx",
+    "aliases": []
+   },
+   {
+    "answer": "Troodon inequalis",
+    "aliases": []
+   },
+   {
+    "answer": "Mei long",
+    "aliases": [
+     "mei"
+    ]
+   },
+   {
+    "answer": "Jinfengopteryx",
+    "aliases": []
+   },
+   {
+    "answer": "Saurornithoides",
+    "aliases": []
+   },
+   {
+    "answer": "Byronosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Avimimus",
+    "aliases": []
+   },
+   {
+    "answer": "Alvarezsaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Mononykus",
+    "aliases": []
+   },
+   {
+    "answer": "Shuvuuia",
+    "aliases": []
+   },
+   {
+    "answer": "Parvicursor",
+    "aliases": []
+   },
+   {
+    "answer": "Haplocheirus",
+    "aliases": []
+   },
+   {
+    "answer": "Falcarius",
+    "aliases": []
+   },
+   {
+    "answer": "Nothronychus",
+    "aliases": []
+   },
+   {
+    "answer": "Erlikosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Supersaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Seismosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Barosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Amphicoelias",
+    "aliases": []
+   },
+   {
+    "answer": "Haplocanthosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Cetiosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Shunosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Omeisaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Euhelopus",
+    "aliases": []
+   },
+   {
+    "answer": "Giraffatitan",
+    "aliases": []
+   },
+   {
+    "answer": "Sauroposeidon",
+    "aliases": []
+   },
+   {
+    "answer": "Brachytrachelopan",
+    "aliases": []
+   },
+   {
+    "answer": "Dicraeosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Nigersaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Rebbachisaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Titanosaurus",
+    "aliases": [
+     "titanosaur"
+    ]
+   },
+   {
+    "answer": "Saltasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Alamosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Futalognkosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Puertasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Paralititan",
+    "aliases": []
+   },
+   {
+    "answer": "Rapetosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Isisaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Opisthocoelicaudia",
+    "aliases": []
+   },
+   {
+    "answer": "Ampelosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Magyarosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Bruhathkayosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Diamantinasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Australotitan",
+    "aliases": []
+   },
+   {
+    "answer": "Notocolossus",
+    "aliases": []
+   },
+   {
+    "answer": "Sonorasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Jobaria",
+    "aliases": []
+   },
+   {
+    "answer": "Vulcanodon",
+    "aliases": []
+   },
+   {
+    "answer": "Melanorosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Massospondylus",
+    "aliases": []
+   },
+   {
+    "answer": "Anchisaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Riojasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Lufengosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Coelurus",
+    "aliases": []
+   },
+   {
+    "answer": "Elaphrosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Syntarsus",
+    "aliases": [
+     "megapnosaurus"
+    ]
+   },
+   {
+    "answer": "Zupaysaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Sinosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Segisaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Tawa",
+    "aliases": []
+   },
+   {
+    "answer": "Saturnalia",
+    "aliases": []
+   },
+   {
+    "answer": "Eodromaeus",
+    "aliases": []
+   },
+   {
+    "answer": "Pisanosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Heterodontosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Fruitadens",
+    "aliases": []
+   },
+   {
+    "answer": "Lesothosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Scutellosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Emausaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Gastonia",
+    "aliases": []
+   },
+   {
+    "answer": "Polacanthus",
+    "aliases": []
+   },
+   {
+    "answer": "Hylaeosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Edmontonia",
+    "aliases": []
+   },
+   {
+    "answer": "Panoplosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Animantarx",
+    "aliases": []
+   },
+   {
+    "answer": "Borealopelta",
+    "aliases": []
+   },
+   {
+    "answer": "Talarurus",
+    "aliases": []
+   },
+   {
+    "answer": "Pinacosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Saichania",
+    "aliases": []
+   },
+   {
+    "answer": "Tarchia",
+    "aliases": []
+   },
+   {
+    "answer": "Zuul",
+    "aliases": [
+     "zuul crurivastator"
+    ]
+   },
+   {
+    "answer": "Ankylosaurus magniventris",
+    "aliases": []
+   },
+   {
+    "answer": "Scolosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Dyoplosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Wuerhosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Chungkingosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Gigantspinosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Miragaia",
+    "aliases": []
+   },
+   {
+    "answer": "Dacentrurus",
+    "aliases": []
+   },
+   {
+    "answer": "Lexovisaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Hesperosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Leaellynasaura",
+    "aliases": []
+   },
+   {
+    "answer": "Othnielosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Thescelosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Parksosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Orodromeus",
+    "aliases": []
+   },
+   {
+    "answer": "Gasparinisaura",
+    "aliases": []
+   },
+   {
+    "answer": "Valdosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Mantellisaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Altirhinus",
+    "aliases": []
+   },
+   {
+    "answer": "Probactrosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Bactrosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Gilmoreosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Telmatosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Hadrosaurus foulkii",
+    "aliases": []
+   },
+   {
+    "answer": "Gryposaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Brachylophosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Prosaurolophus",
+    "aliases": []
+   },
+   {
+    "answer": "Hypacrosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Tsintaosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Charonosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Olorotitan",
+    "aliases": []
+   },
+   {
+    "answer": "Amurosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Anatotitan",
+    "aliases": []
+   },
+   {
+    "answer": "Shantungosaurus giganteus",
+    "aliases": []
+   },
+   {
+    "answer": "Augustynolophus",
+    "aliases": []
+   },
+   {
+    "answer": "Eotrachodon",
+    "aliases": []
+   },
+   {
+    "answer": "Acristavus",
+    "aliases": []
+   },
+   {
+    "answer": "Kosmoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Utahceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Diabloceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Regaliceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Medusaceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Coahuilaceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Nasutoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Albertaceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Spinops",
+    "aliases": []
+   },
+   {
+    "answer": "Triceratops prorsus",
+    "aliases": []
+   },
+   {
+    "answer": "Arrhinoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Anchiceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Bagaceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Montanoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Udanoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Yinlong",
+    "aliases": []
+   },
+   {
+    "answer": "Chaoyangsaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Liaoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Archaeoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Microceratus",
+    "aliases": []
+   },
+   {
+    "answer": "Graciliceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Sinoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Wendiceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Machairoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Xenoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Eotriceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Ojoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Titanoceratops",
+    "aliases": []
+   },
+   {
+    "answer": "Sinotyrannus",
+    "aliases": []
+   },
+   {
+    "answer": "Raptorex",
+    "aliases": []
+   },
+   {
+    "answer": "Appalachiosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Dryptosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Aorun",
+    "aliases": []
+   },
+   {
+    "answer": "Eocarcharia",
+    "aliases": []
+   },
+   {
+    "answer": "Concavenator",
+    "aliases": []
+   },
+   {
+    "answer": "Australovenator",
+    "aliases": []
+   },
+   {
+    "answer": "Fukuiraptor",
+    "aliases": []
+   },
+   {
+    "answer": "Megaraptor",
+    "aliases": []
+   },
+   {
+    "answer": "Siats",
+    "aliases": []
+   },
+   {
+    "answer": "Eocursor",
+    "aliases": []
+   },
+   {
+    "answer": "Torvosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Eustreptospondylus",
+    "aliases": []
+   },
+   {
+    "answer": "Afrovenator",
+    "aliases": []
+   },
+   {
+    "answer": "Dubreuillosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Piatnitzkysaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Marshosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Saurophaganax",
+    "aliases": []
+   },
+   {
+    "answer": "Metriacanthosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Szechuanosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Becklespinax",
+    "aliases": []
+   },
+   {
+    "answer": "Altispinax",
+    "aliases": []
+   },
+   {
+    "answer": "Ichthyovenator",
+    "aliases": []
+   },
+   {
+    "answer": "Oxalaia",
+    "aliases": []
+   },
+   {
+    "answer": "Spinosaurus aegyptiacus",
+    "aliases": []
+   },
+   {
+    "answer": "Cristatusaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Ceratosuchops",
+    "aliases": []
+   },
+   {
+    "answer": "Riparovenator",
+    "aliases": []
+   },
+   {
+    "answer": "Vectaerovenator",
+    "aliases": []
+   },
+   {
+    "answer": "Dracovenator",
+    "aliases": []
+   },
+   {
+    "answer": "Gojirasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Ammosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Yunnanosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Efraasia",
+    "aliases": []
+   },
+   {
+    "answer": "Thecodontosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Mussaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Sellosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Camelotia",
+    "aliases": []
+   },
+   {
+    "answer": "Blikanasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Antetonitrus",
+    "aliases": []
+   },
+   {
+    "answer": "Isanosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Barapasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Patagosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Lapparentosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Bellusaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Datousaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Abrosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Atlasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Tehuelchesaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Brachytrachelopan mesai",
+    "aliases": []
+   },
+   {
+    "answer": "Suuwassea",
+    "aliases": []
+   },
+   {
+    "answer": "Tornieria",
+    "aliases": []
+   },
+   {
+    "answer": "Janenschia",
+    "aliases": []
+   },
+   {
+    "answer": "Tendaguria",
+    "aliases": []
+   },
+   {
+    "answer": "Venenosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Cedarosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Abydosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Qijianglong",
+    "aliases": []
+   },
+   {
+    "answer": "Xinjiangtitan",
+    "aliases": []
+   },
+   {
+    "answer": "Zhuchengosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Huabeisaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Jainosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Aeolosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Antarctosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Neuquensaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Lirainosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Hypselosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Dongbeititan",
+    "aliases": []
+   },
+   {
+    "answer": "Elaltitan",
+    "aliases": []
+   },
+   {
+    "answer": "Epachthosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Mendozasaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Chubutisaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Andesaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Malawisaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Pelorosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Ornithopsis",
+    "aliases": []
+   },
+   {
+    "answer": "Sarcosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Gojirasaurus quayi",
+    "aliases": []
+   },
+   {
+    "answer": "Spicomellus",
+    "aliases": []
+   },
+   {
+    "answer": "Ngwevu",
+    "aliases": []
+   },
+   {
+    "answer": "Pantydraco",
+    "aliases": []
+   },
+   {
+    "answer": "Mamenchisaurus sinocanadorum",
+    "aliases": []
+   },
+   {
+    "answer": "Lourinhanosaurus",
+    "aliases": []
+   },
+   {
+    "answer": "Ampelognathus",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 60385,
+ "type": "result",
+ "duration_ms": 60443,
+ "uuid": "c376a400-0193-4b4c-9bb3-c6bdfde263e4",
+ "ttft_stream_ms": 655,
+ "time_to_request_ms": 28,
+ "first_content_frame_ms": 656,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

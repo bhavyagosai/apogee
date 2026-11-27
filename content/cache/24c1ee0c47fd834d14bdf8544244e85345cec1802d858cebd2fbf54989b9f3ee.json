@@ -1,0 +1,142 @@
+{
+ "duration_api_ms": 22134,
+ "stop_reason": "tool_use",
+ "session_id": "8d6c0b53-2bde-4b55-ac20-548c67c2d8cb",
+ "total_cost_usd": 0.06738,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8964,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3152,
+  "output_tokens_details": {
+   "thinking_tokens": 2682
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8964,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 3152,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 8964,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8964
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 3152,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 8964,
+   "webSearchRequests": 0,
+   "costUSD": 0.06738,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 2682,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Didanodon\",\"reason\":\"A Cretaceous mammal (multituberculate), not a dinosaur.\"},{\"answer\":\"Lukousaurus\",\"reason\":\"Originally described as a theropod, but now regarded as a crocodylomorph, not a dinosaur.\"},{\"answer\":\"Boutakioutichnium\",\"reason\":\"An ichnogenus (fossil trackway), not an animal taxon.\"},{\"answer\":\"Megaloolithus\",\"reason\":\"An egg-fossil oogenus, not a dinosaur.\"},{\"answer\":\"Cairanoolithus\",\"reason\":\"An egg-fossil oogenus, not a dinosaur.\"},{\"answer\":\"Dendroolithus\",\"reason\":\"An egg-fossil oogenus, not a dinosaur.\"},{\"answer\":\"Tristraguloolithus\",\"reason\":\"An egg-fossil oogenus, not a dinosaur.\"},{\"answer\":\"Youngoolithus\",\"reason\":\"An egg-fossil oogenus, not a dinosaur.\"},{\"answer\":\"Guegoolithus\",\"reason\":\"An egg-fossil oogenus, not a dinosaur.\"},{\"answer\":\"Nipponoolithus\",\"reason\":\"An egg-fossil oogenus, not a dinosaur.\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Didanodon",
+    "reason": "A Cretaceous mammal (multituberculate), not a dinosaur."
+   },
+   {
+    "answer": "Lukousaurus",
+    "reason": "Originally described as a theropod, but now regarded as a crocodylomorph, not a dinosaur."
+   },
+   {
+    "answer": "Boutakioutichnium",
+    "reason": "An ichnogenus (fossil trackway), not an animal taxon."
+   },
+   {
+    "answer": "Megaloolithus",
+    "reason": "An egg-fossil oogenus, not a dinosaur."
+   },
+   {
+    "answer": "Cairanoolithus",
+    "reason": "An egg-fossil oogenus, not a dinosaur."
+   },
+   {
+    "answer": "Dendroolithus",
+    "reason": "An egg-fossil oogenus, not a dinosaur."
+   },
+   {
+    "answer": "Tristraguloolithus",
+    "reason": "An egg-fossil oogenus, not a dinosaur."
+   },
+   {
+    "answer": "Youngoolithus",
+    "reason": "An egg-fossil oogenus, not a dinosaur."
+   },
+   {
+    "answer": "Guegoolithus",
+    "reason": "An egg-fossil oogenus, not a dinosaur."
+   },
+   {
+    "answer": "Nipponoolithus",
+    "reason": "An egg-fossil oogenus, not a dinosaur."
+   }
+  ]
+ },
+ "ttft_ms": 20246,
+ "type": "result",
+ "duration_ms": 22356,
+ "uuid": "c4866793-a8ac-45c4-bb0d-d848fa5dd92f",
+ "ttft_stream_ms": 1209,
+ "time_to_request_ms": 135,
+ "first_content_frame_ms": 1209,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

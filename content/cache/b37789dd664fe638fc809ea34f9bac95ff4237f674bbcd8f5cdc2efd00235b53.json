@@ -1,0 +1,604 @@
+{
+ "duration_api_ms": 14306,
+ "stop_reason": "tool_use",
+ "session_id": "117325a0-1f52-4a55-9b1b-2bea63f8f5f4",
+ "total_cost_usd": 0.050326,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7028,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2221,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7028,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2221,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 7028,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7028
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2221,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 7028,
+   "webSearchRequests": 0,
+   "costUSD": 0.050326,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Racecar\",\"aliases\":[\"Race car\"]},{\"answer\":\"Level\",\"aliases\":[]},{\"answer\":\"Radar\",\"aliases\":[]},{\"answer\":\"Kayak\",\"aliases\":[]},{\"answer\":\"Madam\",\"aliases\":[\"Ma'am\"]},{\"answer\":\"Civic\",\"aliases\":[]},{\"answer\":\"Refer\",\"aliases\":[]},{\"answer\":\"Rotor\",\"aliases\":[]},{\"answer\":\"Noon\",\"aliases\":[]},{\"answer\":\"Mom\",\"aliases\":[\"Mum\"]},{\"answer\":\"Dad\",\"aliases\":[]},{\"answer\":\"Wow\",\"aliases\":[]},{\"answer\":\"Eye\",\"aliases\":[]},{\"answer\":\"Eve\",\"aliases\":[]},{\"answer\":\"Pop\",\"aliases\":[]},{\"answer\":\"Pup\",\"aliases\":[]},{\"answer\":\"Peep\",\"aliases\":[]},{\"answer\":\"Deed\",\"aliases\":[]},{\"answer\":\"Did\",\"aliases\":[]},{\"answer\":\"Gig\",\"aliases\":[]},{\"answer\":\"Bob\",\"aliases\":[]},{\"answer\":\"Hannah\",\"aliases\":[]},{\"answer\":\"Anna\",\"aliases\":[]},{\"answer\":\"Otto\",\"aliases\":[]},{\"answer\":\"Ava\",\"aliases\":[]},{\"answer\":\"Ada\",\"aliases\":[]},{\"answer\":\"Ana\",\"aliases\":[]},{\"answer\":\"Elle\",\"aliases\":[]},{\"answer\":\"Nan\",\"aliases\":[]},{\"answer\":\"Nun\",\"aliases\":[]},{\"answer\":\"Pip\",\"aliases\":[]},{\"answer\":\"Pep\",\"aliases\":[]},{\"answer\":\"Tot\",\"aliases\":[]},{\"answer\":\"Tat\",\"aliases\":[]},{\"answer\":\"Tit\",\"aliases\":[]},{\"answer\":\"Toot\",\"aliases\":[]},{\"answer\":\"Tut\",\"aliases\":[]},{\"answer\":\"Sis\",\"aliases\":[]},{\"answer\":\"Sees\",\"aliases\":[]},{\"answer\":\"Solos\",\"aliases\":[]},{\"answer\":\"Stats\",\"aliases\":[]},{\"answer\":\"Sagas\",\"aliases\":[]},{\"answer\":\"Sexes\",\"aliases\":[]},{\"answer\":\"Shahs\",\"aliases\":[]},{\"answer\":\"Minim\",\"aliases\":[]},{\"answer\":\"Maam\",\"aliases\":[]},{\"answer\":\"Malayalam\",\"aliases\":[]},{\"answer\":\"Rotator\",\"aliases\":[]},{\"answer\":\"Redder\",\"aliases\":[]},{\"answer\":\"Reviver\",\"aliases\":[]},{\"answer\":\"Repaper\",\"aliases\":[]},{\"answer\":\"Referrer\",\"aliases\":[]},{\"answer\":\"Deified\",\"aliases\":[]},{\"answer\":\"Detartrated\",\"aliases\":[]},{\"answer\":\"Tattarrattat\",\"aliases\":[]},{\"answer\":\"Redivider\",\"aliases\":[]},{\"answer\":\"Rotavator\",\"aliases\":[]},{\"answer\":\"Sememes\",\"aliases\":[]},{\"answer\":\"Terret\",\"aliases\":[]},{\"answer\":\"Testset\",\"aliases\":[]},{\"answer\":\"Aibohphobia\",\"aliases\":[]},{\"answer\":\"Solemnlemlos\",\"aliases\":[]},{\"answer\":\"Kook\",\"aliases\":[]},{\"answer\":\"Boob\",\"aliases\":[]},{\"answer\":\"Bib\",\"aliases\":[]},{\"answer\":\"Dud\",\"aliases\":[]},{\"answer\":\"Pap\",\"aliases\":[]},{\"answer\":\"Poop\",\"aliases\":[]},{\"answer\":\"Peeweep\",\"aliases\":[]},{\"answer\":\"Ewe\",\"aliases\":[]},{\"answer\":\"Aha\",\"aliases\":[]},{\"answer\":\"Ere\",\"aliases\":[]},{\"answer\":\"Ono\",\"aliases\":[]},{\"answer\":\"Oho\",\"aliases\":[]},{\"answer\":\"Eke\",\"aliases\":[]},{\"answer\":\"Ewe\",\"aliases\":[]},{\"answer\":\"Gag\",\"aliases\":[]},{\"answer\":\"Gog\",\"aliases\":[]},{\"answer\":\"Huh\",\"aliases\":[]},{\"answer\":\"Hah\",\"aliases\":[]},{\"answer\":\"Tenet\",\"aliases\":[]},{\"answer\":\"Sags\",\"aliases\":[]},{\"answer\":\"Reifier\",\"aliases\":[]},{\"answer\":\"Rever\",\"aliases\":[]},{\"answer\":\"Revver\",\"aliases\":[]},{\"answer\":\"Rotor\",\"aliases\":[]},{\"answer\":\"Selles\",\"aliases\":[]},{\"answer\":\"Sweetmeetsews\",\"aliases\":[]},{\"answer\":\"Stets\",\"aliases\":[]},{\"answer\":\"Tebet\",\"aliases\":[]},{\"answer\":\"Zzz\",\"aliases\":[]},{\"answer\":\"Abba\",\"aliases\":[\"ABBA\"]},{\"answer\":\"Alula\",\"aliases\":[]},{\"answer\":\"Aga\",\"aliases\":[]},{\"answer\":\"Ahha\",\"aliases\":[]},{\"answer\":\"Asa\",\"aliases\":[]},{\"answer\":\"Ava\",\"aliases\":[]},{\"answer\":\"Bub\",\"aliases\":[]},{\"answer\":\"Cdc\",\"aliases\":[]},{\"answer\":\"Dewed\",\"aliases\":[]},{\"answer\":\"Dud\",\"aliases\":[]},{\"answer\":\"Eke\",\"aliases\":[]},{\"answer\":\"Ere\",\"aliases\":[]},{\"answer\":\"Esse\",\"aliases\":[]},{\"answer\":\"Ewe\",\"aliases\":[]},{\"answer\":\"Eue\",\"aliases\":[]},{\"answer\":\"Fif\",\"aliases\":[]},{\"answer\":\"Gnarlralng\",\"aliases\":[]},{\"answer\":\"Hah\",\"aliases\":[]},{\"answer\":\"Illi\",\"aliases\":[]},{\"answer\":\"Kakak\",\"aliases\":[]},{\"answer\":\"Lil\",\"aliases\":[]},{\"answer\":\"Mam\",\"aliases\":[]},{\"answer\":\"Mim\",\"aliases\":[]},{\"answer\":\"Mum\",\"aliases\":[]},{\"answer\":\"Non\",\"aliases\":[]},{\"answer\":\"Oxo\",\"aliases\":[]},{\"answer\":\"Pip\",\"aliases\":[]},{\"answer\":\"Sos\",\"aliases\":[\"SOS\"]},{\"answer\":\"Tet\",\"aliases\":[]},{\"answer\":\"Tut\",\"aliases\":[]},{\"answer\":\"Wow\",\"aliases\":[]},{\"answer\":\"Yay\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Racecar",
+    "aliases": [
+     "Race car"
+    ]
+   },
+   {
+    "answer": "Level",
+    "aliases": []
+   },
+   {
+    "answer": "Radar",
+    "aliases": []
+   },
+   {
+    "answer": "Kayak",
+    "aliases": []
+   },
+   {
+    "answer": "Madam",
+    "aliases": [
+     "Ma'am"
+    ]
+   },
+   {
+    "answer": "Civic",
+    "aliases": []
+   },
+   {
+    "answer": "Refer",
+    "aliases": []
+   },
+   {
+    "answer": "Rotor",
+    "aliases": []
+   },
+   {
+    "answer": "Noon",
+    "aliases": []
+   },
+   {
+    "answer": "Mom",
+    "aliases": [
+     "Mum"
+    ]
+   },
+   {
+    "answer": "Dad",
+    "aliases": []
+   },
+   {
+    "answer": "Wow",
+    "aliases": []
+   },
+   {
+    "answer": "Eye",
+    "aliases": []
+   },
+   {
+    "answer": "Eve",
+    "aliases": []
+   },
+   {
+    "answer": "Pop",
+    "aliases": []
+   },
+   {
+    "answer": "Pup",
+    "aliases": []
+   },
+   {
+    "answer": "Peep",
+    "aliases": []
+   },
+   {
+    "answer": "Deed",
+    "aliases": []
+   },
+   {
+    "answer": "Did",
+    "aliases": []
+   },
+   {
+    "answer": "Gig",
+    "aliases": []
+   },
+   {
+    "answer": "Bob",
+    "aliases": []
+   },
+   {
+    "answer": "Hannah",
+    "aliases": []
+   },
+   {
+    "answer": "Anna",
+    "aliases": []
+   },
+   {
+    "answer": "Otto",
+    "aliases": []
+   },
+   {
+    "answer": "Ava",
+    "aliases": []
+   },
+   {
+    "answer": "Ada",
+    "aliases": []
+   },
+   {
+    "answer": "Ana",
+    "aliases": []
+   },
+   {
+    "answer": "Elle",
+    "aliases": []
+   },
+   {
+    "answer": "Nan",
+    "aliases": []
+   },
+   {
+    "answer": "Nun",
+    "aliases": []
+   },
+   {
+    "answer": "Pip",
+    "aliases": []
+   },
+   {
+    "answer": "Pep",
+    "aliases": []
+   },
+   {
+    "answer": "Tot",
+    "aliases": []
+   },
+   {
+    "answer": "Tat",
+    "aliases": []
+   },
+   {
+    "answer": "Tit",
+    "aliases": []
+   },
+   {
+    "answer": "Toot",
+    "aliases": []
+   },
+   {
+    "answer": "Tut",
+    "aliases": []
+   },
+   {
+    "answer": "Sis",
+    "aliases": []
+   },
+   {
+    "answer": "Sees",
+    "aliases": []
+   },
+   {
+    "answer": "Solos",
+    "aliases": []
+   },
+   {
+    "answer": "Stats",
+    "aliases": []
+   },
+   {
+    "answer": "Sagas",
+    "aliases": []
+   },
+   {
+    "answer": "Sexes",
+    "aliases": []
+   },
+   {
+    "answer": "Shahs",
+    "aliases": []
+   },
+   {
+    "answer": "Minim",
+    "aliases": []
+   },
+   {
+    "answer": "Maam",
+    "aliases": []
+   },
+   {
+    "answer": "Malayalam",
+    "aliases": []
+   },
+   {
+    "answer": "Rotator",
+    "aliases": []
+   },
+   {
+    "answer": "Redder",
+    "aliases": []
+   },
+   {
+    "answer": "Reviver",
+    "aliases": []
+   },
+   {
+    "answer": "Repaper",
+    "aliases": []
+   },
+   {
+    "answer": "Referrer",
+    "aliases": []
+   },
+   {
+    "answer": "Deified",
+    "aliases": []
+   },
+   {
+    "answer": "Detartrated",
+    "aliases": []
+   },
+   {
+    "answer": "Tattarrattat",
+    "aliases": []
+   },
+   {
+    "answer": "Redivider",
+    "aliases": []
+   },
+   {
+    "answer": "Rotavator",
+    "aliases": []
+   },
+   {
+    "answer": "Sememes",
+    "aliases": []
+   },
+   {
+    "answer": "Terret",
+    "aliases": []
+   },
+   {
+    "answer": "Testset",
+    "aliases": []
+   },
+   {
+    "answer": "Aibohphobia",
+    "aliases": []
+   },
+   {
+    "answer": "Solemnlemlos",
+    "aliases": []
+   },
+   {
+    "answer": "Kook",
+    "aliases": []
+   },
+   {
+    "answer": "Boob",
+    "aliases": []
+   },
+   {
+    "answer": "Bib",
+    "aliases": []
+   },
+   {
+    "answer": "Dud",
+    "aliases": []
+   },
+   {
+    "answer": "Pap",
+    "aliases": []
+   },
+   {
+    "answer": "Poop",
+    "aliases": []
+   },
+   {
+    "answer": "Peeweep",
+    "aliases": []
+   },
+   {
+    "answer": "Ewe",
+    "aliases": []
+   },
+   {
+    "answer": "Aha",
+    "aliases": []
+   },
+   {
+    "answer": "Ere",
+    "aliases": []
+   },
+   {
+    "answer": "Ono",
+    "aliases": []
+   },
+   {
+    "answer": "Oho",
+    "aliases": []
+   },
+   {
+    "answer": "Eke",
+    "aliases": []
+   },
+   {
+    "answer": "Ewe",
+    "aliases": []
+   },
+   {
+    "answer": "Gag",
+    "aliases": []
+   },
+   {
+    "answer": "Gog",
+    "aliases": []
+   },
+   {
+    "answer": "Huh",
+    "aliases": []
+   },
+   {
+    "answer": "Hah",
+    "aliases": []
+   },
+   {
+    "answer": "Tenet",
+    "aliases": []
+   },
+   {
+    "answer": "Sags",
+    "aliases": []
+   },
+   {
+    "answer": "Reifier",
+    "aliases": []
+   },
+   {
+    "answer": "Rever",
+    "aliases": []
+   },
+   {
+    "answer": "Revver",
+    "aliases": []
+   },
+   {
+    "answer": "Rotor",
+    "aliases": []
+   },
+   {
+    "answer": "Selles",
+    "aliases": []
+   },
+   {
+    "answer": "Sweetmeetsews",
+    "aliases": []
+   },
+   {
+    "answer": "Stets",
+    "aliases": []
+   },
+   {
+    "answer": "Tebet",
+    "aliases": []
+   },
+   {
+    "answer": "Zzz",
+    "aliases": []
+   },
+   {
+    "answer": "Abba",
+    "aliases": [
+     "ABBA"
+    ]
+   },
+   {
+    "answer": "Alula",
+    "aliases": []
+   },
+   {
+    "answer": "Aga",
+    "aliases": []
+   },
+   {
+    "answer": "Ahha",
+    "aliases": []
+   },
+   {
+    "answer": "Asa",
+    "aliases": []
+   },
+   {
+    "answer": "Ava",
+    "aliases": []
+   },
+   {
+    "answer": "Bub",
+    "aliases": []
+   },
+   {
+    "answer": "Cdc",
+    "aliases": []
+   },
+   {
+    "answer": "Dewed",
+    "aliases": []
+   },
+   {
+    "answer": "Dud",
+    "aliases": []
+   },
+   {
+    "answer": "Eke",
+    "aliases": []
+   },
+   {
+    "answer": "Ere",
+    "aliases": []
+   },
+   {
+    "answer": "Esse",
+    "aliases": []
+   },
+   {
+    "answer": "Ewe",
+    "aliases": []
+   },
+   {
+    "answer": "Eue",
+    "aliases": []
+   },
+   {
+    "answer": "Fif",
+    "aliases": []
+   },
+   {
+    "answer": "Gnarlralng",
+    "aliases": []
+   },
+   {
+    "answer": "Hah",
+    "aliases": []
+   },
+   {
+    "answer": "Illi",
+    "aliases": []
+   },
+   {
+    "answer": "Kakak",
+    "aliases": []
+   },
+   {
+    "answer": "Lil",
+    "aliases": []
+   },
+   {
+    "answer": "Mam",
+    "aliases": []
+   },
+   {
+    "answer": "Mim",
+    "aliases": []
+   },
+   {
+    "answer": "Mum",
+    "aliases": []
+   },
+   {
+    "answer": "Non",
+    "aliases": []
+   },
+   {
+    "answer": "Oxo",
+    "aliases": []
+   },
+   {
+    "answer": "Pip",
+    "aliases": []
+   },
+   {
+    "answer": "Sos",
+    "aliases": [
+     "SOS"
+    ]
+   },
+   {
+    "answer": "Tet",
+    "aliases": []
+   },
+   {
+    "answer": "Tut",
+    "aliases": []
+   },
+   {
+    "answer": "Wow",
+    "aliases": []
+   },
+   {
+    "answer": "Yay",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 14312,
+ "type": "result",
+ "duration_ms": 14444,
+ "uuid": "783476df-5162-43f7-bdcc-2e81331a1512",
+ "ttft_stream_ms": 1159,
+ "time_to_request_ms": 68,
+ "first_content_frame_ms": 1159,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

@@ -1,0 +1,762 @@
+{
+ "duration_api_ms": 27784,
+ "stop_reason": "tool_use",
+ "session_id": "6111141f-82ad-44cd-abaf-2599b10715c4",
+ "total_cost_usd": 0.09627759999999999,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 11603,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 4974,
+  "output_tokens_details": {
+   "thinking_tokens": 795
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 11603,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 4974,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 11603,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 11603
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 4974,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 11603,
+   "webSearchRequests": 0,
+   "costUSD": 0.09627759999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 795,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Tape\",\"reason\":\"Generic category\"},{\"answer\":\"Toolbox\",\"reason\":\"The container itself\"},{\"answer\":\"Sawhorse\",\"reason\":\"Too large for a toolbox\"},{\"answer\":\"Shop vac\",\"reason\":\"Too large for a toolbox\"},{\"answer\":\"Shovel\",\"reason\":\"Doesn't fit in a toolbox\"},{\"answer\":\"Wheel chocks\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Fishing line\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Dust pan\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Coins\",\"reason\":\"Not a tool\"},{\"answer\":\"Bandages\",\"reason\":\"Not a tool\"},{\"answer\":\"Hard hat\",\"reason\":\"Doesn't fit in a toolbox\"},{\"answer\":\"Machete\",\"reason\":\"Not a typical toolbox item\"},{\"answer\":\"Axe\",\"reason\":\"Doesn't fit in a toolbox\"},{\"answer\":\"Miter saw\",\"reason\":\"Large stationary power tool\"},{\"answer\":\"Bench vise\",\"reason\":\"Bolted to a bench\"},{\"answer\":\"Circle\",\"reason\":\"Geometry term\"},{\"answer\":\"Sphere\",\"reason\":\"Geometry term\"},{\"answer\":\"Cube\",\"reason\":\"Geometry term\"},{\"answer\":\"Back\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Cone\",\"reason\":\"Geometry term\"},{\"answer\":\"Ellipse\",\"reason\":\"Geometry term\"},{\"answer\":\"Parabola\",\"reason\":\"Geometry term\"},{\"answer\":\"Pyramid\",\"reason\":\"Geometry term\"},{\"answer\":\"Conic section\",\"reason\":\"Geometry term\"},{\"answer\":\"Three-dimensional space\",\"reason\":\"Math concept\"},{\"answer\":\"Polyhedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Tetrahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Hyperbola\",\"reason\":\"Geometry term\"},{\"answer\":\"Surface\",\"reason\":\"Math concept\"},{\"answer\":\"Torus\",\"reason\":\"Geometry term\"},{\"answer\":\"Circle of latitude\",\"reason\":\"Geography term\"},{\"answer\":\"Polar circle\",\"reason\":\"Geography term\"},{\"answer\":\"Prism\",\"reason\":\"Geometry term\"},{\"answer\":\"Möbius strip\",\"reason\":\"Math object\"},{\"answer\":\"Great circle\",\"reason\":\"Geometry term\"},{\"answer\":\"Euclidean n-space\",\"reason\":\"Math concept\"},{\"answer\":\"Parallelepiped\",\"reason\":\"Geometry term\"},{\"answer\":\"Rectangular cuboid\",\"reason\":\"Geometry term\"},{\"answer\":\"Platonic solid\",\"reason\":\"Geometry term\"},{\"answer\":\"Unit circle\",\"reason\":\"Math concept\"},{\"answer\":\"Dodecahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Octahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Ellipsoid\",\"reason\":\"Geometry term\"},{\"answer\":\"Ball\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Icosahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Complex plane\",\"reason\":\"Math concept\"},{\"answer\":\"Circumscribed circle\",\"reason\":\"Geometry term\"},{\"answer\":\"Spheroid\",\"reason\":\"Geometry term\"},{\"answer\":\"Hyperboloid\",\"reason\":\"Geometry term\"},{\"answer\":\"Paraboloid\",\"reason\":\"Geometry term\"},{\"answer\":\"Klein bottle\",\"reason\":\"Math object\"},{\"answer\":\"Tessellation\",\"reason\":\"Math concept\"},{\"answer\":\"Parabolic antenna\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Nine-point circle\",\"reason\":\"Geometry term\"},{\"answer\":\"Airfoil\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Celestial meridian\",\"reason\":\"Astronomy term\"},{\"answer\":\"Hexahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Riemann surface\",\"reason\":\"Math concept\"},{\"answer\":\"Solid of revolution\",\"reason\":\"Math concept\"},{\"answer\":\"Face\",\"reason\":\"Geometry term\"},{\"answer\":\"Archimedean solid\",\"reason\":\"Geometry term\"},{\"answer\":\"Cross section\",\"reason\":\"Geometry term\"},{\"answer\":\"Universal Transverse Mercator\",\"reason\":\"Map coordinate system\"},{\"answer\":\"Gabriel's Horn\",\"reason\":\"Math object\"},{\"answer\":\"Fairy ring\",\"reason\":\"Fungus phenomenon\"},{\"answer\":\"Rhombic hexahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Inscribed circle\",\"reason\":\"Geometry term\"},{\"answer\":\"Quadric\",\"reason\":\"Math concept\"},{\"answer\":\"Color wheel\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Incircle and excircles of a triangle\",\"reason\":\"Geometry term\"},{\"answer\":\"Radar cross section\",\"reason\":\"Physics concept\"},{\"answer\":\"Truncated icosahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Antiprism\",\"reason\":\"Geometry term\"},{\"answer\":\"Solid figure\",\"reason\":\"Geometry term\"},{\"answer\":\"Lemniscate of Bernoulli\",\"reason\":\"Math curve\"},{\"answer\":\"Surface of revolution\",\"reason\":\"Math concept\"},{\"answer\":\"Bipyramid\",\"reason\":\"Geometry term\"},{\"answer\":\"Galactic plane\",\"reason\":\"Astronomy term\"},{\"answer\":\"Light cone\",\"reason\":\"Physics concept\"},{\"answer\":\"Rhombic dodecahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Catalan solid\",\"reason\":\"Geometry term\"},{\"answer\":\"Cuboctahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Frustum\",\"reason\":\"Geometry term\"},{\"answer\":\"Sagittal plane\",\"reason\":\"Anatomy term\"},{\"answer\":\"Reference ellipsoid\",\"reason\":\"Geodesy term\"},{\"answer\":\"Kepler–Poinsot polyhedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Rhombicuboctahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Penrose tiling\",\"reason\":\"Math concept\"},{\"answer\":\"Truncated tetrahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Truncated cube\",\"reason\":\"Geometry term\"},{\"answer\":\"Regular polyhedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Truncated octahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Square pyramid\",\"reason\":\"Geometry term\"},{\"answer\":\"Tropic\",\"reason\":\"Geography term\"},{\"answer\":\"Gömböc\",\"reason\":\"Math object\"},{\"answer\":\"Pentahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Icosidodecahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Rhombicosidodecahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Helicoid\",\"reason\":\"Geometry term\"},{\"answer\":\"Lapel\",\"reason\":\"Clothing part\"},{\"answer\":\"Regular icosahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Truncated dodecahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Orbital plane\",\"reason\":\"Astronomy term\"},{\"answer\":\"Ruled surface\",\"reason\":\"Math concept\"},{\"answer\":\"Dual polyhedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Deltahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Snub cube\",\"reason\":\"Geometry term\"},{\"answer\":\"Minimal surface\",\"reason\":\"Math concept\"},{\"answer\":\"Regular octahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Equipotential surface\",\"reason\":\"Physics concept\"},{\"answer\":\"Grain boundary\",\"reason\":\"Materials science term\"},{\"answer\":\"Regular dodecahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Prismatoid\",\"reason\":\"Geometry term\"},{\"answer\":\"Parabolic reflector\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Truncated cuboctahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Hypersurface\",\"reason\":\"Math concept\"},{\"answer\":\"Johnson solid\",\"reason\":\"Geometry term\"},{\"answer\":\"Rhombic triacontahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Toroid\",\"reason\":\"Geometry term\"},{\"answer\":\"Water table\",\"reason\":\"Geology term\"},{\"answer\":\"Catenoid\",\"reason\":\"Geometry term\"},{\"answer\":\"Truncated icosidodecahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Deltoidal icositetrahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"CIELAB color space\",\"reason\":\"Color model\"},{\"answer\":\"Small circle\",\"reason\":\"Geometry term\"},{\"answer\":\"Snub dodecahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Pseudosphere\",\"reason\":\"Geometry term\"},{\"answer\":\"Unit cube\",\"reason\":\"Math concept\"},{\"answer\":\"Trapezohedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Polygon mesh\",\"reason\":\"Computer graphics term\"},{\"answer\":\"Invariable plane\",\"reason\":\"Astronomy term\"},{\"answer\":\"Radome\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"N-sphere\",\"reason\":\"Math concept\"},{\"answer\":\"Pentagonal pyramid\",\"reason\":\"Geometry term\"},{\"answer\":\"Triangular prism\",\"reason\":\"Geometry term\"},{\"answer\":\"Margin\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Apollonian circles\",\"reason\":\"Geometry term\"},{\"answer\":\"Triangular bipyramid\",\"reason\":\"Geometry term\"},{\"answer\":\"Tacticity\",\"reason\":\"Chemistry term\"},{\"answer\":\"Discrete space\",\"reason\":\"Math concept\"},{\"answer\":\"3D projection\",\"reason\":\"Graphics concept\"},{\"answer\":\"Triangular cupola\",\"reason\":\"Geometry term\"},{\"answer\":\"Unit sphere\",\"reason\":\"Math concept\"},{\"answer\":\"Triakis tetrahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Semiregular polyhedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Pentagonal rotunda\",\"reason\":\"Geometry term\"},{\"answer\":\"Square cupola\",\"reason\":\"Geometry term\"},{\"answer\":\"Tetrakis hexahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Unit disk\",\"reason\":\"Math concept\"},{\"answer\":\"Triakis octahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Reverse\",\"reason\":\"Not a toolbox item\"},{\"answer\":\"Decahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Pentakis dodecahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"CIE 1931 color space\",\"reason\":\"Color model\"},{\"answer\":\"Polygonal dihedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Spherical segment\",\"reason\":\"Geometry term\"},{\"answer\":\"Pentagonal hexecontahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Pentagonal cupola\",\"reason\":\"Geometry term\"},{\"answer\":\"Coronal plane\",\"reason\":\"Anatomy term\"},{\"answer\":\"Inscribed sphere\",\"reason\":\"Geometry term\"},{\"answer\":\"Elongated square gyrobicupola\",\"reason\":\"Geometry term\"},{\"answer\":\"Deltoidal hexecontahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Pentagonal bipyramid\",\"reason\":\"Geometry term\"},{\"answer\":\"Regular tetrahedron\",\"reason\":\"Geometry term\"},{\"answer\":\"Small stellated dodecahedron\",\"reason\":\"Geometry term\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Tape",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Toolbox",
+    "reason": "The container itself"
+   },
+   {
+    "answer": "Sawhorse",
+    "reason": "Too large for a toolbox"
+   },
+   {
+    "answer": "Shop vac",
+    "reason": "Too large for a toolbox"
+   },
+   {
+    "answer": "Shovel",
+    "reason": "Doesn't fit in a toolbox"
+   },
+   {
+    "answer": "Wheel chocks",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Fishing line",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Dust pan",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Coins",
+    "reason": "Not a tool"
+   },
+   {
+    "answer": "Bandages",
+    "reason": "Not a tool"
+   },
+   {
+    "answer": "Hard hat",
+    "reason": "Doesn't fit in a toolbox"
+   },
+   {
+    "answer": "Machete",
+    "reason": "Not a typical toolbox item"
+   },
+   {
+    "answer": "Axe",
+    "reason": "Doesn't fit in a toolbox"
+   },
+   {
+    "answer": "Miter saw",
+    "reason": "Large stationary power tool"
+   },
+   {
+    "answer": "Bench vise",
+    "reason": "Bolted to a bench"
+   },
+   {
+    "answer": "Circle",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Sphere",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Cube",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Back",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Cone",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Ellipse",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Parabola",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Pyramid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Conic section",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Three-dimensional space",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Polyhedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Tetrahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Hyperbola",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Surface",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Torus",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Circle of latitude",
+    "reason": "Geography term"
+   },
+   {
+    "answer": "Polar circle",
+    "reason": "Geography term"
+   },
+   {
+    "answer": "Prism",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Möbius strip",
+    "reason": "Math object"
+   },
+   {
+    "answer": "Great circle",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Euclidean n-space",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Parallelepiped",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Rectangular cuboid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Platonic solid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Unit circle",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Dodecahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Octahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Ellipsoid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Ball",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Icosahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Complex plane",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Circumscribed circle",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Spheroid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Hyperboloid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Paraboloid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Klein bottle",
+    "reason": "Math object"
+   },
+   {
+    "answer": "Tessellation",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Parabolic antenna",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Nine-point circle",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Airfoil",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Celestial meridian",
+    "reason": "Astronomy term"
+   },
+   {
+    "answer": "Hexahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Riemann surface",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Solid of revolution",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Face",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Archimedean solid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Cross section",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Universal Transverse Mercator",
+    "reason": "Map coordinate system"
+   },
+   {
+    "answer": "Gabriel's Horn",
+    "reason": "Math object"
+   },
+   {
+    "answer": "Fairy ring",
+    "reason": "Fungus phenomenon"
+   },
+   {
+    "answer": "Rhombic hexahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Inscribed circle",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Quadric",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Color wheel",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Incircle and excircles of a triangle",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Radar cross section",
+    "reason": "Physics concept"
+   },
+   {
+    "answer": "Truncated icosahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Antiprism",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Solid figure",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Lemniscate of Bernoulli",
+    "reason": "Math curve"
+   },
+   {
+    "answer": "Surface of revolution",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Bipyramid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Galactic plane",
+    "reason": "Astronomy term"
+   },
+   {
+    "answer": "Light cone",
+    "reason": "Physics concept"
+   },
+   {
+    "answer": "Rhombic dodecahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Catalan solid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Cuboctahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Frustum",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Sagittal plane",
+    "reason": "Anatomy term"
+   },
+   {
+    "answer": "Reference ellipsoid",
+    "reason": "Geodesy term"
+   },
+   {
+    "answer": "Kepler–Poinsot polyhedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Rhombicuboctahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Penrose tiling",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Truncated tetrahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Truncated cube",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Regular polyhedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Truncated octahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Square pyramid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Tropic",
+    "reason": "Geography term"
+   },
+   {
+    "answer": "Gömböc",
+    "reason": "Math object"
+   },
+   {
+    "answer": "Pentahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Icosidodecahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Rhombicosidodecahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Helicoid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Lapel",
+    "reason": "Clothing part"
+   },
+   {
+    "answer": "Regular icosahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Truncated dodecahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Orbital plane",
+    "reason": "Astronomy term"
+   },
+   {
+    "answer": "Ruled surface",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Dual polyhedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Deltahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Snub cube",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Minimal surface",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Regular octahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Equipotential surface",
+    "reason": "Physics concept"
+   },
+   {
+    "answer": "Grain boundary",
+    "reason": "Materials science term"
+   },
+   {
+    "answer": "Regular dodecahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Prismatoid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Parabolic reflector",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Truncated cuboctahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Hypersurface",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Johnson solid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Rhombic triacontahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Toroid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Water table",
+    "reason": "Geology term"
+   },
+   {
+    "answer": "Catenoid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Truncated icosidodecahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Deltoidal icositetrahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "CIELAB color space",
+    "reason": "Color model"
+   },
+   {
+    "answer": "Small circle",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Snub dodecahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Pseudosphere",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Unit cube",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Trapezohedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Polygon mesh",
+    "reason": "Computer graphics term"
+   },
+   {
+    "answer": "Invariable plane",
+    "reason": "Astronomy term"
+   },
+   {
+    "answer": "Radome",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "N-sphere",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Pentagonal pyramid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Triangular prism",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Margin",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Apollonian circles",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Triangular bipyramid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Tacticity",
+    "reason": "Chemistry term"
+   },
+   {
+    "answer": "Discrete space",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "3D projection",
+    "reason": "Graphics concept"
+   },
+   {
+    "answer": "Triangular cupola",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Unit sphere",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Triakis tetrahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Semiregular polyhedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Pentagonal rotunda",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Square cupola",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Tetrakis hexahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Unit disk",
+    "reason": "Math concept"
+   },
+   {
+    "answer": "Triakis octahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Reverse",
+    "reason": "Not a toolbox item"
+   },
+   {
+    "answer": "Decahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Pentakis dodecahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "CIE 1931 color space",
+    "reason": "Color model"
+   },
+   {
+    "answer": "Polygonal dihedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Spherical segment",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Pentagonal hexecontahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Pentagonal cupola",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Coronal plane",
+    "reason": "Anatomy term"
+   },
+   {
+    "answer": "Inscribed sphere",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Elongated square gyrobicupola",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Deltoidal hexecontahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Pentagonal bipyramid",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Regular tetrahedron",
+    "reason": "Geometry term"
+   },
+   {
+    "answer": "Small stellated dodecahedron",
+    "reason": "Geometry term"
+   }
+  ]
+ },
+ "ttft_ms": 9100,
+ "type": "result",
+ "duration_ms": 28010,
+ "uuid": "f788ba81-a34a-439c-956f-8b73ccae7d94",
+ "ttft_stream_ms": 1433,
+ "time_to_request_ms": 82,
+ "first_content_frame_ms": 1435,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

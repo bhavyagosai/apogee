@@ -1,0 +1,278 @@
+{
+ "duration_api_ms": 26556,
+ "stop_reason": "tool_use",
+ "session_id": "a503f00b-fb28-426d-bd89-6bb243186dd4",
+ "total_cost_usd": 0.078544,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9155,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4192,
+  "output_tokens_details": {
+   "thinking_tokens": 2772
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9155,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 4192,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 9155,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9155
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 4192,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 9155,
+   "webSearchRequests": 0,
+   "costUSD": 0.078544,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 2772,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Stilt-owl\",\"reason\":\"Generic common name, not a specific dinosaur.\"},{\"answer\":\"Tanystrosuchus\",\"reason\":\"Triassic non-dinosaurian archosauromorph reptile.\"},{\"answer\":\"Necropsar\",\"reason\":\"Extinct Mascarene starling, a modern-era bird and not a dinosaur genus.\"},{\"answer\":\"Aphanapteryx\",\"reason\":\"Extinct Mauritian red rail, a Holocene bird.\"},{\"answer\":\"Diaphorapteryx\",\"reason\":\"Extinct Chatham Islands rail, a Holocene bird.\"},{\"answer\":\"Thambetochen\",\"reason\":\"Extinct Hawaiian moa-nalo duck, a Quaternary bird.\"},{\"answer\":\"Chaetoptila\",\"reason\":\"Extinct Hawaiian kioea honeyeater, a modern bird.\"},{\"answer\":\"Sylviornis\",\"reason\":\"Giant flightless Quaternary bird of New Caledonia.\"},{\"answer\":\"Nesotrochis\",\"reason\":\"Extinct Holocene West Indian rail.\"},{\"answer\":\"Heterorhea\",\"reason\":\"Cenozoic rhea, not a dinosaur genus.\"},{\"answer\":\"Paraptenodytes\",\"reason\":\"Miocene penguin.\"},{\"answer\":\"Muriwaimanu\",\"reason\":\"Paleocene penguin.\"},{\"answer\":\"Perudyptes\",\"reason\":\"Eocene penguin.\"},{\"answer\":\"Duntroonornis\",\"reason\":\"Oligocene penguin.\"},{\"answer\":\"Miotadorna\",\"reason\":\"Miocene shelduck.\"},{\"answer\":\"Australotadorna\",\"reason\":\"Cenozoic shelduck.\"},{\"answer\":\"Miopelecanus\",\"reason\":\"Miocene pelican.\"},{\"answer\":\"Protopelicanus\",\"reason\":\"Cenozoic pelican.\"},{\"answer\":\"Megapaloelodus\",\"reason\":\"Cenozoic flamingo relative.\"},{\"answer\":\"Annakacygna\",\"reason\":\"Miocene swan.\"},{\"answer\":\"Eostrix\",\"reason\":\"Eocene owl.\"},{\"answer\":\"Eocypselus\",\"reason\":\"Eocene swift relative.\"},{\"answer\":\"Eurotrochilus\",\"reason\":\"Oligocene hummingbird relative.\"},{\"answer\":\"Paracrax\",\"reason\":\"Eocene cracid bird.\"},{\"answer\":\"Limnofregata\",\"reason\":\"Eocene frigatebird.\"},{\"answer\":\"Masillastega\",\"reason\":\"Eocene bird from Messel/Masill.\"},{\"answer\":\"Lithornis\",\"reason\":\"Paleogene lithornithid bird.\"},{\"answer\":\"Cryptogyps\",\"reason\":\"Pleistocene vulture.\"},{\"answer\":\"Dynatoaetus\",\"reason\":\"Pleistocene eagle.\"},{\"answer\":\"Sinanas\",\"reason\":\"Miocene duck.\"},{\"answer\":\"Shiriyanetta\",\"reason\":\"Pleistocene duck.\"},{\"answer\":\"Aegialornis\",\"reason\":\"Eocene swift relative.\"},{\"answer\":\"Hoazinavis\",\"reason\":\"Miocene hoatzin relative.\"},{\"answer\":\"Opisthodactylus\",\"reason\":\"Cenozoic rhea.\"},{\"answer\":\"Nannococcyx\",\"reason\":\"Cenozoic cuckoo.\"},{\"answer\":\"Proardea\",\"reason\":\"Eocene heron.\"},{\"answer\":\"Rhynchaeites\",\"reason\":\"Eocene ibis.\"},{\"answer\":\"Remiornis\",\"reason\":\"Paleocene bird.\"},{\"answer\":\"Taubatornis\",\"reason\":\"Paleogene bird.\"},{\"answer\":\"Zeltornis\",\"reason\":\"Miocene flamingo relative.\"},{\"answer\":\"Namibiavis\",\"reason\":\"Miocene bird.\"},{\"answer\":\"Neophrontops\",\"reason\":\"Cenozoic vulture.\"},{\"answer\":\"Palaeortyx\",\"reason\":\"Cenozoic quail relative.\"},{\"answer\":\"Patagorhacos\",\"reason\":\"Cenozoic bird.\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Stilt-owl",
+    "reason": "Generic common name, not a specific dinosaur."
+   },
+   {
+    "answer": "Tanystrosuchus",
+    "reason": "Triassic non-dinosaurian archosauromorph reptile."
+   },
+   {
+    "answer": "Necropsar",
+    "reason": "Extinct Mascarene starling, a modern-era bird and not a dinosaur genus."
+   },
+   {
+    "answer": "Aphanapteryx",
+    "reason": "Extinct Mauritian red rail, a Holocene bird."
+   },
+   {
+    "answer": "Diaphorapteryx",
+    "reason": "Extinct Chatham Islands rail, a Holocene bird."
+   },
+   {
+    "answer": "Thambetochen",
+    "reason": "Extinct Hawaiian moa-nalo duck, a Quaternary bird."
+   },
+   {
+    "answer": "Chaetoptila",
+    "reason": "Extinct Hawaiian kioea honeyeater, a modern bird."
+   },
+   {
+    "answer": "Sylviornis",
+    "reason": "Giant flightless Quaternary bird of New Caledonia."
+   },
+   {
+    "answer": "Nesotrochis",
+    "reason": "Extinct Holocene West Indian rail."
+   },
+   {
+    "answer": "Heterorhea",
+    "reason": "Cenozoic rhea, not a dinosaur genus."
+   },
+   {
+    "answer": "Paraptenodytes",
+    "reason": "Miocene penguin."
+   },
+   {
+    "answer": "Muriwaimanu",
+    "reason": "Paleocene penguin."
+   },
+   {
+    "answer": "Perudyptes",
+    "reason": "Eocene penguin."
+   },
+   {
+    "answer": "Duntroonornis",
+    "reason": "Oligocene penguin."
+   },
+   {
+    "answer": "Miotadorna",
+    "reason": "Miocene shelduck."
+   },
+   {
+    "answer": "Australotadorna",
+    "reason": "Cenozoic shelduck."
+   },
+   {
+    "answer": "Miopelecanus",
+    "reason": "Miocene pelican."
+   },
+   {
+    "answer": "Protopelicanus",
+    "reason": "Cenozoic pelican."
+   },
+   {
+    "answer": "Megapaloelodus",
+    "reason": "Cenozoic flamingo relative."
+   },
+   {
+    "answer": "Annakacygna",
+    "reason": "Miocene swan."
+   },
+   {
+    "answer": "Eostrix",
+    "reason": "Eocene owl."
+   },
+   {
+    "answer": "Eocypselus",
+    "reason": "Eocene swift relative."
+   },
+   {
+    "answer": "Eurotrochilus",
+    "reason": "Oligocene hummingbird relative."
+   },
+   {
+    "answer": "Paracrax",
+    "reason": "Eocene cracid bird."
+   },
+   {
+    "answer": "Limnofregata",
+    "reason": "Eocene frigatebird."
+   },
+   {
+    "answer": "Masillastega",
+    "reason": "Eocene bird from Messel/Masill."
+   },
+   {
+    "answer": "Lithornis",
+    "reason": "Paleogene lithornithid bird."
+   },
+   {
+    "answer": "Cryptogyps",
+    "reason": "Pleistocene vulture."
+   },
+   {
+    "answer": "Dynatoaetus",
+    "reason": "Pleistocene eagle."
+   },
+   {
+    "answer": "Sinanas",
+    "reason": "Miocene duck."
+   },
+   {
+    "answer": "Shiriyanetta",
+    "reason": "Pleistocene duck."
+   },
+   {
+    "answer": "Aegialornis",
+    "reason": "Eocene swift relative."
+   },
+   {
+    "answer": "Hoazinavis",
+    "reason": "Miocene hoatzin relative."
+   },
+   {
+    "answer": "Opisthodactylus",
+    "reason": "Cenozoic rhea."
+   },
+   {
+    "answer": "Nannococcyx",
+    "reason": "Cenozoic cuckoo."
+   },
+   {
+    "answer": "Proardea",
+    "reason": "Eocene heron."
+   },
+   {
+    "answer": "Rhynchaeites",
+    "reason": "Eocene ibis."
+   },
+   {
+    "answer": "Remiornis",
+    "reason": "Paleocene bird."
+   },
+   {
+    "answer": "Taubatornis",
+    "reason": "Paleogene bird."
+   },
+   {
+    "answer": "Zeltornis",
+    "reason": "Miocene flamingo relative."
+   },
+   {
+    "answer": "Namibiavis",
+    "reason": "Miocene bird."
+   },
+   {
+    "answer": "Neophrontops",
+    "reason": "Cenozoic vulture."
+   },
+   {
+    "answer": "Palaeortyx",
+    "reason": "Cenozoic quail relative."
+   },
+   {
+    "answer": "Patagorhacos",
+    "reason": "Cenozoic bird."
+   }
+  ]
+ },
+ "ttft_ms": 20029,
+ "type": "result",
+ "duration_ms": 26752,
+ "uuid": "02319876-3485-482c-9a0e-eabb4bab95a0",
+ "ttft_stream_ms": 1211,
+ "time_to_request_ms": 134,
+ "first_content_frame_ms": 1211,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

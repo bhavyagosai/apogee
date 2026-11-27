@@ -1,0 +1,33 @@
+{
+  "p1": {
+    "note": "Coastal state/provincial capitals the generator skipped; players are India-first.",
+    "add": [
+      { "answer": "Mumbai", "tier": "jet", "aliases": ["Bombay"] },
+      { "answer": "Chennai", "tier": "jet", "aliases": ["Madras"] },
+      { "answer": "Sydney", "tier": "jet" },
+      { "answer": "Melbourne", "tier": "jet" },
+      { "answer": "Hobart", "tier": "jet" },
+      { "answer": "Karachi", "tier": "orbit" },
+      { "answer": "Visakhapatnam", "tier": "orbit", "aliases": ["Vizag"] },
+      { "answer": "Panaji", "tier": "orbit", "aliases": ["Panjim", "Goa"] },
+      { "answer": "Thiruvananthapuram", "tier": "orbit", "aliases": ["Trivandrum"] },
+      { "answer": "Puducherry", "tier": "orbit", "aliases": ["Pondicherry"] },
+      { "answer": "Port Blair", "tier": "deep" },
+      { "answer": "Barcelona", "tier": "orbit" },
+      { "answer": "Naples", "tier": "orbit", "aliases": ["Napoli"] },
+      { "answer": "Marseille", "tier": "orbit", "aliases": ["Marseilles"] },
+      { "answer": "Valencia", "tier": "orbit" },
+      { "answer": "Salvador", "tier": "orbit", "aliases": ["Salvador da Bahia"] },
+      { "answer": "Palermo", "tier": "deep" },
+      { "answer": "Cagliari", "tier": "deep" },
+      { "answer": "Palma", "tier": "deep", "aliases": ["Palma de Mallorca"] },
+      { "answer": "Recife", "tier": "deep" },
+      { "answer": "Fortaleza", "tier": "deep" },
+      { "answer": "Kuching", "tier": "deep" },
+      { "answer": "Kota Kinabalu", "tier": "deep" },
+      { "answer": "Surabaya", "tier": "deep" },
+      { "answer": "Makassar", "tier": "deep" }
+    ],
+    "remove": []
+  }
+}

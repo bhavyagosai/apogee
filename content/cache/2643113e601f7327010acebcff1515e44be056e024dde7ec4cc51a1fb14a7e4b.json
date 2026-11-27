@@ -1,0 +1,630 @@
+{
+ "duration_api_ms": 52151,
+ "stop_reason": "tool_use",
+ "session_id": "b97b4c0b-abc3-4f09-bde6-ee7332c17d67",
+ "total_cost_usd": 0.128866,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9208,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 9203,
+  "output_tokens_details": {
+   "thinking_tokens": 5175
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9208,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 9203,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 9208,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9208
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 9203,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 9208,
+   "webSearchRequests": 0,
+   "costUSD": 0.128866,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 5175,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Akropolis\",\"reason\":\"Tile-placement game with no dice\"},{\"answer\":\"Harmonies\",\"reason\":\"Tile and token game with no dice\"},{\"answer\":\"Pueblo\",\"reason\":\"Abstract tile game with no dice\"},{\"answer\":\"Shovel board\",\"reason\":\"Pub or tabletop sliding game, not a dice board game\"},{\"answer\":\"Vinci\",\"reason\":\"Civilization board game with no dice\"},{\"answer\":\"So Long Sucker\",\"reason\":\"Negotiation game played with chips, no dice\"},{\"answer\":\"Aw-li On-nam Ot-tjin\",\"reason\":\"Traditional abstract game, not a dice game\"},{\"answer\":\"Heat: Pedal to the Metal\",\"reason\":\"Racing game driven by cards, no dice\"},{\"answer\":\"Igisoro\",\"reason\":\"Mancala-type game, no dice\"},{\"answer\":\"20 Questions\",\"reason\":\"Verbal guessing game, not a board game\"},{\"answer\":\"Isle of Skye: From Chieftain to King\",\"reason\":\"Tile-laying game with no dice\"},{\"answer\":\"Pass the Bomb\",\"reason\":\"Word party game, not a board game with dice\"},{\"answer\":\"Peralikatuma\",\"reason\":\"Abstract strategy game, no dice\"},{\"answer\":\"Rumis\",\"reason\":\"Abstract block-placement game, no dice\"},{\"answer\":\"Sannin shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Upwords\",\"reason\":\"Tile word game, no dice\"},{\"answer\":\"Yomi\",\"reason\":\"Card-based fighting game, no dice\"},{\"answer\":\"Rise of Augustus\",\"reason\":\"Card/bingo-style game, no dice\"},{\"answer\":\"Capitol\",\"reason\":\"Tile-placement game with no dice\"},{\"answer\":\"Navia Dratp\",\"reason\":\"Abstract chess-like game, no dice\"},{\"answer\":\"Ninuki-renju\",\"reason\":\"Abstract Go-like game, no dice\"},{\"answer\":\"Tanbo\",\"reason\":\"Abstract strategy game, no dice\"},{\"answer\":\"Speculation\",\"reason\":\"Card game, not a board game\"},{\"answer\":\"Andada\",\"reason\":\"Mancala-type game, no dice\"},{\"answer\":\"Kisolo\",\"reason\":\"Mancala-type game, no dice\"},{\"answer\":\"Diaballik\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Kharbaga\",\"reason\":\"Draughts-type game, no dice\"},{\"answer\":\"Simpei\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Star Wars Customizable Card Game\",\"reason\":\"Card game, not a board game\"},{\"answer\":\"Alemungula\",\"reason\":\"Mancala-type game, no dice\"},{\"answer\":\"Isolo\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Magneton\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Anagrams\",\"reason\":\"Word tile game, not a board game with dice\"},{\"answer\":\"Apples to Apples\",\"reason\":\"Card party game, no dice\"},{\"answer\":\"Awithlaknannai Mosona\",\"reason\":\"Zuni abstract capture game, no dice\"},{\"answer\":\"Kolowis Awithlaknannai\",\"reason\":\"Zuni abstract game, no dice\"},{\"answer\":\"Batoo\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Black Path Game\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Brax\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Breakthru\",\"reason\":\"Abstract strategy game, no dice\"},{\"answer\":\"Caesar\",\"reason\":\"Not a dice board game\"},{\"answer\":\"Candy Land\",\"reason\":\"Moves are determined by drawing cards, not dice\"},{\"answer\":\"Carat\",\"reason\":\"Abstract or card game, no dice\"},{\"answer\":\"Goa\",\"reason\":\"Auction and strategy game, no dice\"},{\"answer\":\"Marienbad\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Jambo\",\"reason\":\"Two-player card game, not a board game\"},{\"answer\":\"Kahuna\",\"reason\":\"Card-driven game, no dice\"},{\"answer\":\"The Rose King\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Cleopatra and the Society of Architects\",\"reason\":\"Card-based game, no dice\"},{\"answer\":\"Clobber\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Dala\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Dameo\",\"reason\":\"Abstract draughts variant, no dice\"},{\"answer\":\"Dao\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Dash-guti\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Dorn\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Fantasy baseball\",\"reason\":\"Statistical sports fantasy game, not a board game\"},{\"answer\":\"Falling\",\"reason\":\"Not a dice board game\"},{\"answer\":\"Feudal\",\"reason\":\"Dice-free strategy game\"},{\"answer\":\"Five-field kono\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Four-field kono\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"German Solo\",\"reason\":\"Card game, not a board game\"},{\"answer\":\"Hansa Teutonica\",\"reason\":\"Worker-placement game with no dice\"},{\"answer\":\"High jump\",\"reason\":\"Athletic event, not a board game\"},{\"answer\":\"Imperial 2030\",\"reason\":\"Imperial series games have no dice\"},{\"answer\":\"Jeson Mor\",\"reason\":\"Mongolian chess-like game, no dice\"},{\"answer\":\"Judkins shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Masonic shogi\",\"reason\":\"Shogi variant, no dice\"},{\"answer\":\"Ponte del Diavolo\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Ringo\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Ô ăn quan\",\"reason\":\"Mancala-type game, no dice\"},{\"answer\":\"Trireme\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"L'Attaque\",\"reason\":\"Stratego-like game, no dice\"},{\"answer\":\"Petteia\",\"reason\":\"Ancient Greek abstract game, no dice\"},{\"answer\":\"Quantum chess\",\"reason\":\"Chess variant, no dice\"},{\"answer\":\"Russian Railroads\",\"reason\":\"Worker-placement game with no dice\"},{\"answer\":\"Tanzanian draughts\",\"reason\":\"Draughts variant, no dice\"},{\"answer\":\"Viticulture\",\"reason\":\"Worker-placement game with no dice\"},{\"answer\":\"The Quest for El Dorado\",\"reason\":\"Deck-building race, no dice\"},{\"answer\":\"Food Chain Magnate\",\"reason\":\"No dice\"},{\"answer\":\"Giganten\",\"reason\":\"Railway stock game, no dice\"},{\"answer\":\"Cuba\",\"reason\":\"Euro game with no dice\"},{\"answer\":\"Paco Ŝako\",\"reason\":\"Chess variant, no dice\"},{\"answer\":\"Captain Sonar\",\"reason\":\"Real-time submarine game, no dice\"},{\"answer\":\"For Sale\",\"reason\":\"Card auction game, not a board game with dice\"},{\"answer\":\"The Jolly Darkie Target Game\",\"reason\":\"Racist target-throwing game, not a dice board game\"},{\"answer\":\"The Magic Labyrinth\",\"reason\":\"Memory game with no dice\"},{\"answer\":\"Indigo\",\"reason\":\"Tile-laying game with no dice\"},{\"answer\":\"Onitama\",\"reason\":\"Abstract card-move game, no dice\"},{\"answer\":\"Karuba\",\"reason\":\"Tile-laying game with no dice\"},{\"answer\":\"Telestrations\",\"reason\":\"Drawing party game, no dice\"},{\"answer\":\"Clank! A Deck-Building Adventure\",\"reason\":\"Deck-builder with no dice\"},{\"answer\":\"Nova Luna\",\"reason\":\"Tile-laying game with no dice\"},{\"answer\":\"Ayoayo\",\"reason\":\"Mancala-type game, no dice\"},{\"answer\":\"Smart 10\",\"reason\":\"Quiz game, no dice\"},{\"answer\":\"Duplik\",\"reason\":\"Drawing party game, no dice\"},{\"answer\":\"Paleo\",\"reason\":\"Cooperative card game, no dice\"},{\"answer\":\"Nemesis\",\"reason\":\"Card-driven game, no dice\"},{\"answer\":\"Wavelength\",\"reason\":\"Party guessing game, no dice\"},{\"answer\":\"Earth\",\"reason\":\"Card-based tableau game, no dice\"},{\"answer\":\"Wyrmspan\",\"reason\":\"Engine-building game with no dice\"},{\"answer\":\"Jews out!\",\"reason\":\"Nazi propaganda game, not a dice board game\"},{\"answer\":\"Rivers, Roads & Rails\",\"reason\":\"Children's building game, no dice\"},{\"answer\":\"The Lord of the Rings: The Card Game\",\"reason\":\"Card game, not a board game\"},{\"answer\":\"Simplified mahjong\",\"reason\":\"Tile game, not a board game with dice\"},{\"answer\":\"Enkeshui\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Next Station: London\",\"reason\":\"Flip-and-write game, no dice\"},{\"answer\":\"Mysterium Kids: Captain Echo's Treasure\",\"reason\":\"Cooperative deduction game, no dice\"},{\"answer\":\"Leo goes to the barber\",\"reason\":\"Card game, not a board game with dice\"},{\"answer\":\"Exit: The Game\",\"reason\":\"Escape-room puzzle game, not a dice board game\"},{\"answer\":\"Camelot\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Colomino\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Cytosis: A Cell Biology Board Game\",\"reason\":\"Worker-placement game, no dice\"},{\"answer\":\"13 Days: The Cuban Missile Crisis\",\"reason\":\"Card-driven game, no dice\"},{\"answer\":\"Felli\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Fetaix\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Krypto\",\"reason\":\"Card game, not a board game\"},{\"answer\":\"Leopard hunt game\",\"reason\":\"Abstract hunt game, no dice\"},{\"answer\":\"Raumschach\",\"reason\":\"Chess variant, no dice\"},{\"answer\":\"Parks\",\"reason\":\"Tile-laying game, no dice\"},{\"answer\":\"Coup\",\"reason\":\"Card game, not a board game\"},{\"answer\":\"Hyena chase\",\"reason\":\"Abstract hunt game, no dice\"},{\"answer\":\"Caesar & Cleopatra\",\"reason\":\"Card game, not a board game\"},{\"answer\":\"Cosmic Coasters\",\"reason\":\"Dexterity game, no dice\"},{\"answer\":\"Arkadia\",\"reason\":\"Tile-laying game, no dice\"},{\"answer\":\"The Rivals for Catan\",\"reason\":\"Two-player card game, not a board game\"},{\"answer\":\"Moruba\",\"reason\":\"Mancala-type game, no dice\"},{\"answer\":\"Touché\",\"reason\":\"Abstract game, no dice\"},{\"answer\":\"Notre Dame\",\"reason\":\"Card-drafting game with no dice\"},{\"answer\":\"Battlestar Galactica Collectable Card Game\",\"reason\":\"Card game, not a board game\"},{\"answer\":\"Mamma Mia!\",\"reason\":\"Card game, not a board game\"},{\"answer\":\"The Ungame\",\"reason\":\"Conversation game, no dice\"},{\"answer\":\"World Without End\",\"reason\":\"Worker-placement game with no dice\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Akropolis",
+    "reason": "Tile-placement game with no dice"
+   },
+   {
+    "answer": "Harmonies",
+    "reason": "Tile and token game with no dice"
+   },
+   {
+    "answer": "Pueblo",
+    "reason": "Abstract tile game with no dice"
+   },
+   {
+    "answer": "Shovel board",
+    "reason": "Pub or tabletop sliding game, not a dice board game"
+   },
+   {
+    "answer": "Vinci",
+    "reason": "Civilization board game with no dice"
+   },
+   {
+    "answer": "So Long Sucker",
+    "reason": "Negotiation game played with chips, no dice"
+   },
+   {
+    "answer": "Aw-li On-nam Ot-tjin",
+    "reason": "Traditional abstract game, not a dice game"
+   },
+   {
+    "answer": "Heat: Pedal to the Metal",
+    "reason": "Racing game driven by cards, no dice"
+   },
+   {
+    "answer": "Igisoro",
+    "reason": "Mancala-type game, no dice"
+   },
+   {
+    "answer": "20 Questions",
+    "reason": "Verbal guessing game, not a board game"
+   },
+   {
+    "answer": "Isle of Skye: From Chieftain to King",
+    "reason": "Tile-laying game with no dice"
+   },
+   {
+    "answer": "Pass the Bomb",
+    "reason": "Word party game, not a board game with dice"
+   },
+   {
+    "answer": "Peralikatuma",
+    "reason": "Abstract strategy game, no dice"
+   },
+   {
+    "answer": "Rumis",
+    "reason": "Abstract block-placement game, no dice"
+   },
+   {
+    "answer": "Sannin shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Upwords",
+    "reason": "Tile word game, no dice"
+   },
+   {
+    "answer": "Yomi",
+    "reason": "Card-based fighting game, no dice"
+   },
+   {
+    "answer": "Rise of Augustus",
+    "reason": "Card/bingo-style game, no dice"
+   },
+   {
+    "answer": "Capitol",
+    "reason": "Tile-placement game with no dice"
+   },
+   {
+    "answer": "Navia Dratp",
+    "reason": "Abstract chess-like game, no dice"
+   },
+   {
+    "answer": "Ninuki-renju",
+    "reason": "Abstract Go-like game, no dice"
+   },
+   {
+    "answer": "Tanbo",
+    "reason": "Abstract strategy game, no dice"
+   },
+   {
+    "answer": "Speculation",
+    "reason": "Card game, not a board game"
+   },
+   {
+    "answer": "Andada",
+    "reason": "Mancala-type game, no dice"
+   },
+   {
+    "answer": "Kisolo",
+    "reason": "Mancala-type game, no dice"
+   },
+   {
+    "answer": "Diaballik",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Kharbaga",
+    "reason": "Draughts-type game, no dice"
+   },
+   {
+    "answer": "Simpei",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Star Wars Customizable Card Game",
+    "reason": "Card game, not a board game"
+   },
+   {
+    "answer": "Alemungula",
+    "reason": "Mancala-type game, no dice"
+   },
+   {
+    "answer": "Isolo",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Magneton",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Anagrams",
+    "reason": "Word tile game, not a board game with dice"
+   },
+   {
+    "answer": "Apples to Apples",
+    "reason": "Card party game, no dice"
+   },
+   {
+    "answer": "Awithlaknannai Mosona",
+    "reason": "Zuni abstract capture game, no dice"
+   },
+   {
+    "answer": "Kolowis Awithlaknannai",
+    "reason": "Zuni abstract game, no dice"
+   },
+   {
+    "answer": "Batoo",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Black Path Game",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Brax",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Breakthru",
+    "reason": "Abstract strategy game, no dice"
+   },
+   {
+    "answer": "Caesar",
+    "reason": "Not a dice board game"
+   },
+   {
+    "answer": "Candy Land",
+    "reason": "Moves are determined by drawing cards, not dice"
+   },
+   {
+    "answer": "Carat",
+    "reason": "Abstract or card game, no dice"
+   },
+   {
+    "answer": "Goa",
+    "reason": "Auction and strategy game, no dice"
+   },
+   {
+    "answer": "Marienbad",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Jambo",
+    "reason": "Two-player card game, not a board game"
+   },
+   {
+    "answer": "Kahuna",
+    "reason": "Card-driven game, no dice"
+   },
+   {
+    "answer": "The Rose King",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Cleopatra and the Society of Architects",
+    "reason": "Card-based game, no dice"
+   },
+   {
+    "answer": "Clobber",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Dala",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Dameo",
+    "reason": "Abstract draughts variant, no dice"
+   },
+   {
+    "answer": "Dao",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Dash-guti",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Dorn",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Fantasy baseball",
+    "reason": "Statistical sports fantasy game, not a board game"
+   },
+   {
+    "answer": "Falling",
+    "reason": "Not a dice board game"
+   },
+   {
+    "answer": "Feudal",
+    "reason": "Dice-free strategy game"
+   },
+   {
+    "answer": "Five-field kono",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Four-field kono",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "German Solo",
+    "reason": "Card game, not a board game"
+   },
+   {
+    "answer": "Hansa Teutonica",
+    "reason": "Worker-placement game with no dice"
+   },
+   {
+    "answer": "High jump",
+    "reason": "Athletic event, not a board game"
+   },
+   {
+    "answer": "Imperial 2030",
+    "reason": "Imperial series games have no dice"
+   },
+   {
+    "answer": "Jeson Mor",
+    "reason": "Mongolian chess-like game, no dice"
+   },
+   {
+    "answer": "Judkins shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Masonic shogi",
+    "reason": "Shogi variant, no dice"
+   },
+   {
+    "answer": "Ponte del Diavolo",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Ringo",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Ô ăn quan",
+    "reason": "Mancala-type game, no dice"
+   },
+   {
+    "answer": "Trireme",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "L'Attaque",
+    "reason": "Stratego-like game, no dice"
+   },
+   {
+    "answer": "Petteia",
+    "reason": "Ancient Greek abstract game, no dice"
+   },
+   {
+    "answer": "Quantum chess",
+    "reason": "Chess variant, no dice"
+   },
+   {
+    "answer": "Russian Railroads",
+    "reason": "Worker-placement game with no dice"
+   },
+   {
+    "answer": "Tanzanian draughts",
+    "reason": "Draughts variant, no dice"
+   },
+   {
+    "answer": "Viticulture",
+    "reason": "Worker-placement game with no dice"
+   },
+   {
+    "answer": "The Quest for El Dorado",
+    "reason": "Deck-building race, no dice"
+   },
+   {
+    "answer": "Food Chain Magnate",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Giganten",
+    "reason": "Railway stock game, no dice"
+   },
+   {
+    "answer": "Cuba",
+    "reason": "Euro game with no dice"
+   },
+   {
+    "answer": "Paco Ŝako",
+    "reason": "Chess variant, no dice"
+   },
+   {
+    "answer": "Captain Sonar",
+    "reason": "Real-time submarine game, no dice"
+   },
+   {
+    "answer": "For Sale",
+    "reason": "Card auction game, not a board game with dice"
+   },
+   {
+    "answer": "The Jolly Darkie Target Game",
+    "reason": "Racist target-throwing game, not a dice board game"
+   },
+   {
+    "answer": "The Magic Labyrinth",
+    "reason": "Memory game with no dice"
+   },
+   {
+    "answer": "Indigo",
+    "reason": "Tile-laying game with no dice"
+   },
+   {
+    "answer": "Onitama",
+    "reason": "Abstract card-move game, no dice"
+   },
+   {
+    "answer": "Karuba",
+    "reason": "Tile-laying game with no dice"
+   },
+   {
+    "answer": "Telestrations",
+    "reason": "Drawing party game, no dice"
+   },
+   {
+    "answer": "Clank! A Deck-Building Adventure",
+    "reason": "Deck-builder with no dice"
+   },
+   {
+    "answer": "Nova Luna",
+    "reason": "Tile-laying game with no dice"
+   },
+   {
+    "answer": "Ayoayo",
+    "reason": "Mancala-type game, no dice"
+   },
+   {
+    "answer": "Smart 10",
+    "reason": "Quiz game, no dice"
+   },
+   {
+    "answer": "Duplik",
+    "reason": "Drawing party game, no dice"
+   },
+   {
+    "answer": "Paleo",
+    "reason": "Cooperative card game, no dice"
+   },
+   {
+    "answer": "Nemesis",
+    "reason": "Card-driven game, no dice"
+   },
+   {
+    "answer": "Wavelength",
+    "reason": "Party guessing game, no dice"
+   },
+   {
+    "answer": "Earth",
+    "reason": "Card-based tableau game, no dice"
+   },
+   {
+    "answer": "Wyrmspan",
+    "reason": "Engine-building game with no dice"
+   },
+   {
+    "answer": "Jews out!",
+    "reason": "Nazi propaganda game, not a dice board game"
+   },
+   {
+    "answer": "Rivers, Roads & Rails",
+    "reason": "Children's building game, no dice"
+   },
+   {
+    "answer": "The Lord of the Rings: The Card Game",
+    "reason": "Card game, not a board game"
+   },
+   {
+    "answer": "Simplified mahjong",
+    "reason": "Tile game, not a board game with dice"
+   },
+   {
+    "answer": "Enkeshui",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Next Station: London",
+    "reason": "Flip-and-write game, no dice"
+   },
+   {
+    "answer": "Mysterium Kids: Captain Echo's Treasure",
+    "reason": "Cooperative deduction game, no dice"
+   },
+   {
+    "answer": "Leo goes to the barber",
+    "reason": "Card game, not a board game with dice"
+   },
+   {
+    "answer": "Exit: The Game",
+    "reason": "Escape-room puzzle game, not a dice board game"
+   },
+   {
+    "answer": "Camelot",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Colomino",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Cytosis: A Cell Biology Board Game",
+    "reason": "Worker-placement game, no dice"
+   },
+   {
+    "answer": "13 Days: The Cuban Missile Crisis",
+    "reason": "Card-driven game, no dice"
+   },
+   {
+    "answer": "Felli",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Fetaix",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Krypto",
+    "reason": "Card game, not a board game"
+   },
+   {
+    "answer": "Leopard hunt game",
+    "reason": "Abstract hunt game, no dice"
+   },
+   {
+    "answer": "Raumschach",
+    "reason": "Chess variant, no dice"
+   },
+   {
+    "answer": "Parks",
+    "reason": "Tile-laying game, no dice"
+   },
+   {
+    "answer": "Coup",
+    "reason": "Card game, not a board game"
+   },
+   {
+    "answer": "Hyena chase",
+    "reason": "Abstract hunt game, no dice"
+   },
+   {
+    "answer": "Caesar & Cleopatra",
+    "reason": "Card game, not a board game"
+   },
+   {
+    "answer": "Cosmic Coasters",
+    "reason": "Dexterity game, no dice"
+   },
+   {
+    "answer": "Arkadia",
+    "reason": "Tile-laying game, no dice"
+   },
+   {
+    "answer": "The Rivals for Catan",
+    "reason": "Two-player card game, not a board game"
+   },
+   {
+    "answer": "Moruba",
+    "reason": "Mancala-type game, no dice"
+   },
+   {
+    "answer": "Touché",
+    "reason": "Abstract game, no dice"
+   },
+   {
+    "answer": "Notre Dame",
+    "reason": "Card-drafting game with no dice"
+   },
+   {
+    "answer": "Battlestar Galactica Collectable Card Game",
+    "reason": "Card game, not a board game"
+   },
+   {
+    "answer": "Mamma Mia!",
+    "reason": "Card game, not a board game"
+   },
+   {
+    "answer": "The Ungame",
+    "reason": "Conversation game, no dice"
+   },
+   {
+    "answer": "World Without End",
+    "reason": "Worker-placement game with no dice"
+   }
+  ]
+ },
+ "ttft_ms": 33290,
+ "type": "result",
+ "duration_ms": 52326,
+ "uuid": "f317429e-0a2e-466a-8805-240712f50b45",
+ "ttft_stream_ms": 1333,
+ "time_to_request_ms": 142,
+ "first_content_frame_ms": 1333,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

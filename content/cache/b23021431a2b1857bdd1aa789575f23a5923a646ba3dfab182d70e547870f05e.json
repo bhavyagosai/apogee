@@ -1,0 +1,270 @@
+{
+ "duration_api_ms": 22887,
+ "stop_reason": "tool_use",
+ "session_id": "23aa986b-5296-4fe6-87a5-da0318c42e1b",
+ "total_cost_usd": 0.0722236,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9077,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 3579,
+  "output_tokens_details": {
+   "thinking_tokens": 2251
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9077,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 3579,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 9077,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9077
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 3579,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 9077,
+   "webSearchRequests": 0,
+   "costUSD": 0.0722236,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 2251,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Pasta e ceci\",\"reason\":\"A dish, not a shape\"},{\"answer\":\"Pasta nests\",\"reason\":\"Generic description\"},{\"answer\":\"Egg noodles\",\"reason\":\"Generic category\"},{\"answer\":\"Spätzle\",\"reason\":\"German noodle/dumpling, not an Italian pasta shape\"},{\"answer\":\"Udon\",\"reason\":\"Japanese noodle, not pasta\"},{\"answer\":\"Soba\",\"reason\":\"Japanese noodle, not pasta\"},{\"answer\":\"Ramen\",\"reason\":\"Japanese noodle, not pasta\"},{\"answer\":\"Corkscrew\",\"reason\":\"Generic descriptor, not a specific name\"},{\"answer\":\"Pasta shells\",\"reason\":\"Generic category\"},{\"answer\":\"Pasta mista\",\"reason\":\"A mix of shapes, not one shape\"},{\"answer\":\"Pasta alla Norma\",\"reason\":\"A dish\"},{\"answer\":\"Pasta fresca\",\"reason\":\"Generic category (fresh pasta)\"},{\"answer\":\"Sfoglia\",\"reason\":\"Sheet of dough, not a shape\"},{\"answer\":\"Sfoglierina\",\"reason\":\"A person who makes sfoglia, not a pasta\"},{\"answer\":\"Squid ink pasta\",\"reason\":\"A flavor or color, not a shape\"},{\"answer\":\"Pasta ripiena\",\"reason\":\"Generic category (filled pasta)\"},{\"answer\":\"Pasta fatta in casa\",\"reason\":\"Means homemade pasta, generic\"},{\"answer\":\"Lasagne al forno\",\"reason\":\"A baked dish\"},{\"answer\":\"Garmugia\",\"reason\":\"A soup\"},{\"answer\":\"Pasta sfoglia\",\"reason\":\"Italian for puff pastry\"},{\"answer\":\"Gnudi\",\"reason\":\"Ricotta dumplings, not pasta\"},{\"answer\":\"Canederli\",\"reason\":\"Bread dumplings, not pasta\"},{\"answer\":\"Spaghetti alla carbonara\",\"reason\":\"A dish\"},{\"answer\":\"Pasta tubes\",\"reason\":\"Generic category\"},{\"answer\":\"Pasta twists\",\"reason\":\"Generic category\"},{\"answer\":\"Lagane e ceci\",\"reason\":\"A dish\"},{\"answer\":\"Pappardelle al cinghiale\",\"reason\":\"A dish\"},{\"answer\":\"Pici all'aglione\",\"reason\":\"A dish\"},{\"answer\":\"Gnocchi alla romana\",\"reason\":\"Semolina dumpling dish, not pasta\"},{\"answer\":\"Mischiata\",\"reason\":\"A mix of pasta shapes, not one shape\"},{\"answer\":\"Pasta Mista Napoletana\",\"reason\":\"A mix of shapes or a dish\"},{\"answer\":\"Gluten-free pasta\",\"reason\":\"Generic category\"},{\"answer\":\"Ramen noodles\",\"reason\":\"Japanese noodle, not pasta\"},{\"answer\":\"Fettuccine alfredo\",\"reason\":\"A dish\"},{\"answer\":\"Pasta primavera\",\"reason\":\"A dish\"},{\"answer\":\"Pasta al torchio\",\"reason\":\"A production method (extruded), not a shape\"},{\"answer\":\"Garofalo\",\"reason\":\"A pasta brand\"},{\"answer\":\"Ricciarelle\",\"reason\":\"Sienese almond cookies\"},{\"answer\":\"Cordula\",\"reason\":\"Sardinian lamb offal dish\"},{\"answer\":\"Panzerotti\",\"reason\":\"Fried turnovers, not a pasta shape\"},{\"answer\":\"Rotolo\",\"reason\":\"A rolled pasta dish, not a shape\"},{\"answer\":\"Cavolini\",\"reason\":\"Means Brussels sprouts, not a recognized pasta shape\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Pasta e ceci",
+    "reason": "A dish, not a shape"
+   },
+   {
+    "answer": "Pasta nests",
+    "reason": "Generic description"
+   },
+   {
+    "answer": "Egg noodles",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Spätzle",
+    "reason": "German noodle/dumpling, not an Italian pasta shape"
+   },
+   {
+    "answer": "Udon",
+    "reason": "Japanese noodle, not pasta"
+   },
+   {
+    "answer": "Soba",
+    "reason": "Japanese noodle, not pasta"
+   },
+   {
+    "answer": "Ramen",
+    "reason": "Japanese noodle, not pasta"
+   },
+   {
+    "answer": "Corkscrew",
+    "reason": "Generic descriptor, not a specific name"
+   },
+   {
+    "answer": "Pasta shells",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Pasta mista",
+    "reason": "A mix of shapes, not one shape"
+   },
+   {
+    "answer": "Pasta alla Norma",
+    "reason": "A dish"
+   },
+   {
+    "answer": "Pasta fresca",
+    "reason": "Generic category (fresh pasta)"
+   },
+   {
+    "answer": "Sfoglia",
+    "reason": "Sheet of dough, not a shape"
+   },
+   {
+    "answer": "Sfoglierina",
+    "reason": "A person who makes sfoglia, not a pasta"
+   },
+   {
+    "answer": "Squid ink pasta",
+    "reason": "A flavor or color, not a shape"
+   },
+   {
+    "answer": "Pasta ripiena",
+    "reason": "Generic category (filled pasta)"
+   },
+   {
+    "answer": "Pasta fatta in casa",
+    "reason": "Means homemade pasta, generic"
+   },
+   {
+    "answer": "Lasagne al forno",
+    "reason": "A baked dish"
+   },
+   {
+    "answer": "Garmugia",
+    "reason": "A soup"
+   },
+   {
+    "answer": "Pasta sfoglia",
+    "reason": "Italian for puff pastry"
+   },
+   {
+    "answer": "Gnudi",
+    "reason": "Ricotta dumplings, not pasta"
+   },
+   {
+    "answer": "Canederli",
+    "reason": "Bread dumplings, not pasta"
+   },
+   {
+    "answer": "Spaghetti alla carbonara",
+    "reason": "A dish"
+   },
+   {
+    "answer": "Pasta tubes",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Pasta twists",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Lagane e ceci",
+    "reason": "A dish"
+   },
+   {
+    "answer": "Pappardelle al cinghiale",
+    "reason": "A dish"
+   },
+   {
+    "answer": "Pici all'aglione",
+    "reason": "A dish"
+   },
+   {
+    "answer": "Gnocchi alla romana",
+    "reason": "Semolina dumpling dish, not pasta"
+   },
+   {
+    "answer": "Mischiata",
+    "reason": "A mix of pasta shapes, not one shape"
+   },
+   {
+    "answer": "Pasta Mista Napoletana",
+    "reason": "A mix of shapes or a dish"
+   },
+   {
+    "answer": "Gluten-free pasta",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Ramen noodles",
+    "reason": "Japanese noodle, not pasta"
+   },
+   {
+    "answer": "Fettuccine alfredo",
+    "reason": "A dish"
+   },
+   {
+    "answer": "Pasta primavera",
+    "reason": "A dish"
+   },
+   {
+    "answer": "Pasta al torchio",
+    "reason": "A production method (extruded), not a shape"
+   },
+   {
+    "answer": "Garofalo",
+    "reason": "A pasta brand"
+   },
+   {
+    "answer": "Ricciarelle",
+    "reason": "Sienese almond cookies"
+   },
+   {
+    "answer": "Cordula",
+    "reason": "Sardinian lamb offal dish"
+   },
+   {
+    "answer": "Panzerotti",
+    "reason": "Fried turnovers, not a pasta shape"
+   },
+   {
+    "answer": "Rotolo",
+    "reason": "A rolled pasta dish, not a shape"
+   },
+   {
+    "answer": "Cavolini",
+    "reason": "Means Brussels sprouts, not a recognized pasta shape"
+   }
+  ]
+ },
+ "ttft_ms": 16659,
+ "type": "result",
+ "duration_ms": 22939,
+ "uuid": "462ffba8-0bca-43df-9fee-f195c6a24844",
+ "ttft_stream_ms": 957,
+ "time_to_request_ms": 31,
+ "first_content_frame_ms": 957,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

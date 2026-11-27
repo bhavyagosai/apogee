@@ -1,0 +1,198 @@
+{
+ "duration_api_ms": 14396,
+ "stop_reason": "tool_use",
+ "session_id": "726000e9-6ae7-4fba-8f66-98b0a91db4b1",
+ "total_cost_usd": 0.0517856,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7320,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 2238,
+  "output_tokens_details": {
+   "thinking_tokens": 1555
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7320,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2238,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 7320,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7320
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2238,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 7320,
+   "webSearchRequests": 0,
+   "costUSD": 0.0517856,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 1555,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Solemnlemlos\",\"reason\":\"Not a palindrome and not a word\"},{\"answer\":\"Sweetmeetsews\",\"reason\":\"Not a palindrome and not a word\"},{\"answer\":\"Gnarlralng\",\"reason\":\"Not a palindrome and not a word\"},{\"answer\":\"Testset\",\"reason\":\"Not a real word\"},{\"answer\":\"Peeweep\",\"reason\":\"Not a real word\"},{\"answer\":\"Zzz\",\"reason\":\"Not a word, just letters\"},{\"answer\":\"Ahha\",\"reason\":\"Not a real word\"},{\"answer\":\"Cdc\",\"reason\":\"Abbreviation, not a word\"},{\"answer\":\"Eue\",\"reason\":\"Not a real word\"},{\"answer\":\"Fif\",\"reason\":\"Not a real word\"},{\"answer\":\"Illi\",\"reason\":\"Not a real word\"},{\"answer\":\"Sos\",\"reason\":\"Distress signal or abbreviation, not a word\"},{\"answer\":\"Lol\",\"reason\":\"Internet abbreviation, not a word\"},{\"answer\":\"Stressed desserts\",\"reason\":\"A phrase, not a single word\"},{\"answer\":\"Rats live on no evil star\",\"reason\":\"A sentence, not a single word\"},{\"answer\":\"Yreka bakery\",\"reason\":\"A phrase, not a single word\"},{\"answer\":\"Sharahs\",\"reason\":\"Not a real word\"},{\"answer\":\"Sirris\",\"reason\":\"Not a real word\"},{\"answer\":\"Nevven\",\"reason\":\"Not a real word\"},{\"answer\":\"Taghgat\",\"reason\":\"Not a real word\"},{\"answer\":\"Tubut\",\"reason\":\"Not a real word\"},{\"answer\":\"Tebet\",\"reason\":\"Not a standard word (the Hebrew month is spelled Tevet or Tebeth)\"},{\"answer\":\"Selles\",\"reason\":\"Not a standard English word\"},{\"answer\":\"Mesem\",\"reason\":\"Not a real word\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Solemnlemlos",
+    "reason": "Not a palindrome and not a word"
+   },
+   {
+    "answer": "Sweetmeetsews",
+    "reason": "Not a palindrome and not a word"
+   },
+   {
+    "answer": "Gnarlralng",
+    "reason": "Not a palindrome and not a word"
+   },
+   {
+    "answer": "Testset",
+    "reason": "Not a real word"
+   },
+   {
+    "answer": "Peeweep",
+    "reason": "Not a real word"
+   },
+   {
+    "answer": "Zzz",
+    "reason": "Not a word, just letters"
+   },
+   {
+    "answer": "Ahha",
+    "reason": "Not a real word"
+   },
+   {
+    "answer": "Cdc",
+    "reason": "Abbreviation, not a word"
+   },
+   {
+    "answer": "Eue",
+    "reason": "Not a real word"
+   },
+   {
+    "answer": "Fif",
+    "reason": "Not a real word"
+   },
+   {
+    "answer": "Illi",
+    "reason": "Not a real word"
+   },
+   {
+    "answer": "Sos",
+    "reason": "Distress signal or abbreviation, not a word"
+   },
+   {
+    "answer": "Lol",
+    "reason": "Internet abbreviation, not a word"
+   },
+   {
+    "answer": "Stressed desserts",
+    "reason": "A phrase, not a single word"
+   },
+   {
+    "answer": "Rats live on no evil star",
+    "reason": "A sentence, not a single word"
+   },
+   {
+    "answer": "Yreka bakery",
+    "reason": "A phrase, not a single word"
+   },
+   {
+    "answer": "Sharahs",
+    "reason": "Not a real word"
+   },
+   {
+    "answer": "Sirris",
+    "reason": "Not a real word"
+   },
+   {
+    "answer": "Nevven",
+    "reason": "Not a real word"
+   },
+   {
+    "answer": "Taghgat",
+    "reason": "Not a real word"
+   },
+   {
+    "answer": "Tubut",
+    "reason": "Not a real word"
+   },
+   {
+    "answer": "Tebet",
+    "reason": "Not a standard word (the Hebrew month is spelled Tevet or Tebeth)"
+   },
+   {
+    "answer": "Selles",
+    "reason": "Not a standard English word"
+   },
+   {
+    "answer": "Mesem",
+    "reason": "Not a real word"
+   }
+  ]
+ },
+ "ttft_ms": 11314,
+ "type": "result",
+ "duration_ms": 14528,
+ "uuid": "3f2f5365-5af6-4d04-95ac-37d3c31a2893",
+ "ttft_stream_ms": 1022,
+ "time_to_request_ms": 86,
+ "first_content_frame_ms": 1022,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

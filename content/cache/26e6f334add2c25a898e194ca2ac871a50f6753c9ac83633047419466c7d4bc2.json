@@ -1,0 +1,146 @@
+{
+ "duration_api_ms": 10037,
+ "stop_reason": "tool_use",
+ "session_id": "280f79cd-3e31-419b-b901-9a9b9616f9a8",
+ "total_cost_usd": 0.054096000000000005,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 10023,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1400,
+  "output_tokens_details": {
+   "thinking_tokens": 928
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10023,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1400,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 10023,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10023
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1400,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 10023,
+   "webSearchRequests": 0,
+   "costUSD": 0.054096000000000005,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 928,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Two-player chess\",\"reason\":\"Chess uses no dice, and the entry is a generic description, not a specific dice game.\"},{\"answer\":\"Fish, fluff, meatballs\",\"reason\":\"It isn't a board game title.\"},{\"answer\":\"Legendary: A Marvel Deck Building Game\",\"reason\":\"It is a card-based deck-builder with no dice.\"},{\"answer\":\"Aqualin\",\"reason\":\"It is an abstract placement game with no dice.\"},{\"answer\":\"Cryptid\",\"reason\":\"It is a deduction game that uses clues and tokens, not dice.\"},{\"answer\":\"Turing Machine\",\"reason\":\"It is a code-deduction game that uses cards and a punch-card system, not dice.\"},{\"answer\":\"Terraforming Mars: Ares Expedition\",\"reason\":\"It is a card-driven game with no dice.\"},{\"answer\":\"Kriegspiel\",\"reason\":\"It is a chess variant that uses no dice.\"},{\"answer\":\"Fidchell: Celtic Chess\",\"reason\":\"It is an ancient abstract strategy game with no dice.\"},{\"answer\":\"Minden Playing Card Cricket\",\"reason\":\"It is played with playing cards, not dice.\"},{\"answer\":\"COIN\",\"reason\":\"It names a series of games, not one specific game.\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Two-player chess",
+    "reason": "Chess uses no dice, and the entry is a generic description, not a specific dice game."
+   },
+   {
+    "answer": "Fish, fluff, meatballs",
+    "reason": "It isn't a board game title."
+   },
+   {
+    "answer": "Legendary: A Marvel Deck Building Game",
+    "reason": "It is a card-based deck-builder with no dice."
+   },
+   {
+    "answer": "Aqualin",
+    "reason": "It is an abstract placement game with no dice."
+   },
+   {
+    "answer": "Cryptid",
+    "reason": "It is a deduction game that uses clues and tokens, not dice."
+   },
+   {
+    "answer": "Turing Machine",
+    "reason": "It is a code-deduction game that uses cards and a punch-card system, not dice."
+   },
+   {
+    "answer": "Terraforming Mars: Ares Expedition",
+    "reason": "It is a card-driven game with no dice."
+   },
+   {
+    "answer": "Kriegspiel",
+    "reason": "It is a chess variant that uses no dice."
+   },
+   {
+    "answer": "Fidchell: Celtic Chess",
+    "reason": "It is an ancient abstract strategy game with no dice."
+   },
+   {
+    "answer": "Minden Playing Card Cricket",
+    "reason": "It is played with playing cards, not dice."
+   },
+   {
+    "answer": "COIN",
+    "reason": "It names a series of games, not one specific game."
+   }
+  ]
+ },
+ "ttft_ms": 7717,
+ "type": "result",
+ "duration_ms": 10236,
+ "uuid": "7d5ce482-04ea-425b-bb42-e90c00f926f2",
+ "ttft_stream_ms": 946,
+ "time_to_request_ms": 160,
+ "first_content_frame_ms": 946,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

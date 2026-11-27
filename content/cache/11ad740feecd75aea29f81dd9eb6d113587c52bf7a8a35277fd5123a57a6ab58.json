@@ -1,0 +1,106 @@
+{
+ "duration_api_ms": 3671,
+ "stop_reason": "tool_use",
+ "session_id": "9e772366-66c7-4072-a8ed-18539b6c5d55",
+ "total_cost_usd": 0.031501600000000005,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6884,
+  "cache_read_input_tokens": 708,
+  "output_tokens": 382,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6884,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 382,
+    "cache_read_input_tokens": 708,
+    "cache_creation_input_tokens": 6884,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6884
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 382,
+   "cacheReadInputTokens": 708,
+   "cacheCreationInputTokens": 6884,
+   "webSearchRequests": 0,
+   "costUSD": 0.031501600000000005,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"source\":\"wikidata\",\"reason\":\"Board games are modeled in Wikidata (Q131436). Dice usage is captured by P31 board game plus a \\\"uses\\\" or \\\"has part\\\" link to dice, with a fallback to dice-game classes.\",\"wikidata\":{\"where\":\"{ ?item wdt:P31/wdt:P279* wd:Q131436 . ?item wdt:P2283 wd:Q162343 . } UNION { ?item wdt:P31/wdt:P279* wd:Q131436 . ?item wdt:P31/wdt:P279* wd:Q1128455 . } FILTER(?item != wd:Q131436)\",\"notes\":\"Q131436 = board game; Q162343 = dice (die); Q1128455 = dice game. P2283 = uses. Wikidata has sparse dice tagging, so results may miss some games. If results are too few, drop the dice constraint and use the whole board game class instead.\"}}",
+ "structured_output": {
+  "source": "wikidata",
+  "reason": "Board games are modeled in Wikidata (Q131436). Dice usage is captured by P31 board game plus a \"uses\" or \"has part\" link to dice, with a fallback to dice-game classes.",
+  "wikidata": {
+   "where": "{ ?item wdt:P31/wdt:P279* wd:Q131436 . ?item wdt:P2283 wd:Q162343 . } UNION { ?item wdt:P31/wdt:P279* wd:Q131436 . ?item wdt:P31/wdt:P279* wd:Q1128455 . } FILTER(?item != wd:Q131436)",
+   "notes": "Q131436 = board game; Q162343 = dice (die); Q1128455 = dice game. P2283 = uses. Wikidata has sparse dice tagging, so results may miss some games. If results are too few, drop the dice constraint and use the whole board game class instead."
+  }
+ },
+ "ttft_ms": 3737,
+ "type": "result",
+ "duration_ms": 3853,
+ "uuid": "584ab8d0-8978-46a8-8ded-90973a7de64b",
+ "ttft_stream_ms": 1023,
+ "time_to_request_ms": 91,
+ "first_content_frame_ms": 1023,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

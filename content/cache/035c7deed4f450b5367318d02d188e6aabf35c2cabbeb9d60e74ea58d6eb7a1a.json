@@ -1,0 +1,737 @@
+{
+ "duration_api_ms": 16070,
+ "stop_reason": "tool_use",
+ "session_id": "fcef8a77-5c92-41db-8c06-5682c1c0ba53",
+ "total_cost_usd": 0.056992,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6756,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 2984,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6756,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2984,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 6756,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6756
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2984,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 6756,
+   "webSearchRequests": 0,
+   "costUSD": 0.056992,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Greenland\",\"aliases\":[]},{\"answer\":\"Sicily\",\"aliases\":[]},{\"answer\":\"Sardinia\",\"aliases\":[]},{\"answer\":\"Corsica\",\"aliases\":[]},{\"answer\":\"Cook Islands\",\"aliases\":[\"Cooks\"]},{\"answer\":\"Niue\",\"aliases\":[]},{\"answer\":\"Bermuda\",\"aliases\":[]},{\"answer\":\"Aruba\",\"aliases\":[]},{\"answer\":\"Curaçao\",\"aliases\":[\"Curacao\"]},{\"answer\":\"Puerto Rico\",\"aliases\":[]},{\"answer\":\"Guam\",\"aliases\":[]},{\"answer\":\"Fiji Islands\",\"aliases\":[]},{\"answer\":\"Zanzibar\",\"aliases\":[]},{\"answer\":\"Hong Kong\",\"aliases\":[]},{\"answer\":\"Cayman Islands\",\"aliases\":[\"Caymans\"]},{\"answer\":\"Faroe Islands\",\"aliases\":[\"Faroes\",\"Faroe\"]},{\"answer\":\"Isle of Man\",\"aliases\":[\"Mann\"]},{\"answer\":\"Jersey\",\"aliases\":[]},{\"answer\":\"Guernsey\",\"aliases\":[]},{\"answer\":\"Tahiti\",\"aliases\":[]},{\"answer\":\"French Polynesia\",\"aliases\":[]},{\"answer\":\"New Caledonia\",\"aliases\":[]},{\"answer\":\"Hawaii\",\"aliases\":[]},{\"answer\":\"Bali\",\"aliases\":[]},{\"answer\":\"Tasmania\",\"aliases\":[]},{\"answer\":\"Sint Maarten\",\"aliases\":[\"St Maarten\",\"Saint Martin\"]},{\"answer\":\"Montserrat\",\"aliases\":[]},{\"answer\":\"Anguilla\",\"aliases\":[]},{\"answer\":\"British Virgin Islands\",\"aliases\":[\"BVI\"]},{\"answer\":\"US Virgin Islands\",\"aliases\":[\"United States Virgin Islands\",\"USVI\"]},{\"answer\":\"Turks and Caicos Islands\",\"aliases\":[\"Turks and Caicos\",\"Turks & Caicos\"]},{\"answer\":\"Martinique\",\"aliases\":[]},{\"answer\":\"Guadeloupe\",\"aliases\":[]},{\"answer\":\"Réunion\",\"aliases\":[\"Reunion\"]},{\"answer\":\"Mayotte\",\"aliases\":[]},{\"answer\":\"Wallis and Futuna\",\"aliases\":[]},{\"answer\":\"American Samoa\",\"aliases\":[]},{\"answer\":\"Northern Mariana Islands\",\"aliases\":[\"Saipan\"]},{\"answer\":\"Norfolk Island\",\"aliases\":[]},{\"answer\":\"Christmas Island\",\"aliases\":[]},{\"answer\":\"Cocos Islands\",\"aliases\":[\"Cocos (Keeling) Islands\",\"Keeling Islands\"]},{\"answer\":\"Pitcairn Islands\",\"aliases\":[\"Pitcairn\"]},{\"answer\":\"Tokelau\",\"aliases\":[]},{\"answer\":\"Falkland Islands\",\"aliases\":[\"Falklands\",\"Malvinas\"]},{\"answer\":\"Saint Helena\",\"aliases\":[\"St Helena\"]},{\"answer\":\"Ascension Island\",\"aliases\":[\"Ascension\"]},{\"answer\":\"Tristan da Cunha\",\"aliases\":[]},{\"answer\":\"Åland Islands\",\"aliases\":[\"Aland Islands\",\"Aland\"]},{\"answer\":\"Macau\",\"aliases\":[\"Macao\"]},{\"answer\":\"Okinawa\",\"aliases\":[]},{\"answer\":\"Hokkaido\",\"aliases\":[]},{\"answer\":\"Java\",\"aliases\":[]},{\"answer\":\"Borneo\",\"aliases\":[]},{\"answer\":\"Sumatra\",\"aliases\":[]},{\"answer\":\"Sulawesi\",\"aliases\":[\"Celebes\"]},{\"answer\":\"New Guinea\",\"aliases\":[]},{\"answer\":\"Newfoundland\",\"aliases\":[]},{\"answer\":\"Zealandia\",\"aliases\":[]},{\"answer\":\"Easter Island\",\"aliases\":[\"Rapa Nui\"]},{\"answer\":\"Galápagos Islands\",\"aliases\":[\"Galapagos\"]},{\"answer\":\"Bora Bora\",\"aliases\":[]},{\"answer\":\"Santorini\",\"aliases\":[]},{\"answer\":\"Crete\",\"aliases\":[]},{\"answer\":\"Mallorca\",\"aliases\":[\"Majorca\"]},{\"answer\":\"Ibiza\",\"aliases\":[]},{\"answer\":\"Tenerife\",\"aliases\":[]},{\"answer\":\"Madeira\",\"aliases\":[]},{\"answer\":\"Azores\",\"aliases\":[]},{\"answer\":\"Canary Islands\",\"aliases\":[\"Canaries\"]},{\"answer\":\"Svalbard\",\"aliases\":[\"Spitsbergen\"]},{\"answer\":\"Bonaire\",\"aliases\":[]},{\"answer\":\"Saba\",\"aliases\":[]},{\"answer\":\"Sint Eustatius\",\"aliases\":[\"Statia\"]},{\"answer\":\"Saint Barthélemy\",\"aliases\":[\"St Barts\",\"Saint Barthelemy\",\"St Barth\"]},{\"answer\":\"Taiwan Republic of China\",\"aliases\":[\"Republic of China\",\"ROC\"]},{\"answer\":\"Great Britain\",\"aliases\":[\"Britain\"]},{\"answer\":\"Vancouver Island\",\"aliases\":[]},{\"answer\":\"Prince Edward Island\",\"aliases\":[\"PEI\"]},{\"answer\":\"Singapore Island\",\"aliases\":[]},{\"answer\":\"Sakhalin\",\"aliases\":[]},{\"answer\":\"Honshu\",\"aliases\":[]},{\"answer\":\"Kyushu\",\"aliases\":[]},{\"answer\":\"Shikoku\",\"aliases\":[]},{\"answer\":\"Luzon\",\"aliases\":[]},{\"answer\":\"Mindanao\",\"aliases\":[]},{\"answer\":\"Lombok\",\"aliases\":[]},{\"answer\":\"Phuket\",\"aliases\":[]},{\"answer\":\"Hainan\",\"aliases\":[]},{\"answer\":\"Zealand\",\"aliases\":[\"Sjælland\"]},{\"answer\":\"Funen\",\"aliases\":[\"Fyn\"]},{\"answer\":\"Gotland\",\"aliases\":[]},{\"answer\":\"Rhodes\",\"aliases\":[]},{\"answer\":\"Corfu\",\"aliases\":[]},{\"answer\":\"Mykonos\",\"aliases\":[]},{\"answer\":\"Capri\",\"aliases\":[]},{\"answer\":\"Elba\",\"aliases\":[]},{\"answer\":\"Malé\",\"aliases\":[\"Male\"]},{\"answer\":\"Socotra\",\"aliases\":[]},{\"answer\":\"Rodrigues\",\"aliases\":[]},{\"answer\":\"Kiritimati\",\"aliases\":[\"Christmas Island Kiribati\"]},{\"answer\":\"Wake Island\",\"aliases\":[]},{\"answer\":\"Midway Atoll\",\"aliases\":[\"Midway\"]},{\"answer\":\"Tuvalu Funafuti\",\"aliases\":[\"Funafuti\"]},{\"answer\":\"Rarotonga\",\"aliases\":[]},{\"answer\":\"Bougainville\",\"aliases\":[]},{\"answer\":\"Vanua Levu\",\"aliases\":[]},{\"answer\":\"Upolu\",\"aliases\":[]},{\"answer\":\"Savai'i\",\"aliases\":[\"Savaii\"]},{\"answer\":\"Tortola\",\"aliases\":[]},{\"answer\":\"Nevis\",\"aliases\":[]},{\"answer\":\"Bequia\",\"aliases\":[]},{\"answer\":\"Carriacou\",\"aliases\":[]},{\"answer\":\"Tobago\",\"aliases\":[]},{\"answer\":\"Trinidad\",\"aliases\":[]},{\"answer\":\"Antigua\",\"aliases\":[]},{\"answer\":\"Barbuda\",\"aliases\":[]},{\"answer\":\"Saint Kitts\",\"aliases\":[\"St Kitts\"]},{\"answer\":\"Hispaniola\",\"aliases\":[]},{\"answer\":\"Vieques\",\"aliases\":[]},{\"answer\":\"Roatán\",\"aliases\":[\"Roatan\"]},{\"answer\":\"Isla Margarita\",\"aliases\":[\"Margarita Island\"]},{\"answer\":\"Chiloé\",\"aliases\":[\"Chiloe\"]},{\"answer\":\"Tierra del Fuego\",\"aliases\":[]},{\"answer\":\"Baffin Island\",\"aliases\":[]},{\"answer\":\"Ellesmere Island\",\"aliases\":[]},{\"answer\":\"Victoria Island\",\"aliases\":[]},{\"answer\":\"Cape Breton Island\",\"aliases\":[\"Cape Breton\"]},{\"answer\":\"Orkney\",\"aliases\":[\"Orkney Islands\"]},{\"answer\":\"Shetland\",\"aliases\":[\"Shetland Islands\"]},{\"answer\":\"Isle of Wight\",\"aliases\":[\"Wight\"]},{\"answer\":\"Anglesey\",\"aliases\":[]},{\"answer\":\"Skye\",\"aliases\":[\"Isle of Skye\"]},{\"answer\":\"Lewis and Harris\",\"aliases\":[\"Lewis\",\"Harris\"]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Greenland",
+    "aliases": []
+   },
+   {
+    "answer": "Sicily",
+    "aliases": []
+   },
+   {
+    "answer": "Sardinia",
+    "aliases": []
+   },
+   {
+    "answer": "Corsica",
+    "aliases": []
+   },
+   {
+    "answer": "Cook Islands",
+    "aliases": [
+     "Cooks"
+    ]
+   },
+   {
+    "answer": "Niue",
+    "aliases": []
+   },
+   {
+    "answer": "Bermuda",
+    "aliases": []
+   },
+   {
+    "answer": "Aruba",
+    "aliases": []
+   },
+   {
+    "answer": "Curaçao",
+    "aliases": [
+     "Curacao"
+    ]
+   },
+   {
+    "answer": "Puerto Rico",
+    "aliases": []
+   },
+   {
+    "answer": "Guam",
+    "aliases": []
+   },
+   {
+    "answer": "Fiji Islands",
+    "aliases": []
+   },
+   {
+    "answer": "Zanzibar",
+    "aliases": []
+   },
+   {
+    "answer": "Hong Kong",
+    "aliases": []
+   },
+   {
+    "answer": "Cayman Islands",
+    "aliases": [
+     "Caymans"
+    ]
+   },
+   {
+    "answer": "Faroe Islands",
+    "aliases": [
+     "Faroes",
+     "Faroe"
+    ]
+   },
+   {
+    "answer": "Isle of Man",
+    "aliases": [
+     "Mann"
+    ]
+   },
+   {
+    "answer": "Jersey",
+    "aliases": []
+   },
+   {
+    "answer": "Guernsey",
+    "aliases": []
+   },
+   {
+    "answer": "Tahiti",
+    "aliases": []
+   },
+   {
+    "answer": "French Polynesia",
+    "aliases": []
+   },
+   {
+    "answer": "New Caledonia",
+    "aliases": []
+   },
+   {
+    "answer": "Hawaii",
+    "aliases": []
+   },
+   {
+    "answer": "Bali",
+    "aliases": []
+   },
+   {
+    "answer": "Tasmania",
+    "aliases": []
+   },
+   {
+    "answer": "Sint Maarten",
+    "aliases": [
+     "St Maarten",
+     "Saint Martin"
+    ]
+   },
+   {
+    "answer": "Montserrat",
+    "aliases": []
+   },
+   {
+    "answer": "Anguilla",
+    "aliases": []
+   },
+   {
+    "answer": "British Virgin Islands",
+    "aliases": [
+     "BVI"
+    ]
+   },
+   {
+    "answer": "US Virgin Islands",
+    "aliases": [
+     "United States Virgin Islands",
+     "USVI"
+    ]
+   },
+   {
+    "answer": "Turks and Caicos Islands",
+    "aliases": [
+     "Turks and Caicos",
+     "Turks & Caicos"
+    ]
+   },
+   {
+    "answer": "Martinique",
+    "aliases": []
+   },
+   {
+    "answer": "Guadeloupe",
+    "aliases": []
+   },
+   {
+    "answer": "Réunion",
+    "aliases": [
+     "Reunion"
+    ]
+   },
+   {
+    "answer": "Mayotte",
+    "aliases": []
+   },
+   {
+    "answer": "Wallis and Futuna",
+    "aliases": []
+   },
+   {
+    "answer": "American Samoa",
+    "aliases": []
+   },
+   {
+    "answer": "Northern Mariana Islands",
+    "aliases": [
+     "Saipan"
+    ]
+   },
+   {
+    "answer": "Norfolk Island",
+    "aliases": []
+   },
+   {
+    "answer": "Christmas Island",
+    "aliases": []
+   },
+   {
+    "answer": "Cocos Islands",
+    "aliases": [
+     "Cocos (Keeling) Islands",
+     "Keeling Islands"
+    ]
+   },
+   {
+    "answer": "Pitcairn Islands",
+    "aliases": [
+     "Pitcairn"
+    ]
+   },
+   {
+    "answer": "Tokelau",
+    "aliases": []
+   },
+   {
+    "answer": "Falkland Islands",
+    "aliases": [
+     "Falklands",
+     "Malvinas"
+    ]
+   },
+   {
+    "answer": "Saint Helena",
+    "aliases": [
+     "St Helena"
+    ]
+   },
+   {
+    "answer": "Ascension Island",
+    "aliases": [
+     "Ascension"
+    ]
+   },
+   {
+    "answer": "Tristan da Cunha",
+    "aliases": []
+   },
+   {
+    "answer": "Åland Islands",
+    "aliases": [
+     "Aland Islands",
+     "Aland"
+    ]
+   },
+   {
+    "answer": "Macau",
+    "aliases": [
+     "Macao"
+    ]
+   },
+   {
+    "answer": "Okinawa",
+    "aliases": []
+   },
+   {
+    "answer": "Hokkaido",
+    "aliases": []
+   },
+   {
+    "answer": "Java",
+    "aliases": []
+   },
+   {
+    "answer": "Borneo",
+    "aliases": []
+   },
+   {
+    "answer": "Sumatra",
+    "aliases": []
+   },
+   {
+    "answer": "Sulawesi",
+    "aliases": [
+     "Celebes"
+    ]
+   },
+   {
+    "answer": "New Guinea",
+    "aliases": []
+   },
+   {
+    "answer": "Newfoundland",
+    "aliases": []
+   },
+   {
+    "answer": "Zealandia",
+    "aliases": []
+   },
+   {
+    "answer": "Easter Island",
+    "aliases": [
+     "Rapa Nui"
+    ]
+   },
+   {
+    "answer": "Galápagos Islands",
+    "aliases": [
+     "Galapagos"
+    ]
+   },
+   {
+    "answer": "Bora Bora",
+    "aliases": []
+   },
+   {
+    "answer": "Santorini",
+    "aliases": []
+   },
+   {
+    "answer": "Crete",
+    "aliases": []
+   },
+   {
+    "answer": "Mallorca",
+    "aliases": [
+     "Majorca"
+    ]
+   },
+   {
+    "answer": "Ibiza",
+    "aliases": []
+   },
+   {
+    "answer": "Tenerife",
+    "aliases": []
+   },
+   {
+    "answer": "Madeira",
+    "aliases": []
+   },
+   {
+    "answer": "Azores",
+    "aliases": []
+   },
+   {
+    "answer": "Canary Islands",
+    "aliases": [
+     "Canaries"
+    ]
+   },
+   {
+    "answer": "Svalbard",
+    "aliases": [
+     "Spitsbergen"
+    ]
+   },
+   {
+    "answer": "Bonaire",
+    "aliases": []
+   },
+   {
+    "answer": "Saba",
+    "aliases": []
+   },
+   {
+    "answer": "Sint Eustatius",
+    "aliases": [
+     "Statia"
+    ]
+   },
+   {
+    "answer": "Saint Barthélemy",
+    "aliases": [
+     "St Barts",
+     "Saint Barthelemy",
+     "St Barth"
+    ]
+   },
+   {
+    "answer": "Taiwan Republic of China",
+    "aliases": [
+     "Republic of China",
+     "ROC"
+    ]
+   },
+   {
+    "answer": "Great Britain",
+    "aliases": [
+     "Britain"
+    ]
+   },
+   {
+    "answer": "Vancouver Island",
+    "aliases": []
+   },
+   {
+    "answer": "Prince Edward Island",
+    "aliases": [
+     "PEI"
+    ]
+   },
+   {
+    "answer": "Singapore Island",
+    "aliases": []
+   },
+   {
+    "answer": "Sakhalin",
+    "aliases": []
+   },
+   {
+    "answer": "Honshu",
+    "aliases": []
+   },
+   {
+    "answer": "Kyushu",
+    "aliases": []
+   },
+   {
+    "answer": "Shikoku",
+    "aliases": []
+   },
+   {
+    "answer": "Luzon",
+    "aliases": []
+   },
+   {
+    "answer": "Mindanao",
+    "aliases": []
+   },
+   {
+    "answer": "Lombok",
+    "aliases": []
+   },
+   {
+    "answer": "Phuket",
+    "aliases": []
+   },
+   {
+    "answer": "Hainan",
+    "aliases": []
+   },
+   {
+    "answer": "Zealand",
+    "aliases": [
+     "Sjælland"
+    ]
+   },
+   {
+    "answer": "Funen",
+    "aliases": [
+     "Fyn"
+    ]
+   },
+   {
+    "answer": "Gotland",
+    "aliases": []
+   },
+   {
+    "answer": "Rhodes",
+    "aliases": []
+   },
+   {
+    "answer": "Corfu",
+    "aliases": []
+   },
+   {
+    "answer": "Mykonos",
+    "aliases": []
+   },
+   {
+    "answer": "Capri",
+    "aliases": []
+   },
+   {
+    "answer": "Elba",
+    "aliases": []
+   },
+   {
+    "answer": "Malé",
+    "aliases": [
+     "Male"
+    ]
+   },
+   {
+    "answer": "Socotra",
+    "aliases": []
+   },
+   {
+    "answer": "Rodrigues",
+    "aliases": []
+   },
+   {
+    "answer": "Kiritimati",
+    "aliases": [
+     "Christmas Island Kiribati"
+    ]
+   },
+   {
+    "answer": "Wake Island",
+    "aliases": []
+   },
+   {
+    "answer": "Midway Atoll",
+    "aliases": [
+     "Midway"
+    ]
+   },
+   {
+    "answer": "Tuvalu Funafuti",
+    "aliases": [
+     "Funafuti"
+    ]
+   },
+   {
+    "answer": "Rarotonga",
+    "aliases": []
+   },
+   {
+    "answer": "Bougainville",
+    "aliases": []
+   },
+   {
+    "answer": "Vanua Levu",
+    "aliases": []
+   },
+   {
+    "answer": "Upolu",
+    "aliases": []
+   },
+   {
+    "answer": "Savai'i",
+    "aliases": [
+     "Savaii"
+    ]
+   },
+   {
+    "answer": "Tortola",
+    "aliases": []
+   },
+   {
+    "answer": "Nevis",
+    "aliases": []
+   },
+   {
+    "answer": "Bequia",
+    "aliases": []
+   },
+   {
+    "answer": "Carriacou",
+    "aliases": []
+   },
+   {
+    "answer": "Tobago",
+    "aliases": []
+   },
+   {
+    "answer": "Trinidad",
+    "aliases": []
+   },
+   {
+    "answer": "Antigua",
+    "aliases": []
+   },
+   {
+    "answer": "Barbuda",
+    "aliases": []
+   },
+   {
+    "answer": "Saint Kitts",
+    "aliases": [
+     "St Kitts"
+    ]
+   },
+   {
+    "answer": "Hispaniola",
+    "aliases": []
+   },
+   {
+    "answer": "Vieques",
+    "aliases": []
+   },
+   {
+    "answer": "Roatán",
+    "aliases": [
+     "Roatan"
+    ]
+   },
+   {
+    "answer": "Isla Margarita",
+    "aliases": [
+     "Margarita Island"
+    ]
+   },
+   {
+    "answer": "Chiloé",
+    "aliases": [
+     "Chiloe"
+    ]
+   },
+   {
+    "answer": "Tierra del Fuego",
+    "aliases": []
+   },
+   {
+    "answer": "Baffin Island",
+    "aliases": []
+   },
+   {
+    "answer": "Ellesmere Island",
+    "aliases": []
+   },
+   {
+    "answer": "Victoria Island",
+    "aliases": []
+   },
+   {
+    "answer": "Cape Breton Island",
+    "aliases": [
+     "Cape Breton"
+    ]
+   },
+   {
+    "answer": "Orkney",
+    "aliases": [
+     "Orkney Islands"
+    ]
+   },
+   {
+    "answer": "Shetland",
+    "aliases": [
+     "Shetland Islands"
+    ]
+   },
+   {
+    "answer": "Isle of Wight",
+    "aliases": [
+     "Wight"
+    ]
+   },
+   {
+    "answer": "Anglesey",
+    "aliases": []
+   },
+   {
+    "answer": "Skye",
+    "aliases": [
+     "Isle of Skye"
+    ]
+   },
+   {
+    "answer": "Lewis and Harris",
+    "aliases": [
+     "Lewis",
+     "Harris"
+    ]
+   }
+  ]
+ },
+ "ttft_ms": 16091,
+ "type": "result",
+ "duration_ms": 16125,
+ "uuid": "50bd91d1-9816-4a64-941a-a8b08b1a2284",
+ "ttft_stream_ms": 729,
+ "time_to_request_ms": 31,
+ "first_content_frame_ms": 729,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

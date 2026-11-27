@@ -1,0 +1,1586 @@
+{
+ "duration_api_ms": 55149,
+ "stop_reason": "tool_use",
+ "session_id": "e8b704d7-d248-45ed-80e6-d434610cfb12",
+ "total_cost_usd": 0.11001200000000001,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7796,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 7870,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7796,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 7870,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 7796,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7796
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 7870,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 7796,
+   "webSearchRequests": 0,
+   "costUSD": 0.11001200000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Jack-o'-lantern mushroom\",\"aliases\":[\"Jack o lantern mushroom\",\"Omphalotus olearius\"]},{\"answer\":\"Foxfire\",\"aliases\":[\"Fox fire\"]},{\"answer\":\"Honey fungus\",\"aliases\":[\"Armillaria\"]},{\"answer\":\"Panellus stipticus\",\"aliases\":[\"Bitter oyster\"]},{\"answer\":\"Phengodid beetle\",\"aliases\":[\"Railroad worm beetle\",\"Phengodidae\"]},{\"answer\":\"Lampyrid beetle\",\"aliases\":[\"Lampyridae\"]},{\"answer\":\"Lightning bug\",\"aliases\":[\"Lightning bugs\"]},{\"answer\":\"Arachnocampa\",\"aliases\":[\"New Zealand glowworm\",\"Waitomo glowworm\",\"Australian glowworm\"]},{\"answer\":\"Orfelia fultoni\",\"aliases\":[\"Dismalite\",\"Southern Appalachian glowworm\"]},{\"answer\":\"Pyrophorus noctilucus\",\"aliases\":[\"Cucujo beetle\",\"Cucujo\",\"Giant click beetle\"]},{\"answer\":\"Elateroid beetle\",\"aliases\":[\"Elateridae\"]},{\"answer\":\"Pyrearinus termitilluminans\",\"aliases\":[\"Termite-hunting click beetle\",\"Larval click beetle\"]},{\"answer\":\"Lamprigera\",\"aliases\":[\"Giant firefly\"]},{\"answer\":\"Pteroptyx\",\"aliases\":[\"Mangrove firefly\"]},{\"answer\":\"Pyractomena\",\"aliases\":[\"Pyractomena firefly\"]},{\"answer\":\"Photinus pyralis\",\"aliases\":[\"Common eastern firefly\",\"Big dipper firefly\"]},{\"answer\":\"Photinus carolinus\",\"aliases\":[\"Smoky Mountain synchronous firefly\"]},{\"answer\":\"Lucidota\",\"aliases\":[\"Lucidota firefly\"]},{\"answer\":\"Pyralis firefly\",\"aliases\":[\"Pyralis\"]},{\"answer\":\"Vargula hilgendorfii\",\"aliases\":[\"Sea firefly\",\"Umi-hotaru\"]},{\"answer\":\"Sea firefly\",\"aliases\":[\"Seafirefly\"]},{\"answer\":\"Noctiluca scintillans\",\"aliases\":[\"Sea sparkle dinoflagellate\",\"Noctiluca\"]},{\"answer\":\"Pyrocystis fusiformis\",\"aliases\":[\"Pyrocystis\"]},{\"answer\":\"Lingulodinium polyedra\",\"aliases\":[\"Lingulodinium\"]},{\"answer\":\"Aequorea victoria\",\"aliases\":[\"Crystal jelly\",\"Aequorea\"]},{\"answer\":\"Pelagia noctiluca\",\"aliases\":[\"Mauve stinger jellyfish\",\"Night-light jellyfish\"]},{\"answer\":\"Mnemiopsis leidyi\",\"aliases\":[\"Sea walnut\",\"Warty comb jelly\"]},{\"answer\":\"Sea walnut\",\"aliases\":[]},{\"answer\":\"Cat's eye ctenophore\",\"aliases\":[]},{\"answer\":\"Obelia\",\"aliases\":[\"Obelia hydroid\"]},{\"answer\":\"Renilla reniformis\",\"aliases\":[\"Renilla\"]},{\"answer\":\"Umbellula\",\"aliases\":[\"Deep-sea sea pen\",\"Umbellula sea pen\"]},{\"answer\":\"Funiculina\",\"aliases\":[\"Tall sea pen\"]},{\"answer\":\"Pennatula phosphorea\",\"aliases\":[\"Phosphorescent sea pen\"]},{\"answer\":\"Gorgonian\",\"aliases\":[\"Gorgonian coral\"]},{\"answer\":\"Acanthogorgia\",\"aliases\":[]},{\"answer\":\"Ophiopsila\",\"aliases\":[\"Luminous brittle star\"]},{\"answer\":\"Amphiura filiformis\",\"aliases\":[\"Amphiura\"]},{\"answer\":\"Psolus\",\"aliases\":[]},{\"answer\":\"Pyrosoma atlanticum\",\"aliases\":[\"Pyrosome\"]},{\"answer\":\"Doliolid\",\"aliases\":[\"Doliolum\"]},{\"answer\":\"Oikopleura\",\"aliases\":[\"Larvacean\",\"Appendicularian\"]},{\"answer\":\"Chaetognath\",\"aliases\":[\"Arrow worm\"]},{\"answer\":\"Tomopteris worm\",\"aliases\":[\"Tomopteris\"]},{\"answer\":\"Swima bombviridis\",\"aliases\":[\"Green bomber worm\",\"Green bomber\"]},{\"answer\":\"Flota\",\"aliases\":[\"Flota worm\"]},{\"answer\":\"Odontosyllis enopla\",\"aliases\":[\"Bermuda fireworm\"]},{\"answer\":\"Bermuda fireworm\",\"aliases\":[\"Odontosyllis\"]},{\"answer\":\"Harmothoe\",\"aliases\":[\"Scale worm Harmothoe\"]},{\"answer\":\"Eulagisca\",\"aliases\":[\"Antarctic scale worm\"]},{\"answer\":\"Diplocardia longa\",\"aliases\":[\"Luminous earthworm\",\"Glowing earthworm\"]},{\"answer\":\"Microscolex phosphoreus\",\"aliases\":[\"Phosphorescent earthworm\"]},{\"answer\":\"Quantula striata\",\"aliases\":[\"Glowing snail\",\"Dyakia striata\",\"Luminous land snail\"]},{\"answer\":\"Latia neritoides\",\"aliases\":[\"Freshwater limpet\",\"New Zealand glowing limpet\"]},{\"answer\":\"Hinea brasiliana\",\"aliases\":[\"Brazilian glowing snail\"]},{\"answer\":\"Pholas dactylus\",\"aliases\":[\"Common piddock\",\"Piddock\",\"Angel wing clam\"]},{\"answer\":\"Pholad clam\",\"aliases\":[\"Piddock clam\"]},{\"answer\":\"Phyllirhoe bucephala\",\"aliases\":[\"Phyllirhoe\"]},{\"answer\":\"Glowing nudibranch\",\"aliases\":[\"Plumose nudibranch\"]},{\"answer\":\"Euprymna scolopes\",\"aliases\":[\"Hawaiian bobtail squid\"]},{\"answer\":\"Watasenia scintillans\",\"aliases\":[\"Firefly squid\",\"Sparkling enope squid\"]},{\"answer\":\"Histioteuthis\",\"aliases\":[\"Jewel squid\",\"Cranchiid jewel squid\"]},{\"answer\":\"Taningia danae\",\"aliases\":[\"Dana octopus squid\",\"Taningia\"]},{\"answer\":\"Lycoteuthis\",\"aliases\":[\"Lycoteuthis squid\"]},{\"answer\":\"Abralia\",\"aliases\":[\"Enope squid\"]},{\"answer\":\"Onykia\",\"aliases\":[\"Onykia squid\"]},{\"answer\":\"Bathyteuthis\",\"aliases\":[\"Deepsea squid\"]},{\"answer\":\"Sepiolid squid\",\"aliases\":[\"Bobtail squid\"]},{\"answer\":\"Vampyroteuthis infernalis\",\"aliases\":[\"Vampire squid from hell\"]},{\"answer\":\"Stauroteuthis syrtensis\",\"aliases\":[\"Glowing sucker octopus\"]},{\"answer\":\"Gonatus\",\"aliases\":[\"Armhook squid\",\"Gonate squid\"]},{\"answer\":\"Mastigoteuthis\",\"aliases\":[\"Whip-lash squid\",\"Whip lash squid\"]},{\"answer\":\"Chiroteuthis\",\"aliases\":[\"Chiroteuthid squid\"]},{\"answer\":\"Thysanoteuthis rhombus\",\"aliases\":[\"Diamondback squid\"]},{\"answer\":\"Euphausia superba\",\"aliases\":[\"Antarctic krill\"]},{\"answer\":\"Meganyctiphanes norvegica\",\"aliases\":[\"Northern krill\"]},{\"answer\":\"Oplophorus\",\"aliases\":[\"Oplophorid shrimp\"]},{\"answer\":\"Acanthephyra\",\"aliases\":[\"Acanthephyra shrimp\"]},{\"answer\":\"Systellaspis debilis\",\"aliases\":[\"Systellaspis\"]},{\"answer\":\"Sergia\",\"aliases\":[\"Sergia shrimp\"]},{\"answer\":\"Gnathophausia\",\"aliases\":[\"Giant red mysid\"]},{\"answer\":\"Cypridina\",\"aliases\":[\"Cypridina ostracod\"]},{\"answer\":\"Conchoecia\",\"aliases\":[\"Conchoecia ostracod\"]},{\"answer\":\"Metridia\",\"aliases\":[\"Metridia copepod\"]},{\"answer\":\"Gaussia princeps\",\"aliases\":[\"Gaussia copepod\"]},{\"answer\":\"Pleuromamma\",\"aliases\":[\"Pleuromamma copepod\"]},{\"answer\":\"Euchirella\",\"aliases\":[]},{\"answer\":\"Scina\",\"aliases\":[\"Scina amphipod\"]},{\"answer\":\"Cyphocaris\",\"aliases\":[\"Cyphocaris amphipod\"]},{\"answer\":\"Cavolinia\",\"aliases\":[]},{\"answer\":\"Cystisoma\",\"aliases\":[\"Glass amphipod\"]},{\"answer\":\"Photoblepharon\",\"aliases\":[\"Flashlight fish Photoblepharon\",\"Splitfin flashlight fish\"]},{\"answer\":\"Anomalops katoptron\",\"aliases\":[\"Anomalops\",\"Lantern-eye fish\",\"Lanterneye fish\"]},{\"answer\":\"Photoblepharon palpebratus\",\"aliases\":[\"Eyelight fish\"]},{\"answer\":\"Monocentris japonica\",\"aliases\":[\"Japanese pineconefish\"]},{\"answer\":\"Pineapple fish\",\"aliases\":[\"Pine cone fish\"]},{\"answer\":\"Porichthys notatus\",\"aliases\":[\"Plainfin midshipman\"]},{\"answer\":\"Plainfin midshipman\",\"aliases\":[]},{\"answer\":\"Pacific spookfish\",\"aliases\":[\"Spookfish\",\"Brownsnout spookfish\"]},{\"answer\":\"Spookfish\",\"aliases\":[]},{\"answer\":\"Ceratias holboelli\",\"aliases\":[\"Kroyer's deep-sea anglerfish\",\"Kroyer's deepsea anglerfish\"]},{\"answer\":\"Melanocetus johnsonii\",\"aliases\":[\"Humpback anglerfish\",\"Black seadevil\"]},{\"answer\":\"Himantolophus\",\"aliases\":[\"Footballfish\"]},{\"answer\":\"Linophryne\",\"aliases\":[\"Bearded anglerfish\",\"Bearded seadevil\"]},{\"answer\":\"Photostomias guernei\",\"aliases\":[\"Guerne's loosejaw\"]},{\"answer\":\"Malacosteus niger\",\"aliases\":[\"Malacosteus\",\"Northern stoplight loosejaw\"]},{\"answer\":\"Idiacanthus\",\"aliases\":[\"Black dragonfish\",\"Idiacanthus fasciola\"]},{\"answer\":\"Chauliodus sloani\",\"aliases\":[\"Chauliodus\"]},{\"answer\":\"Stomias boa\",\"aliases\":[\"Boa dragonfish\"]},{\"answer\":\"Stomiidae\",\"aliases\":[\"Scaly dragonfish\"]},{\"answer\":\"Grammatostomias\",\"aliases\":[\"Grammatostomias dragonfish\"]},{\"answer\":\"Aristostomias\",\"aliases\":[\"Aristostomias loosejaw\"]},{\"answer\":\"Argyropelecus\",\"aliases\":[\"Marine hatchetfish\",\"Silver hatchetfish\"]},{\"answer\":\"Sternoptyx\",\"aliases\":[\"Deepsea hatchetfish\"]},{\"answer\":\"Cyclothone\",\"aliases\":[\"Bristlemouth Cyclothone\"]},{\"answer\":\"Gonostoma\",\"aliases\":[\"Gonostomatid\"]},{\"answer\":\"Myctophidae\",\"aliases\":[\"Myctophid\",\"Lantern fish\"]},{\"answer\":\"Benthosema glaciale\",\"aliases\":[\"Glacier lanternfish\"]},{\"answer\":\"Diaphus\",\"aliases\":[\"Headlight fish\",\"Headlightfish\"]},{\"answer\":\"Ceratoscopelus\",\"aliases\":[\"Horned lanternfish\"]},{\"answer\":\"Electrona\",\"aliases\":[\"Electron lanternfish\"]},{\"answer\":\"Etmopterus spinax\",\"aliases\":[\"Velvet belly\",\"Velvet belly lantern shark\"]},{\"answer\":\"Etmopterus\",\"aliases\":[\"Lanternshark\"]},{\"answer\":\"Dalatias licha\",\"aliases\":[\"Kitefin\"]},{\"answer\":\"Isistius brasiliensis\",\"aliases\":[\"Cookiecutter\",\"Cigar shark\"]},{\"answer\":\"Euprotomicrus bispinatus\",\"aliases\":[\"Pygmy shark\"]},{\"answer\":\"Pygmy shark\",\"aliases\":[]},{\"answer\":\"Mollisquama mississippiensis\",\"aliases\":[\"American pocket shark\"]},{\"answer\":\"Pocket shark\",\"aliases\":[\"Mollisquama parini\"]},{\"answer\":\"Sixgill shark\",\"aliases\":[\"Bluntnose sixgill shark\"]},{\"answer\":\"Greenland shark\",\"aliases\":[]},{\"answer\":\"Bamboo shark\",\"aliases\":[]},{\"answer\":\"Epaulette shark\",\"aliases\":[]},{\"answer\":\"Zebra shark\",\"aliases\":[]},{\"answer\":\"Cuttlefish shark\",\"aliases\":[]},{\"answer\":\"Bioluminescent bay organisms\",\"aliases\":[]},{\"answer\":\"Rattail\",\"aliases\":[\"Grenadier\",\"Macrourid\"]},{\"answer\":\"Pearleye\",\"aliases\":[\"Scopelarchidae\"]},{\"answer\":\"Greeneye\",\"aliases\":[\"Chlorophthalmidae\"]},{\"answer\":\"Cutthroat eel\",\"aliases\":[\"Synaphobranchid\"]},{\"answer\":\"Bobtail snipe eel\",\"aliases\":[\"Snipe eel\"]},{\"answer\":\"Oneirodes\",\"aliases\":[\"Dreamer anglerfish\",\"Dreamers\"]},{\"answer\":\"Gigantactis\",\"aliases\":[\"Whipnose anglerfish\",\"Whipnose\"]},{\"answer\":\"Pelican eel\",\"aliases\":[\"Eurypharynx pelecanoides\"]},{\"answer\":\"Bigscale fish\",\"aliases\":[\"Scalyfin\",\"Melamphaidae\"]},{\"answer\":\"Hagfish\",\"aliases\":[]},{\"answer\":\"Ribbonfish\",\"aliases\":[]},{\"answer\":\"Sea spider\",\"aliases\":[\"Pycnogonid\"]},{\"answer\":\"Ophiuroid\",\"aliases\":[\"Ophiuroidea\"]},{\"answer\":\"Sea lily\",\"aliases\":[\"Crinoid\"]},{\"answer\":\"Gorgon's head\",\"aliases\":[\"Basket star\"]},{\"answer\":\"Deepstaria\",\"aliases\":[\"Deepstaria jellyfish\"]},{\"answer\":\"Periphylla periphylla\",\"aliases\":[\"Periphylla\",\"Helmet jelly\"]},{\"answer\":\"Colobonema\",\"aliases\":[\"Colobonema jellyfish\"]},{\"answer\":\"Halitrephes\",\"aliases\":[\"Halitrephes maasi\",\"Halitrephes jellyfish\"]},{\"answer\":\"Praya dubia\",\"aliases\":[\"Giant siphonophore\",\"Praya\"]},{\"answer\":\"Erenna\",\"aliases\":[\"Erenna siphonophore\",\"Erenna sirena\"]},{\"answer\":\"Stygiomedusa\",\"aliases\":[\"Giant phantom jelly\",\"Phantom jelly\"]},{\"answer\":\"Bathocyroe fosteri\",\"aliases\":[\"Bathocyroe\",\"Foster's comb jelly\"]},{\"answer\":\"Beroe ovata\",\"aliases\":[\"Beroe comb jelly\"]},{\"answer\":\"Eurhamphaea vexilligera\",\"aliases\":[\"Eurhamphaea\"]},{\"answer\":\"Ocyropsis\",\"aliases\":[\"Butterfly comb jelly\"]},{\"answer\":\"Haeckelia\",\"aliases\":[\"Haeckelia comb jelly\"]},{\"answer\":\"Sea whip\",\"aliases\":[\"Whip coral\"]},{\"answer\":\"Pocillopora\",\"aliases\":[\"Cauliflower coral\"]},{\"answer\":\"Green fluorescent coral\",\"aliases\":[\"Fluorescent coral\"]},{\"answer\":\"Fluorescent sea anemone\",\"aliases\":[\"Anemone\"]},{\"answer\":\"Fluorescent frog\",\"aliases\":[\"Hypsiboas punctatus\"]},{\"answer\":\"Hypsiboas punctatus\",\"aliases\":[\"Polka dot tree frog\"]},{\"answer\":\"Fluorescent turtle\",\"aliases\":[\"Hawksbill sea turtle\",\"Hawksbill\"]},{\"answer\":\"Hawksbill turtle\",\"aliases\":[\"Eretmochelys imbricata\"]},{\"answer\":\"Scorpion fish\",\"aliases\":[]},{\"answer\":\"Fluorescent scorpion\",\"aliases\":[\"Emperor scorpion\",\"Desert hairy scorpion\",\"Bark scorpion\",\"Arizona bark scorpion\"]},{\"answer\":\"Emperor scorpion\",\"aliases\":[\"Pandinus imperator\"]},{\"answer\":\"Arizona bark scorpion\",\"aliases\":[\"Centruroides sculpturatus\"]},{\"answer\":\"Desert hairy scorpion\",\"aliases\":[\"Hadrurus arizonensis\"]},{\"answer\":\"Deathstalker scorpion\",\"aliases\":[\"Leiurus quinquestriatus\"]},{\"answer\":\"Springhare\",\"aliases\":[\"Pedetes capensis\"]},{\"answer\":\"Southern flying squirrel\",\"aliases\":[\"Glaucomys volans\"]},{\"answer\":\"Northern flying squirrel\",\"aliases\":[\"Glaucomys sabrinus\"]},{\"answer\":\"Virginia opossum\",\"aliases\":[\"Didelphis virginiana\"]},{\"answer\":\"Eastern quoll\",\"aliases\":[\"Quoll\"]},{\"answer\":\"Spiny anteater\",\"aliases\":[\"Short-beaked echidna\"]},{\"answer\":\"Pink fairy armadillo\",\"aliases\":[\"Armadillo\"]},{\"answer\":\"Peacock spider\",\"aliases\":[\"Maratus\"]},{\"answer\":\"Jumping spider\",\"aliases\":[\"Salticidae\"]},{\"answer\":\"Fluorescent butterfly\",\"aliases\":[\"Butterfly\",\"Moth\"]},{\"answer\":\"Glow-in-the-dark mouse\",\"aliases\":[\"Transgenic mouse\"]},{\"answer\":\"Glowing rabbit\",\"aliases\":[\"Alba rabbit\"]},{\"answer\":\"Glowing cat\",\"aliases\":[\"Transgenic cat\"]},{\"answer\":\"Glowing pig\",\"aliases\":[\"Transgenic pig\"]},{\"answer\":\"Glowing dog\",\"aliases\":[\"Ruppy\",\"Ruppy dog\",\"Tegon\"]},{\"answer\":\"Glowing monkey\",\"aliases\":[\"Transgenic monkey\"]},{\"answer\":\"Tetra\",\"aliases\":[\"GloFish tetra\",\"Glo tetra\"]},{\"answer\":\"Danio\",\"aliases\":[\"Glow danio\",\"Zebra danio\"]},{\"answer\":\"Tiger barb\",\"aliases\":[\"GloFish barb\"]},{\"answer\":\"Shiner\",\"aliases\":[\"Pearlsides\"]},{\"answer\":\"Pyrodinium bahamense\",\"aliases\":[\"Pyrodinium\"]},{\"answer\":\"Alexandrium\",\"aliases\":[\"Alexandrium dinoflagellate\"]},{\"answer\":\"Gonyaulax\",\"aliases\":[\"Gonyaulax dinoflagellate\"]},{\"answer\":\"Ceratium\",\"aliases\":[\"Ceratium dinoflagellate\"]},{\"answer\":\"Protoperidinium\",\"aliases\":[\"Protoperidinium dinoflagellate\"]},{\"answer\":\"Photobacterium\",\"aliases\":[\"Luminous bacteria\"]},{\"answer\":\"Vibrio harveyi\",\"aliases\":[\"Vibrio\"]},{\"answer\":\"Photorhabdus\",\"aliases\":[\"Photorhabdus luminescens\"]},{\"answer\":\"Sea squirt\",\"aliases\":[\"Ascidian\"]},{\"answer\":\"Brittlestar Ophiacantha\",\"aliases\":[\"Ophiacantha\"]},{\"answer\":\"Ghost shark\",\"aliases\":[\"Chimaera\",\"Ratfish\"]},{\"answer\":\"Spotted ratfish\",\"aliases\":[\"Hydrolagus colliei\"]},{\"answer\":\"Stoplight loosejaw\",\"aliases\":[\"Malacosteus\"]},{\"answer\":\"Leaf-nosed bat\",\"aliases\":[]},{\"answer\":\"Tiger beetle\",\"aliases\":[]},{\"answer\":\"Luminous millipede\",\"aliases\":[\"Motyxia\",\"Californian bioluminescent millipede\",\"Motyxia millipede\"]},{\"answer\":\"Motyxia\",\"aliases\":[\"Almond-scented millipede\"]},{\"answer\":\"Keroplatus\",\"aliases\":[\"Keroplatid fungus gnat\",\"Bolitophila\"]},{\"answer\":\"Luminous centipede\",\"aliases\":[\"Geophilomorph\",\"Orya\",\"Geophilus electricus\"]},{\"answer\":\"Geophilus electricus\",\"aliases\":[\"Electric centipede\"]},{\"answer\":\"Fireflies of Thailand\",\"aliases\":[]},{\"answer\":\"Luminous springtail\",\"aliases\":[\"Lepidocyrtus\"]},{\"answer\":\"Luminous planthopper\",\"aliases\":[\"Fulgora\",\"Lanternfly\",\"Lantern fly\"]},{\"answer\":\"Lanternfly\",\"aliases\":[\"Lantern bug\",\"Fulgoridae\"]},{\"answer\":\"Pyrophorus\",\"aliases\":[\"Fire beetle\"]},{\"answer\":\"Rhagophthalmus\",\"aliases\":[\"Rhagophthalmus glowworm\"]},{\"answer\":\"Phrixothrix\",\"aliases\":[\"Railroad worm\",\"Phrixothrix hirtus\"]},{\"answer\":\"Luminous termite mound\",\"aliases\":[\"Termite\"]},{\"answer\":\"Fluorescent chameleon\",\"aliases\":[\"Calumma\",\"Calumma chameleon\"]},{\"answer\":\"Fluorescent gecko\",\"aliases\":[\"Phelsuma\",\"Day gecko\"]},{\"answer\":\"Fluorescent parrot\",\"aliases\":[\"Budgerigar\",\"Budgie\",\"Parakeet\"]},{\"answer\":\"Budgerigar\",\"aliases\":[\"Budgie\"]},{\"answer\":\"Barn owl\",\"aliases\":[\"Tyto alba\"]},{\"answer\":\"Fluorescent platypus\",\"aliases\":[\"Ornithorhynchus anatinus\"]},{\"answer\":\"Axolotl\",\"aliases\":[\"Glowing axolotl\"]},{\"answer\":\"Fluorescent sea horse\",\"aliases\":[\"Hippocampus\"]},{\"answer\":\"Fluorescent eel\",\"aliases\":[\"Kaupichthys\",\"Chlopsid eel\"]},{\"answer\":\"Fluorescent moray\",\"aliases\":[\"Moray eel\"]},{\"answer\":\"Sand tiger shark\",\"aliases\":[]},{\"answer\":\"Smalltooth sand tiger shark\",\"aliases\":[]},{\"answer\":\"Fluorescent stingray\",\"aliases\":[\"Stingray\"]},{\"answer\":\"Pyjama squid\",\"aliases\":[\"Sepioloidea lineolata\"]},{\"answer\":\"Pygmy squid\",\"aliases\":[\"Idiosepius\"]},{\"answer\":\"Sparkling enope squid\",\"aliases\":[]},{\"answer\":\"Midwater squid\",\"aliases\":[]},{\"answer\":\"Nautilus\",\"aliases\":[\"Chambered nautilus\"]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Jack-o'-lantern mushroom",
+    "aliases": [
+     "Jack o lantern mushroom",
+     "Omphalotus olearius"
+    ]
+   },
+   {
+    "answer": "Foxfire",
+    "aliases": [
+     "Fox fire"
+    ]
+   },
+   {
+    "answer": "Honey fungus",
+    "aliases": [
+     "Armillaria"
+    ]
+   },
+   {
+    "answer": "Panellus stipticus",
+    "aliases": [
+     "Bitter oyster"
+    ]
+   },
+   {
+    "answer": "Phengodid beetle",
+    "aliases": [
+     "Railroad worm beetle",
+     "Phengodidae"
+    ]
+   },
+   {
+    "answer": "Lampyrid beetle",
+    "aliases": [
+     "Lampyridae"
+    ]
+   },
+   {
+    "answer": "Lightning bug",
+    "aliases": [
+     "Lightning bugs"
+    ]
+   },
+   {
+    "answer": "Arachnocampa",
+    "aliases": [
+     "New Zealand glowworm",
+     "Waitomo glowworm",
+     "Australian glowworm"
+    ]
+   },
+   {
+    "answer": "Orfelia fultoni",
+    "aliases": [
+     "Dismalite",
+     "Southern Appalachian glowworm"
+    ]
+   },
+   {
+    "answer": "Pyrophorus noctilucus",
+    "aliases": [
+     "Cucujo beetle",
+     "Cucujo",
+     "Giant click beetle"
+    ]
+   },
+   {
+    "answer": "Elateroid beetle",
+    "aliases": [
+     "Elateridae"
+    ]
+   },
+   {
+    "answer": "Pyrearinus termitilluminans",
+    "aliases": [
+     "Termite-hunting click beetle",
+     "Larval click beetle"
+    ]
+   },
+   {
+    "answer": "Lamprigera",
+    "aliases": [
+     "Giant firefly"
+    ]
+   },
+   {
+    "answer": "Pteroptyx",
+    "aliases": [
+     "Mangrove firefly"
+    ]
+   },
+   {
+    "answer": "Pyractomena",
+    "aliases": [
+     "Pyractomena firefly"
+    ]
+   },
+   {
+    "answer": "Photinus pyralis",
+    "aliases": [
+     "Common eastern firefly",
+     "Big dipper firefly"
+    ]
+   },
+   {
+    "answer": "Photinus carolinus",
+    "aliases": [
+     "Smoky Mountain synchronous firefly"
+    ]
+   },
+   {
+    "answer": "Lucidota",
+    "aliases": [
+     "Lucidota firefly"
+    ]
+   },
+   {
+    "answer": "Pyralis firefly",
+    "aliases": [
+     "Pyralis"
+    ]
+   },
+   {
+    "answer": "Vargula hilgendorfii",
+    "aliases": [
+     "Sea firefly",
+     "Umi-hotaru"
+    ]
+   },
+   {
+    "answer": "Sea firefly",
+    "aliases": [
+     "Seafirefly"
+    ]
+   },
+   {
+    "answer": "Noctiluca scintillans",
+    "aliases": [
+     "Sea sparkle dinoflagellate",
+     "Noctiluca"
+    ]
+   },
+   {
+    "answer": "Pyrocystis fusiformis",
+    "aliases": [
+     "Pyrocystis"
+    ]
+   },
+   {
+    "answer": "Lingulodinium polyedra",
+    "aliases": [
+     "Lingulodinium"
+    ]
+   },
+   {
+    "answer": "Aequorea victoria",
+    "aliases": [
+     "Crystal jelly",
+     "Aequorea"
+    ]
+   },
+   {
+    "answer": "Pelagia noctiluca",
+    "aliases": [
+     "Mauve stinger jellyfish",
+     "Night-light jellyfish"
+    ]
+   },
+   {
+    "answer": "Mnemiopsis leidyi",
+    "aliases": [
+     "Sea walnut",
+     "Warty comb jelly"
+    ]
+   },
+   {
+    "answer": "Sea walnut",
+    "aliases": []
+   },
+   {
+    "answer": "Cat's eye ctenophore",
+    "aliases": []
+   },
+   {
+    "answer": "Obelia",
+    "aliases": [
+     "Obelia hydroid"
+    ]
+   },
+   {
+    "answer": "Renilla reniformis",
+    "aliases": [
+     "Renilla"
+    ]
+   },
+   {
+    "answer": "Umbellula",
+    "aliases": [
+     "Deep-sea sea pen",
+     "Umbellula sea pen"
+    ]
+   },
+   {
+    "answer": "Funiculina",
+    "aliases": [
+     "Tall sea pen"
+    ]
+   },
+   {
+    "answer": "Pennatula phosphorea",
+    "aliases": [
+     "Phosphorescent sea pen"
+    ]
+   },
+   {
+    "answer": "Gorgonian",
+    "aliases": [
+     "Gorgonian coral"
+    ]
+   },
+   {
+    "answer": "Acanthogorgia",
+    "aliases": []
+   },
+   {
+    "answer": "Ophiopsila",
+    "aliases": [
+     "Luminous brittle star"
+    ]
+   },
+   {
+    "answer": "Amphiura filiformis",
+    "aliases": [
+     "Amphiura"
+    ]
+   },
+   {
+    "answer": "Psolus",
+    "aliases": []
+   },
+   {
+    "answer": "Pyrosoma atlanticum",
+    "aliases": [
+     "Pyrosome"
+    ]
+   },
+   {
+    "answer": "Doliolid",
+    "aliases": [
+     "Doliolum"
+    ]
+   },
+   {
+    "answer": "Oikopleura",
+    "aliases": [
+     "Larvacean",
+     "Appendicularian"
+    ]
+   },
+   {
+    "answer": "Chaetognath",
+    "aliases": [
+     "Arrow worm"
+    ]
+   },
+   {
+    "answer": "Tomopteris worm",
+    "aliases": [
+     "Tomopteris"
+    ]
+   },
+   {
+    "answer": "Swima bombviridis",
+    "aliases": [
+     "Green bomber worm",
+     "Green bomber"
+    ]
+   },
+   {
+    "answer": "Flota",
+    "aliases": [
+     "Flota worm"
+    ]
+   },
+   {
+    "answer": "Odontosyllis enopla",
+    "aliases": [
+     "Bermuda fireworm"
+    ]
+   },
+   {
+    "answer": "Bermuda fireworm",
+    "aliases": [
+     "Odontosyllis"
+    ]
+   },
+   {
+    "answer": "Harmothoe",
+    "aliases": [
+     "Scale worm Harmothoe"
+    ]
+   },
+   {
+    "answer": "Eulagisca",
+    "aliases": [
+     "Antarctic scale worm"
+    ]
+   },
+   {
+    "answer": "Diplocardia longa",
+    "aliases": [
+     "Luminous earthworm",
+     "Glowing earthworm"
+    ]
+   },
+   {
+    "answer": "Microscolex phosphoreus",
+    "aliases": [
+     "Phosphorescent earthworm"
+    ]
+   },
+   {
+    "answer": "Quantula striata",
+    "aliases": [
+     "Glowing snail",
+     "Dyakia striata",
+     "Luminous land snail"
+    ]
+   },
+   {
+    "answer": "Latia neritoides",
+    "aliases": [
+     "Freshwater limpet",
+     "New Zealand glowing limpet"
+    ]
+   },
+   {
+    "answer": "Hinea brasiliana",
+    "aliases": [
+     "Brazilian glowing snail"
+    ]
+   },
+   {
+    "answer": "Pholas dactylus",
+    "aliases": [
+     "Common piddock",
+     "Piddock",
+     "Angel wing clam"
+    ]
+   },
+   {
+    "answer": "Pholad clam",
+    "aliases": [
+     "Piddock clam"
+    ]
+   },
+   {
+    "answer": "Phyllirhoe bucephala",
+    "aliases": [
+     "Phyllirhoe"
+    ]
+   },
+   {
+    "answer": "Glowing nudibranch",
+    "aliases": [
+     "Plumose nudibranch"
+    ]
+   },
+   {
+    "answer": "Euprymna scolopes",
+    "aliases": [
+     "Hawaiian bobtail squid"
+    ]
+   },
+   {
+    "answer": "Watasenia scintillans",
+    "aliases": [
+     "Firefly squid",
+     "Sparkling enope squid"
+    ]
+   },
+   {
+    "answer": "Histioteuthis",
+    "aliases": [
+     "Jewel squid",
+     "Cranchiid jewel squid"
+    ]
+   },
+   {
+    "answer": "Taningia danae",
+    "aliases": [
+     "Dana octopus squid",
+     "Taningia"
+    ]
+   },
+   {
+    "answer": "Lycoteuthis",
+    "aliases": [
+     "Lycoteuthis squid"
+    ]
+   },
+   {
+    "answer": "Abralia",
+    "aliases": [
+     "Enope squid"
+    ]
+   },
+   {
+    "answer": "Onykia",
+    "aliases": [
+     "Onykia squid"
+    ]
+   },
+   {
+    "answer": "Bathyteuthis",
+    "aliases": [
+     "Deepsea squid"
+    ]
+   },
+   {
+    "answer": "Sepiolid squid",
+    "aliases": [
+     "Bobtail squid"
+    ]
+   },
+   {
+    "answer": "Vampyroteuthis infernalis",
+    "aliases": [
+     "Vampire squid from hell"
+    ]
+   },
+   {
+    "answer": "Stauroteuthis syrtensis",
+    "aliases": [
+     "Glowing sucker octopus"
+    ]
+   },
+   {
+    "answer": "Gonatus",
+    "aliases": [
+     "Armhook squid",
+     "Gonate squid"
+    ]
+   },
+   {
+    "answer": "Mastigoteuthis",
+    "aliases": [
+     "Whip-lash squid",
+     "Whip lash squid"
+    ]
+   },
+   {
+    "answer": "Chiroteuthis",
+    "aliases": [
+     "Chiroteuthid squid"
+    ]
+   },
+   {
+    "answer": "Thysanoteuthis rhombus",
+    "aliases": [
+     "Diamondback squid"
+    ]
+   },
+   {
+    "answer": "Euphausia superba",
+    "aliases": [
+     "Antarctic krill"
+    ]
+   },
+   {
+    "answer": "Meganyctiphanes norvegica",
+    "aliases": [
+     "Northern krill"
+    ]
+   },
+   {
+    "answer": "Oplophorus",
+    "aliases": [
+     "Oplophorid shrimp"
+    ]
+   },
+   {
+    "answer": "Acanthephyra",
+    "aliases": [
+     "Acanthephyra shrimp"
+    ]
+   },
+   {
+    "answer": "Systellaspis debilis",
+    "aliases": [
+     "Systellaspis"
+    ]
+   },
+   {
+    "answer": "Sergia",
+    "aliases": [
+     "Sergia shrimp"
+    ]
+   },
+   {
+    "answer": "Gnathophausia",
+    "aliases": [
+     "Giant red mysid"
+    ]
+   },
+   {
+    "answer": "Cypridina",
+    "aliases": [
+     "Cypridina ostracod"
+    ]
+   },
+   {
+    "answer": "Conchoecia",
+    "aliases": [
+     "Conchoecia ostracod"
+    ]
+   },
+   {
+    "answer": "Metridia",
+    "aliases": [
+     "Metridia copepod"
+    ]
+   },
+   {
+    "answer": "Gaussia princeps",
+    "aliases": [
+     "Gaussia copepod"
+    ]
+   },
+   {
+    "answer": "Pleuromamma",
+    "aliases": [
+     "Pleuromamma copepod"
+    ]
+   },
+   {
+    "answer": "Euchirella",
+    "aliases": []
+   },
+   {
+    "answer": "Scina",
+    "aliases": [
+     "Scina amphipod"
+    ]
+   },
+   {
+    "answer": "Cyphocaris",
+    "aliases": [
+     "Cyphocaris amphipod"
+    ]
+   },
+   {
+    "answer": "Cavolinia",
+    "aliases": []
+   },
+   {
+    "answer": "Cystisoma",
+    "aliases": [
+     "Glass amphipod"
+    ]
+   },
+   {
+    "answer": "Photoblepharon",
+    "aliases": [
+     "Flashlight fish Photoblepharon",
+     "Splitfin flashlight fish"
+    ]
+   },
+   {
+    "answer": "Anomalops katoptron",
+    "aliases": [
+     "Anomalops",
+     "Lantern-eye fish",
+     "Lanterneye fish"
+    ]
+   },
+   {
+    "answer": "Photoblepharon palpebratus",
+    "aliases": [
+     "Eyelight fish"
+    ]
+   },
+   {
+    "answer": "Monocentris japonica",
+    "aliases": [
+     "Japanese pineconefish"
+    ]
+   },
+   {
+    "answer": "Pineapple fish",
+    "aliases": [
+     "Pine cone fish"
+    ]
+   },
+   {
+    "answer": "Porichthys notatus",
+    "aliases": [
+     "Plainfin midshipman"
+    ]
+   },
+   {
+    "answer": "Plainfin midshipman",
+    "aliases": []
+   },
+   {
+    "answer": "Pacific spookfish",
+    "aliases": [
+     "Spookfish",
+     "Brownsnout spookfish"
+    ]
+   },
+   {
+    "answer": "Spookfish",
+    "aliases": []
+   },
+   {
+    "answer": "Ceratias holboelli",
+    "aliases": [
+     "Kroyer's deep-sea anglerfish",
+     "Kroyer's deepsea anglerfish"
+    ]
+   },
+   {
+    "answer": "Melanocetus johnsonii",
+    "aliases": [
+     "Humpback anglerfish",
+     "Black seadevil"
+    ]
+   },
+   {
+    "answer": "Himantolophus",
+    "aliases": [
+     "Footballfish"
+    ]
+   },
+   {
+    "answer": "Linophryne",
+    "aliases": [
+     "Bearded anglerfish",
+     "Bearded seadevil"
+    ]
+   },
+   {
+    "answer": "Photostomias guernei",
+    "aliases": [
+     "Guerne's loosejaw"
+    ]
+   },
+   {
+    "answer": "Malacosteus niger",
+    "aliases": [
+     "Malacosteus",
+     "Northern stoplight loosejaw"
+    ]
+   },
+   {
+    "answer": "Idiacanthus",
+    "aliases": [
+     "Black dragonfish",
+     "Idiacanthus fasciola"
+    ]
+   },
+   {
+    "answer": "Chauliodus sloani",
+    "aliases": [
+     "Chauliodus"
+    ]
+   },
+   {
+    "answer": "Stomias boa",
+    "aliases": [
+     "Boa dragonfish"
+    ]
+   },
+   {
+    "answer": "Stomiidae",
+    "aliases": [
+     "Scaly dragonfish"
+    ]
+   },
+   {
+    "answer": "Grammatostomias",
+    "aliases": [
+     "Grammatostomias dragonfish"
+    ]
+   },
+   {
+    "answer": "Aristostomias",
+    "aliases": [
+     "Aristostomias loosejaw"
+    ]
+   },
+   {
+    "answer": "Argyropelecus",
+    "aliases": [
+     "Marine hatchetfish",
+     "Silver hatchetfish"
+    ]
+   },
+   {
+    "answer": "Sternoptyx",
+    "aliases": [
+     "Deepsea hatchetfish"
+    ]
+   },
+   {
+    "answer": "Cyclothone",
+    "aliases": [
+     "Bristlemouth Cyclothone"
+    ]
+   },
+   {
+    "answer": "Gonostoma",
+    "aliases": [
+     "Gonostomatid"
+    ]
+   },
+   {
+    "answer": "Myctophidae",
+    "aliases": [
+     "Myctophid",
+     "Lantern fish"
+    ]
+   },
+   {
+    "answer": "Benthosema glaciale",
+    "aliases": [
+     "Glacier lanternfish"
+    ]
+   },
+   {
+    "answer": "Diaphus",
+    "aliases": [
+     "Headlight fish",
+     "Headlightfish"
+    ]
+   },
+   {
+    "answer": "Ceratoscopelus",
+    "aliases": [
+     "Horned lanternfish"
+    ]
+   },
+   {
+    "answer": "Electrona",
+    "aliases": [
+     "Electron lanternfish"
+    ]
+   },
+   {
+    "answer": "Etmopterus spinax",
+    "aliases": [
+     "Velvet belly",
+     "Velvet belly lantern shark"
+    ]
+   },
+   {
+    "answer": "Etmopterus",
+    "aliases": [
+     "Lanternshark"
+    ]
+   },
+   {
+    "answer": "Dalatias licha",
+    "aliases": [
+     "Kitefin"
+    ]
+   },
+   {
+    "answer": "Isistius brasiliensis",
+    "aliases": [
+     "Cookiecutter",
+     "Cigar shark"
+    ]
+   },
+   {
+    "answer": "Euprotomicrus bispinatus",
+    "aliases": [
+     "Pygmy shark"
+    ]
+   },
+   {
+    "answer": "Pygmy shark",
+    "aliases": []
+   },
+   {
+    "answer": "Mollisquama mississippiensis",
+    "aliases": [
+     "American pocket shark"
+    ]
+   },
+   {
+    "answer": "Pocket shark",
+    "aliases": [
+     "Mollisquama parini"
+    ]
+   },
+   {
+    "answer": "Sixgill shark",
+    "aliases": [
+     "Bluntnose sixgill shark"
+    ]
+   },
+   {
+    "answer": "Greenland shark",
+    "aliases": []
+   },
+   {
+    "answer": "Bamboo shark",
+    "aliases": []
+   },
+   {
+    "answer": "Epaulette shark",
+    "aliases": []
+   },
+   {
+    "answer": "Zebra shark",
+    "aliases": []
+   },
+   {
+    "answer": "Cuttlefish shark",
+    "aliases": []
+   },
+   {
+    "answer": "Bioluminescent bay organisms",
+    "aliases": []
+   },
+   {
+    "answer": "Rattail",
+    "aliases": [
+     "Grenadier",
+     "Macrourid"
+    ]
+   },
+   {
+    "answer": "Pearleye",
+    "aliases": [
+     "Scopelarchidae"
+    ]
+   },
+   {
+    "answer": "Greeneye",
+    "aliases": [
+     "Chlorophthalmidae"
+    ]
+   },
+   {
+    "answer": "Cutthroat eel",
+    "aliases": [
+     "Synaphobranchid"
+    ]
+   },
+   {
+    "answer": "Bobtail snipe eel",
+    "aliases": [
+     "Snipe eel"
+    ]
+   },
+   {
+    "answer": "Oneirodes",
+    "aliases": [
+     "Dreamer anglerfish",
+     "Dreamers"
+    ]
+   },
+   {
+    "answer": "Gigantactis",
+    "aliases": [
+     "Whipnose anglerfish",
+     "Whipnose"
+    ]
+   },
+   {
+    "answer": "Pelican eel",
+    "aliases": [
+     "Eurypharynx pelecanoides"
+    ]
+   },
+   {
+    "answer": "Bigscale fish",
+    "aliases": [
+     "Scalyfin",
+     "Melamphaidae"
+    ]
+   },
+   {
+    "answer": "Hagfish",
+    "aliases": []
+   },
+   {
+    "answer": "Ribbonfish",
+    "aliases": []
+   },
+   {
+    "answer": "Sea spider",
+    "aliases": [
+     "Pycnogonid"
+    ]
+   },
+   {
+    "answer": "Ophiuroid",
+    "aliases": [
+     "Ophiuroidea"
+    ]
+   },
+   {
+    "answer": "Sea lily",
+    "aliases": [
+     "Crinoid"
+    ]
+   },
+   {
+    "answer": "Gorgon's head",
+    "aliases": [
+     "Basket star"
+    ]
+   },
+   {
+    "answer": "Deepstaria",
+    "aliases": [
+     "Deepstaria jellyfish"
+    ]
+   },
+   {
+    "answer": "Periphylla periphylla",
+    "aliases": [
+     "Periphylla",
+     "Helmet jelly"
+    ]
+   },
+   {
+    "answer": "Colobonema",
+    "aliases": [
+     "Colobonema jellyfish"
+    ]
+   },
+   {
+    "answer": "Halitrephes",
+    "aliases": [
+     "Halitrephes maasi",
+     "Halitrephes jellyfish"
+    ]
+   },
+   {
+    "answer": "Praya dubia",
+    "aliases": [
+     "Giant siphonophore",
+     "Praya"
+    ]
+   },
+   {
+    "answer": "Erenna",
+    "aliases": [
+     "Erenna siphonophore",
+     "Erenna sirena"
+    ]
+   },
+   {
+    "answer": "Stygiomedusa",
+    "aliases": [
+     "Giant phantom jelly",
+     "Phantom jelly"
+    ]
+   },
+   {
+    "answer": "Bathocyroe fosteri",
+    "aliases": [
+     "Bathocyroe",
+     "Foster's comb jelly"
+    ]
+   },
+   {
+    "answer": "Beroe ovata",
+    "aliases": [
+     "Beroe comb jelly"
+    ]
+   },
+   {
+    "answer": "Eurhamphaea vexilligera",
+    "aliases": [
+     "Eurhamphaea"
+    ]
+   },
+   {
+    "answer": "Ocyropsis",
+    "aliases": [
+     "Butterfly comb jelly"
+    ]
+   },
+   {
+    "answer": "Haeckelia",
+    "aliases": [
+     "Haeckelia comb jelly"
+    ]
+   },
+   {
+    "answer": "Sea whip",
+    "aliases": [
+     "Whip coral"
+    ]
+   },
+   {
+    "answer": "Pocillopora",
+    "aliases": [
+     "Cauliflower coral"
+    ]
+   },
+   {
+    "answer": "Green fluorescent coral",
+    "aliases": [
+     "Fluorescent coral"
+    ]
+   },
+   {
+    "answer": "Fluorescent sea anemone",
+    "aliases": [
+     "Anemone"
+    ]
+   },
+   {
+    "answer": "Fluorescent frog",
+    "aliases": [
+     "Hypsiboas punctatus"
+    ]
+   },
+   {
+    "answer": "Hypsiboas punctatus",
+    "aliases": [
+     "Polka dot tree frog"
+    ]
+   },
+   {
+    "answer": "Fluorescent turtle",
+    "aliases": [
+     "Hawksbill sea turtle",
+     "Hawksbill"
+    ]
+   },
+   {
+    "answer": "Hawksbill turtle",
+    "aliases": [
+     "Eretmochelys imbricata"
+    ]
+   },
+   {
+    "answer": "Scorpion fish",
+    "aliases": []
+   },
+   {
+    "answer": "Fluorescent scorpion",
+    "aliases": [
+     "Emperor scorpion",
+     "Desert hairy scorpion",
+     "Bark scorpion",
+     "Arizona bark scorpion"
+    ]
+   },
+   {
+    "answer": "Emperor scorpion",
+    "aliases": [
+     "Pandinus imperator"
+    ]
+   },
+   {
+    "answer": "Arizona bark scorpion",
+    "aliases": [
+     "Centruroides sculpturatus"
+    ]
+   },
+   {
+    "answer": "Desert hairy scorpion",
+    "aliases": [
+     "Hadrurus arizonensis"
+    ]
+   },
+   {
+    "answer": "Deathstalker scorpion",
+    "aliases": [
+     "Leiurus quinquestriatus"
+    ]
+   },
+   {
+    "answer": "Springhare",
+    "aliases": [
+     "Pedetes capensis"
+    ]
+   },
+   {
+    "answer": "Southern flying squirrel",
+    "aliases": [
+     "Glaucomys volans"
+    ]
+   },
+   {
+    "answer": "Northern flying squirrel",
+    "aliases": [
+     "Glaucomys sabrinus"
+    ]
+   },
+   {
+    "answer": "Virginia opossum",
+    "aliases": [
+     "Didelphis virginiana"
+    ]
+   },
+   {
+    "answer": "Eastern quoll",
+    "aliases": [
+     "Quoll"
+    ]
+   },
+   {
+    "answer": "Spiny anteater",
+    "aliases": [
+     "Short-beaked echidna"
+    ]
+   },
+   {
+    "answer": "Pink fairy armadillo",
+    "aliases": [
+     "Armadillo"
+    ]
+   },
+   {
+    "answer": "Peacock spider",
+    "aliases": [
+     "Maratus"
+    ]
+   },
+   {
+    "answer": "Jumping spider",
+    "aliases": [
+     "Salticidae"
+    ]
+   },
+   {
+    "answer": "Fluorescent butterfly",
+    "aliases": [
+     "Butterfly",
+     "Moth"
+    ]
+   },
+   {
+    "answer": "Glow-in-the-dark mouse",
+    "aliases": [
+     "Transgenic mouse"
+    ]
+   },
+   {
+    "answer": "Glowing rabbit",
+    "aliases": [
+     "Alba rabbit"
+    ]
+   },
+   {
+    "answer": "Glowing cat",
+    "aliases": [
+     "Transgenic cat"
+    ]
+   },
+   {
+    "answer": "Glowing pig",
+    "aliases": [
+     "Transgenic pig"
+    ]
+   },
+   {
+    "answer": "Glowing dog",
+    "aliases": [
+     "Ruppy",
+     "Ruppy dog",
+     "Tegon"
+    ]
+   },
+   {
+    "answer": "Glowing monkey",
+    "aliases": [
+     "Transgenic monkey"
+    ]
+   },
+   {
+    "answer": "Tetra",
+    "aliases": [
+     "GloFish tetra",
+     "Glo tetra"
+    ]
+   },
+   {
+    "answer": "Danio",
+    "aliases": [
+     "Glow danio",
+     "Zebra danio"
+    ]
+   },
+   {
+    "answer": "Tiger barb",
+    "aliases": [
+     "GloFish barb"
+    ]
+   },
+   {
+    "answer": "Shiner",
+    "aliases": [
+     "Pearlsides"
+    ]
+   },
+   {
+    "answer": "Pyrodinium bahamense",
+    "aliases": [
+     "Pyrodinium"
+    ]
+   },
+   {
+    "answer": "Alexandrium",
+    "aliases": [
+     "Alexandrium dinoflagellate"
+    ]
+   },
+   {
+    "answer": "Gonyaulax",
+    "aliases": [
+     "Gonyaulax dinoflagellate"
+    ]
+   },
+   {
+    "answer": "Ceratium",
+    "aliases": [
+     "Ceratium dinoflagellate"
+    ]
+   },
+   {
+    "answer": "Protoperidinium",
+    "aliases": [
+     "Protoperidinium dinoflagellate"
+    ]
+   },
+   {
+    "answer": "Photobacterium",
+    "aliases": [
+     "Luminous bacteria"
+    ]
+   },
+   {
+    "answer": "Vibrio harveyi",
+    "aliases": [
+     "Vibrio"
+    ]
+   },
+   {
+    "answer": "Photorhabdus",
+    "aliases": [
+     "Photorhabdus luminescens"
+    ]
+   },
+   {
+    "answer": "Sea squirt",
+    "aliases": [
+     "Ascidian"
+    ]
+   },
+   {
+    "answer": "Brittlestar Ophiacantha",
+    "aliases": [
+     "Ophiacantha"
+    ]
+   },
+   {
+    "answer": "Ghost shark",
+    "aliases": [
+     "Chimaera",
+     "Ratfish"
+    ]
+   },
+   {
+    "answer": "Spotted ratfish",
+    "aliases": [
+     "Hydrolagus colliei"
+    ]
+   },
+   {
+    "answer": "Stoplight loosejaw",
+    "aliases": [
+     "Malacosteus"
+    ]
+   },
+   {
+    "answer": "Leaf-nosed bat",
+    "aliases": []
+   },
+   {
+    "answer": "Tiger beetle",
+    "aliases": []
+   },
+   {
+    "answer": "Luminous millipede",
+    "aliases": [
+     "Motyxia",
+     "Californian bioluminescent millipede",
+     "Motyxia millipede"
+    ]
+   },
+   {
+    "answer": "Motyxia",
+    "aliases": [
+     "Almond-scented millipede"
+    ]
+   },
+   {
+    "answer": "Keroplatus",
+    "aliases": [
+     "Keroplatid fungus gnat",
+     "Bolitophila"
+    ]
+   },
+   {
+    "answer": "Luminous centipede",
+    "aliases": [
+     "Geophilomorph",
+     "Orya",
+     "Geophilus electricus"
+    ]
+   },
+   {
+    "answer": "Geophilus electricus",
+    "aliases": [
+     "Electric centipede"
+    ]
+   },
+   {
+    "answer": "Fireflies of Thailand",
+    "aliases": []
+   },
+   {
+    "answer": "Luminous springtail",
+    "aliases": [
+     "Lepidocyrtus"
+    ]
+   },
+   {
+    "answer": "Luminous planthopper",
+    "aliases": [
+     "Fulgora",
+     "Lanternfly",
+     "Lantern fly"
+    ]
+   },
+   {
+    "answer": "Lanternfly",
+    "aliases": [
+     "Lantern bug",
+     "Fulgoridae"
+    ]
+   },
+   {
+    "answer": "Pyrophorus",
+    "aliases": [
+     "Fire beetle"
+    ]
+   },
+   {
+    "answer": "Rhagophthalmus",
+    "aliases": [
+     "Rhagophthalmus glowworm"
+    ]
+   },
+   {
+    "answer": "Phrixothrix",
+    "aliases": [
+     "Railroad worm",
+     "Phrixothrix hirtus"
+    ]
+   },
+   {
+    "answer": "Luminous termite mound",
+    "aliases": [
+     "Termite"
+    ]
+   },
+   {
+    "answer": "Fluorescent chameleon",
+    "aliases": [
+     "Calumma",
+     "Calumma chameleon"
+    ]
+   },
+   {
+    "answer": "Fluorescent gecko",
+    "aliases": [
+     "Phelsuma",
+     "Day gecko"
+    ]
+   },
+   {
+    "answer": "Fluorescent parrot",
+    "aliases": [
+     "Budgerigar",
+     "Budgie",
+     "Parakeet"
+    ]
+   },
+   {
+    "answer": "Budgerigar",
+    "aliases": [
+     "Budgie"
+    ]
+   },
+   {
+    "answer": "Barn owl",
+    "aliases": [
+     "Tyto alba"
+    ]
+   },
+   {
+    "answer": "Fluorescent platypus",
+    "aliases": [
+     "Ornithorhynchus anatinus"
+    ]
+   },
+   {
+    "answer": "Axolotl",
+    "aliases": [
+     "Glowing axolotl"
+    ]
+   },
+   {
+    "answer": "Fluorescent sea horse",
+    "aliases": [
+     "Hippocampus"
+    ]
+   },
+   {
+    "answer": "Fluorescent eel",
+    "aliases": [
+     "Kaupichthys",
+     "Chlopsid eel"
+    ]
+   },
+   {
+    "answer": "Fluorescent moray",
+    "aliases": [
+     "Moray eel"
+    ]
+   },
+   {
+    "answer": "Sand tiger shark",
+    "aliases": []
+   },
+   {
+    "answer": "Smalltooth sand tiger shark",
+    "aliases": []
+   },
+   {
+    "answer": "Fluorescent stingray",
+    "aliases": [
+     "Stingray"
+    ]
+   },
+   {
+    "answer": "Pyjama squid",
+    "aliases": [
+     "Sepioloidea lineolata"
+    ]
+   },
+   {
+    "answer": "Pygmy squid",
+    "aliases": [
+     "Idiosepius"
+    ]
+   },
+   {
+    "answer": "Sparkling enope squid",
+    "aliases": []
+   },
+   {
+    "answer": "Midwater squid",
+    "aliases": []
+   },
+   {
+    "answer": "Nautilus",
+    "aliases": [
+     "Chambered nautilus"
+    ]
+   }
+  ]
+ },
+ "ttft_ms": 55161,
+ "type": "result",
+ "duration_ms": 55204,
+ "uuid": "3044c99e-9d72-4be1-93a4-5daa2e548ab4",
+ "ttft_stream_ms": 979,
+ "time_to_request_ms": 34,
+ "first_content_frame_ms": 979,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

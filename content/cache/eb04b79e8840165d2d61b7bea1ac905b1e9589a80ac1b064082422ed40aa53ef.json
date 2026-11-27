@@ -1,0 +1,1295 @@
+{
+ "duration_api_ms": 32243,
+ "stop_reason": "tool_use",
+ "session_id": "bbcb2062-642b-4d1b-b6e3-f3767fc0550b",
+ "total_cost_usd": 0.07841999999999999,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6408,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 5266,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6408,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 5266,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 6408,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6408
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 5266,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 6408,
+   "webSearchRequests": 0,
+   "costUSD": 0.07841999999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Hammer\",\"aliases\":[\"hammers\",\"claw hammer\"]},{\"answer\":\"Screwdriver\",\"aliases\":[\"screw driver\",\"screwdrivers\"]},{\"answer\":\"Phillips screwdriver\",\"aliases\":[\"Phillips head\",\"Phillips head screwdriver\",\"cross head screwdriver\"]},{\"answer\":\"Flathead screwdriver\",\"aliases\":[\"flat head screwdriver\",\"slotted screwdriver\",\"flat screwdriver\"]},{\"answer\":\"Wrench\",\"aliases\":[\"wrenches\",\"spanner\",\"spanners\"]},{\"answer\":\"Adjustable wrench\",\"aliases\":[\"adjustable spanner\",\"crescent wrench\",\"shifting spanner\"]},{\"answer\":\"Pliers\",\"aliases\":[\"plier\"]},{\"answer\":\"Needle-nose pliers\",\"aliases\":[\"needle nose pliers\",\"long nose pliers\"]},{\"answer\":\"Locking pliers\",\"aliases\":[\"vise grips\",\"vice grips\",\"Vise-Grip\",\"mole grips\"]},{\"answer\":\"Slip-joint pliers\",\"aliases\":[\"slip joint pliers\"]},{\"answer\":\"Channel-lock pliers\",\"aliases\":[\"channellock\",\"channel locks\",\"tongue and groove pliers\",\"water pump pliers\"]},{\"answer\":\"Wire cutters\",\"aliases\":[\"wire cutter\",\"side cutters\",\"diagonal cutters\",\"dikes\",\"snips\"]},{\"answer\":\"Wire strippers\",\"aliases\":[\"wire stripper\"]},{\"answer\":\"Tape measure\",\"aliases\":[\"measuring tape\",\"tape\",\"measuring tape measure\"]},{\"answer\":\"Level\",\"aliases\":[\"spirit level\",\"bubble level\"]},{\"answer\":\"Saw\",\"aliases\":[\"saws\"]},{\"answer\":\"Hacksaw\",\"aliases\":[\"hack saw\"]},{\"answer\":\"Handsaw\",\"aliases\":[\"hand saw\"]},{\"answer\":\"Coping saw\",\"aliases\":[\"coping\"]},{\"answer\":\"Jigsaw\",\"aliases\":[\"jig saw\"]},{\"answer\":\"Nails\",\"aliases\":[\"nail\"]},{\"answer\":\"Screws\",\"aliases\":[\"screw\"]},{\"answer\":\"Bolts\",\"aliases\":[\"bolt\"]},{\"answer\":\"Nuts\",\"aliases\":[\"nut\"]},{\"answer\":\"Washers\",\"aliases\":[\"washer\"]},{\"answer\":\"Allen wrench\",\"aliases\":[\"Allen key\",\"hex key\",\"hex wrench\",\"Allen keys\"]},{\"answer\":\"Socket wrench\",\"aliases\":[\"ratchet\",\"socket set\",\"ratchet wrench\",\"sockets\",\"socket\"]},{\"answer\":\"Torque wrench\",\"aliases\":[]},{\"answer\":\"Box wrench\",\"aliases\":[\"combination wrench\",\"open-end wrench\",\"box end wrench\"]},{\"answer\":\"Pipe wrench\",\"aliases\":[\"Stillson wrench\"]},{\"answer\":\"Drill\",\"aliases\":[\"power drill\",\"cordless drill\",\"electric drill\"]},{\"answer\":\"Drill bits\",\"aliases\":[\"drill bit\",\"bits\"]},{\"answer\":\"Utility knife\",\"aliases\":[\"box cutter\",\"Stanley knife\",\"razor knife\",\"craft knife\",\"X-Acto knife\"]},{\"answer\":\"Chisel\",\"aliases\":[\"chisels\",\"wood chisel\"]},{\"answer\":\"File\",\"aliases\":[\"rasp\",\"metal file\"]},{\"answer\":\"Sandpaper\",\"aliases\":[\"sand paper\",\"emery cloth\"]},{\"answer\":\"Mallet\",\"aliases\":[\"rubber mallet\",\"rubber hammer\"]},{\"answer\":\"Sledgehammer\",\"aliases\":[\"sledge hammer\",\"sledge\"]},{\"answer\":\"Crowbar\",\"aliases\":[\"pry bar\",\"wrecking bar\",\"prybar\"]},{\"answer\":\"Flashlight\",\"aliases\":[\"torch\",\"flash light\"]},{\"answer\":\"Duct tape\",\"aliases\":[\"duck tape\",\"gaffer tape\"]},{\"answer\":\"Electrical tape\",\"aliases\":[\"insulating tape\",\"black tape\"]},{\"answer\":\"Masking tape\",\"aliases\":[\"painter's tape\",\"painters tape\"]},{\"answer\":\"Square\",\"aliases\":[\"carpenter's square\",\"framing square\",\"try square\",\"speed square\",\"combination square\"]},{\"answer\":\"Clamp\",\"aliases\":[\"C-clamp\",\"clamps\",\"G-clamp\",\"bar clamp\"]},{\"answer\":\"Vise\",\"aliases\":[\"vice\",\"bench vise\"]},{\"answer\":\"Plane\",\"aliases\":[\"hand plane\",\"wood plane\"]},{\"answer\":\"Awl\",\"aliases\":[\"scratch awl\"]},{\"answer\":\"Center punch\",\"aliases\":[\"centre punch\",\"punch\",\"nail punch\"]},{\"answer\":\"Nail set\",\"aliases\":[\"nailset\"]},{\"answer\":\"Staple gun\",\"aliases\":[\"stapler\",\"staple guns\"]},{\"answer\":\"Glue\",\"aliases\":[\"wood glue\",\"super glue\",\"superglue\",\"adhesive\"]},{\"answer\":\"Epoxy\",\"aliases\":[\"epoxy glue\"]},{\"answer\":\"Caulk gun\",\"aliases\":[\"caulking gun\"]},{\"answer\":\"Putty knife\",\"aliases\":[\"scraper\",\"spackle knife\",\"joint knife\"]},{\"answer\":\"Paint scraper\",\"aliases\":[]},{\"answer\":\"Chalk line\",\"aliases\":[\"chalk reel\",\"snap line\"]},{\"answer\":\"Plumb bob\",\"aliases\":[\"plumb line\"]},{\"answer\":\"Pencil\",\"aliases\":[\"carpenter pencil\",\"carpenter's pencil\"]},{\"answer\":\"Marker\",\"aliases\":[\"permanent marker\",\"sharpie\"]},{\"answer\":\"Multimeter\",\"aliases\":[\"voltmeter\",\"volt meter\",\"multi-meter\"]},{\"answer\":\"Voltage tester\",\"aliases\":[\"circuit tester\",\"test light\",\"non-contact voltage tester\"]},{\"answer\":\"Stud finder\",\"aliases\":[\"stud sensor\"]},{\"answer\":\"Safety glasses\",\"aliases\":[\"safety goggles\",\"goggles\",\"protective eyewear\"]},{\"answer\":\"Work gloves\",\"aliases\":[\"gloves\"]},{\"answer\":\"Ear plugs\",\"aliases\":[\"earplugs\",\"ear protection\"]},{\"answer\":\"Dust mask\",\"aliases\":[\"respirator\",\"mask\"]},{\"answer\":\"Hex bolts\",\"aliases\":[]},{\"answer\":\"Anchors\",\"aliases\":[\"wall anchors\",\"drywall anchors\",\"toggle bolts\"]},{\"answer\":\"Rivets\",\"aliases\":[\"rivet\",\"pop rivets\"]},{\"answer\":\"Rivet gun\",\"aliases\":[\"pop rivet gun\",\"riveter\"]},{\"answer\":\"Soldering iron\",\"aliases\":[\"soldering gun\",\"solder iron\"]},{\"answer\":\"Solder\",\"aliases\":[]},{\"answer\":\"Tin snips\",\"aliases\":[\"aviation snips\",\"metal shears\",\"tin snip\"]},{\"answer\":\"Bolt cutters\",\"aliases\":[\"bolt cutter\"]},{\"answer\":\"Hex nuts\",\"aliases\":[]},{\"answer\":\"Cotter pins\",\"aliases\":[\"cotter pin\"]},{\"answer\":\"Zip ties\",\"aliases\":[\"cable ties\",\"zip tie\",\"tie wraps\"]},{\"answer\":\"Bungee cord\",\"aliases\":[\"bungee cords\",\"bungee\"]},{\"answer\":\"Rope\",\"aliases\":[\"twine\",\"string\",\"cord\"]},{\"answer\":\"Wire\",\"aliases\":[\"electrical wire\"]},{\"answer\":\"Fuses\",\"aliases\":[\"fuse\"]},{\"answer\":\"Batteries\",\"aliases\":[\"battery\"]},{\"answer\":\"Extension cord\",\"aliases\":[\"extension lead\"]},{\"answer\":\"WD-40\",\"aliases\":[\"WD40\",\"lubricant\",\"oil\",\"penetrating oil\",\"machine oil\"]},{\"answer\":\"Grease\",\"aliases\":[\"grease gun\"]},{\"answer\":\"Rags\",\"aliases\":[\"rag\",\"shop rag\",\"cloth\"]},{\"answer\":\"Ruler\",\"aliases\":[\"rule\",\"steel rule\",\"yardstick\",\"meter stick\"]},{\"answer\":\"Hole saw\",\"aliases\":[\"hole saws\"]},{\"answer\":\"Circular saw\",\"aliases\":[]},{\"answer\":\"Reciprocating saw\",\"aliases\":[\"Sawzall\"]},{\"answer\":\"Miter saw\",\"aliases\":[\"mitre saw\"]},{\"answer\":\"Router\",\"aliases\":[\"wood router\"]},{\"answer\":\"Sander\",\"aliases\":[\"power sander\",\"orbital sander\"]},{\"answer\":\"Nail gun\",\"aliases\":[\"nailer\",\"brad nailer\"]},{\"answer\":\"Impact driver\",\"aliases\":[\"impact wrench\"]},{\"answer\":\"Hand drill\",\"aliases\":[\"brace and bit\",\"egg beater drill\"]},{\"answer\":\"Tweezers\",\"aliases\":[\"tweezer\"]},{\"answer\":\"Magnet\",\"aliases\":[\"magnetic pickup tool\",\"magnetic tray\"]},{\"answer\":\"Inspection mirror\",\"aliases\":[\"telescoping mirror\"]},{\"answer\":\"Pickup tool\",\"aliases\":[\"telescoping magnet\"]},{\"answer\":\"Pry bar\",\"aliases\":[\"flat bar\"]},{\"answer\":\"Cold chisel\",\"aliases\":[\"brick chisel\"]},{\"answer\":\"Bit set\",\"aliases\":[\"screwdriver bits\",\"driver bits\"]},{\"answer\":\"Hammer drill\",\"aliases\":[]},{\"answer\":\"Spirit level\",\"aliases\":[]},{\"answer\":\"Pocket knife\",\"aliases\":[\"pocketknife\",\"Swiss Army knife\",\"jackknife\"]},{\"answer\":\"Multitool\",\"aliases\":[\"multi-tool\",\"Leatherman\",\"multi tool\"]},{\"answer\":\"Torx key\",\"aliases\":[\"Torx driver\",\"star key\",\"Torx bits\"]},{\"answer\":\"Nut driver\",\"aliases\":[\"nut drivers\"]},{\"answer\":\"Teflon tape\",\"aliases\":[\"plumber's tape\",\"plumbers tape\",\"PTFE tape\",\"thread seal tape\"]},{\"answer\":\"Plunger\",\"aliases\":[\"plumber's helper\"]},{\"answer\":\"Pipe cutter\",\"aliases\":[\"tubing cutter\"]},{\"answer\":\"Basin wrench\",\"aliases\":[]},{\"answer\":\"Tongue and groove pliers\",\"aliases\":[]},{\"answer\":\"Lineman's pliers\",\"aliases\":[\"linesman pliers\",\"lineman pliers\"]},{\"answer\":\"Crimper\",\"aliases\":[\"crimping tool\",\"wire crimper\"]},{\"answer\":\"Tape\",\"aliases\":[\"adhesive tape\"]},{\"answer\":\"Paintbrush\",\"aliases\":[\"paint brush\",\"brush\"]},{\"answer\":\"Wire brush\",\"aliases\":[\"wire brushes\"]},{\"answer\":\"Putty\",\"aliases\":[\"wood filler\",\"spackle\"]},{\"answer\":\"Sawhorse\",\"aliases\":[\"saw horse\"]},{\"answer\":\"Toolbox\",\"aliases\":[\"tool box\"]},{\"answer\":\"Mitre box\",\"aliases\":[\"miter box\"]},{\"answer\":\"Drywall saw\",\"aliases\":[\"keyhole saw\",\"jab saw\"]},{\"answer\":\"Pin punch\",\"aliases\":[\"drift punch\"]},{\"answer\":\"Ball-peen hammer\",\"aliases\":[\"ball peen hammer\",\"ball pein hammer\"]},{\"answer\":\"Claw hammer\",\"aliases\":[]},{\"answer\":\"Tack hammer\",\"aliases\":[]},{\"answer\":\"Dead blow hammer\",\"aliases\":[\"deadblow hammer\"]},{\"answer\":\"Pliers set\",\"aliases\":[]},{\"answer\":\"Feeler gauge\",\"aliases\":[\"feeler gauges\"]},{\"answer\":\"Tire gauge\",\"aliases\":[\"tyre gauge\",\"tire pressure gauge\"]},{\"answer\":\"Caliper\",\"aliases\":[\"calipers\",\"vernier caliper\"]},{\"answer\":\"Micrometer\",\"aliases\":[]},{\"answer\":\"Laser level\",\"aliases\":[]},{\"answer\":\"Screw extractor\",\"aliases\":[\"easy out\",\"bolt extractor\"]},{\"answer\":\"Thread locker\",\"aliases\":[\"Loctite\",\"threadlocker\"]},{\"answer\":\"Spark plug socket\",\"aliases\":[\"spark plug wrench\"]},{\"answer\":\"Jumper cables\",\"aliases\":[\"jumper leads\",\"booster cables\"]},{\"answer\":\"Funnel\",\"aliases\":[]},{\"answer\":\"Scissors\",\"aliases\":[\"shears\"]},{\"answer\":\"Hooks\",\"aliases\":[\"screw hooks\",\"cup hooks\"]},{\"answer\":\"Picture hangers\",\"aliases\":[\"picture hanging hooks\",\"picture hooks\"]},{\"answer\":\"Brads\",\"aliases\":[\"brad nails\"]},{\"answer\":\"Staples\",\"aliases\":[\"staple\"]},{\"answer\":\"Tacks\",\"aliases\":[\"thumbtacks\",\"tack\"]},{\"answer\":\"Fuse puller\",\"aliases\":[]},{\"answer\":\"Wire nuts\",\"aliases\":[\"wire connectors\",\"wire nut\"]},{\"answer\":\"Heat gun\",\"aliases\":[]},{\"answer\":\"Glue gun\",\"aliases\":[\"hot glue gun\"]},{\"answer\":\"Utility blades\",\"aliases\":[\"razor blades\",\"razor blade\",\"blades\"]},{\"answer\":\"Hacksaw blades\",\"aliases\":[\"saw blades\",\"saw blade\"]},{\"answer\":\"Whetstone\",\"aliases\":[\"sharpening stone\",\"oilstone\"]},{\"answer\":\"Spud wrench\",\"aliases\":[]},{\"answer\":\"Lug wrench\",\"aliases\":[\"tire iron\",\"tyre lever\"]},{\"answer\":\"Ratchet strap\",\"aliases\":[\"tie down strap\"]},{\"answer\":\"Oil can\",\"aliases\":[\"oiler\"]},{\"answer\":\"Dowels\",\"aliases\":[\"dowel\",\"dowel pins\"]},{\"answer\":\"Pencil sharpener\",\"aliases\":[]},{\"answer\":\"Work light\",\"aliases\":[\"headlamp\",\"trouble light\"]},{\"answer\":\"Knee pads\",\"aliases\":[]},{\"answer\":\"Tool belt\",\"aliases\":[\"tool pouch\"]},{\"answer\":\"Bandages\",\"aliases\":[\"band-aids\",\"band aid\",\"first aid kit\"]},{\"answer\":\"Coins\",\"aliases\":[]},{\"answer\":\"Tube wrench\",\"aliases\":[\"flare nut wrench\",\"line wrench\"]},{\"answer\":\"Offset screwdriver\",\"aliases\":[\"stubby screwdriver\"]},{\"answer\":\"Pozidriv screwdriver\",\"aliases\":[\"Pozidriv\"]},{\"answer\":\"Robertson screwdriver\",\"aliases\":[\"square drive\",\"Robertson\"]},{\"answer\":\"Spanner\",\"aliases\":[]},{\"answer\":\"Ratcheting screwdriver\",\"aliases\":[]},{\"answer\":\"Combination square\",\"aliases\":[]},{\"answer\":\"Bevel gauge\",\"aliases\":[\"sliding bevel\",\"T-bevel\"]},{\"answer\":\"Protractor\",\"aliases\":[\"angle finder\"]},{\"answer\":\"Scribe\",\"aliases\":[\"scriber\"]},{\"answer\":\"Tap and die set\",\"aliases\":[\"taps and dies\",\"tap and die\"]},{\"answer\":\"Thread gauge\",\"aliases\":[\"screw pitch gauge\"]},{\"answer\":\"Pin vise\",\"aliases\":[]},{\"answer\":\"Jeweler's screwdriver\",\"aliases\":[\"precision screwdriver\",\"eyeglass screwdriver\"]},{\"answer\":\"Snap ring pliers\",\"aliases\":[\"circlip pliers\"]},{\"answer\":\"Hose clamp\",\"aliases\":[\"hose clamps\"]},{\"answer\":\"Sanding block\",\"aliases\":[]},{\"answer\":\"Steel wool\",\"aliases\":[]},{\"answer\":\"Spackle\",\"aliases\":[]},{\"answer\":\"Gloves\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Hammer",
+    "aliases": [
+     "hammers",
+     "claw hammer"
+    ]
+   },
+   {
+    "answer": "Screwdriver",
+    "aliases": [
+     "screw driver",
+     "screwdrivers"
+    ]
+   },
+   {
+    "answer": "Phillips screwdriver",
+    "aliases": [
+     "Phillips head",
+     "Phillips head screwdriver",
+     "cross head screwdriver"
+    ]
+   },
+   {
+    "answer": "Flathead screwdriver",
+    "aliases": [
+     "flat head screwdriver",
+     "slotted screwdriver",
+     "flat screwdriver"
+    ]
+   },
+   {
+    "answer": "Wrench",
+    "aliases": [
+     "wrenches",
+     "spanner",
+     "spanners"
+    ]
+   },
+   {
+    "answer": "Adjustable wrench",
+    "aliases": [
+     "adjustable spanner",
+     "crescent wrench",
+     "shifting spanner"
+    ]
+   },
+   {
+    "answer": "Pliers",
+    "aliases": [
+     "plier"
+    ]
+   },
+   {
+    "answer": "Needle-nose pliers",
+    "aliases": [
+     "needle nose pliers",
+     "long nose pliers"
+    ]
+   },
+   {
+    "answer": "Locking pliers",
+    "aliases": [
+     "vise grips",
+     "vice grips",
+     "Vise-Grip",
+     "mole grips"
+    ]
+   },
+   {
+    "answer": "Slip-joint pliers",
+    "aliases": [
+     "slip joint pliers"
+    ]
+   },
+   {
+    "answer": "Channel-lock pliers",
+    "aliases": [
+     "channellock",
+     "channel locks",
+     "tongue and groove pliers",
+     "water pump pliers"
+    ]
+   },
+   {
+    "answer": "Wire cutters",
+    "aliases": [
+     "wire cutter",
+     "side cutters",
+     "diagonal cutters",
+     "dikes",
+     "snips"
+    ]
+   },
+   {
+    "answer": "Wire strippers",
+    "aliases": [
+     "wire stripper"
+    ]
+   },
+   {
+    "answer": "Tape measure",
+    "aliases": [
+     "measuring tape",
+     "tape",
+     "measuring tape measure"
+    ]
+   },
+   {
+    "answer": "Level",
+    "aliases": [
+     "spirit level",
+     "bubble level"
+    ]
+   },
+   {
+    "answer": "Saw",
+    "aliases": [
+     "saws"
+    ]
+   },
+   {
+    "answer": "Hacksaw",
+    "aliases": [
+     "hack saw"
+    ]
+   },
+   {
+    "answer": "Handsaw",
+    "aliases": [
+     "hand saw"
+    ]
+   },
+   {
+    "answer": "Coping saw",
+    "aliases": [
+     "coping"
+    ]
+   },
+   {
+    "answer": "Jigsaw",
+    "aliases": [
+     "jig saw"
+    ]
+   },
+   {
+    "answer": "Nails",
+    "aliases": [
+     "nail"
+    ]
+   },
+   {
+    "answer": "Screws",
+    "aliases": [
+     "screw"
+    ]
+   },
+   {
+    "answer": "Bolts",
+    "aliases": [
+     "bolt"
+    ]
+   },
+   {
+    "answer": "Nuts",
+    "aliases": [
+     "nut"
+    ]
+   },
+   {
+    "answer": "Washers",
+    "aliases": [
+     "washer"
+    ]
+   },
+   {
+    "answer": "Allen wrench",
+    "aliases": [
+     "Allen key",
+     "hex key",
+     "hex wrench",
+     "Allen keys"
+    ]
+   },
+   {
+    "answer": "Socket wrench",
+    "aliases": [
+     "ratchet",
+     "socket set",
+     "ratchet wrench",
+     "sockets",
+     "socket"
+    ]
+   },
+   {
+    "answer": "Torque wrench",
+    "aliases": []
+   },
+   {
+    "answer": "Box wrench",
+    "aliases": [
+     "combination wrench",
+     "open-end wrench",
+     "box end wrench"
+    ]
+   },
+   {
+    "answer": "Pipe wrench",
+    "aliases": [
+     "Stillson wrench"
+    ]
+   },
+   {
+    "answer": "Drill",
+    "aliases": [
+     "power drill",
+     "cordless drill",
+     "electric drill"
+    ]
+   },
+   {
+    "answer": "Drill bits",
+    "aliases": [
+     "drill bit",
+     "bits"
+    ]
+   },
+   {
+    "answer": "Utility knife",
+    "aliases": [
+     "box cutter",
+     "Stanley knife",
+     "razor knife",
+     "craft knife",
+     "X-Acto knife"
+    ]
+   },
+   {
+    "answer": "Chisel",
+    "aliases": [
+     "chisels",
+     "wood chisel"
+    ]
+   },
+   {
+    "answer": "File",
+    "aliases": [
+     "rasp",
+     "metal file"
+    ]
+   },
+   {
+    "answer": "Sandpaper",
+    "aliases": [
+     "sand paper",
+     "emery cloth"
+    ]
+   },
+   {
+    "answer": "Mallet",
+    "aliases": [
+     "rubber mallet",
+     "rubber hammer"
+    ]
+   },
+   {
+    "answer": "Sledgehammer",
+    "aliases": [
+     "sledge hammer",
+     "sledge"
+    ]
+   },
+   {
+    "answer": "Crowbar",
+    "aliases": [
+     "pry bar",
+     "wrecking bar",
+     "prybar"
+    ]
+   },
+   {
+    "answer": "Flashlight",
+    "aliases": [
+     "torch",
+     "flash light"
+    ]
+   },
+   {
+    "answer": "Duct tape",
+    "aliases": [
+     "duck tape",
+     "gaffer tape"
+    ]
+   },
+   {
+    "answer": "Electrical tape",
+    "aliases": [
+     "insulating tape",
+     "black tape"
+    ]
+   },
+   {
+    "answer": "Masking tape",
+    "aliases": [
+     "painter's tape",
+     "painters tape"
+    ]
+   },
+   {
+    "answer": "Square",
+    "aliases": [
+     "carpenter's square",
+     "framing square",
+     "try square",
+     "speed square",
+     "combination square"
+    ]
+   },
+   {
+    "answer": "Clamp",
+    "aliases": [
+     "C-clamp",
+     "clamps",
+     "G-clamp",
+     "bar clamp"
+    ]
+   },
+   {
+    "answer": "Vise",
+    "aliases": [
+     "vice",
+     "bench vise"
+    ]
+   },
+   {
+    "answer": "Plane",
+    "aliases": [
+     "hand plane",
+     "wood plane"
+    ]
+   },
+   {
+    "answer": "Awl",
+    "aliases": [
+     "scratch awl"
+    ]
+   },
+   {
+    "answer": "Center punch",
+    "aliases": [
+     "centre punch",
+     "punch",
+     "nail punch"
+    ]
+   },
+   {
+    "answer": "Nail set",
+    "aliases": [
+     "nailset"
+    ]
+   },
+   {
+    "answer": "Staple gun",
+    "aliases": [
+     "stapler",
+     "staple guns"
+    ]
+   },
+   {
+    "answer": "Glue",
+    "aliases": [
+     "wood glue",
+     "super glue",
+     "superglue",
+     "adhesive"
+    ]
+   },
+   {
+    "answer": "Epoxy",
+    "aliases": [
+     "epoxy glue"
+    ]
+   },
+   {
+    "answer": "Caulk gun",
+    "aliases": [
+     "caulking gun"
+    ]
+   },
+   {
+    "answer": "Putty knife",
+    "aliases": [
+     "scraper",
+     "spackle knife",
+     "joint knife"
+    ]
+   },
+   {
+    "answer": "Paint scraper",
+    "aliases": []
+   },
+   {
+    "answer": "Chalk line",
+    "aliases": [
+     "chalk reel",
+     "snap line"
+    ]
+   },
+   {
+    "answer": "Plumb bob",
+    "aliases": [
+     "plumb line"
+    ]
+   },
+   {
+    "answer": "Pencil",
+    "aliases": [
+     "carpenter pencil",
+     "carpenter's pencil"
+    ]
+   },
+   {
+    "answer": "Marker",
+    "aliases": [
+     "permanent marker",
+     "sharpie"
+    ]
+   },
+   {
+    "answer": "Multimeter",
+    "aliases": [
+     "voltmeter",
+     "volt meter",
+     "multi-meter"
+    ]
+   },
+   {
+    "answer": "Voltage tester",
+    "aliases": [
+     "circuit tester",
+     "test light",
+     "non-contact voltage tester"
+    ]
+   },
+   {
+    "answer": "Stud finder",
+    "aliases": [
+     "stud sensor"
+    ]
+   },
+   {
+    "answer": "Safety glasses",
+    "aliases": [
+     "safety goggles",
+     "goggles",
+     "protective eyewear"
+    ]
+   },
+   {
+    "answer": "Work gloves",
+    "aliases": [
+     "gloves"
+    ]
+   },
+   {
+    "answer": "Ear plugs",
+    "aliases": [
+     "earplugs",
+     "ear protection"
+    ]
+   },
+   {
+    "answer": "Dust mask",
+    "aliases": [
+     "respirator",
+     "mask"
+    ]
+   },
+   {
+    "answer": "Hex bolts",
+    "aliases": []
+   },
+   {
+    "answer": "Anchors",
+    "aliases": [
+     "wall anchors",
+     "drywall anchors",
+     "toggle bolts"
+    ]
+   },
+   {
+    "answer": "Rivets",
+    "aliases": [
+     "rivet",
+     "pop rivets"
+    ]
+   },
+   {
+    "answer": "Rivet gun",
+    "aliases": [
+     "pop rivet gun",
+     "riveter"
+    ]
+   },
+   {
+    "answer": "Soldering iron",
+    "aliases": [
+     "soldering gun",
+     "solder iron"
+    ]
+   },
+   {
+    "answer": "Solder",
+    "aliases": []
+   },
+   {
+    "answer": "Tin snips",
+    "aliases": [
+     "aviation snips",
+     "metal shears",
+     "tin snip"
+    ]
+   },
+   {
+    "answer": "Bolt cutters",
+    "aliases": [
+     "bolt cutter"
+    ]
+   },
+   {
+    "answer": "Hex nuts",
+    "aliases": []
+   },
+   {
+    "answer": "Cotter pins",
+    "aliases": [
+     "cotter pin"
+    ]
+   },
+   {
+    "answer": "Zip ties",
+    "aliases": [
+     "cable ties",
+     "zip tie",
+     "tie wraps"
+    ]
+   },
+   {
+    "answer": "Bungee cord",
+    "aliases": [
+     "bungee cords",
+     "bungee"
+    ]
+   },
+   {
+    "answer": "Rope",
+    "aliases": [
+     "twine",
+     "string",
+     "cord"
+    ]
+   },
+   {
+    "answer": "Wire",
+    "aliases": [
+     "electrical wire"
+    ]
+   },
+   {
+    "answer": "Fuses",
+    "aliases": [
+     "fuse"
+    ]
+   },
+   {
+    "answer": "Batteries",
+    "aliases": [
+     "battery"
+    ]
+   },
+   {
+    "answer": "Extension cord",
+    "aliases": [
+     "extension lead"
+    ]
+   },
+   {
+    "answer": "WD-40",
+    "aliases": [
+     "WD40",
+     "lubricant",
+     "oil",
+     "penetrating oil",
+     "machine oil"
+    ]
+   },
+   {
+    "answer": "Grease",
+    "aliases": [
+     "grease gun"
+    ]
+   },
+   {
+    "answer": "Rags",
+    "aliases": [
+     "rag",
+     "shop rag",
+     "cloth"
+    ]
+   },
+   {
+    "answer": "Ruler",
+    "aliases": [
+     "rule",
+     "steel rule",
+     "yardstick",
+     "meter stick"
+    ]
+   },
+   {
+    "answer": "Hole saw",
+    "aliases": [
+     "hole saws"
+    ]
+   },
+   {
+    "answer": "Circular saw",
+    "aliases": []
+   },
+   {
+    "answer": "Reciprocating saw",
+    "aliases": [
+     "Sawzall"
+    ]
+   },
+   {
+    "answer": "Miter saw",
+    "aliases": [
+     "mitre saw"
+    ]
+   },
+   {
+    "answer": "Router",
+    "aliases": [
+     "wood router"
+    ]
+   },
+   {
+    "answer": "Sander",
+    "aliases": [
+     "power sander",
+     "orbital sander"
+    ]
+   },
+   {
+    "answer": "Nail gun",
+    "aliases": [
+     "nailer",
+     "brad nailer"
+    ]
+   },
+   {
+    "answer": "Impact driver",
+    "aliases": [
+     "impact wrench"
+    ]
+   },
+   {
+    "answer": "Hand drill",
+    "aliases": [
+     "brace and bit",
+     "egg beater drill"
+    ]
+   },
+   {
+    "answer": "Tweezers",
+    "aliases": [
+     "tweezer"
+    ]
+   },
+   {
+    "answer": "Magnet",
+    "aliases": [
+     "magnetic pickup tool",
+     "magnetic tray"
+    ]
+   },
+   {
+    "answer": "Inspection mirror",
+    "aliases": [
+     "telescoping mirror"
+    ]
+   },
+   {
+    "answer": "Pickup tool",
+    "aliases": [
+     "telescoping magnet"
+    ]
+   },
+   {
+    "answer": "Pry bar",
+    "aliases": [
+     "flat bar"
+    ]
+   },
+   {
+    "answer": "Cold chisel",
+    "aliases": [
+     "brick chisel"
+    ]
+   },
+   {
+    "answer": "Bit set",
+    "aliases": [
+     "screwdriver bits",
+     "driver bits"
+    ]
+   },
+   {
+    "answer": "Hammer drill",
+    "aliases": []
+   },
+   {
+    "answer": "Spirit level",
+    "aliases": []
+   },
+   {
+    "answer": "Pocket knife",
+    "aliases": [
+     "pocketknife",
+     "Swiss Army knife",
+     "jackknife"
+    ]
+   },
+   {
+    "answer": "Multitool",
+    "aliases": [
+     "multi-tool",
+     "Leatherman",
+     "multi tool"
+    ]
+   },
+   {
+    "answer": "Torx key",
+    "aliases": [
+     "Torx driver",
+     "star key",
+     "Torx bits"
+    ]
+   },
+   {
+    "answer": "Nut driver",
+    "aliases": [
+     "nut drivers"
+    ]
+   },
+   {
+    "answer": "Teflon tape",
+    "aliases": [
+     "plumber's tape",
+     "plumbers tape",
+     "PTFE tape",
+     "thread seal tape"
+    ]
+   },
+   {
+    "answer": "Plunger",
+    "aliases": [
+     "plumber's helper"
+    ]
+   },
+   {
+    "answer": "Pipe cutter",
+    "aliases": [
+     "tubing cutter"
+    ]
+   },
+   {
+    "answer": "Basin wrench",
+    "aliases": []
+   },
+   {
+    "answer": "Tongue and groove pliers",
+    "aliases": []
+   },
+   {
+    "answer": "Lineman's pliers",
+    "aliases": [
+     "linesman pliers",
+     "lineman pliers"
+    ]
+   },
+   {
+    "answer": "Crimper",
+    "aliases": [
+     "crimping tool",
+     "wire crimper"
+    ]
+   },
+   {
+    "answer": "Tape",
+    "aliases": [
+     "adhesive tape"
+    ]
+   },
+   {
+    "answer": "Paintbrush",
+    "aliases": [
+     "paint brush",
+     "brush"
+    ]
+   },
+   {
+    "answer": "Wire brush",
+    "aliases": [
+     "wire brushes"
+    ]
+   },
+   {
+    "answer": "Putty",
+    "aliases": [
+     "wood filler",
+     "spackle"
+    ]
+   },
+   {
+    "answer": "Sawhorse",
+    "aliases": [
+     "saw horse"
+    ]
+   },
+   {
+    "answer": "Toolbox",
+    "aliases": [
+     "tool box"
+    ]
+   },
+   {
+    "answer": "Mitre box",
+    "aliases": [
+     "miter box"
+    ]
+   },
+   {
+    "answer": "Drywall saw",
+    "aliases": [
+     "keyhole saw",
+     "jab saw"
+    ]
+   },
+   {
+    "answer": "Pin punch",
+    "aliases": [
+     "drift punch"
+    ]
+   },
+   {
+    "answer": "Ball-peen hammer",
+    "aliases": [
+     "ball peen hammer",
+     "ball pein hammer"
+    ]
+   },
+   {
+    "answer": "Claw hammer",
+    "aliases": []
+   },
+   {
+    "answer": "Tack hammer",
+    "aliases": []
+   },
+   {
+    "answer": "Dead blow hammer",
+    "aliases": [
+     "deadblow hammer"
+    ]
+   },
+   {
+    "answer": "Pliers set",
+    "aliases": []
+   },
+   {
+    "answer": "Feeler gauge",
+    "aliases": [
+     "feeler gauges"
+    ]
+   },
+   {
+    "answer": "Tire gauge",
+    "aliases": [
+     "tyre gauge",
+     "tire pressure gauge"
+    ]
+   },
+   {
+    "answer": "Caliper",
+    "aliases": [
+     "calipers",
+     "vernier caliper"
+    ]
+   },
+   {
+    "answer": "Micrometer",
+    "aliases": []
+   },
+   {
+    "answer": "Laser level",
+    "aliases": []
+   },
+   {
+    "answer": "Screw extractor",
+    "aliases": [
+     "easy out",
+     "bolt extractor"
+    ]
+   },
+   {
+    "answer": "Thread locker",
+    "aliases": [
+     "Loctite",
+     "threadlocker"
+    ]
+   },
+   {
+    "answer": "Spark plug socket",
+    "aliases": [
+     "spark plug wrench"
+    ]
+   },
+   {
+    "answer": "Jumper cables",
+    "aliases": [
+     "jumper leads",
+     "booster cables"
+    ]
+   },
+   {
+    "answer": "Funnel",
+    "aliases": []
+   },
+   {
+    "answer": "Scissors",
+    "aliases": [
+     "shears"
+    ]
+   },
+   {
+    "answer": "Hooks",
+    "aliases": [
+     "screw hooks",
+     "cup hooks"
+    ]
+   },
+   {
+    "answer": "Picture hangers",
+    "aliases": [
+     "picture hanging hooks",
+     "picture hooks"
+    ]
+   },
+   {
+    "answer": "Brads",
+    "aliases": [
+     "brad nails"
+    ]
+   },
+   {
+    "answer": "Staples",
+    "aliases": [
+     "staple"
+    ]
+   },
+   {
+    "answer": "Tacks",
+    "aliases": [
+     "thumbtacks",
+     "tack"
+    ]
+   },
+   {
+    "answer": "Fuse puller",
+    "aliases": []
+   },
+   {
+    "answer": "Wire nuts",
+    "aliases": [
+     "wire connectors",
+     "wire nut"
+    ]
+   },
+   {
+    "answer": "Heat gun",
+    "aliases": []
+   },
+   {
+    "answer": "Glue gun",
+    "aliases": [
+     "hot glue gun"
+    ]
+   },
+   {
+    "answer": "Utility blades",
+    "aliases": [
+     "razor blades",
+     "razor blade",
+     "blades"
+    ]
+   },
+   {
+    "answer": "Hacksaw blades",
+    "aliases": [
+     "saw blades",
+     "saw blade"
+    ]
+   },
+   {
+    "answer": "Whetstone",
+    "aliases": [
+     "sharpening stone",
+     "oilstone"
+    ]
+   },
+   {
+    "answer": "Spud wrench",
+    "aliases": []
+   },
+   {
+    "answer": "Lug wrench",
+    "aliases": [
+     "tire iron",
+     "tyre lever"
+    ]
+   },
+   {
+    "answer": "Ratchet strap",
+    "aliases": [
+     "tie down strap"
+    ]
+   },
+   {
+    "answer": "Oil can",
+    "aliases": [
+     "oiler"
+    ]
+   },
+   {
+    "answer": "Dowels",
+    "aliases": [
+     "dowel",
+     "dowel pins"
+    ]
+   },
+   {
+    "answer": "Pencil sharpener",
+    "aliases": []
+   },
+   {
+    "answer": "Work light",
+    "aliases": [
+     "headlamp",
+     "trouble light"
+    ]
+   },
+   {
+    "answer": "Knee pads",
+    "aliases": []
+   },
+   {
+    "answer": "Tool belt",
+    "aliases": [
+     "tool pouch"
+    ]
+   },
+   {
+    "answer": "Bandages",
+    "aliases": [
+     "band-aids",
+     "band aid",
+     "first aid kit"
+    ]
+   },
+   {
+    "answer": "Coins",
+    "aliases": []
+   },
+   {
+    "answer": "Tube wrench",
+    "aliases": [
+     "flare nut wrench",
+     "line wrench"
+    ]
+   },
+   {
+    "answer": "Offset screwdriver",
+    "aliases": [
+     "stubby screwdriver"
+    ]
+   },
+   {
+    "answer": "Pozidriv screwdriver",
+    "aliases": [
+     "Pozidriv"
+    ]
+   },
+   {
+    "answer": "Robertson screwdriver",
+    "aliases": [
+     "square drive",
+     "Robertson"
+    ]
+   },
+   {
+    "answer": "Spanner",
+    "aliases": []
+   },
+   {
+    "answer": "Ratcheting screwdriver",
+    "aliases": []
+   },
+   {
+    "answer": "Combination square",
+    "aliases": []
+   },
+   {
+    "answer": "Bevel gauge",
+    "aliases": [
+     "sliding bevel",
+     "T-bevel"
+    ]
+   },
+   {
+    "answer": "Protractor",
+    "aliases": [
+     "angle finder"
+    ]
+   },
+   {
+    "answer": "Scribe",
+    "aliases": [
+     "scriber"
+    ]
+   },
+   {
+    "answer": "Tap and die set",
+    "aliases": [
+     "taps and dies",
+     "tap and die"
+    ]
+   },
+   {
+    "answer": "Thread gauge",
+    "aliases": [
+     "screw pitch gauge"
+    ]
+   },
+   {
+    "answer": "Pin vise",
+    "aliases": []
+   },
+   {
+    "answer": "Jeweler's screwdriver",
+    "aliases": [
+     "precision screwdriver",
+     "eyeglass screwdriver"
+    ]
+   },
+   {
+    "answer": "Snap ring pliers",
+    "aliases": [
+     "circlip pliers"
+    ]
+   },
+   {
+    "answer": "Hose clamp",
+    "aliases": [
+     "hose clamps"
+    ]
+   },
+   {
+    "answer": "Sanding block",
+    "aliases": []
+   },
+   {
+    "answer": "Steel wool",
+    "aliases": []
+   },
+   {
+    "answer": "Spackle",
+    "aliases": []
+   },
+   {
+    "answer": "Gloves",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 32257,
+ "type": "result",
+ "duration_ms": 32297,
+ "uuid": "d37c03cc-3999-4d6e-88e4-5add8d2e893a",
+ "ttft_stream_ms": 1235,
+ "time_to_request_ms": 32,
+ "first_content_frame_ms": 1235,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

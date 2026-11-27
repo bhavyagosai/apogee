@@ -1,0 +1,608 @@
+{
+ "duration_api_ms": 13670,
+ "stop_reason": "tool_use",
+ "session_id": "501fb8e7-88f4-4027-9b82-9e5302cfa100",
+ "total_cost_usd": 0.053244,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6414,
+  "cache_read_input_tokens": 620,
+  "output_tokens": 2746,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6414,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 2746,
+    "cache_read_input_tokens": 620,
+    "cache_creation_input_tokens": 6414,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6414
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 2746,
+   "cacheReadInputTokens": 620,
+   "cacheCreationInputTokens": 6414,
+   "webSearchRequests": 0,
+   "costUSD": 0.053244,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Wings\",\"aliases\":[]},{\"answer\":\"The Broadway Melody\",\"aliases\":[\"Broadway Melody\"]},{\"answer\":\"All Quiet on the Western Front\",\"aliases\":[\"All Quiet\"]},{\"answer\":\"Cimarron\",\"aliases\":[]},{\"answer\":\"Grand Hotel\",\"aliases\":[]},{\"answer\":\"Cavalcade\",\"aliases\":[]},{\"answer\":\"It Happened One Night\",\"aliases\":[]},{\"answer\":\"Mutiny on the Bounty\",\"aliases\":[]},{\"answer\":\"The Great Ziegfeld\",\"aliases\":[\"Great Ziegfeld\"]},{\"answer\":\"The Life of Emile Zola\",\"aliases\":[\"Life of Emile Zola\"]},{\"answer\":\"You Can't Take It with You\",\"aliases\":[\"You Cant Take It With You\"]},{\"answer\":\"Gone with the Wind\",\"aliases\":[\"Gone With The Wind\"]},{\"answer\":\"Rebecca\",\"aliases\":[]},{\"answer\":\"How Green Was My Valley\",\"aliases\":[]},{\"answer\":\"Mrs. Miniver\",\"aliases\":[\"Mrs Miniver\",\"Mrs. Minever\"]},{\"answer\":\"Casablanca\",\"aliases\":[]},{\"answer\":\"Going My Way\",\"aliases\":[]},{\"answer\":\"The Lost Weekend\",\"aliases\":[\"Lost Weekend\"]},{\"answer\":\"The Best Years of Our Lives\",\"aliases\":[\"Best Years of Our Lives\"]},{\"answer\":\"Gentleman's Agreement\",\"aliases\":[\"Gentlemans Agreement\"]},{\"answer\":\"Hamlet\",\"aliases\":[]},{\"answer\":\"All the King's Men\",\"aliases\":[\"All the Kings Men\"]},{\"answer\":\"All About Eve\",\"aliases\":[]},{\"answer\":\"An American in Paris\",\"aliases\":[\"American in Paris\"]},{\"answer\":\"The Greatest Show on Earth\",\"aliases\":[\"Greatest Show on Earth\"]},{\"answer\":\"From Here to Eternity\",\"aliases\":[]},{\"answer\":\"On the Waterfront\",\"aliases\":[]},{\"answer\":\"Marty\",\"aliases\":[]},{\"answer\":\"Around the World in 80 Days\",\"aliases\":[\"Around the World in Eighty Days\"]},{\"answer\":\"The Bridge on the River Kwai\",\"aliases\":[\"Bridge on the River Kwai\"]},{\"answer\":\"Gigi\",\"aliases\":[]},{\"answer\":\"Ben-Hur\",\"aliases\":[\"Ben Hur\"]},{\"answer\":\"The Apartment\",\"aliases\":[\"Apartment\"]},{\"answer\":\"West Side Story\",\"aliases\":[]},{\"answer\":\"Lawrence of Arabia\",\"aliases\":[]},{\"answer\":\"Tom Jones\",\"aliases\":[]},{\"answer\":\"My Fair Lady\",\"aliases\":[]},{\"answer\":\"The Sound of Music\",\"aliases\":[\"Sound of Music\"]},{\"answer\":\"A Man for All Seasons\",\"aliases\":[\"Man for All Seasons\"]},{\"answer\":\"In the Heat of the Night\",\"aliases\":[]},{\"answer\":\"Oliver!\",\"aliases\":[\"Oliver\"]},{\"answer\":\"Midnight Cowboy\",\"aliases\":[]},{\"answer\":\"Patton\",\"aliases\":[]},{\"answer\":\"The French Connection\",\"aliases\":[\"French Connection\"]},{\"answer\":\"The Godfather\",\"aliases\":[\"Godfather\"]},{\"answer\":\"The Sting\",\"aliases\":[\"Sting\"]},{\"answer\":\"The Godfather Part II\",\"aliases\":[\"Godfather Part 2\",\"The Godfather 2\",\"Godfather II\"]},{\"answer\":\"One Flew Over the Cuckoo's Nest\",\"aliases\":[\"One Flew Over the Cuckoos Nest\",\"Cuckoo's Nest\"]},{\"answer\":\"Rocky\",\"aliases\":[]},{\"answer\":\"Annie Hall\",\"aliases\":[]},{\"answer\":\"The Deer Hunter\",\"aliases\":[\"Deer Hunter\"]},{\"answer\":\"Kramer vs. Kramer\",\"aliases\":[\"Kramer vs Kramer\",\"Kramer versus Kramer\"]},{\"answer\":\"Ordinary People\",\"aliases\":[]},{\"answer\":\"Chariots of Fire\",\"aliases\":[]},{\"answer\":\"Gandhi\",\"aliases\":[]},{\"answer\":\"Terms of Endearment\",\"aliases\":[]},{\"answer\":\"Amadeus\",\"aliases\":[]},{\"answer\":\"Out of Africa\",\"aliases\":[]},{\"answer\":\"Platoon\",\"aliases\":[]},{\"answer\":\"The Last Emperor\",\"aliases\":[\"Last Emperor\"]},{\"answer\":\"Rain Man\",\"aliases\":[\"Rainman\"]},{\"answer\":\"Driving Miss Daisy\",\"aliases\":[]},{\"answer\":\"Dances with Wolves\",\"aliases\":[\"Dances With Wolves\"]},{\"answer\":\"The Silence of the Lambs\",\"aliases\":[\"Silence of the Lambs\"]},{\"answer\":\"Unforgiven\",\"aliases\":[]},{\"answer\":\"Schindler's List\",\"aliases\":[\"Schindlers List\"]},{\"answer\":\"Forrest Gump\",\"aliases\":[]},{\"answer\":\"Braveheart\",\"aliases\":[\"Brave Heart\"]},{\"answer\":\"The English Patient\",\"aliases\":[\"English Patient\"]},{\"answer\":\"Titanic\",\"aliases\":[]},{\"answer\":\"Shakespeare in Love\",\"aliases\":[]},{\"answer\":\"American Beauty\",\"aliases\":[]},{\"answer\":\"Gladiator\",\"aliases\":[]},{\"answer\":\"A Beautiful Mind\",\"aliases\":[\"Beautiful Mind\"]},{\"answer\":\"Chicago\",\"aliases\":[]},{\"answer\":\"The Lord of the Rings: The Return of the King\",\"aliases\":[\"Return of the King\",\"The Return of the King\",\"Lord of the Rings\",\"LOTR\",\"Lord of the Rings Return of the King\"]},{\"answer\":\"Million Dollar Baby\",\"aliases\":[]},{\"answer\":\"Crash\",\"aliases\":[]},{\"answer\":\"The Departed\",\"aliases\":[\"Departed\"]},{\"answer\":\"No Country for Old Men\",\"aliases\":[]},{\"answer\":\"Slumdog Millionaire\",\"aliases\":[]},{\"answer\":\"The Hurt Locker\",\"aliases\":[\"Hurt Locker\"]},{\"answer\":\"The King's Speech\",\"aliases\":[\"King's Speech\",\"The Kings Speech\",\"Kings Speech\"]},{\"answer\":\"The Artist\",\"aliases\":[\"Artist\"]},{\"answer\":\"Argo\",\"aliases\":[]},{\"answer\":\"12 Years a Slave\",\"aliases\":[\"Twelve Years a Slave\"]},{\"answer\":\"Birdman\",\"aliases\":[\"Birdman or (The Unexpected Virtue of Ignorance)\"]},{\"answer\":\"Spotlight\",\"aliases\":[]},{\"answer\":\"Moonlight\",\"aliases\":[]},{\"answer\":\"The Shape of Water\",\"aliases\":[\"Shape of Water\"]},{\"answer\":\"Green Book\",\"aliases\":[]},{\"answer\":\"Parasite\",\"aliases\":[]},{\"answer\":\"Nomadland\",\"aliases\":[]},{\"answer\":\"CODA\",\"aliases\":[\"Coda\"]},{\"answer\":\"Everything Everywhere All at Once\",\"aliases\":[\"Everything Everywhere All At Once\",\"EEAAO\"]},{\"answer\":\"Oppenheimer\",\"aliases\":[]},{\"answer\":\"Anora\",\"aliases\":[]},{\"answer\":\"Rebecca\",\"aliases\":[]},{\"answer\":\"The Broadway Melody of 1929\",\"aliases\":[]},{\"answer\":\"Cavalcade\",\"aliases\":[]},{\"answer\":\"Hamlet\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Wings",
+    "aliases": []
+   },
+   {
+    "answer": "The Broadway Melody",
+    "aliases": [
+     "Broadway Melody"
+    ]
+   },
+   {
+    "answer": "All Quiet on the Western Front",
+    "aliases": [
+     "All Quiet"
+    ]
+   },
+   {
+    "answer": "Cimarron",
+    "aliases": []
+   },
+   {
+    "answer": "Grand Hotel",
+    "aliases": []
+   },
+   {
+    "answer": "Cavalcade",
+    "aliases": []
+   },
+   {
+    "answer": "It Happened One Night",
+    "aliases": []
+   },
+   {
+    "answer": "Mutiny on the Bounty",
+    "aliases": []
+   },
+   {
+    "answer": "The Great Ziegfeld",
+    "aliases": [
+     "Great Ziegfeld"
+    ]
+   },
+   {
+    "answer": "The Life of Emile Zola",
+    "aliases": [
+     "Life of Emile Zola"
+    ]
+   },
+   {
+    "answer": "You Can't Take It with You",
+    "aliases": [
+     "You Cant Take It With You"
+    ]
+   },
+   {
+    "answer": "Gone with the Wind",
+    "aliases": [
+     "Gone With The Wind"
+    ]
+   },
+   {
+    "answer": "Rebecca",
+    "aliases": []
+   },
+   {
+    "answer": "How Green Was My Valley",
+    "aliases": []
+   },
+   {
+    "answer": "Mrs. Miniver",
+    "aliases": [
+     "Mrs Miniver",
+     "Mrs. Minever"
+    ]
+   },
+   {
+    "answer": "Casablanca",
+    "aliases": []
+   },
+   {
+    "answer": "Going My Way",
+    "aliases": []
+   },
+   {
+    "answer": "The Lost Weekend",
+    "aliases": [
+     "Lost Weekend"
+    ]
+   },
+   {
+    "answer": "The Best Years of Our Lives",
+    "aliases": [
+     "Best Years of Our Lives"
+    ]
+   },
+   {
+    "answer": "Gentleman's Agreement",
+    "aliases": [
+     "Gentlemans Agreement"
+    ]
+   },
+   {
+    "answer": "Hamlet",
+    "aliases": []
+   },
+   {
+    "answer": "All the King's Men",
+    "aliases": [
+     "All the Kings Men"
+    ]
+   },
+   {
+    "answer": "All About Eve",
+    "aliases": []
+   },
+   {
+    "answer": "An American in Paris",
+    "aliases": [
+     "American in Paris"
+    ]
+   },
+   {
+    "answer": "The Greatest Show on Earth",
+    "aliases": [
+     "Greatest Show on Earth"
+    ]
+   },
+   {
+    "answer": "From Here to Eternity",
+    "aliases": []
+   },
+   {
+    "answer": "On the Waterfront",
+    "aliases": []
+   },
+   {
+    "answer": "Marty",
+    "aliases": []
+   },
+   {
+    "answer": "Around the World in 80 Days",
+    "aliases": [
+     "Around the World in Eighty Days"
+    ]
+   },
+   {
+    "answer": "The Bridge on the River Kwai",
+    "aliases": [
+     "Bridge on the River Kwai"
+    ]
+   },
+   {
+    "answer": "Gigi",
+    "aliases": []
+   },
+   {
+    "answer": "Ben-Hur",
+    "aliases": [
+     "Ben Hur"
+    ]
+   },
+   {
+    "answer": "The Apartment",
+    "aliases": [
+     "Apartment"
+    ]
+   },
+   {
+    "answer": "West Side Story",
+    "aliases": []
+   },
+   {
+    "answer": "Lawrence of Arabia",
+    "aliases": []
+   },
+   {
+    "answer": "Tom Jones",
+    "aliases": []
+   },
+   {
+    "answer": "My Fair Lady",
+    "aliases": []
+   },
+   {
+    "answer": "The Sound of Music",
+    "aliases": [
+     "Sound of Music"
+    ]
+   },
+   {
+    "answer": "A Man for All Seasons",
+    "aliases": [
+     "Man for All Seasons"
+    ]
+   },
+   {
+    "answer": "In the Heat of the Night",
+    "aliases": []
+   },
+   {
+    "answer": "Oliver!",
+    "aliases": [
+     "Oliver"
+    ]
+   },
+   {
+    "answer": "Midnight Cowboy",
+    "aliases": []
+   },
+   {
+    "answer": "Patton",
+    "aliases": []
+   },
+   {
+    "answer": "The French Connection",
+    "aliases": [
+     "French Connection"
+    ]
+   },
+   {
+    "answer": "The Godfather",
+    "aliases": [
+     "Godfather"
+    ]
+   },
+   {
+    "answer": "The Sting",
+    "aliases": [
+     "Sting"
+    ]
+   },
+   {
+    "answer": "The Godfather Part II",
+    "aliases": [
+     "Godfather Part 2",
+     "The Godfather 2",
+     "Godfather II"
+    ]
+   },
+   {
+    "answer": "One Flew Over the Cuckoo's Nest",
+    "aliases": [
+     "One Flew Over the Cuckoos Nest",
+     "Cuckoo's Nest"
+    ]
+   },
+   {
+    "answer": "Rocky",
+    "aliases": []
+   },
+   {
+    "answer": "Annie Hall",
+    "aliases": []
+   },
+   {
+    "answer": "The Deer Hunter",
+    "aliases": [
+     "Deer Hunter"
+    ]
+   },
+   {
+    "answer": "Kramer vs. Kramer",
+    "aliases": [
+     "Kramer vs Kramer",
+     "Kramer versus Kramer"
+    ]
+   },
+   {
+    "answer": "Ordinary People",
+    "aliases": []
+   },
+   {
+    "answer": "Chariots of Fire",
+    "aliases": []
+   },
+   {
+    "answer": "Gandhi",
+    "aliases": []
+   },
+   {
+    "answer": "Terms of Endearment",
+    "aliases": []
+   },
+   {
+    "answer": "Amadeus",
+    "aliases": []
+   },
+   {
+    "answer": "Out of Africa",
+    "aliases": []
+   },
+   {
+    "answer": "Platoon",
+    "aliases": []
+   },
+   {
+    "answer": "The Last Emperor",
+    "aliases": [
+     "Last Emperor"
+    ]
+   },
+   {
+    "answer": "Rain Man",
+    "aliases": [
+     "Rainman"
+    ]
+   },
+   {
+    "answer": "Driving Miss Daisy",
+    "aliases": []
+   },
+   {
+    "answer": "Dances with Wolves",
+    "aliases": [
+     "Dances With Wolves"
+    ]
+   },
+   {
+    "answer": "The Silence of the Lambs",
+    "aliases": [
+     "Silence of the Lambs"
+    ]
+   },
+   {
+    "answer": "Unforgiven",
+    "aliases": []
+   },
+   {
+    "answer": "Schindler's List",
+    "aliases": [
+     "Schindlers List"
+    ]
+   },
+   {
+    "answer": "Forrest Gump",
+    "aliases": []
+   },
+   {
+    "answer": "Braveheart",
+    "aliases": [
+     "Brave Heart"
+    ]
+   },
+   {
+    "answer": "The English Patient",
+    "aliases": [
+     "English Patient"
+    ]
+   },
+   {
+    "answer": "Titanic",
+    "aliases": []
+   },
+   {
+    "answer": "Shakespeare in Love",
+    "aliases": []
+   },
+   {
+    "answer": "American Beauty",
+    "aliases": []
+   },
+   {
+    "answer": "Gladiator",
+    "aliases": []
+   },
+   {
+    "answer": "A Beautiful Mind",
+    "aliases": [
+     "Beautiful Mind"
+    ]
+   },
+   {
+    "answer": "Chicago",
+    "aliases": []
+   },
+   {
+    "answer": "The Lord of the Rings: The Return of the King",
+    "aliases": [
+     "Return of the King",
+     "The Return of the King",
+     "Lord of the Rings",
+     "LOTR",
+     "Lord of the Rings Return of the King"
+    ]
+   },
+   {
+    "answer": "Million Dollar Baby",
+    "aliases": []
+   },
+   {
+    "answer": "Crash",
+    "aliases": []
+   },
+   {
+    "answer": "The Departed",
+    "aliases": [
+     "Departed"
+    ]
+   },
+   {
+    "answer": "No Country for Old Men",
+    "aliases": []
+   },
+   {
+    "answer": "Slumdog Millionaire",
+    "aliases": []
+   },
+   {
+    "answer": "The Hurt Locker",
+    "aliases": [
+     "Hurt Locker"
+    ]
+   },
+   {
+    "answer": "The King's Speech",
+    "aliases": [
+     "King's Speech",
+     "The Kings Speech",
+     "Kings Speech"
+    ]
+   },
+   {
+    "answer": "The Artist",
+    "aliases": [
+     "Artist"
+    ]
+   },
+   {
+    "answer": "Argo",
+    "aliases": []
+   },
+   {
+    "answer": "12 Years a Slave",
+    "aliases": [
+     "Twelve Years a Slave"
+    ]
+   },
+   {
+    "answer": "Birdman",
+    "aliases": [
+     "Birdman or (The Unexpected Virtue of Ignorance)"
+    ]
+   },
+   {
+    "answer": "Spotlight",
+    "aliases": []
+   },
+   {
+    "answer": "Moonlight",
+    "aliases": []
+   },
+   {
+    "answer": "The Shape of Water",
+    "aliases": [
+     "Shape of Water"
+    ]
+   },
+   {
+    "answer": "Green Book",
+    "aliases": []
+   },
+   {
+    "answer": "Parasite",
+    "aliases": []
+   },
+   {
+    "answer": "Nomadland",
+    "aliases": []
+   },
+   {
+    "answer": "CODA",
+    "aliases": [
+     "Coda"
+    ]
+   },
+   {
+    "answer": "Everything Everywhere All at Once",
+    "aliases": [
+     "Everything Everywhere All At Once",
+     "EEAAO"
+    ]
+   },
+   {
+    "answer": "Oppenheimer",
+    "aliases": []
+   },
+   {
+    "answer": "Anora",
+    "aliases": []
+   },
+   {
+    "answer": "Rebecca",
+    "aliases": []
+   },
+   {
+    "answer": "The Broadway Melody of 1929",
+    "aliases": []
+   },
+   {
+    "answer": "Cavalcade",
+    "aliases": []
+   },
+   {
+    "answer": "Hamlet",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 13683,
+ "type": "result",
+ "duration_ms": 13719,
+ "uuid": "b84874ca-25cc-4429-b2d7-fb68bfc43185",
+ "ttft_stream_ms": 1320,
+ "time_to_request_ms": 33,
+ "first_content_frame_ms": 1321,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

@@ -1,0 +1,622 @@
+{
+ "duration_api_ms": 27881,
+ "stop_reason": "tool_use",
+ "session_id": "0c926365-c453-45b7-892a-9372669208f0",
+ "total_cost_usd": 0.0826396,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7811,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 5127,
+  "output_tokens_details": {
+   "thinking_tokens": 1494
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7811,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 5127,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 7811,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7811
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 5127,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 7811,
+   "webSearchRequests": 0,
+   "costUSD": 0.0826396,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 1494,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Australia\",\"reason\":\"Continental country, not an island nation\"},{\"answer\":\"Greenland\",\"reason\":\"Autonomous territory of Denmark, not a sovereign nation\"},{\"answer\":\"Sicily\",\"reason\":\"Island region of Italy, not a nation\"},{\"answer\":\"Sardinia\",\"reason\":\"Island region of Italy, not a nation\"},{\"answer\":\"Corsica\",\"reason\":\"Island region of France, not a nation\"},{\"answer\":\"Bermuda\",\"reason\":\"British overseas territory, not sovereign\"},{\"answer\":\"Aruba\",\"reason\":\"Constituent country of the Netherlands, not sovereign\"},{\"answer\":\"Curaçao\",\"reason\":\"Constituent country of the Netherlands, not sovereign\"},{\"answer\":\"Puerto Rico\",\"reason\":\"US territory, not sovereign\"},{\"answer\":\"Guam\",\"reason\":\"US territory, not sovereign\"},{\"answer\":\"Zanzibar\",\"reason\":\"Semi-autonomous region of Tanzania\"},{\"answer\":\"Hong Kong\",\"reason\":\"Special administrative region of China\"},{\"answer\":\"Cayman Islands\",\"reason\":\"British overseas territory\"},{\"answer\":\"Faroe Islands\",\"reason\":\"Self-governing territory of Denmark\"},{\"answer\":\"Isle of Man\",\"reason\":\"Crown dependency, not sovereign\"},{\"answer\":\"Jersey\",\"reason\":\"Crown dependency, not sovereign\"},{\"answer\":\"Guernsey\",\"reason\":\"Crown dependency, not sovereign\"},{\"answer\":\"Tahiti\",\"reason\":\"An island in French Polynesia, not a nation\"},{\"answer\":\"French Polynesia\",\"reason\":\"French overseas collectivity\"},{\"answer\":\"New Caledonia\",\"reason\":\"French sui generis collectivity\"},{\"answer\":\"Hawaii\",\"reason\":\"US state\"},{\"answer\":\"Bali\",\"reason\":\"Island and province of Indonesia\"},{\"answer\":\"Tasmania\",\"reason\":\"Australian state\"},{\"answer\":\"Sint Maarten\",\"reason\":\"Constituent country of the Netherlands, not sovereign\"},{\"answer\":\"Montserrat\",\"reason\":\"British overseas territory\"},{\"answer\":\"Anguilla\",\"reason\":\"British overseas territory\"},{\"answer\":\"British Virgin Islands\",\"reason\":\"British overseas territory\"},{\"answer\":\"US Virgin Islands\",\"reason\":\"US territory\"},{\"answer\":\"Turks and Caicos Islands\",\"reason\":\"British overseas territory\"},{\"answer\":\"Martinique\",\"reason\":\"French overseas department\"},{\"answer\":\"Guadeloupe\",\"reason\":\"French overseas department\"},{\"answer\":\"Réunion\",\"reason\":\"French overseas department\"},{\"answer\":\"Mayotte\",\"reason\":\"French overseas department\"},{\"answer\":\"Wallis and Futuna\",\"reason\":\"French overseas collectivity\"},{\"answer\":\"American Samoa\",\"reason\":\"US territory\"},{\"answer\":\"Northern Mariana Islands\",\"reason\":\"US commonwealth/territory\"},{\"answer\":\"Norfolk Island\",\"reason\":\"Australian external territory\"},{\"answer\":\"Christmas Island\",\"reason\":\"Australian external territory\"},{\"answer\":\"Cocos Islands\",\"reason\":\"Australian external territory\"},{\"answer\":\"Pitcairn Islands\",\"reason\":\"British overseas territory\"},{\"answer\":\"Tokelau\",\"reason\":\"New Zealand dependent territory\"},{\"answer\":\"Falkland Islands\",\"reason\":\"British overseas territory\"},{\"answer\":\"Saint Helena\",\"reason\":\"British overseas territory\"},{\"answer\":\"Ascension Island\",\"reason\":\"Part of a British overseas territory\"},{\"answer\":\"Tristan da Cunha\",\"reason\":\"Part of a British overseas territory\"},{\"answer\":\"Åland Islands\",\"reason\":\"Autonomous region of Finland\"},{\"answer\":\"Macau\",\"reason\":\"Special administrative region of China\"},{\"answer\":\"Okinawa\",\"reason\":\"Japanese prefecture/island\"},{\"answer\":\"Hokkaido\",\"reason\":\"Japanese island/prefecture\"},{\"answer\":\"Java\",\"reason\":\"Island of Indonesia, not a nation\"},{\"answer\":\"Borneo\",\"reason\":\"Island shared by three countries, not a nation\"},{\"answer\":\"Sumatra\",\"reason\":\"Island of Indonesia, not a nation\"},{\"answer\":\"Sulawesi\",\"reason\":\"Island of Indonesia, not a nation\"},{\"answer\":\"New Guinea\",\"reason\":\"Island shared by two countries, not a nation\"},{\"answer\":\"Newfoundland\",\"reason\":\"Island part of a Canadian province\"},{\"answer\":\"Zealandia\",\"reason\":\"Submerged continent, not a nation\"},{\"answer\":\"Easter Island\",\"reason\":\"Island belonging to Chile\"},{\"answer\":\"Galápagos Islands\",\"reason\":\"Archipelago belonging to Ecuador\"},{\"answer\":\"Bora Bora\",\"reason\":\"Island in French Polynesia\"},{\"answer\":\"Santorini\",\"reason\":\"Greek island, not a nation\"},{\"answer\":\"Crete\",\"reason\":\"Greek island, not a nation\"},{\"answer\":\"Mallorca\",\"reason\":\"Spanish island, not a nation\"},{\"answer\":\"Ibiza\",\"reason\":\"Spanish island, not a nation\"},{\"answer\":\"Tenerife\",\"reason\":\"Spanish island, not a nation\"},{\"answer\":\"Madeira\",\"reason\":\"Portuguese autonomous region\"},{\"answer\":\"Azores\",\"reason\":\"Portuguese autonomous region\"},{\"answer\":\"Canary Islands\",\"reason\":\"Spanish autonomous community\"},{\"answer\":\"Svalbard\",\"reason\":\"Norwegian archipelago, not a nation\"},{\"answer\":\"Bonaire\",\"reason\":\"Dutch special municipality\"},{\"answer\":\"Saba\",\"reason\":\"Dutch special municipality\"},{\"answer\":\"Sint Eustatius\",\"reason\":\"Dutch special municipality\"},{\"answer\":\"Saint Barthélemy\",\"reason\":\"French overseas collectivity\"},{\"answer\":\"Great Britain\",\"reason\":\"An island, not a nation\"},{\"answer\":\"Vancouver Island\",\"reason\":\"Island in Canada, not a nation\"},{\"answer\":\"Prince Edward Island\",\"reason\":\"Canadian province\"},{\"answer\":\"Singapore Island\",\"reason\":\"Just the main island, not the nation's name\"},{\"answer\":\"Sakhalin\",\"reason\":\"Russian island/oblast\"},{\"answer\":\"Honshu\",\"reason\":\"Island of Japan\"},{\"answer\":\"Kyushu\",\"reason\":\"Island of Japan\"},{\"answer\":\"Shikoku\",\"reason\":\"Island of Japan\"},{\"answer\":\"Luzon\",\"reason\":\"Island of the Philippines\"},{\"answer\":\"Mindanao\",\"reason\":\"Island of the Philippines\"},{\"answer\":\"Lombok\",\"reason\":\"Island of Indonesia\"},{\"answer\":\"Phuket\",\"reason\":\"Island/province of Thailand\"},{\"answer\":\"Hainan\",\"reason\":\"Island province of China\"},{\"answer\":\"Zealand\",\"reason\":\"Island of Denmark\"},{\"answer\":\"Funen\",\"reason\":\"Island of Denmark\"},{\"answer\":\"Gotland\",\"reason\":\"Island of Sweden\"},{\"answer\":\"Rhodes\",\"reason\":\"Greek island\"},{\"answer\":\"Corfu\",\"reason\":\"Greek island\"},{\"answer\":\"Mykonos\",\"reason\":\"Greek island\"},{\"answer\":\"Capri\",\"reason\":\"Italian island\"},{\"answer\":\"Elba\",\"reason\":\"Italian island\"},{\"answer\":\"Malé\",\"reason\":\"Capital city of the Maldives\"},{\"answer\":\"Socotra\",\"reason\":\"Island of Yemen\"},{\"answer\":\"Rodrigues\",\"reason\":\"Autonomous island of Mauritius\"},{\"answer\":\"Kiritimati\",\"reason\":\"Atoll of Kiribati\"},{\"answer\":\"Wake Island\",\"reason\":\"US territory\"},{\"answer\":\"Midway Atoll\",\"reason\":\"US territory\"},{\"answer\":\"Tuvalu Funafuti\",\"reason\":\"Malformed entry; Funafuti is Tuvalu's atoll/capital\"},{\"answer\":\"Rarotonga\",\"reason\":\"Island of the Cook Islands\"},{\"answer\":\"Bougainville\",\"reason\":\"Autonomous region of Papua New Guinea\"},{\"answer\":\"Vanua Levu\",\"reason\":\"Island of Fiji\"},{\"answer\":\"Upolu\",\"reason\":\"Island of Samoa\"},{\"answer\":\"Savai'i\",\"reason\":\"Island of Samoa\"},{\"answer\":\"Tortola\",\"reason\":\"Island of the British Virgin Islands\"},{\"answer\":\"Nevis\",\"reason\":\"Island part of Saint Kitts and Nevis\"},{\"answer\":\"Bequia\",\"reason\":\"Island of Saint Vincent and the Grenadines\"},{\"answer\":\"Carriacou\",\"reason\":\"Island of Grenada\"},{\"answer\":\"Tobago\",\"reason\":\"Island part of Trinidad and Tobago\"},{\"answer\":\"Trinidad\",\"reason\":\"Island part of Trinidad and Tobago\"},{\"answer\":\"Antigua\",\"reason\":\"Island part of Antigua and Barbuda\"},{\"answer\":\"Barbuda\",\"reason\":\"Island part of Antigua and Barbuda\"},{\"answer\":\"Saint Kitts\",\"reason\":\"Island part of Saint Kitts and Nevis\"},{\"answer\":\"Hispaniola\",\"reason\":\"Island shared by two countries, not a nation\"},{\"answer\":\"Vieques\",\"reason\":\"Island of Puerto Rico\"},{\"answer\":\"Roatán\",\"reason\":\"Island of Honduras\"},{\"answer\":\"Isla Margarita\",\"reason\":\"Island of Venezuela\"},{\"answer\":\"Chiloé\",\"reason\":\"Island of Chile\"},{\"answer\":\"Tierra del Fuego\",\"reason\":\"Archipelago shared by Chile and Argentina\"},{\"answer\":\"Baffin Island\",\"reason\":\"Island of Canada\"},{\"answer\":\"Ellesmere Island\",\"reason\":\"Island of Canada\"},{\"answer\":\"Victoria Island\",\"reason\":\"Island of Canada\"},{\"answer\":\"Cape Breton Island\",\"reason\":\"Island of Canada\"},{\"answer\":\"Orkney\",\"reason\":\"Scottish island group\"},{\"answer\":\"Shetland\",\"reason\":\"Scottish island group\"},{\"answer\":\"Isle of Wight\",\"reason\":\"English island/county\"},{\"answer\":\"Anglesey\",\"reason\":\"Welsh island/county\"},{\"answer\":\"Skye\",\"reason\":\"Scottish island\"},{\"answer\":\"Lewis and Harris\",\"reason\":\"Scottish island\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Australia",
+    "reason": "Continental country, not an island nation"
+   },
+   {
+    "answer": "Greenland",
+    "reason": "Autonomous territory of Denmark, not a sovereign nation"
+   },
+   {
+    "answer": "Sicily",
+    "reason": "Island region of Italy, not a nation"
+   },
+   {
+    "answer": "Sardinia",
+    "reason": "Island region of Italy, not a nation"
+   },
+   {
+    "answer": "Corsica",
+    "reason": "Island region of France, not a nation"
+   },
+   {
+    "answer": "Bermuda",
+    "reason": "British overseas territory, not sovereign"
+   },
+   {
+    "answer": "Aruba",
+    "reason": "Constituent country of the Netherlands, not sovereign"
+   },
+   {
+    "answer": "Curaçao",
+    "reason": "Constituent country of the Netherlands, not sovereign"
+   },
+   {
+    "answer": "Puerto Rico",
+    "reason": "US territory, not sovereign"
+   },
+   {
+    "answer": "Guam",
+    "reason": "US territory, not sovereign"
+   },
+   {
+    "answer": "Zanzibar",
+    "reason": "Semi-autonomous region of Tanzania"
+   },
+   {
+    "answer": "Hong Kong",
+    "reason": "Special administrative region of China"
+   },
+   {
+    "answer": "Cayman Islands",
+    "reason": "British overseas territory"
+   },
+   {
+    "answer": "Faroe Islands",
+    "reason": "Self-governing territory of Denmark"
+   },
+   {
+    "answer": "Isle of Man",
+    "reason": "Crown dependency, not sovereign"
+   },
+   {
+    "answer": "Jersey",
+    "reason": "Crown dependency, not sovereign"
+   },
+   {
+    "answer": "Guernsey",
+    "reason": "Crown dependency, not sovereign"
+   },
+   {
+    "answer": "Tahiti",
+    "reason": "An island in French Polynesia, not a nation"
+   },
+   {
+    "answer": "French Polynesia",
+    "reason": "French overseas collectivity"
+   },
+   {
+    "answer": "New Caledonia",
+    "reason": "French sui generis collectivity"
+   },
+   {
+    "answer": "Hawaii",
+    "reason": "US state"
+   },
+   {
+    "answer": "Bali",
+    "reason": "Island and province of Indonesia"
+   },
+   {
+    "answer": "Tasmania",
+    "reason": "Australian state"
+   },
+   {
+    "answer": "Sint Maarten",
+    "reason": "Constituent country of the Netherlands, not sovereign"
+   },
+   {
+    "answer": "Montserrat",
+    "reason": "British overseas territory"
+   },
+   {
+    "answer": "Anguilla",
+    "reason": "British overseas territory"
+   },
+   {
+    "answer": "British Virgin Islands",
+    "reason": "British overseas territory"
+   },
+   {
+    "answer": "US Virgin Islands",
+    "reason": "US territory"
+   },
+   {
+    "answer": "Turks and Caicos Islands",
+    "reason": "British overseas territory"
+   },
+   {
+    "answer": "Martinique",
+    "reason": "French overseas department"
+   },
+   {
+    "answer": "Guadeloupe",
+    "reason": "French overseas department"
+   },
+   {
+    "answer": "Réunion",
+    "reason": "French overseas department"
+   },
+   {
+    "answer": "Mayotte",
+    "reason": "French overseas department"
+   },
+   {
+    "answer": "Wallis and Futuna",
+    "reason": "French overseas collectivity"
+   },
+   {
+    "answer": "American Samoa",
+    "reason": "US territory"
+   },
+   {
+    "answer": "Northern Mariana Islands",
+    "reason": "US commonwealth/territory"
+   },
+   {
+    "answer": "Norfolk Island",
+    "reason": "Australian external territory"
+   },
+   {
+    "answer": "Christmas Island",
+    "reason": "Australian external territory"
+   },
+   {
+    "answer": "Cocos Islands",
+    "reason": "Australian external territory"
+   },
+   {
+    "answer": "Pitcairn Islands",
+    "reason": "British overseas territory"
+   },
+   {
+    "answer": "Tokelau",
+    "reason": "New Zealand dependent territory"
+   },
+   {
+    "answer": "Falkland Islands",
+    "reason": "British overseas territory"
+   },
+   {
+    "answer": "Saint Helena",
+    "reason": "British overseas territory"
+   },
+   {
+    "answer": "Ascension Island",
+    "reason": "Part of a British overseas territory"
+   },
+   {
+    "answer": "Tristan da Cunha",
+    "reason": "Part of a British overseas territory"
+   },
+   {
+    "answer": "Åland Islands",
+    "reason": "Autonomous region of Finland"
+   },
+   {
+    "answer": "Macau",
+    "reason": "Special administrative region of China"
+   },
+   {
+    "answer": "Okinawa",
+    "reason": "Japanese prefecture/island"
+   },
+   {
+    "answer": "Hokkaido",
+    "reason": "Japanese island/prefecture"
+   },
+   {
+    "answer": "Java",
+    "reason": "Island of Indonesia, not a nation"
+   },
+   {
+    "answer": "Borneo",
+    "reason": "Island shared by three countries, not a nation"
+   },
+   {
+    "answer": "Sumatra",
+    "reason": "Island of Indonesia, not a nation"
+   },
+   {
+    "answer": "Sulawesi",
+    "reason": "Island of Indonesia, not a nation"
+   },
+   {
+    "answer": "New Guinea",
+    "reason": "Island shared by two countries, not a nation"
+   },
+   {
+    "answer": "Newfoundland",
+    "reason": "Island part of a Canadian province"
+   },
+   {
+    "answer": "Zealandia",
+    "reason": "Submerged continent, not a nation"
+   },
+   {
+    "answer": "Easter Island",
+    "reason": "Island belonging to Chile"
+   },
+   {
+    "answer": "Galápagos Islands",
+    "reason": "Archipelago belonging to Ecuador"
+   },
+   {
+    "answer": "Bora Bora",
+    "reason": "Island in French Polynesia"
+   },
+   {
+    "answer": "Santorini",
+    "reason": "Greek island, not a nation"
+   },
+   {
+    "answer": "Crete",
+    "reason": "Greek island, not a nation"
+   },
+   {
+    "answer": "Mallorca",
+    "reason": "Spanish island, not a nation"
+   },
+   {
+    "answer": "Ibiza",
+    "reason": "Spanish island, not a nation"
+   },
+   {
+    "answer": "Tenerife",
+    "reason": "Spanish island, not a nation"
+   },
+   {
+    "answer": "Madeira",
+    "reason": "Portuguese autonomous region"
+   },
+   {
+    "answer": "Azores",
+    "reason": "Portuguese autonomous region"
+   },
+   {
+    "answer": "Canary Islands",
+    "reason": "Spanish autonomous community"
+   },
+   {
+    "answer": "Svalbard",
+    "reason": "Norwegian archipelago, not a nation"
+   },
+   {
+    "answer": "Bonaire",
+    "reason": "Dutch special municipality"
+   },
+   {
+    "answer": "Saba",
+    "reason": "Dutch special municipality"
+   },
+   {
+    "answer": "Sint Eustatius",
+    "reason": "Dutch special municipality"
+   },
+   {
+    "answer": "Saint Barthélemy",
+    "reason": "French overseas collectivity"
+   },
+   {
+    "answer": "Great Britain",
+    "reason": "An island, not a nation"
+   },
+   {
+    "answer": "Vancouver Island",
+    "reason": "Island in Canada, not a nation"
+   },
+   {
+    "answer": "Prince Edward Island",
+    "reason": "Canadian province"
+   },
+   {
+    "answer": "Singapore Island",
+    "reason": "Just the main island, not the nation's name"
+   },
+   {
+    "answer": "Sakhalin",
+    "reason": "Russian island/oblast"
+   },
+   {
+    "answer": "Honshu",
+    "reason": "Island of Japan"
+   },
+   {
+    "answer": "Kyushu",
+    "reason": "Island of Japan"
+   },
+   {
+    "answer": "Shikoku",
+    "reason": "Island of Japan"
+   },
+   {
+    "answer": "Luzon",
+    "reason": "Island of the Philippines"
+   },
+   {
+    "answer": "Mindanao",
+    "reason": "Island of the Philippines"
+   },
+   {
+    "answer": "Lombok",
+    "reason": "Island of Indonesia"
+   },
+   {
+    "answer": "Phuket",
+    "reason": "Island/province of Thailand"
+   },
+   {
+    "answer": "Hainan",
+    "reason": "Island province of China"
+   },
+   {
+    "answer": "Zealand",
+    "reason": "Island of Denmark"
+   },
+   {
+    "answer": "Funen",
+    "reason": "Island of Denmark"
+   },
+   {
+    "answer": "Gotland",
+    "reason": "Island of Sweden"
+   },
+   {
+    "answer": "Rhodes",
+    "reason": "Greek island"
+   },
+   {
+    "answer": "Corfu",
+    "reason": "Greek island"
+   },
+   {
+    "answer": "Mykonos",
+    "reason": "Greek island"
+   },
+   {
+    "answer": "Capri",
+    "reason": "Italian island"
+   },
+   {
+    "answer": "Elba",
+    "reason": "Italian island"
+   },
+   {
+    "answer": "Malé",
+    "reason": "Capital city of the Maldives"
+   },
+   {
+    "answer": "Socotra",
+    "reason": "Island of Yemen"
+   },
+   {
+    "answer": "Rodrigues",
+    "reason": "Autonomous island of Mauritius"
+   },
+   {
+    "answer": "Kiritimati",
+    "reason": "Atoll of Kiribati"
+   },
+   {
+    "answer": "Wake Island",
+    "reason": "US territory"
+   },
+   {
+    "answer": "Midway Atoll",
+    "reason": "US territory"
+   },
+   {
+    "answer": "Tuvalu Funafuti",
+    "reason": "Malformed entry; Funafuti is Tuvalu's atoll/capital"
+   },
+   {
+    "answer": "Rarotonga",
+    "reason": "Island of the Cook Islands"
+   },
+   {
+    "answer": "Bougainville",
+    "reason": "Autonomous region of Papua New Guinea"
+   },
+   {
+    "answer": "Vanua Levu",
+    "reason": "Island of Fiji"
+   },
+   {
+    "answer": "Upolu",
+    "reason": "Island of Samoa"
+   },
+   {
+    "answer": "Savai'i",
+    "reason": "Island of Samoa"
+   },
+   {
+    "answer": "Tortola",
+    "reason": "Island of the British Virgin Islands"
+   },
+   {
+    "answer": "Nevis",
+    "reason": "Island part of Saint Kitts and Nevis"
+   },
+   {
+    "answer": "Bequia",
+    "reason": "Island of Saint Vincent and the Grenadines"
+   },
+   {
+    "answer": "Carriacou",
+    "reason": "Island of Grenada"
+   },
+   {
+    "answer": "Tobago",
+    "reason": "Island part of Trinidad and Tobago"
+   },
+   {
+    "answer": "Trinidad",
+    "reason": "Island part of Trinidad and Tobago"
+   },
+   {
+    "answer": "Antigua",
+    "reason": "Island part of Antigua and Barbuda"
+   },
+   {
+    "answer": "Barbuda",
+    "reason": "Island part of Antigua and Barbuda"
+   },
+   {
+    "answer": "Saint Kitts",
+    "reason": "Island part of Saint Kitts and Nevis"
+   },
+   {
+    "answer": "Hispaniola",
+    "reason": "Island shared by two countries, not a nation"
+   },
+   {
+    "answer": "Vieques",
+    "reason": "Island of Puerto Rico"
+   },
+   {
+    "answer": "Roatán",
+    "reason": "Island of Honduras"
+   },
+   {
+    "answer": "Isla Margarita",
+    "reason": "Island of Venezuela"
+   },
+   {
+    "answer": "Chiloé",
+    "reason": "Island of Chile"
+   },
+   {
+    "answer": "Tierra del Fuego",
+    "reason": "Archipelago shared by Chile and Argentina"
+   },
+   {
+    "answer": "Baffin Island",
+    "reason": "Island of Canada"
+   },
+   {
+    "answer": "Ellesmere Island",
+    "reason": "Island of Canada"
+   },
+   {
+    "answer": "Victoria Island",
+    "reason": "Island of Canada"
+   },
+   {
+    "answer": "Cape Breton Island",
+    "reason": "Island of Canada"
+   },
+   {
+    "answer": "Orkney",
+    "reason": "Scottish island group"
+   },
+   {
+    "answer": "Shetland",
+    "reason": "Scottish island group"
+   },
+   {
+    "answer": "Isle of Wight",
+    "reason": "English island/county"
+   },
+   {
+    "answer": "Anglesey",
+    "reason": "Welsh island/county"
+   },
+   {
+    "answer": "Skye",
+    "reason": "Scottish island"
+   },
+   {
+    "answer": "Lewis and Harris",
+    "reason": "Scottish island"
+   }
+  ]
+ },
+ "ttft_ms": 11912,
+ "type": "result",
+ "duration_ms": 27941,
+ "uuid": "d4fb5d1f-fa32-4092-b3b4-2c6b55f69c63",
+ "ttft_stream_ms": 832,
+ "time_to_request_ms": 32,
+ "first_content_frame_ms": 832,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

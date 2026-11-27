@@ -1,0 +1,538 @@
+{
+ "duration_api_ms": 37982,
+ "stop_reason": "tool_use",
+ "session_id": "f31963e2-9cd2-4835-87bf-4b01c54fcdb7",
+ "total_cost_usd": 0.0994536,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 8382,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 6580,
+  "output_tokens_details": {
+   "thinking_tokens": 3933
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8382,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 6580,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 8382,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8382
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 6580,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 8382,
+   "webSearchRequests": 0,
+   "costUSD": 0.0994536,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 3933,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"London\",\"reason\":\"Inland on the Thames, not on the coast\"},{\"answer\":\"Paris\",\"reason\":\"Inland\"},{\"answer\":\"Rome\",\"reason\":\"About 25 km inland\"},{\"answer\":\"Tirana\",\"reason\":\"Inland\"},{\"answer\":\"Podgorica\",\"reason\":\"Inland\"},{\"answer\":\"Washington, D.C.\",\"reason\":\"Inland on the Potomac\"},{\"answer\":\"Belize City\",\"reason\":\"Not the capital (Belmopan is)\"},{\"answer\":\"Santiago\",\"reason\":\"Inland\"},{\"answer\":\"Caracas\",\"reason\":\"Inland, behind a mountain range\"},{\"answer\":\"Brasília\",\"reason\":\"Inland\"},{\"answer\":\"Dar es Salaam\",\"reason\":\"Not the capital (Dodoma is)\"},{\"answer\":\"Cairo\",\"reason\":\"Inland\"},{\"answer\":\"Asmara\",\"reason\":\"Inland highlands\"},{\"answer\":\"Abidjan\",\"reason\":\"Not the capital (Yamoussoukro is)\"},{\"answer\":\"Tel Aviv\",\"reason\":\"Not a capital\"},{\"answer\":\"Sri Jayawardenepura Kotte\",\"reason\":\"Inland\"},{\"answer\":\"Dhaka\",\"reason\":\"Inland\"},{\"answer\":\"Hanoi\",\"reason\":\"Inland\"},{\"answer\":\"Phnom Penh\",\"reason\":\"Inland\"},{\"answer\":\"Seoul\",\"reason\":\"Not on the coast\"},{\"answer\":\"Pyongyang\",\"reason\":\"Inland\"},{\"answer\":\"Canberra\",\"reason\":\"Inland\"},{\"answer\":\"Amsterdam\",\"reason\":\"Not on the coast\"},{\"answer\":\"Zagreb\",\"reason\":\"Inland\"},{\"answer\":\"Ljubljana\",\"reason\":\"Inland\"},{\"answer\":\"Nicosia\",\"reason\":\"Inland\"},{\"answer\":\"Ankara\",\"reason\":\"Inland\"},{\"answer\":\"Berlin\",\"reason\":\"Inland\"},{\"answer\":\"Warsaw\",\"reason\":\"Inland\"},{\"answer\":\"Vilnius\",\"reason\":\"Inland\"},{\"answer\":\"Kyiv\",\"reason\":\"Inland\"},{\"answer\":\"Moscow\",\"reason\":\"Inland\"},{\"answer\":\"Brussels\",\"reason\":\"Inland\"},{\"answer\":\"Madrid\",\"reason\":\"Inland\"},{\"answer\":\"Sri Lanka\",\"reason\":\"A country, not a city\"},{\"answer\":\"Hong Kong\",\"reason\":\"Not a capital\"},{\"answer\":\"Macau\",\"reason\":\"Not a capital\"},{\"answer\":\"Lagos\",\"reason\":\"Not a capital\"},{\"answer\":\"Vancouver\",\"reason\":\"Not a capital (Victoria is BC's)\"},{\"answer\":\"Sacramento\",\"reason\":\"Inland\"},{\"answer\":\"Saipan\",\"reason\":\"An island, not the capital city\"},{\"answer\":\"Naypyidaw\",\"reason\":\"Inland\"},{\"answer\":\"Yangon\",\"reason\":\"Not the capital since 2006\"},{\"answer\":\"Taipei\",\"reason\":\"Not on the coast\"},{\"answer\":\"Beijing\",\"reason\":\"Inland\"},{\"answer\":\"Shanghai\",\"reason\":\"Not a capital\"},{\"answer\":\"Bern\",\"reason\":\"Inland\"},{\"answer\":\"Tbilisi\",\"reason\":\"Inland\"},{\"answer\":\"Istanbul\",\"reason\":\"Not a capital\"},{\"answer\":\"Sarajevo\",\"reason\":\"Inland\"},{\"answer\":\"Sofia\",\"reason\":\"Inland\"},{\"answer\":\"Bucharest\",\"reason\":\"Inland\"},{\"answer\":\"Sana'a\",\"reason\":\"Inland\"},{\"answer\":\"Jeddah\",\"reason\":\"Not a capital\"},{\"answer\":\"Riyadh\",\"reason\":\"Inland\"},{\"answer\":\"Amman\",\"reason\":\"Inland\"},{\"answer\":\"Jerusalem\",\"reason\":\"Inland\"},{\"answer\":\"Damascus\",\"reason\":\"Inland\"},{\"answer\":\"Tehran\",\"reason\":\"Inland\"},{\"answer\":\"Baghdad\",\"reason\":\"Inland\"},{\"answer\":\"Khartoum\",\"reason\":\"Inland\"},{\"answer\":\"Dodoma\",\"reason\":\"Inland\"},{\"answer\":\"Nairobi\",\"reason\":\"Inland\"},{\"answer\":\"Mombasa\",\"reason\":\"Not a national capital\"},{\"answer\":\"Antananarivo\",\"reason\":\"Inland\"},{\"answer\":\"Pretoria\",\"reason\":\"Inland\"},{\"answer\":\"Windhoek\",\"reason\":\"Inland\"},{\"answer\":\"Walvis Bay\",\"reason\":\"Not a capital\"},{\"answer\":\"Nampula\",\"reason\":\"Inland provincial capital\"},{\"answer\":\"Brazzaville\",\"reason\":\"Inland, on the Congo River\"},{\"answer\":\"Kinshasa\",\"reason\":\"Inland\"},{\"answer\":\"Yaoundé\",\"reason\":\"Inland\"},{\"answer\":\"Douala\",\"reason\":\"Not a capital\"},{\"answer\":\"Abuja\",\"reason\":\"Inland\"},{\"answer\":\"Ouagadougou\",\"reason\":\"Landlocked\"},{\"answer\":\"Bamako\",\"reason\":\"Landlocked\"},{\"answer\":\"Niamey\",\"reason\":\"Landlocked\"},{\"answer\":\"Ndjamena\",\"reason\":\"Landlocked\"},{\"answer\":\"Kampala\",\"reason\":\"Landlocked\"},{\"answer\":\"Kigali\",\"reason\":\"Landlocked\"},{\"answer\":\"Bujumbura\",\"reason\":\"Landlocked, and no longer the political capital\"},{\"answer\":\"Addis Ababa\",\"reason\":\"Landlocked\"},{\"answer\":\"San Salvador\",\"reason\":\"Inland\"},{\"answer\":\"San José\",\"reason\":\"Inland\"},{\"answer\":\"Managua\",\"reason\":\"On a lake, not the sea\"},{\"answer\":\"Tegucigalpa\",\"reason\":\"Inland\"},{\"answer\":\"Guatemala City\",\"reason\":\"Inland\"},{\"answer\":\"Mexico City\",\"reason\":\"Inland\"},{\"answer\":\"Ottawa\",\"reason\":\"Inland\"},{\"answer\":\"La Paz\",\"reason\":\"Landlocked\"},{\"answer\":\"Quito\",\"reason\":\"Inland\"},{\"answer\":\"Bogotá\",\"reason\":\"Inland\"},{\"answer\":\"Asunción\",\"reason\":\"Landlocked\"},{\"answer\":\"Vaduz\",\"reason\":\"Landlocked\"},{\"answer\":\"Luxembourg\",\"reason\":\"Landlocked\"},{\"answer\":\"Budapest\",\"reason\":\"Landlocked\"},{\"answer\":\"Prague\",\"reason\":\"Landlocked\"},{\"answer\":\"Vienna\",\"reason\":\"Landlocked\"},{\"answer\":\"Bratislava\",\"reason\":\"Landlocked\"},{\"answer\":\"Minsk\",\"reason\":\"Landlocked\"},{\"answer\":\"Chisinau\",\"reason\":\"Landlocked\"},{\"answer\":\"Skopje\",\"reason\":\"Landlocked\"},{\"answer\":\"Belgrade\",\"reason\":\"Landlocked\"},{\"answer\":\"Pristina\",\"reason\":\"Landlocked\"},{\"answer\":\"San Marino\",\"reason\":\"Landlocked\"},{\"answer\":\"Andorra la Vella\",\"reason\":\"Landlocked\"},{\"answer\":\"Vatican City\",\"reason\":\"Landlocked\"},{\"answer\":\"Saint Petersburg\",\"reason\":\"Not a capital\"},{\"answer\":\"Mexico\",\"reason\":\"A country, not a city\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "London",
+    "reason": "Inland on the Thames, not on the coast"
+   },
+   {
+    "answer": "Paris",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Rome",
+    "reason": "About 25 km inland"
+   },
+   {
+    "answer": "Tirana",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Podgorica",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Washington, D.C.",
+    "reason": "Inland on the Potomac"
+   },
+   {
+    "answer": "Belize City",
+    "reason": "Not the capital (Belmopan is)"
+   },
+   {
+    "answer": "Santiago",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Caracas",
+    "reason": "Inland, behind a mountain range"
+   },
+   {
+    "answer": "Brasília",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Dar es Salaam",
+    "reason": "Not the capital (Dodoma is)"
+   },
+   {
+    "answer": "Cairo",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Asmara",
+    "reason": "Inland highlands"
+   },
+   {
+    "answer": "Abidjan",
+    "reason": "Not the capital (Yamoussoukro is)"
+   },
+   {
+    "answer": "Tel Aviv",
+    "reason": "Not a capital"
+   },
+   {
+    "answer": "Sri Jayawardenepura Kotte",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Dhaka",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Hanoi",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Phnom Penh",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Seoul",
+    "reason": "Not on the coast"
+   },
+   {
+    "answer": "Pyongyang",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Canberra",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Amsterdam",
+    "reason": "Not on the coast"
+   },
+   {
+    "answer": "Zagreb",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Ljubljana",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Nicosia",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Ankara",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Berlin",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Warsaw",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Vilnius",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Kyiv",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Moscow",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Brussels",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Madrid",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Sri Lanka",
+    "reason": "A country, not a city"
+   },
+   {
+    "answer": "Hong Kong",
+    "reason": "Not a capital"
+   },
+   {
+    "answer": "Macau",
+    "reason": "Not a capital"
+   },
+   {
+    "answer": "Lagos",
+    "reason": "Not a capital"
+   },
+   {
+    "answer": "Vancouver",
+    "reason": "Not a capital (Victoria is BC's)"
+   },
+   {
+    "answer": "Sacramento",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Saipan",
+    "reason": "An island, not the capital city"
+   },
+   {
+    "answer": "Naypyidaw",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Yangon",
+    "reason": "Not the capital since 2006"
+   },
+   {
+    "answer": "Taipei",
+    "reason": "Not on the coast"
+   },
+   {
+    "answer": "Beijing",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Shanghai",
+    "reason": "Not a capital"
+   },
+   {
+    "answer": "Bern",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Tbilisi",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Istanbul",
+    "reason": "Not a capital"
+   },
+   {
+    "answer": "Sarajevo",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Sofia",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Bucharest",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Sana'a",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Jeddah",
+    "reason": "Not a capital"
+   },
+   {
+    "answer": "Riyadh",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Amman",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Jerusalem",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Damascus",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Tehran",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Baghdad",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Khartoum",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Dodoma",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Nairobi",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Mombasa",
+    "reason": "Not a national capital"
+   },
+   {
+    "answer": "Antananarivo",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Pretoria",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Windhoek",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Walvis Bay",
+    "reason": "Not a capital"
+   },
+   {
+    "answer": "Nampula",
+    "reason": "Inland provincial capital"
+   },
+   {
+    "answer": "Brazzaville",
+    "reason": "Inland, on the Congo River"
+   },
+   {
+    "answer": "Kinshasa",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Yaoundé",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Douala",
+    "reason": "Not a capital"
+   },
+   {
+    "answer": "Abuja",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Ouagadougou",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Bamako",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Niamey",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Ndjamena",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Kampala",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Kigali",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Bujumbura",
+    "reason": "Landlocked, and no longer the political capital"
+   },
+   {
+    "answer": "Addis Ababa",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "San Salvador",
+    "reason": "Inland"
+   },
+   {
+    "answer": "San José",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Managua",
+    "reason": "On a lake, not the sea"
+   },
+   {
+    "answer": "Tegucigalpa",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Guatemala City",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Mexico City",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Ottawa",
+    "reason": "Inland"
+   },
+   {
+    "answer": "La Paz",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Quito",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Bogotá",
+    "reason": "Inland"
+   },
+   {
+    "answer": "Asunción",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Vaduz",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Luxembourg",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Budapest",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Prague",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Vienna",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Bratislava",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Minsk",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Chisinau",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Skopje",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Belgrade",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Pristina",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "San Marino",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Andorra la Vella",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Vatican City",
+    "reason": "Landlocked"
+   },
+   {
+    "answer": "Saint Petersburg",
+    "reason": "Not a capital"
+   },
+   {
+    "answer": "Mexico",
+    "reason": "A country, not a city"
+   }
+  ]
+ },
+ "ttft_ms": 25829,
+ "type": "result",
+ "duration_ms": 38039,
+ "uuid": "d4d20cb4-8e14-426b-8bd6-57198ce31f14",
+ "ttft_stream_ms": 683,
+ "time_to_request_ms": 32,
+ "first_content_frame_ms": 683,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

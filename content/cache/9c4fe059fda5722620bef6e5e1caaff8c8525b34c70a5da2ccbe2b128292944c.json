@@ -1,0 +1,163 @@
+{
+ "duration_api_ms": 3645,
+ "stop_reason": "tool_use",
+ "session_id": "ba10f40a-fb9b-4bdb-9b4b-bd220f46a615",
+ "total_cost_usd": 0.0335872,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 7010,
+  "cache_read_input_tokens": 716,
+  "output_tokens": 540,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7010,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 540,
+    "cache_read_input_tokens": 716,
+    "cache_creation_input_tokens": 7010,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7010
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 540,
+   "cacheReadInputTokens": 716,
+   "cacheCreationInputTokens": 7010,
+   "webSearchRequests": 0,
+   "costUSD": 0.0335872,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"paper\":[\"Japan\",\"United Kingdom\",\"Ireland\",\"Iceland\",\"Cuba\",\"Jamaica\",\"Philippines\",\"Indonesia\",\"New Zealand\",\"Madagascar\"],\"balloon\":[\"Maldives\",\"Fiji\",\"Seychelles\",\"Mauritius\",\"Malta\"],\"jet\":[\"Haiti\",\"Dominican Republic\",\"Bahamas\",\"Barbados\",\"Trinidad and Tobago\",\"Grenada\",\"Saint Lucia\",\"Antigua and Barbuda\",\"Saint Kitts and Nevis\",\"Sri Lanka\",\"Singapore\",\"Taiwan\",\"Cyprus\",\"Papua New Guinea\",\"Samoa\",\"Tonga\",\"Bahrain\",\"Vanuatu\",\"Solomon Islands\",\"Cape Verde\",\"Comoros\",\"Palau\",\"Marshall Islands\",\"Kiribati\",\"Tuvalu\",\"Nauru\",\"Dominica\",\"Brunei\",\"Saint Vincent and the Grenadines\"],\"orbit\":[\"Timor-Leste\",\"São Tomé and Príncipe\",\"Federated States of Micronesia\",\"Cook Islands\",\"Niue\",\"Fiji Islands\",\"Taiwan Republic of China\"],\"apogee\":{\"answer\":\"Nauru\",\"quip\":\"Nauru is the world's smallest island nation, about 21 square kilometres, and has no official capital.\"}}",
+ "structured_output": {
+  "paper": [
+   "Japan",
+   "United Kingdom",
+   "Ireland",
+   "Iceland",
+   "Cuba",
+   "Jamaica",
+   "Philippines",
+   "Indonesia",
+   "New Zealand",
+   "Madagascar"
+  ],
+  "balloon": [
+   "Maldives",
+   "Fiji",
+   "Seychelles",
+   "Mauritius",
+   "Malta"
+  ],
+  "jet": [
+   "Haiti",
+   "Dominican Republic",
+   "Bahamas",
+   "Barbados",
+   "Trinidad and Tobago",
+   "Grenada",
+   "Saint Lucia",
+   "Antigua and Barbuda",
+   "Saint Kitts and Nevis",
+   "Sri Lanka",
+   "Singapore",
+   "Taiwan",
+   "Cyprus",
+   "Papua New Guinea",
+   "Samoa",
+   "Tonga",
+   "Bahrain",
+   "Vanuatu",
+   "Solomon Islands",
+   "Cape Verde",
+   "Comoros",
+   "Palau",
+   "Marshall Islands",
+   "Kiribati",
+   "Tuvalu",
+   "Nauru",
+   "Dominica",
+   "Brunei",
+   "Saint Vincent and the Grenadines"
+  ],
+  "orbit": [
+   "Timor-Leste",
+   "São Tomé and Príncipe",
+   "Federated States of Micronesia",
+   "Cook Islands",
+   "Niue",
+   "Fiji Islands",
+   "Taiwan Republic of China"
+  ],
+  "apogee": {
+   "answer": "Nauru",
+   "quip": "Nauru is the world's smallest island nation, about 21 square kilometres, and has no official capital."
+  }
+ },
+ "ttft_ms": 3657,
+ "type": "result",
+ "duration_ms": 3698,
+ "uuid": "30c684ed-7896-4af2-9870-b9ec0de04b23",
+ "ttft_stream_ms": 1149,
+ "time_to_request_ms": 29,
+ "first_content_frame_ms": 1150,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

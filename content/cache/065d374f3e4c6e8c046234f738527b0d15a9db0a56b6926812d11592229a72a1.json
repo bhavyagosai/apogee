@@ -1,0 +1,106 @@
+{
+ "duration_api_ms": 8245,
+ "stop_reason": "tool_use",
+ "session_id": "01190747-e4ac-4838-beac-452d013d47df",
+ "total_cost_usd": 0.0319816,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 6889,
+  "cache_read_input_tokens": 708,
+  "output_tokens": 428,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6889,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 428,
+    "cache_read_input_tokens": 708,
+    "cache_creation_input_tokens": 6889,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6889
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 428,
+   "cacheReadInputTokens": 708,
+   "cacheCreationInputTokens": 6889,
+   "webSearchRequests": 0,
+   "costUSD": 0.0319816,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"source\":\"wikidata\",\"reason\":\"Ball sports at the Olympics are modeled in Wikidata as sports (or subclasses of ball game). Olympic sport items can be found through the \\\"part of\\\" or \\\"participant in\\\" Olympic Games relationship.\",\"wikidata\":{\"where\":\"{ ?item wdt:P31/wdt:P279* wd:Q2736 . } UNION { ?item wdt:P279* wd:Q2736 . } ?item wdt:P279* wd:Q1075 . FILTER(?item != wd:Q1075)\",\"notes\":\"Placeholder pattern needs verification. Intended: sports (Q349) that are ball games (Q1075? verify) and are Olympic sports. A safer form: ?item wdt:P279*/wdt:P31 wd:Q212434 (ball game) with ?item wdt:P1344 wd:Q8088 (participant in Summer Olympics) or a sport-at-Olympics item. Filter to sports with P2094 wd:Q18536594 (Olympic sport competition classification) if available.\"}}",
+ "structured_output": {
+  "source": "wikidata",
+  "reason": "Ball sports at the Olympics are modeled in Wikidata as sports (or subclasses of ball game). Olympic sport items can be found through the \"part of\" or \"participant in\" Olympic Games relationship.",
+  "wikidata": {
+   "where": "{ ?item wdt:P31/wdt:P279* wd:Q2736 . } UNION { ?item wdt:P279* wd:Q2736 . } ?item wdt:P279* wd:Q1075 . FILTER(?item != wd:Q1075)",
+   "notes": "Placeholder pattern needs verification. Intended: sports (Q349) that are ball games (Q1075? verify) and are Olympic sports. A safer form: ?item wdt:P279*/wdt:P31 wd:Q212434 (ball game) with ?item wdt:P1344 wd:Q8088 (participant in Summer Olympics) or a sport-at-Olympics item. Filter to sports with P2094 wd:Q18536594 (Olympic sport competition classification) if available."
+  }
+ },
+ "ttft_ms": 8274,
+ "type": "result",
+ "duration_ms": 8370,
+ "uuid": "a04ae29d-82d0-4f30-913e-85f42f2d437c",
+ "ttft_stream_ms": 4599,
+ "time_to_request_ms": 70,
+ "first_content_frame_ms": 4599,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

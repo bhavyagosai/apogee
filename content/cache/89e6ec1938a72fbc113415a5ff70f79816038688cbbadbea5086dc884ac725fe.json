@@ -1,0 +1,249 @@
+{
+ "duration_api_ms": 51786,
+ "stop_reason": "tool_use",
+ "session_id": "a1e65f40-a7f9-46fe-aca7-9880f4d0e8d2",
+ "total_cost_usd": 0.116481,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 12605,
+  "cache_read_input_tokens": 8065,
+  "output_tokens": 6444,
+  "output_tokens_details": {
+   "thinking_tokens": 5046
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 12605,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 695,
+    "cache_read_input_tokens": 7445,
+    "cache_creation_input_tokens": 5780,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5780
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 6444,
+   "cacheReadInputTokens": 8065,
+   "cacheCreationInputTokens": 12605,
+   "webSearchRequests": 0,
+   "costUSD": 0.116481,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 5046,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 3,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"answers\":[{\"answer\":\"Reifier\",\"aliases\":[]},{\"answer\":\"Pullup\",\"aliases\":[\"Pull-up\",\"Pull up\"]},{\"answer\":\"Denned\",\"aliases\":[]},{\"answer\":\"Deled\",\"aliases\":[]},{\"answer\":\"Deked\",\"aliases\":[]},{\"answer\":\"Deleveled\",\"aliases\":[]},{\"answer\":\"Seres\",\"aliases\":[]},{\"answer\":\"Nisin\",\"aliases\":[]},{\"answer\":\"Murdrum\",\"aliases\":[]},{\"answer\":\"Evitative\",\"aliases\":[]},{\"answer\":\"Aibohphobia\",\"aliases\":[]},{\"answer\":\"Hajjah\",\"aliases\":[]},{\"answer\":\"Waw\",\"aliases\":[]},{\"answer\":\"Zuz\",\"aliases\":[]},{\"answer\":\"Mim\",\"aliases\":[]},{\"answer\":\"Bub\",\"aliases\":[]},{\"answer\":\"Sus\",\"aliases\":[]},{\"answer\":\"Aa\",\"aliases\":[]},{\"answer\":\"Ala\",\"aliases\":[]},{\"answer\":\"Amma\",\"aliases\":[]},{\"answer\":\"Atta\",\"aliases\":[]},{\"answer\":\"Appa\",\"aliases\":[]},{\"answer\":\"Aia\",\"aliases\":[]},{\"answer\":\"Oo\",\"aliases\":[]},{\"answer\":\"Mm\",\"aliases\":[]},{\"answer\":\"Ee\",\"aliases\":[]},{\"answer\":\"Eme\",\"aliases\":[]},{\"answer\":\"Kak\",\"aliases\":[]},{\"answer\":\"Utu\",\"aliases\":[]},{\"answer\":\"Dod\",\"aliases\":[]},{\"answer\":\"Sulus\",\"aliases\":[]},{\"answer\":\"Lemel\",\"aliases\":[]},{\"answer\":\"Aviva\",\"aliases\":[]},{\"answer\":\"Viv\",\"aliases\":[]},{\"answer\":\"Lil\",\"aliases\":[]},{\"answer\":\"Oxo\",\"aliases\":[]}]}",
+ "structured_output": {
+  "answers": [
+   {
+    "answer": "Reifier",
+    "aliases": []
+   },
+   {
+    "answer": "Pullup",
+    "aliases": [
+     "Pull-up",
+     "Pull up"
+    ]
+   },
+   {
+    "answer": "Denned",
+    "aliases": []
+   },
+   {
+    "answer": "Deled",
+    "aliases": []
+   },
+   {
+    "answer": "Deked",
+    "aliases": []
+   },
+   {
+    "answer": "Deleveled",
+    "aliases": []
+   },
+   {
+    "answer": "Seres",
+    "aliases": []
+   },
+   {
+    "answer": "Nisin",
+    "aliases": []
+   },
+   {
+    "answer": "Murdrum",
+    "aliases": []
+   },
+   {
+    "answer": "Evitative",
+    "aliases": []
+   },
+   {
+    "answer": "Aibohphobia",
+    "aliases": []
+   },
+   {
+    "answer": "Hajjah",
+    "aliases": []
+   },
+   {
+    "answer": "Waw",
+    "aliases": []
+   },
+   {
+    "answer": "Zuz",
+    "aliases": []
+   },
+   {
+    "answer": "Mim",
+    "aliases": []
+   },
+   {
+    "answer": "Bub",
+    "aliases": []
+   },
+   {
+    "answer": "Sus",
+    "aliases": []
+   },
+   {
+    "answer": "Aa",
+    "aliases": []
+   },
+   {
+    "answer": "Ala",
+    "aliases": []
+   },
+   {
+    "answer": "Amma",
+    "aliases": []
+   },
+   {
+    "answer": "Atta",
+    "aliases": []
+   },
+   {
+    "answer": "Appa",
+    "aliases": []
+   },
+   {
+    "answer": "Aia",
+    "aliases": []
+   },
+   {
+    "answer": "Oo",
+    "aliases": []
+   },
+   {
+    "answer": "Mm",
+    "aliases": []
+   },
+   {
+    "answer": "Ee",
+    "aliases": []
+   },
+   {
+    "answer": "Eme",
+    "aliases": []
+   },
+   {
+    "answer": "Kak",
+    "aliases": []
+   },
+   {
+    "answer": "Utu",
+    "aliases": []
+   },
+   {
+    "answer": "Dod",
+    "aliases": []
+   },
+   {
+    "answer": "Sulus",
+    "aliases": []
+   },
+   {
+    "answer": "Lemel",
+    "aliases": []
+   },
+   {
+    "answer": "Aviva",
+    "aliases": []
+   },
+   {
+    "answer": "Viv",
+    "aliases": []
+   },
+   {
+    "answer": "Lil",
+    "aliases": []
+   },
+   {
+    "answer": "Oxo",
+    "aliases": []
+   }
+  ]
+ },
+ "ttft_ms": 44558,
+ "type": "result",
+ "duration_ms": 51853,
+ "uuid": "0943aa36-e13c-44ce-9868-aa1ab0a95784",
+ "ttft_stream_ms": 1239,
+ "time_to_request_ms": 30,
+ "first_content_frame_ms": 1239,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

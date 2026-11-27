@@ -1,0 +1,33 @@
+{
+  "date": "2000-01-01",
+  "prompts": [
+    { "id": "p1", "text": "Name a primary colour", "answers": [
+      { "answer": "Red", "tier": "paper" }, { "answer": "Blue", "tier": "paper" }, { "answer": "Yellow", "tier": "jet" },
+      { "answer": "Green", "aliases": ["Grn"], "tier": "orbit" }, { "answer": "Cyan", "tier": "deep" },
+      { "answer": "Magenta", "tier": "apogee", "quip": "Magenta is not in the rainbow: your brain invents it where red and violet meet." } ] },
+    { "id": "p2", "text": "Name a planet", "answers": [
+      { "answer": "Earth", "tier": "paper" }, { "answer": "Mars", "tier": "paper" }, { "answer": "Jupiter", "tier": "jet" },
+      { "answer": "Saturn", "tier": "jet" }, { "answer": "Neptune", "tier": "orbit" }, { "answer": "Uranus", "tier": "balloon" },
+      { "answer": "Mercury", "tier": "orbit" }, { "answer": "Venus", "tier": "jet" }, { "answer": "Kepler-452b", "aliases": ["Kepler 452b"], "tier": "deep" },
+      { "answer": "Proxima Centauri b", "aliases": ["Proxima b"], "tier": "apogee", "quip": "The closest known exoplanet, 4.2 light-years away, orbiting a red dwarf every 11 days." } ] },
+    { "id": "p3", "text": "Name a fruit", "answers": [
+      { "answer": "Apple", "tier": "paper" }, { "answer": "Banana", "tier": "paper" }, { "answer": "Mango", "tier": "jet" },
+      { "answer": "Durian", "tier": "balloon" }, { "answer": "Lychee", "aliases": ["Litchi"], "tier": "orbit" }, { "answer": "Rambutan", "tier": "deep" },
+      { "answer": "Miracle fruit", "aliases": ["Miracle berry"], "tier": "apogee", "quip": "Eat one and lemons taste sweet for an hour: a protein called miraculin rewires your sour receptors." } ] },
+    { "id": "p4", "text": "Name a chess piece", "answers": [
+      { "answer": "King", "tier": "paper" }, { "answer": "Queen", "tier": "paper" }, { "answer": "Knight", "aliases": ["Horse"], "tier": "jet" },
+      { "answer": "Bishop", "tier": "jet" }, { "answer": "Rook", "aliases": ["Castle"], "tier": "orbit" }, { "answer": "Pawn", "tier": "jet" } ] },
+    { "id": "p5", "text": "Name a programming language", "answers": [
+      { "answer": "Python", "tier": "paper" }, { "answer": "JavaScript", "aliases": ["JS"], "tier": "paper" }, { "answer": "Rust", "tier": "jet" },
+      { "answer": "Haskell", "tier": "orbit" }, { "answer": "COBOL", "tier": "balloon" }, { "answer": "Brainfuck", "tier": "deep" },
+      { "answer": "Malbolge", "tier": "apogee", "quip": "Designed to be impossible to program in; the first working Malbolge program was found by a search algorithm, not written." } ] },
+    { "id": "p6", "text": "Name a musical instrument", "answers": [
+      { "answer": "Guitar", "tier": "paper" }, { "answer": "Piano", "tier": "paper" }, { "answer": "Violin", "tier": "jet" },
+      { "answer": "Theremin", "tier": "balloon" }, { "answer": "Oboe", "tier": "orbit" }, { "answer": "Hurdy-gurdy", "aliases": ["Hurdy gurdy"], "tier": "deep" },
+      { "answer": "Glass armonica", "aliases": ["Glass harmonica"], "tier": "apogee", "quip": "Invented by Benjamin Franklin in 1761; Mozart wrote for it." } ] },
+    { "id": "p7", "text": "Name an ocean", "answers": [
+      { "answer": "Pacific", "aliases": ["Pacific Ocean"], "tier": "paper" }, { "answer": "Atlantic", "aliases": ["Atlantic Ocean"], "tier": "paper" },
+      { "answer": "Indian", "aliases": ["Indian Ocean"], "tier": "jet" }, { "answer": "Arctic", "aliases": ["Arctic Ocean"], "tier": "orbit" },
+      { "answer": "Southern", "aliases": ["Southern Ocean", "Antarctic Ocean"], "tier": "apogee", "quip": "Only recognised as the fifth ocean by National Geographic in 2021." } ] }
+  ]
+}

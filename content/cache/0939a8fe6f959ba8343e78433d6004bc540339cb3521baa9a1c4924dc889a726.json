@@ -1,0 +1,922 @@
+{
+ "duration_api_ms": 55037,
+ "stop_reason": "tool_use",
+ "session_id": "3dcdafc3-e21a-4017-9205-5a3ce125e418",
+ "total_cost_usd": 0.1385896,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 10256,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 9744,
+  "output_tokens_details": {
+   "thinking_tokens": 4306
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10256,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 9744,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 10256,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10256
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 9744,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 10256,
+   "webSearchRequests": 0,
+   "costUSD": 0.1385896,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 4306,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Right Said Fred\",\"reason\":\"No number in name\"},{\"answer\":\"Plan B\",\"reason\":\"No number in name\"},{\"answer\":\"Pet Shop Boys\",\"reason\":\"No number in name\"},{\"answer\":\"Heavy D\",\"reason\":\"No number in name\"},{\"answer\":\"Lil Wayne\",\"reason\":\"No number in name\"},{\"answer\":\"Tyga\",\"reason\":\"No number in name\"},{\"answer\":\"Blue October\",\"reason\":\"A month, not a number\"},{\"answer\":\"Seven Nation Army\",\"reason\":\"A song, not a band\"},{\"answer\":\"Thirty Seconds Out\",\"reason\":\"Not a real band; the band is Thirty Seconds to Mars\"},{\"answer\":\"The Band of Seven\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Eight Wonder\",\"reason\":\"Incorrect name; the band is Eighth Wonder\"},{\"answer\":\"The Nine Nine\",\"reason\":\"Not a band (Brooklyn Nine-Nine reference)\"},{\"answer\":\"The Thirteenth Floor\",\"reason\":\"Not a verifiable real act; the band is The 13th Floor Elevators\"},{\"answer\":\"Sigue Sigue Sputnik\",\"reason\":\"No number in name\"},{\"answer\":\"Bruce Hornsby\",\"reason\":\"No number in name\"},{\"answer\":\"Hootie\",\"reason\":\"No number in name\"},{\"answer\":\"The Three Stooges\",\"reason\":\"Comedy act, not a band or musical artist\"},{\"answer\":\"Triple Eight\",\"reason\":\"Not a verifiable real act; 'triple' isn't a number\"},{\"answer\":\"Deuce\",\"reason\":\"No number in name\"},{\"answer\":\"The Second City\",\"reason\":\"Improv theater, not a band or artist\"},{\"answer\":\"The Two Tones\",\"reason\":\"Not a real act; 2 Tone was a label and genre\"},{\"answer\":\"The Two of Us\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Sly Five\",\"reason\":\"Not a real act\"},{\"answer\":\"Six Going on Seven\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Sixteen Candles\",\"reason\":\"A film, not a band\"},{\"answer\":\"Forty Four\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"The 40 Thieves\",\"reason\":\"Not a verifiable real band\"},{\"answer\":\"4Tops\",\"reason\":\"Misspelling of Four Tops, which is already listed\"},{\"answer\":\"Fourth Day\",\"reason\":\"Not a verifiable real act; the band is Third Day\"},{\"answer\":\"Foreign Beggars\",\"reason\":\"No number in name\"},{\"answer\":\"Cinderella\",\"reason\":\"No number in name\"},{\"answer\":\"Five Years\",\"reason\":\"A song, not a band\"},{\"answer\":\"Pink Floyd\",\"reason\":\"No number in name\"},{\"answer\":\"Brooklyn Bounce\",\"reason\":\"No number in name\"},{\"answer\":\"Vengaboys\",\"reason\":\"No number in name\"},{\"answer\":\"No Doubt\",\"reason\":\"No number in name\"},{\"answer\":\"Bell Biv DeVoe\",\"reason\":\"No number in name\"},{\"answer\":\"Dru Hill\",\"reason\":\"No number in name\"},{\"answer\":\"Route 66\",\"reason\":\"A road, not a band\"},{\"answer\":\"Area 51\",\"reason\":\"A place, not a band\"},{\"answer\":\"Studio 54\",\"reason\":\"A nightclub, not a band\"},{\"answer\":\"Sector 9\",\"reason\":\"Not a verifiable real band\"},{\"answer\":\"Boys Like Girls\",\"reason\":\"No number in name\"},{\"answer\":\"Orchestral Manoeuvres in the Dark\",\"reason\":\"No number in name\"},{\"answer\":\"Dr. Dre\",\"reason\":\"No number in name\"},{\"answer\":\"Pope Joan\",\"reason\":\"No number in name\"},{\"answer\":\"Sparks\",\"reason\":\"No number in name\"},{\"answer\":\"Bad Company\",\"reason\":\"No number in name\"},{\"answer\":\"Kasabian\",\"reason\":\"No number in name\"},{\"answer\":\"Funkadelic\",\"reason\":\"No number in name\"},{\"answer\":\"Metro Station\",\"reason\":\"No number in name\"},{\"answer\":\"The Nightwatchman\",\"reason\":\"No number in name\"},{\"answer\":\"Dream Theater\",\"reason\":\"No number in name\"},{\"answer\":\"Alphaville\",\"reason\":\"No number in name\"},{\"answer\":\"Quad City DJs\",\"reason\":\"'Quad' isn't a number\"},{\"answer\":\"Mother Love Bone\",\"reason\":\"No number in name\"},{\"answer\":\"Temple of the Dog\",\"reason\":\"No number in name\"},{\"answer\":\"Pearl Jam\",\"reason\":\"No number in name\"},{\"answer\":\"Jimmy Eat World\",\"reason\":\"No number in name\"},{\"answer\":\"Maroon V\",\"reason\":\"Not a real act; the band is Maroon 5\"},{\"answer\":\"Cherry Poppin' Daddies\",\"reason\":\"No number in name\"},{\"answer\":\"Ocean Colour Scene\",\"reason\":\"No number in name\"},{\"answer\":\"Catatonia\",\"reason\":\"No number in name\"},{\"answer\":\"The 1st Chapter\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"1.8.7\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"The 2nd Law\",\"reason\":\"A Muse album, not an artist\"},{\"answer\":\"The 3rd Bass\",\"reason\":\"Incorrect name; the group is 3rd Bass\"},{\"answer\":\"Compton's Most Wanted\",\"reason\":\"No number in name\"},{\"answer\":\"The Sixth Sense\",\"reason\":\"A film, not a band\"},{\"answer\":\"Sixpence\",\"reason\":\"Incomplete name of Sixpence None the Richer, which is already listed\"},{\"answer\":\"Cheap Trick\",\"reason\":\"No number in name\"},{\"answer\":\"Seven and the Sun\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Natalie Imbruglia\",\"reason\":\"No number in name\"},{\"answer\":\"MKTO\",\"reason\":\"No number in name\"},{\"answer\":\"Boyzone\",\"reason\":\"No number in name\"},{\"answer\":\"Los Tigres del Norte\",\"reason\":\"No number in name\"},{\"answer\":\"Los Cuatro\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Tres Hombres\",\"reason\":\"An album, not an artist\"},{\"answer\":\"Les Négresses Vertes\",\"reason\":\"No number in name\"},{\"answer\":\"Dos Gringos\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Cinq\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Quatre\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Les Quatre Barbus\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Eins Zwei Polizei\",\"reason\":\"A song, not an artist\"},{\"answer\":\"Zwei\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Drei\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Vier\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Fünf\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Sechs\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Nena\",\"reason\":\"No number in name\"},{\"answer\":\"Tokio Hotel\",\"reason\":\"No number in name\"},{\"answer\":\"Dreizehn\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Sechs Tage\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Mr. Mister\",\"reason\":\"No number in name\"},{\"answer\":\"Garbage\",\"reason\":\"No number in name\"},{\"answer\":\"N-Dubz\",\"reason\":\"No number in name\"},{\"answer\":\"Sneaker Pimps\",\"reason\":\"No number in name\"},{\"answer\":\"NSYNC\",\"reason\":\"No number in name\"},{\"answer\":\"O-Town\",\"reason\":\"No number in name\"},{\"answer\":\"LFO\",\"reason\":\"No number in name\"},{\"answer\":\"Another Level\",\"reason\":\"No number in name\"},{\"answer\":\"Bad Boys Blue\",\"reason\":\"No number in name\"},{\"answer\":\"Fifth of Beethoven\",\"reason\":\"A song, not an artist\"},{\"answer\":\"Third Eye\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Boyz N the Hood\",\"reason\":\"A film, not a band\"},{\"answer\":\"The Doors\",\"reason\":\"No number in name\"},{\"answer\":\"The Hives\",\"reason\":\"No number in name\"},{\"answer\":\"Taking Back Sunday\",\"reason\":\"No number in name\"},{\"answer\":\"The Cars\",\"reason\":\"No number in name\"},{\"answer\":\"Fifty Foot Wave\",\"reason\":\"Not a real act under this name; the band is Fifty Foot Hose\"},{\"answer\":\"Forty Winks\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"The Black Eyed Peas\",\"reason\":\"No number in name\"},{\"answer\":\"Catherine Wheel\",\"reason\":\"No number in name\"},{\"answer\":\"Cold War Kids\",\"reason\":\"No number in name\"},{\"answer\":\"Highly Suspect\",\"reason\":\"No number in name\"},{\"answer\":\"Aventura\",\"reason\":\"No number in name\"},{\"answer\":\"Los 40\",\"reason\":\"A radio network, not a band\"},{\"answer\":\"Ten Out of 10\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Tenth Avenue Freeze-Out\",\"reason\":\"A song, not a band\"},{\"answer\":\"Twenty Twenty\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Forty Fathoms\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"The Mills Brothers\",\"reason\":\"No number in name\"},{\"answer\":\"The Ink Spots\",\"reason\":\"No number in name\"},{\"answer\":\"Triple Threat\",\"reason\":\"'Triple' isn't a number; not a verifiable act\"},{\"answer\":\"The Seekers\",\"reason\":\"No number in name\"},{\"answer\":\"Pentatonix\",\"reason\":\"No number as a word in the name\"},{\"answer\":\"The Jets\",\"reason\":\"No number in name\"},{\"answer\":\"Dos Santos\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"The Tens\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Twenty Flight Rock\",\"reason\":\"A song, not a band\"},{\"answer\":\"Sixties\",\"reason\":\"Generic decade, not an act\"},{\"answer\":\"Boston\",\"reason\":\"No number in name\"},{\"answer\":\"Chicago\",\"reason\":\"No number in name\"},{\"answer\":\"One Hundred Monkeys\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"The Thousand\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"A Thousand Suns\",\"reason\":\"A Linkin Park album, not an artist\"},{\"answer\":\"A Million Ways to Die\",\"reason\":\"A film title, not a band\"},{\"answer\":\"The Hundred Days\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"1000 Eyes\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"The 1900s\",\"reason\":\"Not a verifiable real act under this name\"},{\"answer\":\"1970s\",\"reason\":\"A decade, not an act\"},{\"answer\":\"Orbital 2\",\"reason\":\"An album title, not an artist\"},{\"answer\":\"Deee-Lite\",\"reason\":\"No number in name\"},{\"answer\":\"Z-Ro\",\"reason\":\"No number in name\"},{\"answer\":\"Q-Tip\",\"reason\":\"No number in name\"},{\"answer\":\"Maxi Priest\",\"reason\":\"No number in name\"},{\"answer\":\"Lil Peep\",\"reason\":\"No number in name\"},{\"answer\":\"Danny Brown\",\"reason\":\"No number in name\"},{\"answer\":\"Kris Kross\",\"reason\":\"No number in name\"},{\"answer\":\"Pitbull\",\"reason\":\"No number in name\"},{\"answer\":\"Joey Bada$$\",\"reason\":\"No number in name\"},{\"answer\":\"Yung Lean\",\"reason\":\"No number in name\"},{\"answer\":\"Roy Orbison\",\"reason\":\"No number in name\"},{\"answer\":\"Dr. Feelgood\",\"reason\":\"No number in name\"},{\"answer\":\"Cuco\",\"reason\":\"No number in name\"},{\"answer\":\"Cherry Bomb\",\"reason\":\"No number in name\"},{\"answer\":\"Bomfunk MC's\",\"reason\":\"No number in name\"},{\"answer\":\"MC Hammer\",\"reason\":\"No number in name\"},{\"answer\":\"Gen Hoshino\",\"reason\":\"No number in name\"},{\"answer\":\"NCT Dream\",\"reason\":\"No number in name\"},{\"answer\":\"NCT\",\"reason\":\"No number in name\"},{\"answer\":\"EXO-K\",\"reason\":\"No number in name\"},{\"answer\":\"f(x)\",\"reason\":\"No number in name\"},{\"answer\":\"Girls' Generation\",\"reason\":\"No number in name\"},{\"answer\":\"Super Junior\",\"reason\":\"No number in name\"},{\"answer\":\"Big Bang\",\"reason\":\"No number in name\"},{\"answer\":\"ZE:A\",\"reason\":\"No number in name\"},{\"answer\":\"B.A.P\",\"reason\":\"No number in name\"},{\"answer\":\"U-KISS\",\"reason\":\"No number in name\"},{\"answer\":\"g.o.d\",\"reason\":\"No number in name\"},{\"answer\":\"Sechskies\",\"reason\":\"No number in the name as written\"},{\"answer\":\"Fiestar\",\"reason\":\"No number in name\"},{\"answer\":\"EXID\",\"reason\":\"No number in name\"},{\"answer\":\"AOA\",\"reason\":\"No number in name\"},{\"answer\":\"Dynamic Duo\",\"reason\":\"No number in name\"},{\"answer\":\"Typhoon\",\"reason\":\"No number in name\"},{\"answer\":\"The Boyz\",\"reason\":\"No number in name\"},{\"answer\":\"Ten Thousand Fists\",\"reason\":\"An album, not an artist\"},{\"answer\":\"Fifty Shades\",\"reason\":\"A book and film franchise, not a band\"},{\"answer\":\"Les Fils de Teuhpu\",\"reason\":\"No number; not a verifiable real act\"},{\"answer\":\"Triple H\",\"reason\":\"A wrestler, not a musical artist, and no number\"},{\"answer\":\"The Tragically Hip\",\"reason\":\"No number in name\"},{\"answer\":\"Gorillaz\",\"reason\":\"No number in name\"},{\"answer\":\"Seven Dials Mystery\",\"reason\":\"An Agatha Christie novel, not a band\"},{\"answer\":\"Dos Equis\",\"reason\":\"A beer brand, not a band\"},{\"answer\":\"The Verve\",\"reason\":\"No number in name\"},{\"answer\":\"Take That\",\"reason\":\"No number in name\"},{\"answer\":\"Fifteen Minutes\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"The Twelve Tones\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Pre-Fab Sprout\",\"reason\":\"No number in name\"},{\"answer\":\"Wu-Tang Clan\",\"reason\":\"No number in name\"},{\"answer\":\"Weezer\",\"reason\":\"No number in name\"},{\"answer\":\"Jay-Z\",\"reason\":\"No number in name\"},{\"answer\":\"Sevenfold\",\"reason\":\"Incorrect name; the band is Avenged Sevenfold\"},{\"answer\":\"Twenty Four Hours\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Of Montreal\",\"reason\":\"No number in name\"},{\"answer\":\"The Eight Ball\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Eight Mile\",\"reason\":\"A film, not a band\"},{\"answer\":\"Third Man\",\"reason\":\"A film and record label, not a band\"},{\"answer\":\"Eleven Eleven\",\"reason\":\"Not a verifiable real act\"},{\"answer\":\"Blind Melon\",\"reason\":\"No number in name\"},{\"answer\":\"Ocean\",\"reason\":\"No number in name\"},{\"answer\":\"Bad Religion\",\"reason\":\"No number in name\"},{\"answer\":\"Tenacious D\",\"reason\":\"No number in name\"},{\"answer\":\"Ninja Sex Party\",\"reason\":\"No number in name\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Right Said Fred",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Plan B",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Pet Shop Boys",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Heavy D",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Lil Wayne",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Tyga",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Blue October",
+    "reason": "A month, not a number"
+   },
+   {
+    "answer": "Seven Nation Army",
+    "reason": "A song, not a band"
+   },
+   {
+    "answer": "Thirty Seconds Out",
+    "reason": "Not a real band; the band is Thirty Seconds to Mars"
+   },
+   {
+    "answer": "The Band of Seven",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Eight Wonder",
+    "reason": "Incorrect name; the band is Eighth Wonder"
+   },
+   {
+    "answer": "The Nine Nine",
+    "reason": "Not a band (Brooklyn Nine-Nine reference)"
+   },
+   {
+    "answer": "The Thirteenth Floor",
+    "reason": "Not a verifiable real act; the band is The 13th Floor Elevators"
+   },
+   {
+    "answer": "Sigue Sigue Sputnik",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Bruce Hornsby",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Hootie",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "The Three Stooges",
+    "reason": "Comedy act, not a band or musical artist"
+   },
+   {
+    "answer": "Triple Eight",
+    "reason": "Not a verifiable real act; 'triple' isn't a number"
+   },
+   {
+    "answer": "Deuce",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "The Second City",
+    "reason": "Improv theater, not a band or artist"
+   },
+   {
+    "answer": "The Two Tones",
+    "reason": "Not a real act; 2 Tone was a label and genre"
+   },
+   {
+    "answer": "The Two of Us",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Sly Five",
+    "reason": "Not a real act"
+   },
+   {
+    "answer": "Six Going on Seven",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Sixteen Candles",
+    "reason": "A film, not a band"
+   },
+   {
+    "answer": "Forty Four",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "The 40 Thieves",
+    "reason": "Not a verifiable real band"
+   },
+   {
+    "answer": "4Tops",
+    "reason": "Misspelling of Four Tops, which is already listed"
+   },
+   {
+    "answer": "Fourth Day",
+    "reason": "Not a verifiable real act; the band is Third Day"
+   },
+   {
+    "answer": "Foreign Beggars",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Cinderella",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Five Years",
+    "reason": "A song, not a band"
+   },
+   {
+    "answer": "Pink Floyd",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Brooklyn Bounce",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Vengaboys",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "No Doubt",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Bell Biv DeVoe",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Dru Hill",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Route 66",
+    "reason": "A road, not a band"
+   },
+   {
+    "answer": "Area 51",
+    "reason": "A place, not a band"
+   },
+   {
+    "answer": "Studio 54",
+    "reason": "A nightclub, not a band"
+   },
+   {
+    "answer": "Sector 9",
+    "reason": "Not a verifiable real band"
+   },
+   {
+    "answer": "Boys Like Girls",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Orchestral Manoeuvres in the Dark",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Dr. Dre",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Pope Joan",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Sparks",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Bad Company",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Kasabian",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Funkadelic",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Metro Station",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "The Nightwatchman",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Dream Theater",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Alphaville",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Quad City DJs",
+    "reason": "'Quad' isn't a number"
+   },
+   {
+    "answer": "Mother Love Bone",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Temple of the Dog",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Pearl Jam",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Jimmy Eat World",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Maroon V",
+    "reason": "Not a real act; the band is Maroon 5"
+   },
+   {
+    "answer": "Cherry Poppin' Daddies",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Ocean Colour Scene",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Catatonia",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "The 1st Chapter",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "1.8.7",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "The 2nd Law",
+    "reason": "A Muse album, not an artist"
+   },
+   {
+    "answer": "The 3rd Bass",
+    "reason": "Incorrect name; the group is 3rd Bass"
+   },
+   {
+    "answer": "Compton's Most Wanted",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "The Sixth Sense",
+    "reason": "A film, not a band"
+   },
+   {
+    "answer": "Sixpence",
+    "reason": "Incomplete name of Sixpence None the Richer, which is already listed"
+   },
+   {
+    "answer": "Cheap Trick",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Seven and the Sun",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Natalie Imbruglia",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "MKTO",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Boyzone",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Los Tigres del Norte",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Los Cuatro",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Tres Hombres",
+    "reason": "An album, not an artist"
+   },
+   {
+    "answer": "Les Négresses Vertes",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Dos Gringos",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Cinq",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Quatre",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Les Quatre Barbus",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Eins Zwei Polizei",
+    "reason": "A song, not an artist"
+   },
+   {
+    "answer": "Zwei",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Drei",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Vier",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Fünf",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Sechs",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Nena",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Tokio Hotel",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Dreizehn",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Sechs Tage",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Mr. Mister",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Garbage",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "N-Dubz",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Sneaker Pimps",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "NSYNC",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "O-Town",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "LFO",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Another Level",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Bad Boys Blue",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Fifth of Beethoven",
+    "reason": "A song, not an artist"
+   },
+   {
+    "answer": "Third Eye",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Boyz N the Hood",
+    "reason": "A film, not a band"
+   },
+   {
+    "answer": "The Doors",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "The Hives",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Taking Back Sunday",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "The Cars",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Fifty Foot Wave",
+    "reason": "Not a real act under this name; the band is Fifty Foot Hose"
+   },
+   {
+    "answer": "Forty Winks",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "The Black Eyed Peas",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Catherine Wheel",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Cold War Kids",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Highly Suspect",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Aventura",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Los 40",
+    "reason": "A radio network, not a band"
+   },
+   {
+    "answer": "Ten Out of 10",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Tenth Avenue Freeze-Out",
+    "reason": "A song, not a band"
+   },
+   {
+    "answer": "Twenty Twenty",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Forty Fathoms",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "The Mills Brothers",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "The Ink Spots",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Triple Threat",
+    "reason": "'Triple' isn't a number; not a verifiable act"
+   },
+   {
+    "answer": "The Seekers",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Pentatonix",
+    "reason": "No number as a word in the name"
+   },
+   {
+    "answer": "The Jets",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Dos Santos",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "The Tens",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Twenty Flight Rock",
+    "reason": "A song, not a band"
+   },
+   {
+    "answer": "Sixties",
+    "reason": "Generic decade, not an act"
+   },
+   {
+    "answer": "Boston",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Chicago",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "One Hundred Monkeys",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "The Thousand",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "A Thousand Suns",
+    "reason": "A Linkin Park album, not an artist"
+   },
+   {
+    "answer": "A Million Ways to Die",
+    "reason": "A film title, not a band"
+   },
+   {
+    "answer": "The Hundred Days",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "1000 Eyes",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "The 1900s",
+    "reason": "Not a verifiable real act under this name"
+   },
+   {
+    "answer": "1970s",
+    "reason": "A decade, not an act"
+   },
+   {
+    "answer": "Orbital 2",
+    "reason": "An album title, not an artist"
+   },
+   {
+    "answer": "Deee-Lite",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Z-Ro",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Q-Tip",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Maxi Priest",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Lil Peep",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Danny Brown",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Kris Kross",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Pitbull",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Joey Bada$$",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Yung Lean",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Roy Orbison",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Dr. Feelgood",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Cuco",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Cherry Bomb",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Bomfunk MC's",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "MC Hammer",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Gen Hoshino",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "NCT Dream",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "NCT",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "EXO-K",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "f(x)",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Girls' Generation",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Super Junior",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Big Bang",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "ZE:A",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "B.A.P",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "U-KISS",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "g.o.d",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Sechskies",
+    "reason": "No number in the name as written"
+   },
+   {
+    "answer": "Fiestar",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "EXID",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "AOA",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Dynamic Duo",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Typhoon",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "The Boyz",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Ten Thousand Fists",
+    "reason": "An album, not an artist"
+   },
+   {
+    "answer": "Fifty Shades",
+    "reason": "A book and film franchise, not a band"
+   },
+   {
+    "answer": "Les Fils de Teuhpu",
+    "reason": "No number; not a verifiable real act"
+   },
+   {
+    "answer": "Triple H",
+    "reason": "A wrestler, not a musical artist, and no number"
+   },
+   {
+    "answer": "The Tragically Hip",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Gorillaz",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Seven Dials Mystery",
+    "reason": "An Agatha Christie novel, not a band"
+   },
+   {
+    "answer": "Dos Equis",
+    "reason": "A beer brand, not a band"
+   },
+   {
+    "answer": "The Verve",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Take That",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Fifteen Minutes",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "The Twelve Tones",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Pre-Fab Sprout",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Wu-Tang Clan",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Weezer",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Jay-Z",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Sevenfold",
+    "reason": "Incorrect name; the band is Avenged Sevenfold"
+   },
+   {
+    "answer": "Twenty Four Hours",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Of Montreal",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "The Eight Ball",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Eight Mile",
+    "reason": "A film, not a band"
+   },
+   {
+    "answer": "Third Man",
+    "reason": "A film and record label, not a band"
+   },
+   {
+    "answer": "Eleven Eleven",
+    "reason": "Not a verifiable real act"
+   },
+   {
+    "answer": "Blind Melon",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Ocean",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Bad Religion",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Tenacious D",
+    "reason": "No number in name"
+   },
+   {
+    "answer": "Ninja Sex Party",
+    "reason": "No number in name"
+   }
+  ]
+ },
+ "ttft_ms": 30872,
+ "type": "result",
+ "duration_ms": 55093,
+ "uuid": "2b684851-2c53-41a5-ae70-92e42d6ef8e3",
+ "ttft_stream_ms": 3278,
+ "time_to_request_ms": 33,
+ "first_content_frame_ms": 3279,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

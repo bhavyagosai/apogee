@@ -1,0 +1,166 @@
+{
+ "duration_api_ms": 17784,
+ "stop_reason": "tool_use",
+ "session_id": "15e6b766-b8cf-4dd3-ba1a-b0b442ac4648",
+ "total_cost_usd": 0.0709742,
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 10617,
+  "cache_read_input_tokens": 8521,
+  "output_tokens": 2679,
+  "output_tokens_details": {
+   "thinking_tokens": 1471
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10617,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 623,
+    "cache_read_input_tokens": 8521,
+    "cache_creation_input_tokens": 2096,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2096
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 6,
+   "outputTokens": 2679,
+   "cacheReadInputTokens": 8521,
+   "cacheCreationInputTokens": 10617,
+   "webSearchRequests": 0,
+   "costUSD": 0.0709742,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 1471,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 3,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Gnocchi\",\"reason\":\"Potato dumplings, not technically pasta.\"},{\"answer\":\"Pastina\",\"reason\":\"Generic term for any tiny pasta, not one specific shape.\"},{\"answer\":\"Pasta e ceci\",\"reason\":\"A dish (pasta and chickpeas), not a shape.\"},{\"answer\":\"Pasta nests\",\"reason\":\"Describes how pasta is packaged, not a shape.\"},{\"answer\":\"Lasagna sheets\",\"reason\":\"Generic description of the format, a duplicate of Lasagne.\"},{\"answer\":\"Egg noodles\",\"reason\":\"Generic category, not a specific pasta shape.\"},{\"answer\":\"Spätzle\",\"reason\":\"German egg noodle or dumpling, not an Italian pasta shape.\"},{\"answer\":\"Udon\",\"reason\":\"Japanese wheat noodle, not pasta.\"},{\"answer\":\"Soba\",\"reason\":\"Japanese buckwheat noodle, not pasta.\"},{\"answer\":\"Ramen\",\"reason\":\"Japanese noodle and dish, not pasta.\"},{\"answer\":\"Corkscrew\",\"reason\":\"Generic descriptor, not a specific shape name.\"},{\"answer\":\"Pasta al torchio\",\"reason\":\"A production method (bronze-die extrusion), not a shape.\"},{\"answer\":\"Pasta al ferretto\",\"reason\":\"A hand-shaping technique, not a specific shape.\"},{\"answer\":\"Garofalo\",\"reason\":\"A pasta brand, not a shape.\"},{\"answer\":\"Cuscus\",\"reason\":\"Couscous is a granular semolina product, not a pasta shape.\"},{\"answer\":\"Cavolini\",\"reason\":\"Means Brussels sprouts; not a recognized pasta shape.\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Gnocchi",
+    "reason": "Potato dumplings, not technically pasta."
+   },
+   {
+    "answer": "Pastina",
+    "reason": "Generic term for any tiny pasta, not one specific shape."
+   },
+   {
+    "answer": "Pasta e ceci",
+    "reason": "A dish (pasta and chickpeas), not a shape."
+   },
+   {
+    "answer": "Pasta nests",
+    "reason": "Describes how pasta is packaged, not a shape."
+   },
+   {
+    "answer": "Lasagna sheets",
+    "reason": "Generic description of the format, a duplicate of Lasagne."
+   },
+   {
+    "answer": "Egg noodles",
+    "reason": "Generic category, not a specific pasta shape."
+   },
+   {
+    "answer": "Spätzle",
+    "reason": "German egg noodle or dumpling, not an Italian pasta shape."
+   },
+   {
+    "answer": "Udon",
+    "reason": "Japanese wheat noodle, not pasta."
+   },
+   {
+    "answer": "Soba",
+    "reason": "Japanese buckwheat noodle, not pasta."
+   },
+   {
+    "answer": "Ramen",
+    "reason": "Japanese noodle and dish, not pasta."
+   },
+   {
+    "answer": "Corkscrew",
+    "reason": "Generic descriptor, not a specific shape name."
+   },
+   {
+    "answer": "Pasta al torchio",
+    "reason": "A production method (bronze-die extrusion), not a shape."
+   },
+   {
+    "answer": "Pasta al ferretto",
+    "reason": "A hand-shaping technique, not a specific shape."
+   },
+   {
+    "answer": "Garofalo",
+    "reason": "A pasta brand, not a shape."
+   },
+   {
+    "answer": "Cuscus",
+    "reason": "Couscous is a granular semolina product, not a pasta shape."
+   },
+   {
+    "answer": "Cavolini",
+    "reason": "Means Brussels sprouts; not a recognized pasta shape."
+   }
+  ]
+ },
+ "ttft_ms": 11284,
+ "type": "result",
+ "duration_ms": 17867,
+ "uuid": "5d65c78b-278d-43dd-843d-4e07635138bf",
+ "ttft_stream_ms": 696,
+ "time_to_request_ms": 30,
+ "first_content_frame_ms": 696,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

@@ -1,0 +1,170 @@
+{
+ "duration_api_ms": 20837,
+ "stop_reason": "tool_use",
+ "session_id": "56715a89-efa3-4c38-ae64-f18841231bab",
+ "total_cost_usd": 0.07662959999999999,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 11541,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 3034,
+  "output_tokens_details": {
+   "thinking_tokens": 2372
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 11541,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 3034,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 11541,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 11541
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 3034,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 11541,
+   "webSearchRequests": 0,
+   "costUSD": 0.07662959999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 2372,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Pterodactyl\",\"reason\":\"Pterosaur (flying reptile), not a dinosaur.\"},{\"answer\":\"Oviraptorosaur\",\"reason\":\"Generic group name, not a specific dinosaur.\"},{\"answer\":\"Mussaurdes\",\"reason\":\"Not a real genus (likely a misspelling of Mussaurus).\"},{\"answer\":\"Hesperornis\",\"reason\":\"Flightless toothed seabird, not a dinosaur in the usual sense.\"},{\"answer\":\"Gastornis\",\"reason\":\"Giant flightless bird, not a dinosaur.\"},{\"answer\":\"Titanis\",\"reason\":\"Terror bird, not a dinosaur.\"},{\"answer\":\"Phorusrhacos\",\"reason\":\"Terror bird, not a dinosaur.\"},{\"answer\":\"Ichthyornis\",\"reason\":\"Toothed seabird, not a dinosaur in the usual sense.\"},{\"answer\":\"Dinornis\",\"reason\":\"Moa, a modern-era bird, not a dinosaur.\"},{\"answer\":\"Teratornis\",\"reason\":\"Extinct bird of prey, not a dinosaur.\"},{\"answer\":\"Dromornis\",\"reason\":\"Giant flightless bird (mihirung), not a dinosaur.\"},{\"answer\":\"Brontornis\",\"reason\":\"Flightless bird, not a dinosaur.\"},{\"answer\":\"Anthropornis\",\"reason\":\"Giant penguin, not a dinosaur.\"},{\"answer\":\"Waimanu\",\"reason\":\"Early penguin, not a dinosaur.\"},{\"answer\":\"Anomalopteryx\",\"reason\":\"Moa, a bird, not a dinosaur.\"},{\"answer\":\"Kelenken\",\"reason\":\"Terror bird, not a dinosaur.\"},{\"answer\":\"Vorombe\",\"reason\":\"Elephant bird, not a dinosaur.\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Pterodactyl",
+    "reason": "Pterosaur (flying reptile), not a dinosaur."
+   },
+   {
+    "answer": "Oviraptorosaur",
+    "reason": "Generic group name, not a specific dinosaur."
+   },
+   {
+    "answer": "Mussaurdes",
+    "reason": "Not a real genus (likely a misspelling of Mussaurus)."
+   },
+   {
+    "answer": "Hesperornis",
+    "reason": "Flightless toothed seabird, not a dinosaur in the usual sense."
+   },
+   {
+    "answer": "Gastornis",
+    "reason": "Giant flightless bird, not a dinosaur."
+   },
+   {
+    "answer": "Titanis",
+    "reason": "Terror bird, not a dinosaur."
+   },
+   {
+    "answer": "Phorusrhacos",
+    "reason": "Terror bird, not a dinosaur."
+   },
+   {
+    "answer": "Ichthyornis",
+    "reason": "Toothed seabird, not a dinosaur in the usual sense."
+   },
+   {
+    "answer": "Dinornis",
+    "reason": "Moa, a modern-era bird, not a dinosaur."
+   },
+   {
+    "answer": "Teratornis",
+    "reason": "Extinct bird of prey, not a dinosaur."
+   },
+   {
+    "answer": "Dromornis",
+    "reason": "Giant flightless bird (mihirung), not a dinosaur."
+   },
+   {
+    "answer": "Brontornis",
+    "reason": "Flightless bird, not a dinosaur."
+   },
+   {
+    "answer": "Anthropornis",
+    "reason": "Giant penguin, not a dinosaur."
+   },
+   {
+    "answer": "Waimanu",
+    "reason": "Early penguin, not a dinosaur."
+   },
+   {
+    "answer": "Anomalopteryx",
+    "reason": "Moa, a bird, not a dinosaur."
+   },
+   {
+    "answer": "Kelenken",
+    "reason": "Terror bird, not a dinosaur."
+   },
+   {
+    "answer": "Vorombe",
+    "reason": "Elephant bird, not a dinosaur."
+   }
+  ]
+ },
+ "ttft_ms": 17785,
+ "type": "result",
+ "duration_ms": 20894,
+ "uuid": "0d4982e8-5e23-458a-ae58-f4bf733ae3d8",
+ "ttft_stream_ms": 1505,
+ "time_to_request_ms": 33,
+ "first_content_frame_ms": 1506,
+ "queued_turn_count": 0,
+ "result_index": 0
+}

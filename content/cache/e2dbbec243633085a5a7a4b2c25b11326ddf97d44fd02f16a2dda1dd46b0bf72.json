@@ -1,0 +1,1154 @@
+{
+ "duration_api_ms": 86977,
+ "stop_reason": "tool_use",
+ "session_id": "3129e3e9-13d3-45ca-a8f6-c5e2fc5a3de4",
+ "total_cost_usd": 0.1990336,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 11997,
+  "cache_read_input_tokens": 608,
+  "output_tokens": 15092,
+  "output_tokens_details": {
+   "thinking_tokens": 8308
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 11997,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 15092,
+    "cache_read_input_tokens": 608,
+    "cache_creation_input_tokens": 11997,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 11997
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 15092,
+   "cacheReadInputTokens": 608,
+   "cacheCreationInputTokens": 11997,
+   "webSearchRequests": 0,
+   "costUSD": 0.1990336,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 8308,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [],
+ "terminal_reason": "completed",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": false,
+ "num_turns": 2,
+ "subtype": "success",
+ "api_error_status": null,
+ "result": "{\"invalid\":[{\"answer\":\"Scrabble\",\"reason\":\"Uses tiles, no dice\"},{\"answer\":\"Dungeons & Dragons\",\"reason\":\"Tabletop RPG, not a board game\"},{\"answer\":\"Life\",\"reason\":\"Uses a spinner, not dice\"},{\"answer\":\"The Game of Life\",\"reason\":\"Uses a spinner, not dice\"},{\"answer\":\"Battlestar Galactica\",\"reason\":\"Uses cards, no dice\"},{\"answer\":\"Kingdomino\",\"reason\":\"Tile game, no dice\"},{\"answer\":\"Stratego\",\"reason\":\"No dice\"},{\"answer\":\"Cosmic Encounter\",\"reason\":\"Card-based combat, no dice\"},{\"answer\":\"Dixit\",\"reason\":\"No dice\"},{\"answer\":\"Battleship\",\"reason\":\"No dice\"},{\"answer\":\"Sequence\",\"reason\":\"Cards, no dice\"},{\"answer\":\"Cathedral\",\"reason\":\"No dice\"},{\"answer\":\"Dominion\",\"reason\":\"Card game, no dice\"},{\"answer\":\"Pandemic\",\"reason\":\"No dice\"},{\"answer\":\"Pandemic Legacy\",\"reason\":\"No dice\"},{\"answer\":\"Pandemic: Iberia\",\"reason\":\"No dice\"},{\"answer\":\"Forbidden Island\",\"reason\":\"No dice\"},{\"answer\":\"Forbidden Desert\",\"reason\":\"No dice\"},{\"answer\":\"Mexican Train\",\"reason\":\"Domino game\"},{\"answer\":\"Fireball Island\",\"reason\":\"Uses cards and marbles, no dice\"},{\"answer\":\"Fireball Island: The Curse of Vul-Kar\",\"reason\":\"Uses cards and marbles, no dice\"},{\"answer\":\"Sentinels of the Multiverse\",\"reason\":\"Card game\"},{\"answer\":\"Lords of Waterdeep\",\"reason\":\"No dice\"},{\"answer\":\"Lords of Waterdeep: Scoundrels\",\"reason\":\"No dice\"},{\"answer\":\"Scoundrels of Skullport\",\"reason\":\"No dice\"},{\"answer\":\"Kill Doctor Lucky\",\"reason\":\"No dice\"},{\"answer\":\"Cartographers\",\"reason\":\"Card game, no dice\"},{\"answer\":\"Escape from the Aliens in Outer Space\",\"reason\":\"No dice\"},{\"answer\":\"Mille Bornes\",\"reason\":\"Card game\"},{\"answer\":\"Gloomhaven\",\"reason\":\"Uses modifier cards, no dice\"},{\"answer\":\"Gloomhaven: Jaws of the Lion\",\"reason\":\"Uses modifier cards, no dice\"},{\"answer\":\"Frosthaven\",\"reason\":\"Uses modifier cards, no dice\"},{\"answer\":\"Sushi Go Party\",\"reason\":\"Card game\"},{\"answer\":\"Bears vs Babies\",\"reason\":\"Card game\"},{\"answer\":\"Tigris & Euphrates\",\"reason\":\"No dice\"},{\"answer\":\"Terra Mystica\",\"reason\":\"No dice\"},{\"answer\":\"Tokaido\",\"reason\":\"No dice\"},{\"answer\":\"Doctor Who: Dice\",\"reason\":\"Not a verifiable real title\"},{\"answer\":\"Cyclades\",\"reason\":\"No dice\"},{\"answer\":\"Cyclades Monuments\",\"reason\":\"Expansion, no dice\"},{\"answer\":\"Cyclades Hades\",\"reason\":\"Expansion, no dice\"},{\"answer\":\"Santorini\",\"reason\":\"No dice\"},{\"answer\":\"Ra\",\"reason\":\"Auction game, no dice\"},{\"answer\":\"Targi\",\"reason\":\"No dice\"},{\"answer\":\"Orléans\",\"reason\":\"Uses a bag of tokens, no dice\"},{\"answer\":\"Cat in the Box\",\"reason\":\"Card game\"},{\"answer\":\"Dune: Imperium\",\"reason\":\"Card game, no dice\"},{\"answer\":\"Splendor\",\"reason\":\"No dice\"},{\"answer\":\"Elder Scrolls: Betrayal\",\"reason\":\"Not a real title\"},{\"answer\":\"Crokinole\",\"reason\":\"Flicking game, no dice\"},{\"answer\":\"Sorry! Sliders\",\"reason\":\"Uses sliding pieces, no dice\"},{\"answer\":\"Monopoly Deal Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Acquire\",\"reason\":\"No dice\"},{\"answer\":\"Diplomacy\",\"reason\":\"No dice\"},{\"answer\":\"Wiz-War\",\"reason\":\"Card-driven, no dice\"},{\"answer\":\"Dark Tower\",\"reason\":\"Electronic tower, no dice\"},{\"answer\":\"Warhammer Fantasy Battle\",\"reason\":\"Miniatures wargame, not a board game\"},{\"answer\":\"Chess Dice\",\"reason\":\"Not a real standard game\"},{\"answer\":\"Sid Meier's Civilization: The Board Game\",\"reason\":\"No dice\"},{\"answer\":\"Advanced Civilization\",\"reason\":\"No dice\"},{\"answer\":\"Wings of War\",\"reason\":\"Card-driven, no dice\"},{\"answer\":\"Samurai Sword\",\"reason\":\"Card game\"},{\"answer\":\"Cosmic Run\",\"reason\":\"Not a verifiable real title\"},{\"answer\":\"Scotland Yard\",\"reason\":\"No dice\"},{\"answer\":\"Sherlock Holmes Consulting Detective\",\"reason\":\"No dice\"},{\"answer\":\"Mastermind\",\"reason\":\"Code game, no dice\"},{\"answer\":\"Skull\",\"reason\":\"Card/disc bluffing game, no dice\"},{\"answer\":\"Cubirds\",\"reason\":\"Card game\"},{\"answer\":\"Kingdom Builder\",\"reason\":\"Card-based, no dice\"},{\"answer\":\"Welcome To...\",\"reason\":\"Card game, no dice\"},{\"answer\":\"Dungeon Twister\",\"reason\":\"No dice\"},{\"answer\":\"Dungeon Crawler\",\"reason\":\"Generic category, not a specific game\"},{\"answer\":\"Dungeon Mayhem\",\"reason\":\"Card game\"},{\"answer\":\"Port Royal Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Ticket to Ride Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Carcassonne Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Struggle for Catan\",\"reason\":\"Card game\"},{\"answer\":\"Elfenland\",\"reason\":\"No dice\"},{\"answer\":\"Harbour\",\"reason\":\"No dice\"},{\"answer\":\"Roll Through the Ages Dice\",\"reason\":\"Not a distinct real title\"},{\"answer\":\"Bohnanza Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Wits & Wagers\",\"reason\":\"Trivia game, no dice\"},{\"answer\":\"Zooloretto Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Troyes Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Wyatt Earp\",\"reason\":\"Card game\"},{\"answer\":\"Eminent Domain: Microcosm\",\"reason\":\"Card game\"},{\"answer\":\"Star Realms Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Rising Sun\",\"reason\":\"No dice\"},{\"answer\":\"Blood Rage\",\"reason\":\"No dice\"},{\"answer\":\"Marvel United\",\"reason\":\"No dice\"},{\"answer\":\"Marvel Champions\",\"reason\":\"Card game\"},{\"answer\":\"Legendary Encounters\",\"reason\":\"Card game\"},{\"answer\":\"Kemet\",\"reason\":\"No dice\"},{\"answer\":\"Inis\",\"reason\":\"No dice\"},{\"answer\":\"Scythe\",\"reason\":\"No dice\"},{\"answer\":\"Brass\",\"reason\":\"No dice\"},{\"answer\":\"Taboo\",\"reason\":\"Word party game, no dice\"},{\"answer\":\"Uno Dice\",\"reason\":\"Not a real standard product\"},{\"answer\":\"Bingo\",\"reason\":\"Uses balls/cards, no dice\"},{\"answer\":\"Tripoley\",\"reason\":\"Card game\"},{\"answer\":\"Candy Land Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Hi Ho! Cherry-O\",\"reason\":\"Uses a spinner\"},{\"answer\":\"Don't Break the Ice\",\"reason\":\"No dice\"},{\"answer\":\"Hungry Hungry Hippos\",\"reason\":\"No dice\"},{\"answer\":\"Operation\",\"reason\":\"No dice\"},{\"answer\":\"Pop the Pig\",\"reason\":\"No dice\"},{\"answer\":\"Fireball\",\"reason\":\"Not a verifiable board game\"},{\"answer\":\"Game of the Generals\",\"reason\":\"No dice\"},{\"answer\":\"Pachisi Dice\",\"reason\":\"Not a distinct real title\"},{\"answer\":\"Fox and Geese\",\"reason\":\"No dice\"},{\"answer\":\"Halma Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Pachisi Royal\",\"reason\":\"Not a verifiable real title\"},{\"answer\":\"Dominion Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Munchkin Dice\",\"reason\":\"Not a real standard product\"},{\"answer\":\"Fluxx Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Love Letter Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Ghost Blitz\",\"reason\":\"Reflex game, no dice\"},{\"answer\":\"Kingsburg Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Age of Steam\",\"reason\":\"No dice\"},{\"answer\":\"Aeon's End\",\"reason\":\"Card game\"},{\"answer\":\"Tales of the Arabian Nights Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Imperial Settlers\",\"reason\":\"Card game\"},{\"answer\":\"Paperback\",\"reason\":\"Card game\"},{\"answer\":\"Skip-Bo Dice\",\"reason\":\"Not a real product\"},{\"answer\":\"Spy Alley\",\"reason\":\"No dice\"},{\"answer\":\"Game of Thrones: The Board Game\",\"reason\":\"No dice\"},{\"answer\":\"A Game of Thrones\",\"reason\":\"No dice\"},{\"answer\":\"Warhammer 40,000: Conquest\",\"reason\":\"Card game\"},{\"answer\":\"Warhammer Quest: Adventure Card Game\",\"reason\":\"Card game\"},{\"answer\":\"Arkham Horror: The Card Game\",\"reason\":\"Card game\"},{\"answer\":\"Ankh-Morpork\",\"reason\":\"No dice\"},{\"answer\":\"Chronicle\",\"reason\":\"Not a verifiable real title\"},{\"answer\":\"Napoleon's Triumph\",\"reason\":\"No dice\"},{\"answer\":\"Legacy of Dragonholt\",\"reason\":\"Story game, no dice\"},{\"answer\":\"Bang!\",\"reason\":\"Card game (only the Dice Game version uses dice)\"},{\"answer\":\"Ultimate Werewolf\",\"reason\":\"Card game\"},{\"answer\":\"Chess\",\"reason\":\"No dice\"},{\"answer\":\"Checkers\",\"reason\":\"No dice\"},{\"answer\":\"English draughts\",\"reason\":\"No dice\"},{\"answer\":\"International draughts\",\"reason\":\"No dice\"},{\"answer\":\"Russian draughts\",\"reason\":\"No dice\"},{\"answer\":\"Turkish draughts\",\"reason\":\"No dice\"},{\"answer\":\"Mahjong\",\"reason\":\"Tile game, no dice\"},{\"answer\":\"Xiangqi\",\"reason\":\"No dice\"},{\"answer\":\"Tic-tac-toe\",\"reason\":\"No dice\"},{\"answer\":\"Chaturanga\",\"reason\":\"Ancient chess ancestor, no dice\"},{\"answer\":\"Nine men's morris\",\"reason\":\"No dice\"},{\"answer\":\"Correspondence chess\",\"reason\":\"No dice\"},{\"answer\":\"Othello\",\"reason\":\"No dice\"},{\"answer\":\"Chinese checkers\",\"reason\":\"No dice\"},{\"answer\":\"Rummikub\",\"reason\":\"Tile game\"},{\"answer\":\"Hex\",\"reason\":\"No dice\"},{\"answer\":\"Ticket to Ride\",\"reason\":\"No dice\"},{\"answer\":\"Connect Four\",\"reason\":\"No dice\"},{\"answer\":\"Peg solitaire\",\"reason\":\"No dice\"},{\"answer\":\"Halma\",\"reason\":\"No dice\"},{\"answer\":\"Puerto Rico\",\"reason\":\"No dice\"},{\"answer\":\"Tafl games\",\"reason\":\"Generic category, no dice\"},{\"answer\":\"Hnefatafl\",\"reason\":\"No dice\"},{\"answer\":\"Oware\",\"reason\":\"No dice\"},{\"answer\":\"Alquerque\",\"reason\":\"No dice\"},{\"answer\":\"Twister\",\"reason\":\"Not a board game, uses a spinner\"},{\"answer\":\"GNU Chess\",\"reason\":\"Software\"},{\"answer\":\"7 Wonders\",\"reason\":\"Card game\"},{\"answer\":\"Quoridor\",\"reason\":\"No dice\"},{\"answer\":\"Codenames\",\"reason\":\"No dice\"},{\"answer\":\"Abalone\",\"reason\":\"No dice\"},{\"answer\":\"Yut\",\"reason\":\"Uses throwing sticks\"},{\"answer\":\"Quarto\",\"reason\":\"No dice\"},{\"answer\":\"Renju\",\"reason\":\"No dice\"},{\"answer\":\"Agricola\",\"reason\":\"No dice\"},{\"answer\":\"Blokus\",\"reason\":\"No dice\"},{\"answer\":\"Hexagonal chess\",\"reason\":\"Chess variant, no dice\"},{\"answer\":\"Power Grid\",\"reason\":\"No dice\"},{\"answer\":\"Three-dimensional chess\",\"reason\":\"No dice\"},{\"answer\":\"Three-player chess\",\"reason\":\"No dice\"},{\"answer\":\"Tantrix\",\"reason\":\"No dice\"},{\"answer\":\"Fanorona\",\"reason\":\"No dice\"},{\"answer\":\"Ludus latrunculorum\",\"reason\":\"No dice\"},{\"answer\":\"Bagh-chal\",\"reason\":\"No dice\"},{\"answer\":\"Hounds and Jackals\",\"reason\":\"Not established as a dice game\"},{\"answer\":\"Caylus\",\"reason\":\"No dice\"},{\"answer\":\"Pentago\",\"reason\":\"No dice\"},{\"answer\":\"Kalah\",\"reason\":\"No dice\"},{\"answer\":\"Bao\",\"reason\":\"No dice\"},{\"answer\":\"Mehen\",\"reason\":\"No dice\"},{\"answer\":\"Thurn and Taxis\",\"reason\":\"No dice\"},{\"answer\":\"Sevens\",\"reason\":\"Card game\"},{\"answer\":\"Jungle\",\"reason\":\"No dice\"},{\"answer\":\"Guess Who?\",\"reason\":\"No dice\"},{\"answer\":\"Lasca\",\"reason\":\"No dice\"},{\"answer\":\"El Grande\",\"reason\":\"No dice\"},{\"answer\":\"Alhambra\",\"reason\":\"No dice\"},{\"answer\":\"Congkak\",\"reason\":\"No dice\"},{\"answer\":\"Subbuteo\",\"reason\":\"Flicking football game, no dice\"},{\"answer\":\"Fox games\",\"reason\":\"Generic category\"},{\"answer\":\"Okey\",\"reason\":\"Tile game\"},{\"answer\":\"Luzhanqi\",\"reason\":\"No dice\"},{\"answer\":\"Dōbutsu shōgi\",\"reason\":\"No dice\"},{\"answer\":\"Dobble\",\"reason\":\"Card game\"},{\"answer\":\"Through the Ages: A Story of Civilization\",\"reason\":\"No dice\"},{\"answer\":\"Ghosts\",\"reason\":\"No dice\"},{\"answer\":\"Hare and Tortoise\",\"reason\":\"No dice\"},{\"answer\":\"GIPF\",\"reason\":\"No dice\"},{\"answer\":\"YINSH\",\"reason\":\"No dice\"},{\"answer\":\"Zooloretto\",\"reason\":\"No dice\"},{\"answer\":\"Labyrinth\",\"reason\":\"No dice\"},{\"answer\":\"GIPF project\",\"reason\":\"Series of abstract games, no dice\"},{\"answer\":\"Rithmomachia\",\"reason\":\"No dice\"},{\"answer\":\"ZÈRTZ\",\"reason\":\"No dice\"},{\"answer\":\"Chu shogi\",\"reason\":\"No dice\"},{\"answer\":\"Shatar\",\"reason\":\"No dice\"},{\"answer\":\"DVONN\",\"reason\":\"No dice\"},{\"answer\":\"Focus\",\"reason\":\"No dice\"},{\"answer\":\"Niagara\",\"reason\":\"No dice\"},{\"answer\":\"Surakarta\",\"reason\":\"No dice\"},{\"answer\":\"Tikal\",\"reason\":\"No dice\"},{\"answer\":\"Triominoes\",\"reason\":\"Tile game\"},{\"answer\":\"San Juan\",\"reason\":\"Card game\"},{\"answer\":\"Word chain\",\"reason\":\"Verbal game, not a board game\"},{\"answer\":\"Phutball\",\"reason\":\"No dice\"},{\"answer\":\"Cheskers\",\"reason\":\"No dice\"},{\"answer\":\"Pallanguzhi\",\"reason\":\"No dice\"},{\"answer\":\"Pente\",\"reason\":\"No dice\"},{\"answer\":\"Bagatelle\",\"reason\":\"No dice\"},{\"answer\":\"Mū Tōrere\",\"reason\":\"No dice\"},{\"answer\":\"PÜNCT\",\"reason\":\"No dice\"},{\"answer\":\"Tzaar\",\"reason\":\"No dice\"},{\"answer\":\"Keltis\",\"reason\":\"Card-driven, no dice\"},{\"answer\":\"Villa Paletti\",\"reason\":\"Dexterity game, no dice\"},{\"answer\":\"Ricochet Robots\",\"reason\":\"No dice\"},{\"answer\":\"Manhattan\",\"reason\":\"No dice\"},{\"answer\":\"Game of the Amazons\",\"reason\":\"No dice\"},{\"answer\":\"Bul\",\"reason\":\"Not a verifiable dice board game\"},{\"answer\":\"Partaka\",\"reason\":\"No dice\"},{\"answer\":\"Yota\",\"reason\":\"No dice\"},{\"answer\":\"Fidchell\",\"reason\":\"No dice\"},{\"answer\":\"TAMSK\",\"reason\":\"No dice\"},{\"answer\":\"Trax\",\"reason\":\"No dice\"},{\"answer\":\"Neutron\",\"reason\":\"No dice\"},{\"answer\":\"Bezzerwizzer\",\"reason\":\"Trivia game, no dice\"},{\"answer\":\"Android: Netrunner\",\"reason\":\"Card game\"},{\"answer\":\"Havannah\",\"reason\":\"No dice\"},{\"answer\":\"Modern Art\",\"reason\":\"Card game\"},{\"answer\":\"Saint Petersburg\",\"reason\":\"Card game\"},{\"answer\":\"Le Havre\",\"reason\":\"No dice\"},{\"answer\":\"Unlock!\",\"reason\":\"Card game\"},{\"answer\":\"Colt Express\",\"reason\":\"Card-driven, no dice\"},{\"answer\":\"Looping Louie\",\"reason\":\"No dice\"},{\"answer\":\"Score four\",\"reason\":\"No dice\"},{\"answer\":\"Neuroshima Hex!\",\"reason\":\"No dice\"},{\"answer\":\"Seega\",\"reason\":\"No dice\"},{\"answer\":\"Breakthrough\",\"reason\":\"No dice\"},{\"answer\":\"Coloretto\",\"reason\":\"Card game\"},{\"answer\":\"Marrakech\",\"reason\":\"Uncertain/not clearly dice\"},{\"answer\":\"Hoity Toity\",\"reason\":\"No dice\"},{\"answer\":\"The Princes of Florence\",\"reason\":\"No dice\"},{\"answer\":\"Amun-Re\",\"reason\":\"No dice\"},{\"answer\":\"Taj Mahal\",\"reason\":\"No dice\"},{\"answer\":\"RoboRally\",\"reason\":\"Uses programming cards, no dice\"},{\"answer\":\"Agon\",\"reason\":\"No dice\"},{\"answer\":\"Mangala\",\"reason\":\"No dice\"},{\"answer\":\"Lamlameta\",\"reason\":\"No dice\"}]}",
+ "structured_output": {
+  "invalid": [
+   {
+    "answer": "Scrabble",
+    "reason": "Uses tiles, no dice"
+   },
+   {
+    "answer": "Dungeons & Dragons",
+    "reason": "Tabletop RPG, not a board game"
+   },
+   {
+    "answer": "Life",
+    "reason": "Uses a spinner, not dice"
+   },
+   {
+    "answer": "The Game of Life",
+    "reason": "Uses a spinner, not dice"
+   },
+   {
+    "answer": "Battlestar Galactica",
+    "reason": "Uses cards, no dice"
+   },
+   {
+    "answer": "Kingdomino",
+    "reason": "Tile game, no dice"
+   },
+   {
+    "answer": "Stratego",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Cosmic Encounter",
+    "reason": "Card-based combat, no dice"
+   },
+   {
+    "answer": "Dixit",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Battleship",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Sequence",
+    "reason": "Cards, no dice"
+   },
+   {
+    "answer": "Cathedral",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Dominion",
+    "reason": "Card game, no dice"
+   },
+   {
+    "answer": "Pandemic",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Pandemic Legacy",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Pandemic: Iberia",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Forbidden Island",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Forbidden Desert",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Mexican Train",
+    "reason": "Domino game"
+   },
+   {
+    "answer": "Fireball Island",
+    "reason": "Uses cards and marbles, no dice"
+   },
+   {
+    "answer": "Fireball Island: The Curse of Vul-Kar",
+    "reason": "Uses cards and marbles, no dice"
+   },
+   {
+    "answer": "Sentinels of the Multiverse",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Lords of Waterdeep",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Lords of Waterdeep: Scoundrels",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Scoundrels of Skullport",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Kill Doctor Lucky",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Cartographers",
+    "reason": "Card game, no dice"
+   },
+   {
+    "answer": "Escape from the Aliens in Outer Space",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Mille Bornes",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Gloomhaven",
+    "reason": "Uses modifier cards, no dice"
+   },
+   {
+    "answer": "Gloomhaven: Jaws of the Lion",
+    "reason": "Uses modifier cards, no dice"
+   },
+   {
+    "answer": "Frosthaven",
+    "reason": "Uses modifier cards, no dice"
+   },
+   {
+    "answer": "Sushi Go Party",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Bears vs Babies",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Tigris & Euphrates",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Terra Mystica",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Tokaido",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Doctor Who: Dice",
+    "reason": "Not a verifiable real title"
+   },
+   {
+    "answer": "Cyclades",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Cyclades Monuments",
+    "reason": "Expansion, no dice"
+   },
+   {
+    "answer": "Cyclades Hades",
+    "reason": "Expansion, no dice"
+   },
+   {
+    "answer": "Santorini",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Ra",
+    "reason": "Auction game, no dice"
+   },
+   {
+    "answer": "Targi",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Orléans",
+    "reason": "Uses a bag of tokens, no dice"
+   },
+   {
+    "answer": "Cat in the Box",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Dune: Imperium",
+    "reason": "Card game, no dice"
+   },
+   {
+    "answer": "Splendor",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Elder Scrolls: Betrayal",
+    "reason": "Not a real title"
+   },
+   {
+    "answer": "Crokinole",
+    "reason": "Flicking game, no dice"
+   },
+   {
+    "answer": "Sorry! Sliders",
+    "reason": "Uses sliding pieces, no dice"
+   },
+   {
+    "answer": "Monopoly Deal Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Acquire",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Diplomacy",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Wiz-War",
+    "reason": "Card-driven, no dice"
+   },
+   {
+    "answer": "Dark Tower",
+    "reason": "Electronic tower, no dice"
+   },
+   {
+    "answer": "Warhammer Fantasy Battle",
+    "reason": "Miniatures wargame, not a board game"
+   },
+   {
+    "answer": "Chess Dice",
+    "reason": "Not a real standard game"
+   },
+   {
+    "answer": "Sid Meier's Civilization: The Board Game",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Advanced Civilization",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Wings of War",
+    "reason": "Card-driven, no dice"
+   },
+   {
+    "answer": "Samurai Sword",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Cosmic Run",
+    "reason": "Not a verifiable real title"
+   },
+   {
+    "answer": "Scotland Yard",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Sherlock Holmes Consulting Detective",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Mastermind",
+    "reason": "Code game, no dice"
+   },
+   {
+    "answer": "Skull",
+    "reason": "Card/disc bluffing game, no dice"
+   },
+   {
+    "answer": "Cubirds",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Kingdom Builder",
+    "reason": "Card-based, no dice"
+   },
+   {
+    "answer": "Welcome To...",
+    "reason": "Card game, no dice"
+   },
+   {
+    "answer": "Dungeon Twister",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Dungeon Crawler",
+    "reason": "Generic category, not a specific game"
+   },
+   {
+    "answer": "Dungeon Mayhem",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Port Royal Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Ticket to Ride Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Carcassonne Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Struggle for Catan",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Elfenland",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Harbour",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Roll Through the Ages Dice",
+    "reason": "Not a distinct real title"
+   },
+   {
+    "answer": "Bohnanza Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Wits & Wagers",
+    "reason": "Trivia game, no dice"
+   },
+   {
+    "answer": "Zooloretto Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Troyes Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Wyatt Earp",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Eminent Domain: Microcosm",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Star Realms Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Rising Sun",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Blood Rage",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Marvel United",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Marvel Champions",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Legendary Encounters",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Kemet",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Inis",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Scythe",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Brass",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Taboo",
+    "reason": "Word party game, no dice"
+   },
+   {
+    "answer": "Uno Dice",
+    "reason": "Not a real standard product"
+   },
+   {
+    "answer": "Bingo",
+    "reason": "Uses balls/cards, no dice"
+   },
+   {
+    "answer": "Tripoley",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Candy Land Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Hi Ho! Cherry-O",
+    "reason": "Uses a spinner"
+   },
+   {
+    "answer": "Don't Break the Ice",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Hungry Hungry Hippos",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Operation",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Pop the Pig",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Fireball",
+    "reason": "Not a verifiable board game"
+   },
+   {
+    "answer": "Game of the Generals",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Pachisi Dice",
+    "reason": "Not a distinct real title"
+   },
+   {
+    "answer": "Fox and Geese",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Halma Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Pachisi Royal",
+    "reason": "Not a verifiable real title"
+   },
+   {
+    "answer": "Dominion Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Munchkin Dice",
+    "reason": "Not a real standard product"
+   },
+   {
+    "answer": "Fluxx Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Love Letter Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Ghost Blitz",
+    "reason": "Reflex game, no dice"
+   },
+   {
+    "answer": "Kingsburg Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Age of Steam",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Aeon's End",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Tales of the Arabian Nights Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Imperial Settlers",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Paperback",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Skip-Bo Dice",
+    "reason": "Not a real product"
+   },
+   {
+    "answer": "Spy Alley",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Game of Thrones: The Board Game",
+    "reason": "No dice"
+   },
+   {
+    "answer": "A Game of Thrones",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Warhammer 40,000: Conquest",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Warhammer Quest: Adventure Card Game",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Arkham Horror: The Card Game",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Ankh-Morpork",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Chronicle",
+    "reason": "Not a verifiable real title"
+   },
+   {
+    "answer": "Napoleon's Triumph",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Legacy of Dragonholt",
+    "reason": "Story game, no dice"
+   },
+   {
+    "answer": "Bang!",
+    "reason": "Card game (only the Dice Game version uses dice)"
+   },
+   {
+    "answer": "Ultimate Werewolf",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Chess",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Checkers",
+    "reason": "No dice"
+   },
+   {
+    "answer": "English draughts",
+    "reason": "No dice"
+   },
+   {
+    "answer": "International draughts",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Russian draughts",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Turkish draughts",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Mahjong",
+    "reason": "Tile game, no dice"
+   },
+   {
+    "answer": "Xiangqi",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Tic-tac-toe",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Chaturanga",
+    "reason": "Ancient chess ancestor, no dice"
+   },
+   {
+    "answer": "Nine men's morris",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Correspondence chess",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Othello",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Chinese checkers",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Rummikub",
+    "reason": "Tile game"
+   },
+   {
+    "answer": "Hex",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Ticket to Ride",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Connect Four",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Peg solitaire",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Halma",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Puerto Rico",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Tafl games",
+    "reason": "Generic category, no dice"
+   },
+   {
+    "answer": "Hnefatafl",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Oware",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Alquerque",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Twister",
+    "reason": "Not a board game, uses a spinner"
+   },
+   {
+    "answer": "GNU Chess",
+    "reason": "Software"
+   },
+   {
+    "answer": "7 Wonders",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Quoridor",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Codenames",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Abalone",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Yut",
+    "reason": "Uses throwing sticks"
+   },
+   {
+    "answer": "Quarto",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Renju",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Agricola",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Blokus",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Hexagonal chess",
+    "reason": "Chess variant, no dice"
+   },
+   {
+    "answer": "Power Grid",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Three-dimensional chess",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Three-player chess",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Tantrix",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Fanorona",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Ludus latrunculorum",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Bagh-chal",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Hounds and Jackals",
+    "reason": "Not established as a dice game"
+   },
+   {
+    "answer": "Caylus",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Pentago",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Kalah",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Bao",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Mehen",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Thurn and Taxis",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Sevens",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Jungle",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Guess Who?",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Lasca",
+    "reason": "No dice"
+   },
+   {
+    "answer": "El Grande",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Alhambra",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Congkak",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Subbuteo",
+    "reason": "Flicking football game, no dice"
+   },
+   {
+    "answer": "Fox games",
+    "reason": "Generic category"
+   },
+   {
+    "answer": "Okey",
+    "reason": "Tile game"
+   },
+   {
+    "answer": "Luzhanqi",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Dōbutsu shōgi",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Dobble",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Through the Ages: A Story of Civilization",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Ghosts",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Hare and Tortoise",
+    "reason": "No dice"
+   },
+   {
+    "answer": "GIPF",
+    "reason": "No dice"
+   },
+   {
+    "answer": "YINSH",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Zooloretto",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Labyrinth",
+    "reason": "No dice"
+   },
+   {
+    "answer": "GIPF project",
+    "reason": "Series of abstract games, no dice"
+   },
+   {
+    "answer": "Rithmomachia",
+    "reason": "No dice"
+   },
+   {
+    "answer": "ZÈRTZ",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Chu shogi",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Shatar",
+    "reason": "No dice"
+   },
+   {
+    "answer": "DVONN",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Focus",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Niagara",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Surakarta",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Tikal",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Triominoes",
+    "reason": "Tile game"
+   },
+   {
+    "answer": "San Juan",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Word chain",
+    "reason": "Verbal game, not a board game"
+   },
+   {
+    "answer": "Phutball",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Cheskers",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Pallanguzhi",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Pente",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Bagatelle",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Mū Tōrere",
+    "reason": "No dice"
+   },
+   {
+    "answer": "PÜNCT",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Tzaar",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Keltis",
+    "reason": "Card-driven, no dice"
+   },
+   {
+    "answer": "Villa Paletti",
+    "reason": "Dexterity game, no dice"
+   },
+   {
+    "answer": "Ricochet Robots",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Manhattan",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Game of the Amazons",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Bul",
+    "reason": "Not a verifiable dice board game"
+   },
+   {
+    "answer": "Partaka",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Yota",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Fidchell",
+    "reason": "No dice"
+   },
+   {
+    "answer": "TAMSK",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Trax",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Neutron",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Bezzerwizzer",
+    "reason": "Trivia game, no dice"
+   },
+   {
+    "answer": "Android: Netrunner",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Havannah",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Modern Art",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Saint Petersburg",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Le Havre",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Unlock!",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Colt Express",
+    "reason": "Card-driven, no dice"
+   },
+   {
+    "answer": "Looping Louie",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Score four",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Neuroshima Hex!",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Seega",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Breakthrough",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Coloretto",
+    "reason": "Card game"
+   },
+   {
+    "answer": "Marrakech",
+    "reason": "Uncertain/not clearly dice"
+   },
+   {
+    "answer": "Hoity Toity",
+    "reason": "No dice"
+   },
+   {
+    "answer": "The Princes of Florence",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Amun-Re",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Taj Mahal",
+    "reason": "No dice"
+   },
+   {
+    "answer": "RoboRally",
+    "reason": "Uses programming cards, no dice"
+   },
+   {
+    "answer": "Agon",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Mangala",
+    "reason": "No dice"
+   },
+   {
+    "answer": "Lamlameta",
+    "reason": "No dice"
+   }
+  ]
+ },
+ "ttft_ms": 55158,
+ "type": "result",
+ "duration_ms": 87176,
+ "uuid": "0ec0f900-a431-45e1-8daa-7bf24ab4b5e8",
+ "ttft_stream_ms": 803,
+ "time_to_request_ms": 109,
+ "first_content_frame_ms": 803,
+ "queued_turn_count": 0,
+ "result_index": 0
+}
